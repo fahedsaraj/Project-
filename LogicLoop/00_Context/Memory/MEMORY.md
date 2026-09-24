@@ -13,3 +13,4 @@ To add a memory: create a small file here named `<type>_<topic>.md` with a `type
 - [feedback_team_rules.md](feedback_team_rules.md) — feedback: one-team decision flow and 15 team rules.
 - [feedback_noor_preapproved.md](feedback_noor_preapproved.md) — feedback: A–E pre-approved; only finals go to Fahed.
 - [feedback_noor_scorecard.md](feedback_noor_scorecard.md) — feedback: 3 weekly numbers that open every brief.
+- [feedback_noor_decisions.md](feedback_noor_decisions.md) — feedback: decision format, max 3/day, 'your call' rule.

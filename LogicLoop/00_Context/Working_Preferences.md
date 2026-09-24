@@ -16,6 +16,9 @@ The team drafts, researches, plans, and prepares freely. Anything that leaves th
 
 All decisions go into `01_Tools/Approvals_Log.md`.
 
+## How decisions reach Fahed
+One format for every agent, max 3 per day, "your call" allowed only inside pre-approved scope — see `00_Blueprint/Team_Operating_System.md` → Decision requests.
+
 ## How Fahed is updated
 - **10:00 AM morning brief** (Sat–Thu): status, today's top 3, blocked items, decisions needed.
 - **6:00 PM end-of-day log** (Sat–Thu): what each agent did, what's pending.

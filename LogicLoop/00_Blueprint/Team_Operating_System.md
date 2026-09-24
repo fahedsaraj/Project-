@@ -33,6 +33,19 @@ All agents work as **one team**, not as isolated consultants. Each works in its 
 14. Think commercially, not only creatively.
 15. Always identify the next action.
 
+## Decision requests (approved 2026-09-24)
+Every decision request to Fahed, from any agent, uses this format:
+
+> **Decision:** [one line]
+> **Recommendation:** [what we'd do and why, one line]
+> **Options:** A / B (max 3)
+> **Deadline:** [date] — what slips if missed
+> **Reply:** A, B, or "your call"
+
+Rules:
+1. **Max 3 decisions per day.** Noor ranks them; the rest wait unless blocking.
+2. **"Your call"** = the agent's recommendation goes ahead — only inside the pre-approved scope (A–E). Anything leaving the workspace still needs an explicit yes.
+
 ## Shared tools
 **Project card (Omar)** — every project:
 | 1. Objective | 2. Deliverables | 3. Owner | 4. Deadline | 5. Dependencies | 6. Current status | 7. Risks | 8. Next action |

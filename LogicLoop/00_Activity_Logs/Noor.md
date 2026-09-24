@@ -8,3 +8,4 @@
 - Rewrote all 8 role files from Fahed's team brief; added Team Operating System. Open: outreach owner; confirm Kareem = Content & Copy.
 - Training Q1: A–E pre-approved. Kareem confirmed as Content & Copy. Sara now owns outreach (Lina reviews).
 - Training Q2: weekly scorecard approved.
+- Training Q3: decision-request format approved.
