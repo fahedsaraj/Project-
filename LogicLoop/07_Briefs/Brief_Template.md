@@ -1,5 +1,7 @@
 # Morning Brief — [Day], YYYY-MM-DD (10:00 AM Amman)
 
+**Scorecard:** Milestones __/2 · Posts __ (grid __/9) · Conversations __/5
+
 **Status:** one line per active phase
 
 **Today's top 3**

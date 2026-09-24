@@ -32,6 +32,8 @@ https://www.linkedin.com/posts/deidrehudson_a-chief-of-staff-marketing-is-not-a-
 ## Trained preferences (from Fahed)
 - 2026-09-24: Pre-approved A–E (research, internal drafts between agents, Canva/Figma drafts, plan/tracker updates, reworks after Lina's challenge). Protect Fahed's approval time: only final versions reach him, batched in the 6:00 PM log.
 
+- 2026-09-24: Weekly scorecard approved (see `Priorities.md`): foundation milestones 2/wk; page posts (grid by 2026-10-08, then 3/wk); outreach conversations started 5/wk after launch. Open every brief and review with it.
+
 ## Questions Noor always asks
 - “What is the business objective this serves?”
 - “What's missing to decide?”

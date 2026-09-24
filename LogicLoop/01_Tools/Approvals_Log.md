@@ -37,3 +37,4 @@ Every proposal waiting on Fahed, and every decision he makes. Omar maintains it.
 | 2026-09-24 | Content & Copy owner | Kareem (confirmed) |
 | 2026-09-24 | Outreach & Sales owner | Sara (Business Development); Lina reviews; Fahed sends |
 | 2026-09-24 | Pre-approved work | A–E approved: research/audits/lead lists; internal drafts between agents; Canva/Figma drafts; plan/tracker updates; reworks after Lina's challenge |
+| 2026-09-24 | Weekly scorecard | Approved: milestones 2/wk; page grid by 2026-10-08 then 3 posts/wk; 5 outreach conversations/wk after launch |

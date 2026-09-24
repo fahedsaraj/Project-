@@ -4,6 +4,17 @@
 
 **Long-term goal:** a core portfolio of **10 monthly retainer clients** in Amman, generating recurring revenue in JOD.
 
+## Weekly scorecard (approved 2026-09-24)
+Every brief and weekly review opens with these. Work that moves none of them gets questioned.
+
+| # | Number | Target |
+|---|---|---|
+| 1 | Foundation milestones completed (registration, bank, page, legal review…) | 2 / week |
+| 2 | Page posts published — 9-post launch grid, then weekly posts | Grid done by 2026-10-08, then 3 / week |
+| 3 | Outreach conversations started (prospects who replied) | 5 / week, from the week after the page launches |
+
+After first client: #3 becomes **retainers signed**; add #4 **monthly recurring revenue (JOD)**.
+
 ## Hierarchy
 
 | Level | Items |
