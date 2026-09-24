@@ -1,0 +1,2 @@
+type: project
+As of 2026-09-24: agency name Logic Loop chosen (Companies House / trademark / domain checks pending). UK LTD to be registered directly on GOV.UK by Fahed. Decision: no Jordanian commercial registration. Accountant consultation recommended for tax questions (company residence, withholding on Jordanian client payments, personal tax). Registered office provider not yet chosen. Bank: check Jordan-resident director eligibility (Wise/Payoneer/Airwallex). First outreach sector: restaurants & cafés.
