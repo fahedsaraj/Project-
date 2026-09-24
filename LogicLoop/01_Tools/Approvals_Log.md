@@ -8,6 +8,8 @@ Every proposal waiting on Fahed, and every decision he makes. Omar maintains it.
 | 1 | 2026-09-24 | Book accountant consultation (UK/Jordan tax questions) | Adam | Pending |
 | 2 | 2026-09-24 | Choose UK registered office provider | Adam | Pending |
 
+| 3 | 2026-09-24 | Companies House: "Logic Loop" treated as same as existing LOGICLOOP UK LTD. Choose variant (e.g. Logic Loop Media/Digital/Studio) or new name | Adam | Pending |
+
 ## Decided
 | Date | Item | Decision |
 |---|---|---|

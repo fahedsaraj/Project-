@@ -3,7 +3,7 @@
 | # | Step | Owner | Status |
 |---|---|---|---|
 | 1 | Name chosen: Logic Loop | Fahed | Done |
-| 2 | Companies House name search | Fahed | To do |
+| 2 | Companies House name search | Fahed | Blocked: same as LOGICLOOP UK LTD — pick variant |
 | 3 | UKIPO + Jordan trademark search; domain and handles | Fahed / Adam | To do |
 | 4 | Accountant consultation (tax questions) | Fahed | Recommended |
 | 5 | Choose UK registered office provider | Fahed (Adam compares) | To do |
