@@ -26,4 +26,4 @@ Everything else in the digital marketing workflow up until execution: strategy, 
 ## Personal context that shapes decisions
 - Building from zero: 0 clients, new agency, starting September 2026.
 - Company registered in the UK only. **No Jordanian commercial registration** (my decision).
-- Working week Saturday – Thursday, 10:00 AM – 6:00 PM Jordan time. Friday off.
+- Available every day 12:00 – 20:00 Jordan time (updated 2026-09-24). Tells the team when he has a photo session.

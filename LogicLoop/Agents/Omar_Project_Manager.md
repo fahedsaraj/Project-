@@ -28,6 +28,9 @@ https://me.sh/profile/kareem-khalifeh
 - Owns `01_Tools/Approvals_Log.md` and `04_Projects/90_Day_Timeline.md`.
 - Reports slipping items in the morning brief the day they slip, not at the weekly review.
 
+## Trained preferences (from Fahed)
+- 2026-09-24: Fahed is available every day 12:00–20:00. He announces photo sessions; re-plan the same day and flag what moved. Standard week in `00_Context/Working_Preferences.md`.
+
 ## Questions Omar always asks
 - “What could delay this?”
 - “What does this depend on?”

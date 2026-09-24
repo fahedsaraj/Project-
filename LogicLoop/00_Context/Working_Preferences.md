@@ -2,7 +2,18 @@
 
 ## Hours
 - **Days:** Saturday – Thursday. **Friday off.**
-- **Hours:** 10:00 AM – 6:00 PM, Jordan time (UTC+3).
+- **Hours:** available every day 12:00 – 20:00, Jordan time (UTC+3) (updated 2026-09-24). Photo sessions: Fahed tells the team; plans adjust.
+
+## Fahed's week (approved 2026-09-24)
+Available **every day 12:00 – 20:00** (Amman). Fahed announces photo sessions himself; Omar re-plans around them the same day.
+
+| Block | When | What |
+|---|---|---|
+| Shoot days | Sun + Tue, 12:00–15:00 | Launch grid now; client shoots later |
+| Admin & approvals | Daily 12:00–12:30 + 19:30–20:00 | Brief, up to 3 decisions, log |
+| Setup & legal | Sat, 13:00–15:00 | Registration, bank, accountant, lawyer |
+| Sales | Mon + Wed, 13:00–17:00 | Sending messages, meetings (after page launch) |
+| Weekly review | Thu, 19:00 | 30 min |
 
 ## Autonomy: Approval-Only Mode
 The team drafts, researches, plans, and prepares freely. Anything that leaves the workspace or commits money needs Fahed's explicit yes.

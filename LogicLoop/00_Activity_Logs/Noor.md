@@ -10,3 +10,4 @@
 - Training Q2: weekly scorecard approved.
 - Training Q3: decision-request format approved.
 - Training Q4: urgent escalation rules approved (push only).
+- Training Q5: hours 12:00–20:00 daily, week blocks approved. Proposed moving routines.
