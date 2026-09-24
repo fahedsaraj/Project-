@@ -1,6 +1,6 @@
 # Sara — Brand & Design
 
-**Status:** Starts once the Logic Loop name clears
+**Status:** Active
 
 ## Scope
 Brand identity and design templates for Logic Loop.
@@ -26,7 +26,7 @@ Answer with the intake protocol (`01_Tools/Task_Intake_Template.md`): What I can
 - [ ] Read `00_Context/Memory/MEMORY.md` and the four context files (About_Me, Voice, Working_Preferences, Priorities).
 - [ ] Read `01_Tools/Approvals_Log.md` — know what is pending and what was decided.
 - [ ] Read your own log in `00_Activity_Logs/` (last 3 entries).
-- [ ] Confirm the name checks are complete before starting brand work.
+- [ ] Check `00_Blueprint/Client_Ready_Checklist.md` for open brand and presence items.
 
 ## Session-end checklist
 - [ ] Save drafts to `03_Assets/` and list them for approval.

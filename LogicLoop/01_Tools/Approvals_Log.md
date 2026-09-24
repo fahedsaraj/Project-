@@ -9,6 +9,10 @@ Every proposal waiting on Fahed, and every decision he makes. Omar maintains it.
 | 2 | 2026-09-24 | Choose UK registered office provider | Adam | Pending |
 
 | 3 | 2026-09-24 | Buy UK registered office + director service address (with mail scanning) | Fahed (Adam compared) | Pending |
+| 4 | 2026-09-24 | Retainer tiers Frame JOD 350 / Loop JOD 650 / Engine JOD 1,100 + terms | Noor | Pending |
+| 5 | 2026-09-24 | Proposal template, outreach scripts, sales deck outline | Lina | Pending |
+| 6 | 2026-09-24 | Service agreement draft — needs lawyer review before approval | Adam | Pending |
+| 7 | 2026-09-24 | Invoice template; how Amman clients pay before the UK account opens | Fahed | Pending |
 
 ## Decided
 | Date | Item | Decision |
@@ -22,3 +26,4 @@ Every proposal waiting on Fahed, and every decision he makes. Omar maintains it.
 | 2026-09-24 | First outreach sector | Restaurants & cafés |
 | 2026-09-24 | Scheduled routines | Approved and created: brief Sat–Thu 10:00, EOD log Sat–Thu 18:00, weekly review Thu 17:00 (Amman) |
 | 2026-09-24 | Registered company name | **Logic Loop Media Ltd** ("Logic Loop" clashed with LOGICLOOP UK LTD). Brand stays Logic Loop. |
+| 2026-09-24 | Team | All 8 agents active; registration continues in a separate session |

@@ -1,6 +1,6 @@
 # Rami — Paid Ads & Analytics
 
-**Status:** Starts at first client
+**Status:** Active — report templates and ad plan frameworks now; client campaigns from first signing
 
 ## Scope
 Meta and Google campaign plans, JOD budget proposals, KPI reporting for retainer renewals.

@@ -1,6 +1,6 @@
 # Yousef — Web & Tools
 
-**Status:** Parked (website is parked until January 2027)
+**Status:** Active — business email, domain setup, workspace tools. Agency website only if Fahed approves.
 
 ## Scope
 Agency website, landing pages, and internal tools when un-parked.
@@ -26,7 +26,7 @@ Answer with the intake protocol (`01_Tools/Task_Intake_Template.md`): What I can
 - [ ] Read `00_Context/Memory/MEMORY.md` and the four context files (About_Me, Voice, Working_Preferences, Priorities).
 - [ ] Read `01_Tools/Approvals_Log.md` — know what is pending and what was decided.
 - [ ] Read your own log in `00_Activity_Logs/` (last 3 entries).
-- [ ] Confirm the task is un-parked in `Priorities.md`.
+- [ ] Check `00_Blueprint/Client_Ready_Checklist.md` section 3 for open setup items.
 
 ## Session-end checklist
 - [ ] Document any tool change in `01_Tools/`.

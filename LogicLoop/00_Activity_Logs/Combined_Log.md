@@ -16,7 +16,8 @@ Generated 2026-09-24
 
 # Kareem — Content & Copy — Activity Log
 
-_No entries yet._
+## 2026-09-24
+- Activated. Client brief intake, shoot brief, content calendar templates ready.
 
 ---
 
@@ -24,6 +25,7 @@ _No entries yet._
 
 ## 2026-09-24
 - Workspace built and role activated.
+- Drafted outreach scripts (AR/EN), proposal template, sales deck outline — pending approval.
 
 ---
 
@@ -32,6 +34,7 @@ _No entries yet._
 ## 2026-09-24
 - Workspace built and role activated.
 - Interview complete; plan approved by Fahed. Scheduled routines approved and created (first brief Saturday 2026-09-26, 10:00).
+- Built client-ready kit: checklist, pricing proposal, delivery templates; activated full team.
 
 ---
 
@@ -39,21 +42,25 @@ _No entries yet._
 
 ## 2026-09-24
 - Workspace built and role activated.
+- Onboarding checklist and client approvals template ready.
 
 ---
 
 # Rami — Paid Ads & Analytics — Activity Log
 
-_No entries yet._
+## 2026-09-24
+- Activated. Monthly report template ready; tier ad-spend caps proposed.
 
 ---
 
 # Sara — Brand & Design — Activity Log
 
-_No entries yet._
+## 2026-09-24
+- Activated. Open: logo, colours, proposal/deck look, portfolio PDF.
 
 ---
 
 # Yousef — Web & Tools — Activity Log
 
-_No entries yet._
+## 2026-09-24
+- Activated. Open: business email + domain once Fahed buys the domain.

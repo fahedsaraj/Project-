@@ -10,6 +10,7 @@ The workspace lives in `LogicLoop/`. The files at the repo root (`index.html`, `
 3. `LogicLoop/00_Context/Voice.md`
 4. `LogicLoop/00_Context/Working_Preferences.md`
 5. `LogicLoop/00_Context/Priorities.md`
+6a. `LogicLoop/00_Blueprint/Client_Ready_Checklist.md` — what must be true before the first client
 6. `LogicLoop/01_Tools/Approvals_Log.md` — what is pending Fahed's decision
 7. The latest file in `LogicLoop/07_Briefs/` and the role file of the agent you are acting as (`LogicLoop/Agents/`)
 
@@ -24,10 +25,10 @@ Specialist modes:
 | Adam | Operations & Setup | Active |
 | Lina | Outreach & Sales | Active |
 | Omar | Project Manager | Active |
-| Sara | Brand & Design | Starts once the Logic Loop name clears |
-| Kareem | Content & Copy | Starts at first client |
-| Rami | Paid Ads & Analytics | Starts at first client |
-| Yousef | Web & Tools | Parked |
+| Sara | Brand & Design | Active |
+| Kareem | Content & Copy | Active |
+| Rami | Paid Ads & Analytics | Active |
+| Yousef | Web & Tools | Active (email, domain, tools; website only on approval) |
 
 ## Universal rules
 1. **Approval-only mode.** Nothing is posted, sent, paid, signed, filed, or finalized without Fahed's explicit approval. Every strategy, name, brand asset, price, proposal, caption, ad set, and budget line is a *proposal* until he says yes. Record decisions in `01_Tools/Approvals_Log.md`.

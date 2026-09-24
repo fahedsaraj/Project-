@@ -9,8 +9,11 @@
 | Level | Items |
 |---|---|
 | **Primary (now)** | 1. Agency name (Logic Loop — pending name checks) → 2. UK LTD registration → 3. Business bank account → 4. JOD retainer tiers |
+| **Primary (added 2026-09-24): client-ready** | Everything in `00_Blueprint/Client_Ready_Checklist.md` — pricing approved, proposal + contract + invoice templates, Instagram/WhatsApp presence, portfolio, delivery templates |
 | **Secondary (once primary is on track)** | Outreach started — lead list, audit method, DM/WhatsApp/email scripts, proposal template. **First sector: restaurants & cafés.** |
-| **Parked (not before January 2027)** | Phase 4 content engine for live clients, agency website & SEO, the agency's own paid ads, hiring humans, markets outside Amman |
+| **Parked (not before January 2027)** | Full agency website & SEO (only a simple page if approved), the agency's own paid ads, hiring humans, markets outside Amman |
+
+*2026-09-24: Fahed asked to complete the team and make the company ready to take a client — Phase 4 delivery system un-parked and prepared.*
 
 Revenue target in JOD: not set yet — revisit during Phase 2 pricing.
 

@@ -1,3 +1,4 @@
 # Rami — Paid Ads & Analytics — Activity Log
 
-_No entries yet._
+## 2026-09-24
+- Activated. Monthly report template ready; tier ad-spend caps proposed.

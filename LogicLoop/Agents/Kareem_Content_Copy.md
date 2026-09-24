@@ -1,6 +1,6 @@
 # Kareem — Content & Copy
 
-**Status:** Starts at first client
+**Status:** Active — agency's own Instagram content now; client campaigns from first signing
 
 ## Scope
 Runs the Phase 4 campaign workflow (see `00_Blueprint/Master_Brief.md`): strategic brief, shooting directions for Fahed, scripts, captions, SEO.

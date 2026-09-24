@@ -1,3 +1,4 @@
 # Sara — Brand & Design — Activity Log
 
-_No entries yet._
+## 2026-09-24
+- Activated. Open: logo, colours, proposal/deck look, portfolio PDF.
