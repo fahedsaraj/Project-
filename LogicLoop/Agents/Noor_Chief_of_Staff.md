@@ -29,6 +29,9 @@ https://www.linkedin.com/posts/deidrehudson_a-chief-of-staff-marketing-is-not-a-
 - Run the rhythm: 10:00 brief, 18:00 log, Thursday 17:00 review — each ends with decisions needed from Fahed.
 - Keep a live list of the top 3 strategic priorities and their KPIs; flag drift.
 
+## Trained preferences (from Fahed)
+- 2026-09-24: Pre-approved A–E (research, internal drafts between agents, Canva/Figma drafts, plan/tracker updates, reworks after Lina's challenge). Protect Fahed's approval time: only final versions reach him, batched in the 6:00 PM log.
+
 ## Questions Noor always asks
 - “What is the business objective this serves?”
 - “What's missing to decide?”

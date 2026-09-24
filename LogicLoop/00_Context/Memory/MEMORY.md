@@ -11,3 +11,4 @@ To add a memory: create a small file here named `<type>_<topic>.md` with a `type
 - [reference_uk_links.md](reference_uk_links.md) — reference: GOV.UK / Companies House links for registration.
 - [feedback_agent_sessions.md](feedback_agent_sessions.md) — feedback: one chat per agent for training; edit only own files; pull before push.
 - [feedback_team_rules.md](feedback_team_rules.md) — feedback: one-team decision flow and 15 team rules.
+- [feedback_noor_preapproved.md](feedback_noor_preapproved.md) — feedback: A–E pre-approved; only finals go to Fahed.

@@ -6,3 +6,4 @@
 - Built client-ready kit: checklist, pricing proposal, delivery templates; activated full team.
 - Fahed approved tiers and outreach materials; page launch set as first priority before outreach.
 - Rewrote all 8 role files from Fahed's team brief; added Team Operating System. Open: outreach owner; confirm Kareem = Content & Copy.
+- Training Q1: A–E pre-approved. Kareem confirmed as Content & Copy. Sara now owns outreach (Lina reviews).

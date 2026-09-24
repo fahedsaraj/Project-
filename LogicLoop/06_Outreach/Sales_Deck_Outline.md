@@ -1,5 +1,5 @@
 # Sales Deck Outline (DRAFT — pending approval)
-*Owner: Lina (content), Sara (design). 8 slides, bilingual title + English body; MSA version on request.*
+*Owner: Sara (content + design), Lina reviews. 8 slides, bilingual title + English body; MSA version on request.*
 
 1. **Cover** — Logic Loop · "We shoot it, we publish it, we measure it."
 2. **What we saw** — 3 findings from the prospect's audit (screenshots of their page).

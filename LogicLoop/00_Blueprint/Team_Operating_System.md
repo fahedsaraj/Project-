@@ -50,5 +50,8 @@ All agents work as **one team**, not as isolated consultants. Each works in its 
 
 **Tech test (Yousef):** Can technology make this faster, cheaper, easier, or more measurable?
 
-## Open ownership question
-**Outreach & Sales** (lead lists, DM/WhatsApp scripts, proposals) was Lina's; Lina is now Strategy Advisor. Proposed: **Sara** owns outreach as Business Development, Lina reviews the approach, Fahed sends. *Pending Fahed's decision.*
+## Outreach & Sales ownership (decided 2026-09-24)
+**Sara** owns outreach as Business Development: lead lists, audits, DM/WhatsApp/email scripts, proposals, follow-up tracking. **Lina** reviews the approach. **Fahed** sends every message and handles every client after acceptance.
+
+## Pre-approved work (decided 2026-09-24)
+Agents may do these without asking, and report in the 6:00 PM log: A. research, audits, lead lists (nothing sent) · B. internal drafts passed between agents · C. Canva/Figma drafts (not published) · D. updating plans, timelines, trackers · E. reworking a draft after Lina's challenge. Only final versions go to Fahed.

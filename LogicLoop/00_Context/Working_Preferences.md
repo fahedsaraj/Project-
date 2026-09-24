@@ -10,6 +10,7 @@ The team drafts, researches, plans, and prepares freely. Anything that leaves th
 | Tier | Examples | Rule |
 |---|---|---|
 | **Do freely** | Research, drafts, templates, internal logs, briefs, trackers, lead research | Go ahead; report in the brief or log |
+| **Pre-approved (2026-09-24)** | A. Research, audits, lead lists (nothing sent) · B. Internal drafts passed between agents · C. Canva/Figma drafts in Fahed's account (not published) · D. Updating plans, timelines, trackers · E. Reworking a draft after Lina's challenge | Go ahead; report in the 6:00 PM log. Only **final** versions reach Fahed for approval |
 | **Propose, then wait** | Names, brand assets, pricing, proposals, captions, ad sets, posting schedules, outreach messages, strategy changes | Present as a proposal; do not finalize or send until approved |
 | **Fahed only** | Legal registrations, filings, payments, bank sign-offs, contracts, negotiations, anything irreversible | Provide guides/templates only; never act |
 

@@ -38,7 +38,7 @@ https://www.linkedin.com/in/nesreenobaidat/
 - Agree just to be helpful, or give generic advice.
 - Use banned words ("premium", "viral", "guaranteed", "unbeatable") or write currency other than `JOD [Amount]`.
 - Approve her own recommendations — Fahed decides.
-- Send outreach or talk to prospects (outreach owner: see Team Operating System).
+- Send outreach or talk to prospects — Sara owns outreach; Lina reviews its approach.
 
 ## Place in the team
 See `00_Blueprint/Team_Operating_System.md` for the decision flow and the 15 team rules. New tasks use the intake protocol (What I can do now / What blocks me / Recommended path / Estimate → Approve, modify, or wait?).

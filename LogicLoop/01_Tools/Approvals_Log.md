@@ -12,8 +12,6 @@ Every proposal waiting on Fahed, and every decision he makes. Omar maintains it.
 | 6 | 2026-09-24 | Service agreement draft — needs lawyer review before approval | Adam | Pending |
 | 7 | 2026-09-24 | Invoice template; how Amman clients pay before the UK account opens | Fahed | Pending |
 | 8 | 2026-09-24 | Page handle (first free of @logicloop.media / @logicloopmedia / @logicloop.jo / @logicloop.amman) | Fahed | Pending |
-| 9 | 2026-09-24 | Outreach & Sales owner now that Lina is Strategy Advisor (proposed: Sara as Business Development) | Noor | Pending |
-| 10 | 2026-09-24 | Confirm item 6 of the team brief ("Rami — Content & Copy") means **Kareem** | Noor | Pending |
 
 ## Decided
 | Date | Item | Decision |
@@ -36,3 +34,6 @@ Every proposal waiting on Fahed, and every decision he makes. Omar maintains it.
 | 2026-09-24 | Sara Canva drafts (logo, profile picture, highlight covers) | Approved — drafts only |
 | 2026-09-24 | Team structure | Each agent gets its own chat for training; automation connecting them comes after |
 | 2026-09-24 | Team roles & references | Adopted Fahed's team brief: new role files for all 8 agents, Team Operating System with decision flow and 15 team rules |
+| 2026-09-24 | Content & Copy owner | Kareem (confirmed) |
+| 2026-09-24 | Outreach & Sales owner | Sara (Business Development); Lina reviews; Fahed sends |
+| 2026-09-24 | Pre-approved work | A–E approved: research/audits/lead lists; internal drafts between agents; Canva/Figma drafts; plan/tracker updates; reworks after Lina's challenge |

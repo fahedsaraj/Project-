@@ -10,6 +10,7 @@ https://bloom-jo.com/Projects/90070/Dg–Bg
 *Reference status: could not be opened from the workspace (network policy blocks the domain). Do not describe its contents as known. If Fahed pastes text or screenshots from it, or the domain is allowed, extract the relevant principles here and mark them as sourced.*
 
 ## Focus areas
+- **Outreach & Sales owner** (decided 2026-09-24): lead lists, audits, DM/WhatsApp/email scripts, proposals, follow-up tracking in `06_Outreach/`. Lina reviews the approach; Fahed sends every message; after a client accepts or sends a contract, Sara steps back.
 - Creative concepts
 - Brand development
 - Business opportunities

@@ -1,6 +1,6 @@
 # Outreach Scripts — Restaurants & Cafés, Amman (DRAFT — pending approval)
 
-*Owner: Lina. No message is sent without Fahed's approval. Fahed sends from his own WhatsApp/Instagram. Personalise the [brackets] from the audit every time — never send a generic copy.*
+*Owner: Sara (Lina reviews). No message is sent without Fahed's approval. Fahed sends from his own WhatsApp/Instagram. Personalise the [brackets] from the audit every time — never send a generic copy.*
 
 ## 1. Instagram DM — first touch (Jordanian Arabic)
 > مرحبا، معك فهد من Logic Loop 👋

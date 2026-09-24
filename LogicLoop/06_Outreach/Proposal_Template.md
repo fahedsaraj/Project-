@@ -1,5 +1,5 @@
 # Proposal — [Client Business Name] (TEMPLATE)
-*Owner: Lina. Every proposal is approved by Fahed before sending. Prices must match the approved tiers.*
+*Owner: Sara (Lina reviews). Every proposal is approved by Fahed before sending. Prices must match the approved tiers.*
 
 **Prepared for:** [Client name, title] · **Date:** [DD Month YYYY] · **Valid for:** 14 days
 
