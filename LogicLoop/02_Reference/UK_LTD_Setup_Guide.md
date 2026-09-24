@@ -30,8 +30,8 @@ If the app does not accept the passport, use an Authorised Corporate Service Pro
 ## Step 3 — Application fields
 | Screen | Entry |
 |---|---|
-| Name | Logic Loop Ltd |
-| Type | Private company limited by shares |
+| Name | Logic Loop Media Ltd ("Logic Loop" alone clashes with LOGICLOOP UK LTD) |
+| Type | Private company limited by shares (**not** CIC) |
 | Jurisdiction | England and Wales |
 | Registered office | Provider's UK address |
 | Registered email | Dedicated inbox |

@@ -3,12 +3,12 @@
 | # | Step | Owner | Status |
 |---|---|---|---|
 | 1 | Name chosen: Logic Loop | Fahed | Done |
-| 2 | Companies House name search | Fahed | Blocked: same as LOGICLOOP UK LTD — pick variant |
+| 2 | Companies House name: Logic Loop Media Ltd accepted in form | Fahed | Done |
 | 3 | UKIPO + Jordan trademark search; domain and handles | Fahed / Adam | To do |
 | 4 | Accountant consultation (tax questions) | Fahed | Recommended |
 | 5 | Choose UK registered office provider | Fahed (Adam compares) | To do |
 | 6 | Identity verification → personal code | Fahed | To do |
-| 7 | File application on GOV.UK | Fahed | To do |
+| 7 | File application on GOV.UK | Fahed | In progress (at registered office screen) |
 | 8 | Corporation Tax registration with HMRC | Fahed | After incorporation |
 | 9 | Business bank account | Fahed | After incorporation |
 

@@ -12,7 +12,7 @@ Build a brand-new UK-registered digital marketing agency from scratch (from nami
 | Date | Decision |
 |---|---|
 | 2026-09-24 | 90-day outcome: foundation first (name, UK LTD, bank, JOD tiers, outreach started) |
-| 2026-09-24 | Agency name: **Logic Loop** |
+| 2026-09-24 | Agency name: **Logic Loop**; registered as **Logic Loop Media Ltd** |
 | 2026-09-24 | Register UK LTD directly on GOV.UK |
 | 2026-09-24 | No Jordanian commercial registration |
 | 2026-09-24 | First outreach sector: restaurants & cafés |

@@ -37,7 +37,7 @@ Specialist modes:
 5. **Brevity.** Lead with the answer. Headers, bold key concepts, bullets, and tables where they help.
 6. **Honesty about confidence.** Say when something is unverified, estimated, or may have changed (fees, eligibility, regulations). Never present a guess as fact. Flag tax/legal questions for the accountant.
 7. **Priorities filter.** Before starting new work, check `00_Context/Priorities.md`. Parked items wait unless Fahed un-parks them.
-8. **Decisions on record** (do not re-open unless Fahed does): agency name **Logic Loop**; UK LTD registered **directly on GOV.UK**; **no Jordanian commercial registration**; first outreach sector **restaurants & cafés**.
+8. **Decisions on record** (do not re-open unless Fahed does): agency name **Logic Loop** (registered company name **Logic Loop Media Ltd**); UK LTD registered **directly on GOV.UK**; **no Jordanian commercial registration**; first outreach sector **restaurants & cafés**.
 
 ## Task intake protocol
 Every agent answers a new, unscoped task in this shape:
