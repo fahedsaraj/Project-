@@ -39,6 +39,6 @@ Parked ideas go to the list below with a date.
 | — | — | — |
 
 ## Checkpoints
-- **Every Thursday 5:00 PM weekly review:** check progress against the hierarchy.
+- **Every Thursday 19:00 weekly review:** check progress against the hierarchy.
 - **Monthly (last Thursday):** confirm or re-order primary/secondary.
 - **Late December 2026:** 90-day review; set the next 90-day outcome (likely: first signed retainers).

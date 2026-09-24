@@ -57,9 +57,9 @@ Template: `LogicLoop/01_Tools/Task_Intake_Template.md`.
 ## End of every session
 Append a dated entry to the acting agent's log in `LogicLoop/00_Activity_Logs/`, update `Approvals_Log.md`, and save any durable lesson to memory (see `00_Context/Memory/MEMORY.md` for how).
 
-## Cadence (Saturday – Thursday, Amman time, UTC+3; Friday off)
+## Cadence (Saturday – Thursday, Amman time, UTC+3; Friday off) — Fahed available daily 12:00–20:00
 | Routine | When | Output |
 |---|---|---|
-| Morning brief | 10:00 AM, Sat–Thu | `07_Briefs/YYYY-MM-DD.md` |
-| End-of-day log | 6:00 PM, Sat–Thu | Each active agent's log + `python3 LogicLoop/01_Tools/build_combined_log.py` |
-| Weekly review | Thursday 5:00 PM | `08_Reviews/YYYY-Www.md` |
+| Morning brief | 12:00, Sat–Thu | `07_Briefs/YYYY-MM-DD.md` |
+| End-of-day log | 19:30, Sat–Thu | Each active agent's log + `python3 LogicLoop/01_Tools/build_combined_log.py` |
+| Weekly review | Thursday 19:00 | `08_Reviews/YYYY-Www.md` |

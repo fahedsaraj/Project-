@@ -47,7 +47,7 @@ Rules:
 2. **"Your call"** = the agent's recommendation goes ahead — only inside the pre-approved scope (A–E). Anything leaving the workspace still needs an explicit yes.
 
 ## Urgent escalation (approved 2026-09-24)
-Only these interrupt Fahed outside the 10:00 brief and 18:00 log — by **push notification** (for now):
+Only these interrupt Fahed outside the 12:00 brief and 19:30 log — by **push notification** (for now):
 1. Government or legal deadline within 48 hours (Companies House, HMRC).
 2. A client or prospect is waiting on something only Fahed can give (price, meeting time, contract).
 3. Something went wrong in public (wrong post, complaint, ad problem).
@@ -75,4 +75,4 @@ Everything else waits for the brief or the log. Slack/WhatsApp escalation: not n
 **Sara** owns outreach as Business Development: lead lists, audits, DM/WhatsApp/email scripts, proposals, follow-up tracking. **Lina** reviews the approach. **Fahed** sends every message and handles every client after acceptance.
 
 ## Pre-approved work (decided 2026-09-24)
-Agents may do these without asking, and report in the 6:00 PM log: A. research, audits, lead lists (nothing sent) · B. internal drafts passed between agents · C. Canva/Figma drafts (not published) · D. updating plans, timelines, trackers · E. reworking a draft after Lina's challenge. Only final versions go to Fahed.
+Agents may do these without asking, and report in the 19:30 log: A. research, audits, lead lists (nothing sent) · B. internal drafts passed between agents · C. Canva/Figma drafts (not published) · D. updating plans, timelines, trackers · E. reworking a draft after Lina's challenge. Only final versions go to Fahed.

@@ -1,4 +1,4 @@
-# Weekly Review — Week of YYYY-MM-DD (Thursday 5:00 PM)
+# Weekly Review — Week of YYYY-MM-DD (Thursday 19:00)
 
 **Scorecard:** Milestones __/2 · Posts __ (grid __/9) · Conversations __/5
 

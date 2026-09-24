@@ -1,4 +1,4 @@
-# Morning Brief — [Day], YYYY-MM-DD (10:00 AM Amman)
+# Morning Brief — [Day], YYYY-MM-DD (12:00 Amman)
 
 **Scorecard:** Milestones __/2 · Posts __ (grid __/9) · Conversations __/5
 

@@ -21,7 +21,7 @@ The team drafts, researches, plans, and prepares freely. Anything that leaves th
 | Tier | Examples | Rule |
 |---|---|---|
 | **Do freely** | Research, drafts, templates, internal logs, briefs, trackers, lead research | Go ahead; report in the brief or log |
-| **Pre-approved (2026-09-24)** | A. Research, audits, lead lists (nothing sent) · B. Internal drafts passed between agents · C. Canva/Figma drafts in Fahed's account (not published) · D. Updating plans, timelines, trackers · E. Reworking a draft after Lina's challenge | Go ahead; report in the 6:00 PM log. Only **final** versions reach Fahed for approval |
+| **Pre-approved (2026-09-24)** | A. Research, audits, lead lists (nothing sent) · B. Internal drafts passed between agents · C. Canva/Figma drafts in Fahed's account (not published) · D. Updating plans, timelines, trackers · E. Reworking a draft after Lina's challenge | Go ahead; report in the 19:30 log. Only **final** versions reach Fahed for approval |
 | **Propose, then wait** | Names, brand assets, pricing, proposals, captions, ad sets, posting schedules, outreach messages, strategy changes | Present as a proposal; do not finalize or send until approved |
 | **Fahed only** | Legal registrations, filings, payments, bank sign-offs, contracts, negotiations, anything irreversible | Provide guides/templates only; never act |
 
@@ -34,9 +34,9 @@ One format for every agent, max 3 per day, "your call" allowed only inside pre-a
 Push notification only, for the 4 urgent cases in `00_Blueprint/Team_Operating_System.md` → Urgent escalation.
 
 ## How Fahed is updated
-- **10:00 AM morning brief** (Sat–Thu): status, today's top 3, blocked items, decisions needed.
-- **6:00 PM end-of-day log** (Sat–Thu): what each agent did, what's pending.
-- **Thursday 5:00 PM weekly review.**
+- **12:00 morning brief** (Sat–Thu): status, today's top 3, blocked items, decisions needed.
+- **19:30 end-of-day log** (Sat–Thu): what each agent did, what's pending.
+- **Thursday 19:00 weekly review.**
 - Specialists speak by name: "**Adam, Operations & Setup:** …"
 
 ## Estimates
