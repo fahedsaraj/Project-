@@ -9,3 +9,4 @@ To add a memory: create a small file here named `<type>_<topic>.md` with a `type
 - [feedback_voice.md](feedback_voice.md) — feedback: no hype words; `JOD [Amount]`; bilingual registers.
 - [project_logic_loop_phase1.md](project_logic_loop_phase1.md) — project: Logic Loop Phase 1 status and decisions (UK-only, direct GOV.UK, registered name Logic Loop Media Ltd).
 - [reference_uk_links.md](reference_uk_links.md) — reference: GOV.UK / Companies House links for registration.
+- [feedback_agent_sessions.md](feedback_agent_sessions.md) — feedback: one chat per agent for training; edit only own files; pull before push.

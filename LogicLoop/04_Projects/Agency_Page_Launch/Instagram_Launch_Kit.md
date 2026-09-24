@@ -14,7 +14,14 @@
 | Facebook Page | Same name, linked to Instagram through Meta Business Suite |
 | WhatsApp Business | Separate number from personal; catalogue with the 3 packages; greeting + away message (below) |
 
-## 2. Bio (choose one)
+## 2. Bio — APPROVED: both languages
+**Live bio (≤150 characters):**
+> تصوير وريلز وإعلانات لمشاريع عمّان
+> Photo, reels & ads for Amman businesses
+> بنصوّر، بننشر، وبنقيس النتيجة
+> 👇 WhatsApp
+
+Reference versions:
 **English**
 > Photo, reels & ads for Amman businesses.
 > We shoot it, publish it, measure it.
@@ -41,7 +48,7 @@ Covers: plain colour circles from Sara's palette with one-word labels.
 | 5 | Photo | **Product shot** — retail or fashion piece, clean light | 1 product |
 | 6 | Carousel | **How we work** — Brief → Shoot → Approve → Publish → Measure | — (Sara designs) |
 | 7 | Reel | **Food hook** — 3-second close-up hook (cheese pull / sizzle / pour) | Macro clips |
-| 8 | Carousel | **Our packages** — Frame, Loop, Engine *(show prices or "from JOD 350" — Fahed decides)* | — |
+| 8 | Carousel | **Our packages** — Frame, Loop, Engine: what each includes. **No prices** (Fahed's decision) — CTA: "DM or WhatsApp for pricing" | — |
 | 9 | Photo + text | **Now taking 3 Amman restaurants for October** — DM or WhatsApp | Portrait of Fahed with phone rig |
 
 ## 5. Captions — posts 1 and 2 (rest drafted after Fahed approves the direction)
@@ -75,7 +82,8 @@ Covers: plain colour circles from Sara's palette with one-word labels.
 | 5–7 | Post 3 per day, posts 1→9 | Fahed posts |
 | 8 | Lina starts outreach — the page is now the proof | Lina |
 
-## Decisions needed
-1. Handle (first one available from the list).
-2. Show prices publicly on post #8, "from JOD 350", or no prices.
-3. English bio, Arabic bio, or both (Arabic in bio + English in name field).
+## Decisions
+1. Handle — **pending** (first one available from the list).
+2. Prices on post #8 — **no prices** (approved 2026-09-24).
+3. Bio — **both languages** (approved 2026-09-24).
+4. Sara drafts logo, profile picture, highlight covers in Canva — **approved** (drafts only).
