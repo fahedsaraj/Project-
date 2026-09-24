@@ -9,3 +9,4 @@
 - Training Q1: A–E pre-approved. Kareem confirmed as Content & Copy. Sara now owns outreach (Lina reviews).
 - Training Q2: weekly scorecard approved.
 - Training Q3: decision-request format approved.
+- Training Q4: urgent escalation rules approved (push only).

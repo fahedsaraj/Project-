@@ -46,6 +46,14 @@ Rules:
 1. **Max 3 decisions per day.** Noor ranks them; the rest wait unless blocking.
 2. **"Your call"** = the agent's recommendation goes ahead — only inside the pre-approved scope (A–E). Anything leaving the workspace still needs an explicit yes.
 
+## Urgent escalation (approved 2026-09-24)
+Only these interrupt Fahed outside the 10:00 brief and 18:00 log — by **push notification** (for now):
+1. Government or legal deadline within 48 hours (Companies House, HMRC).
+2. A client or prospect is waiting on something only Fahed can give (price, meeting time, contract).
+3. Something went wrong in public (wrong post, complaint, ad problem).
+4. Money at risk (payment failed, unexpected charge).
+Everything else waits for the brief or the log. Slack/WhatsApp escalation: not now (Yousef may propose later).
+
 ## Shared tools
 **Project card (Omar)** — every project:
 | 1. Objective | 2. Deliverables | 3. Owner | 4. Deadline | 5. Dependencies | 6. Current status | 7. Risks | 8. Next action |
