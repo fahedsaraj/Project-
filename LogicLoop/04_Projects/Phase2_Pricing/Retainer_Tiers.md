@@ -1,4 +1,4 @@
-# Retainer Tiers — PROPOSAL (pending Fahed's approval)
+# Retainer Tiers — APPROVED 2026-09-24
 
 *Owner: Noor with Lina and Rami. Prices are starting estimates for the Amman market and should be tested on the first 5 pitches, then adjusted. Nothing is quoted to a client until approved.*
 
@@ -39,4 +39,3 @@
 ## Fahed's capacity check
 Shoot half-days per month at the mixed scenario (4 Frame + 5 Loop + 1 Engine) = 4 + 10 + 4 = **18 half-days** — near the limit for one photographer. Watch this before selling more Engine tiers.
 
-**Approve, modify, or wait?**

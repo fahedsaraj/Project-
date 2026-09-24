@@ -13,15 +13,15 @@ What must be true before Logic Loop signs its first retainer. Owner: Noor (track
 ## 2. Offer & paperwork
 | # | Item | Owner | Status |
 |---|---|---|---|
-| 5 | Retainer tiers in JOD approved — `04_Projects/Phase2_Pricing/Retainer_Tiers.md` | Fahed | **Proposal ready** |
-| 6 | Proposal template approved — `06_Outreach/Proposal_Template.md` | Fahed | **Draft ready** |
+| 5 | Retainer tiers in JOD approved — `04_Projects/Phase2_Pricing/Retainer_Tiers.md` | Fahed | **Approved** |
+| 6 | Proposal template approved — `06_Outreach/Proposal_Template.md` | Fahed | **Approved** |
 | 7 | Service agreement reviewed by a lawyer, then approved — `05_Operations/Legal/Service_Agreement_Template.md` | Fahed | **Draft ready — needs legal review** |
 | 8 | Invoice template approved — `05_Operations/Finance/Invoice_Template.md` | Fahed | **Draft ready** |
 
 ## 3. Presence (what a prospect checks before replying)
 | # | Item | Owner | Status |
 |---|---|---|---|
-| 9 | Instagram `@logicloop…` handle secured + 9-post grid of Fahed's own photo/video work | Fahed shoots, Sara designs, Kareem writes | To do |
+| 9 | Instagram + Facebook page launched with 9-post grid — **first priority**, kit in `04_Projects/Agency_Page_Launch/` | Fahed shoots, Sara designs, Kareem writes | **In progress** |
 | 10 | WhatsApp Business number with catalogue of the 3 tiers | Fahed | To do |
 | 11 | Business email (e.g. hello@ domain) | Fahed buys domain, Yousef sets up | To do |
 | 12 | Logo + colours + proposal/deck look | Sara | To do |
@@ -40,5 +40,5 @@ What must be true before Logic Loop signs its first retainer. Owner: Noor (track
 | # | Item | Owner | Status |
 |---|---|---|---|
 | 19 | 20 Amman restaurants & cafés listed and audited | Lina | To do |
-| 20 | Outreach scripts approved — `06_Outreach/Scripts/Outreach_Scripts.md` | Fahed | **Draft ready** |
-| 21 | Sales deck outline approved — `06_Outreach/Sales_Deck_Outline.md` | Fahed | **Draft ready** |
+| 20 | Outreach scripts approved — `06_Outreach/Scripts/Outreach_Scripts.md` | Fahed | **Approved** |
+| 21 | Sales deck outline approved — `06_Outreach/Sales_Deck_Outline.md` | Fahed | **Approved** |
