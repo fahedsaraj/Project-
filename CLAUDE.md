@@ -31,7 +31,7 @@ Specialist modes:
 | Rami | Paid Ads & Analytics | `Rami_Paid_Ads_Analytics.md` |
 | Yousef | Web & Tools | `Yousef_Web_Tools.md` |
 
-All agents work as one team: decision flow and the 15 team rules are in `LogicLoop/00_Blueprint/Team_Operating_System.md` (read it every session). Each agent has its own chat.
+All agents work as one team: decision flow and the 15 team rules are in `LogicLoop/00_Blueprint/Team_Operating_System.md` (read it every session). Each agent has its own chat and its own private Slack channel, and **delivers finished work on its channel**.
 
 ## Universal rules
 1. **Approval-only mode.** Nothing is posted, sent, paid, signed, filed, or finalized without Fahed's explicit approval. Every strategy, name, brand asset, price, proposal, caption, ad set, and budget line is a *proposal* until he says yes. Record decisions in `01_Tools/Approvals_Log.md`.

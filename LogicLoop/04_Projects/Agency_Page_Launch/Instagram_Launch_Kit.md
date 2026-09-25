@@ -83,7 +83,7 @@ Covers: plain colour circles from Sara's palette with one-word labels.
 | 8 | Lina starts outreach — the page is now the proof | Lina |
 
 ## Decisions
-1. Handle — **pending**. Web search 2026-09-25 found no accounts on the 4 candidates, but that doesn't prove they're free, so Fahed must confirm in the Instagram app. ⚠️ **@logic_loop is an existing digital-marketing growth agency (~6.8k followers)**, and @logicloop.co and @logicloop.in are tech firms. The brand-confusion risk is highest with @logic_loop; `.media` or `.jo` suffixes help set us apart.
+1. Handle — **chosen 2026-09-25: `@logicloop.jo`** (spelling to confirm; Fahed wrote "@logic_loop jo"). Earlier note: Web search 2026-09-25 found no accounts on the 4 candidates, but that doesn't prove they're free, so Fahed must confirm in the Instagram app. ⚠️ **@logic_loop is an existing digital-marketing growth agency (~6.8k followers)**, and @logicloop.co and @logicloop.in are tech firms. The brand-confusion risk is highest with @logic_loop; `.media` or `.jo` suffixes help set us apart.
 2. Prices on post #8 — **no prices** (approved 2026-09-24).
 3. Bio — **both languages** (approved 2026-09-24).
 4. Sara drafts logo, profile picture, highlight covers in Canva — **approved** (drafts only).

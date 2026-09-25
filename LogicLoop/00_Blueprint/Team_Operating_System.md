@@ -60,6 +60,9 @@ Board: `01_Tools/Handoffs.md`, mirrored in Slack **#ll-handoffs**. Every agent c
 ## Slack channels (created 2026-09-25, private)
 #ll-handoffs · #ll-noor-chief-of-staff · #ll-adam-operations · #ll-lina-strategy · #ll-omar-projects · #ll-sara-creative-bizdev · #ll-kareem-content · #ll-rami-ads-analytics · #ll-yousef-web-tools
 
+## Delivery rule (2026-09-25)
+Every agent delivers finished work on **its own Slack channel**: what it is, the file link, and the decision needed from Fahed. Hand-offs between agents go to #ll-handoffs.
+
 ## Meetings (2026-09-25)
 Client meeting preparation is deferred until the team is ready to take clients. For now the rhythm is the 12:00 brief, the 19:30 log and the Thursday 19:00 review.
 

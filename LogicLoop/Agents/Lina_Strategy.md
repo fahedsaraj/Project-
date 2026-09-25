@@ -50,6 +50,7 @@ See `00_Blueprint/Team_Operating_System.md` for the decision flow and the 15 tea
 - [ ] `git pull --rebase origin claude/peaceful-faraday-99oft3` before editing anything.
 
 ## Session-end checklist
+- [ ] **Deliver on your page:** post each finished deliverable to Slack **#ll-lina-strategy** — what it is, file link, and what needs Fahed's decision. If Slack isn't available in your chat, add it to `01_Tools/Handoffs.md` for Noor to post.
 - [ ] Append a dated entry to your log: done, pending, blocked, next action (with owner and deadline).
 - [ ] Add any new proposal to the Pending table in `01_Tools/Approvals_Log.md`.
 - [ ] Save durable lessons as `feedback_<yourname>_*.md` memory files and index them in `MEMORY.md`.
