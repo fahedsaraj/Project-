@@ -13,3 +13,6 @@
 - Built **Logo draft 01**, "the frame is the loop": two L-shaped viewfinder corners around a terracotta dot. Canva: https://www.canva.com/d/_gnT99BC6Wh3hfc (copy of draft A; A/B/C untouched). Board, profile picture, lockups, SVGs in `03_Assets/brand/logo_draft_01/`.
 - Blocked: file uploads to Canva are denied by the network, so the mark was rebuilt as native Canva shapes. Canva fonts are not yet the locked ones.
 - Next: Fahed approve / modify. Then highlight covers in the same system (Sara, 1 day after yes).
+- Fahed asked to study top Jordan agencies on Instagram, then make a "modern and fancy" logo with nice colour, plus another one. Instagram blocked without login (did not log in). Used websites via cloud browser: UBlac, Sprintive, Jeel Media, Bidaya Marcom, Syntax. Finding: black/white or blue, wordmark-led. Notes: `03_Assets/brand/Amman_Agencies_Look_2026-09-25.md`.
+- Built **Option 02** "Loop L" (sunset gradient on night) and **Option 03** "L + ل" (emerald/saffron). Boards, profile pictures, SVGs in `03_Assets/brand/logo_option_02|03/`. Canva drafts: 02 https://www.canva.com/d/70lLqB3bT2qS_Mw · 03 https://www.canva.com/d/Q4KDiBrBoPb6yi_. Comparison: `03_Assets/brand/Logo_Options_Compare.png`.
+- Next: Fahed picks 01 / 02 / 03 (or a mix). Then fonts locked + highlight covers.
