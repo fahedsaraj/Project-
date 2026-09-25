@@ -11,3 +11,4 @@
 - Training Q3: decision-request format approved.
 - Training Q4: urgent escalation rules approved (push only).
 - Training Q5: hours 12:00–20:00 daily, week blocks approved. Proposed moving routines.
+- 2026-09-25 (extra day): Q6 hand-off board approved; Slack channels created; client meetings deferred; internal sprint run.

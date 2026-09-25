@@ -39,6 +39,6 @@ What must be true before Logic Loop signs its first retainer. Owner: Noor (track
 ## 5. Pipeline
 | # | Item | Owner | Status |
 |---|---|---|---|
-| 19 | 20 Amman restaurants & cafés listed and audited | Sara | To do |
+| 19 | 20 Amman restaurants & cafés listed and audited | Sara | 9 starter leads listed (to verify) |
 | 20 | Outreach scripts approved — `06_Outreach/Scripts/Outreach_Scripts.md` | Fahed | **Approved** |
 | 21 | Sales deck outline approved — `06_Outreach/Sales_Deck_Outline.md` | Fahed | **Approved** |

@@ -54,6 +54,15 @@ Only these interrupt Fahed outside the 12:00 brief and 19:30 log — by **push n
 4. Money at risk (payment failed, unexpected charge).
 Everything else waits for the brief or the log. Slack/WhatsApp escalation: not now (Yousef may propose later).
 
+## Hand-offs (approved 2026-09-24)
+Board: `01_Tools/Handoffs.md`, mirrored in Slack **#ll-handoffs**. Every agent checks it first each session. A hand-off must be complete (ask, inputs, due date, done-when) or it goes back. Status: Open → In progress → Done / Blocked. Noor reviews it in every brief. When something is urgent, Fahed types "Check the hand-off board" in that agent's chat.
+
+## Slack channels (created 2026-09-25, private)
+#ll-handoffs · #ll-noor-chief-of-staff · #ll-adam-operations · #ll-lina-strategy · #ll-omar-projects · #ll-sara-creative-bizdev · #ll-kareem-content · #ll-rami-ads-analytics · #ll-yousef-web-tools
+
+## Meetings (2026-09-25)
+Client meeting preparation is deferred until the team is ready to take clients. For now the rhythm is the 12:00 brief, the 19:30 log and the Thursday 19:00 review.
+
 ## Shared tools
 **Project card (Omar)** — every project:
 | 1. Objective | 2. Deliverables | 3. Owner | 4. Deadline | 5. Dependencies | 6. Current status | 7. Risks | 8. Next action |

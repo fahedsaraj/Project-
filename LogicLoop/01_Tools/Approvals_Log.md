@@ -12,6 +12,10 @@ Every proposal waiting on Fahed, and every decision he makes. Omar maintains it.
 | 6 | 2026-09-24 | Service agreement draft — needs lawyer review before approval | Adam | Pending |
 | 7 | 2026-09-24 | Invoice template; how Amman clients pay before the UK account opens | Fahed | Pending |
 | 8 | 2026-09-24 | Page handle (first free of @logicloop.media / @logicloopmedia / @logicloop.jo / @logicloop.amman) | Fahed | Pending |
+| 12 | 2026-09-25 | Review 90-day timeline (`04_Projects/90_Day_Timeline.md`) | Omar | Pending |
+| 13 | 2026-09-25 | Review launch captions 3–9 (`Launch_Captions.md`) | Kareem | Pending |
+| 14 | 2026-09-25 | Review 3 SOPs (`05_Operations/SOPs/`) | Adam | Pending |
+| 15 | 2026-09-25 | Review automation plan v1 | Yousef | Pending |
 
 ## Decided
 | Date | Item | Decision |
@@ -42,3 +46,7 @@ Every proposal waiting on Fahed, and every decision he makes. Omar maintains it.
 | 2026-09-24 | Urgent escalation | Approved: 4 urgent cases; push notification only for now |
 | 2026-09-24 | Fahed's hours & week | Available daily 12:00–20:00; weekly blocks approved; photo sessions announced by Fahed |
 | 2026-09-24 | Routine times | Option A: brief 12:00, log 19:30, weekly review Thu 19:00 (Amman); routines updated |
+| 2026-09-25 | Hand-off board | Approved; mirrored in Slack #ll-handoffs |
+| 2026-09-25 | Slack | One private channel per agent + #ll-handoffs created |
+| 2026-09-25 | Client meeting prep | Deferred until ready to take clients |
+| 2026-09-25 | Extra working day (Friday) | Team works today to finish internal readiness |

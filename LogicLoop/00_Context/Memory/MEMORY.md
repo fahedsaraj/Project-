@@ -15,3 +15,4 @@ To add a memory: create a small file here named `<type>_<topic>.md` with a `type
 - [feedback_noor_scorecard.md](feedback_noor_scorecard.md) — feedback: 3 weekly numbers that open every brief.
 - [feedback_noor_decisions.md](feedback_noor_decisions.md) — feedback: decision format, max 3/day, 'your call' rule.
 - [feedback_noor_urgent.md](feedback_noor_urgent.md) — feedback: 4 urgent cases, push notification only.
+- [feedback_noor_handoffs.md](feedback_noor_handoffs.md) — feedback: hand-off board + Slack channels; client meetings deferred.
