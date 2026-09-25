@@ -16,6 +16,7 @@ Every proposal waiting on Fahed, and every decision he makes. Omar maintains it.
 | 14 | 2026-09-25 | Review 3 SOPs (`05_Operations/SOPs/`) | Adam | Pending |
 | 15 | 2026-09-25 | Review automation plan v1 | Yousef | Pending |
 | 16 | 2026-09-25 | Brand direction: B symbol + C bilingual lockup + A colours (`03_Assets/brand/Sara_Brand_Suggestion_2026-09-25.md`) | Sara | Pending |
+| 17 | 2026-09-25 | Logo draft 01 "frame is the loop" + profile picture (`03_Assets/brand/logo_draft_01/`, Canva https://www.canva.com/d/_gnT99BC6Wh3hfc) | Sara | Pending |
 
 ## Decided
 | Date | Item | Decision |
