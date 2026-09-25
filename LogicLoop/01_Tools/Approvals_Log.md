@@ -50,3 +50,6 @@ Every proposal waiting on Fahed, and every decision he makes. Omar maintains it.
 | 2026-09-25 | Slack | One private channel per agent + #ll-handoffs created |
 | 2026-09-25 | Client meeting prep | Deferred until ready to take clients |
 | 2026-09-25 | Extra working day (Friday) | Team works today to finish internal readiness |
+| 2026-09-25 | Logo | Sara to produce several options for Fahed to choose (3 Canva drafts started) |
+| 2026-09-25 | Post #9 claim | Decide after Sara's work is done |
+| 2026-09-25 | Registered office | Reminder set for 2026-09-26 18:00 Amman |
