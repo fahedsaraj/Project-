@@ -18,6 +18,7 @@ Every proposal waiting on Fahed, and every decision he makes. Omar maintains it.
 | 16 | 2026-09-25 | Brand direction: B symbol + C bilingual lockup + A colours (`03_Assets/brand/Sara_Brand_Suggestion_2026-09-25.md`) | Sara | Pending |
 | 17 | 2026-09-25 | Logo draft 01 "frame is the loop" + profile picture (`03_Assets/brand/logo_draft_01/`, Canva https://www.canva.com/d/_gnT99BC6Wh3hfc) | Sara | Pending |
 | 18 | 2026-09-25 | Pick logo: 01 frame / 02 Loop L sunset / 03 L+ل emerald (`03_Assets/brand/Logo_Options_Compare.png`) | Sara | Pending |
+| 19 | 2026-09-25 | Logo 04 "the mix" (ل + L loop, sunset on night) — `03_Assets/brand/logo_04_mix/` | Sara | Pending |
 
 ## Decided
 | Date | Item | Decision |

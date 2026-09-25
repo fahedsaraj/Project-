@@ -16,3 +16,5 @@
 - Fahed asked to study top Jordan agencies on Instagram, then make a "modern and fancy" logo with nice colour, plus another one. Instagram blocked without login (did not log in). Used websites via cloud browser: UBlac, Sprintive, Jeel Media, Bidaya Marcom, Syntax. Finding: black/white or blue, wordmark-led. Notes: `03_Assets/brand/Amman_Agencies_Look_2026-09-25.md`.
 - Built **Option 02** "Loop L" (sunset gradient on night) and **Option 03** "L + ل" (emerald/saffron). Boards, profile pictures, SVGs in `03_Assets/brand/logo_option_02|03/`. Canva drafts: 02 https://www.canva.com/d/70lLqB3bT2qS_Mw · 03 https://www.canva.com/d/Q4KDiBrBoPb6yi_. Comparison: `03_Assets/brand/Logo_Options_Compare.png`.
 - Next: Fahed picks 01 / 02 / 03 (or a mix). Then fonts locked + highlight covers.
+- Fahed: "Mix the three options and the two options. And make one." Built **Logo 04, the mix**: one line draws ل + L and ties a loop (03 idea + 02 line/colours + 01 dot on the i). Files: `03_Assets/brand/logo_04_mix/`. Canva: https://www.canva.com/d/YSNd_SBIUW19s2w.
+- Next: Fahed approves / tweaks 04. Then lock fonts (Readex Pro), then highlight covers.
