@@ -17,3 +17,4 @@ To add a memory: create a small file here named `<type>_<topic>.md` with a `type
 - [feedback_noor_urgent.md](feedback_noor_urgent.md) — feedback: 4 urgent cases, push notification only.
 - [feedback_noor_handoffs.md](feedback_noor_handoffs.md) — feedback: hand-off board + Slack channels; client meetings deferred.
 - [feedback_delivery_slack.md](feedback_delivery_slack.md) — feedback: agents deliver work on their own Slack channel.
+- [feedback_sara_propose_first.md](feedback_sara_propose_first.md) — feedback: Sara sends her suggestion first; Fahed reacts (no upfront interview).
