@@ -22,3 +22,5 @@
 ## 2026-09-26
 - Fahed: "the type of photo one is perfect but take the color brand from option 4". Ambiguous (01 vs first tile = 03), so made both in 04 colours. Files: `03_Assets/brand/logo_05_recolour/`. Canva: 01 https://www.canva.com/d/tVl6FTQJiB_aMiA · 03 https://www.canva.com/d/68Xqiu7GnwTrSDR.
 - Next: Fahed confirms which shape. Then lock fonts and make the highlight covers.
+- **Approved (for now): Option B** — L + ل in 04 colours. Recorded in Approvals Log, H-006 done, checklist #12 updated, `03_Assets/brand/APPROVED_LOGO.md`.
+- Next: lock fonts in Canva, export profile picture, 4 highlight covers (Work · How we work · Packages · Contact), then carousels for posts 3/6/8 (H-001).

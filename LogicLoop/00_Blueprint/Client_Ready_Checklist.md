@@ -24,7 +24,7 @@ What must be true before Logic Loop signs its first retainer. Owner: Noor (track
 | 9 | Instagram + Facebook page launched with 9-post grid — **first priority**, kit in `04_Projects/Agency_Page_Launch/` | Fahed shoots, Sara designs, Kareem writes | **In progress** |
 | 10 | WhatsApp Business number with catalogue of the 3 tiers | Fahed | To do |
 | 11 | Business email (e.g. hello@ domain) | Fahed buys domain, Yousef sets up | To do |
-| 12 | Logo + colours + proposal/deck look | Sara | To do |
+| 12 | Logo + colours + proposal/deck look | Sara | Logo + colours **approved** 2026-09-26 (Option B). Deck look to do |
 | 13 | Portfolio PDF: 6–10 of Fahed's best food/retail/fashion shots | Sara + Fahed | To do |
 
 ## 4. Delivery system (ready before client #1 signs)
