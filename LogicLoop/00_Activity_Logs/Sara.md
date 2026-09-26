@@ -18,3 +18,7 @@
 - Next: Fahed picks 01 / 02 / 03 (or a mix). Then fonts locked + highlight covers.
 - Fahed: "Mix the three options and the two options. And make one." Built **Logo 04, the mix**: one line draws ل + L and ties a loop (03 idea + 02 line/colours + 01 dot on the i). Files: `03_Assets/brand/logo_04_mix/`. Canva: https://www.canva.com/d/YSNd_SBIUW19s2w.
 - Next: Fahed approves / tweaks 04. Then lock fonts (Readex Pro), then highlight covers.
+
+## 2026-09-26
+- Fahed: "the type of photo one is perfect but take the color brand from option 4". Ambiguous (01 vs first tile = 03), so made both in 04 colours. Files: `03_Assets/brand/logo_05_recolour/`. Canva: 01 https://www.canva.com/d/tVl6FTQJiB_aMiA · 03 https://www.canva.com/d/68Xqiu7GnwTrSDR.
+- Next: Fahed confirms which shape. Then lock fonts and make the highlight covers.
