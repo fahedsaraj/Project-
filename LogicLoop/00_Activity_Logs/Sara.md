@@ -24,3 +24,7 @@
 - Next: Fahed confirms which shape. Then lock fonts and make the highlight covers.
 - **Approved (for now): Option B** — L + ل in 04 colours. Recorded in Approvals Log, H-006 done, checklist #12 updated, `03_Assets/brand/APPROVED_LOGO.md`.
 - Next: lock fonts in Canva, export profile picture, 4 highlight covers (Work · How we work · Packages · Contact), then carousels for posts 3/6/8 (H-001).
+- Fahed approved next steps. Delivered drafts: carousels for posts 3 (5 slides), 6 (7 slides, one continuous loop line across the swipe), 8 (5 slides, no prices), 4 highlight covers, profile picture 1080. In `04_Projects/Agency_Page_Launch/Designs/`. H-001 done (drafts).
+- Caught a copy error in post 8: "يومين/٤ أيام تصوير" vs approved 2/4 half-days. Designed with corrected wording, flagged to Kareem (new hand-off) and Fahed (#22).
+- Blocked: Canva font setting isn't possible through the connector, and file upload to Canva is blocked by the network (www.canva.com). PNG masters delivered instead.
+- Next: Fahed reviews designs. Carousels for posts 1/2/9 need Fahed's photos first.

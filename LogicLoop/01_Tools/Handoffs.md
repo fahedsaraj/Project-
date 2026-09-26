@@ -7,9 +7,10 @@ Slack mirror: **#ll-handoffs** (private). Each agent also has its own channel: #
 
 | # | From → To | What's needed | Input files | Due | Done when | Status |
 |---|---|---|---|---|---|---|
-| H-001 | Kareem → Sara | Design carousels for launch posts 3, 6, 8 using the drafted slide copy | `04_Projects/Agency_Page_Launch/Launch_Captions.md` | 2026-09-28 | 3 Canva drafts linked here | Open — unblocked: logo + colours approved 2026-09-26 |
+| H-001 | Kareem → Sara | Design carousels for launch posts 3, 6, 8 using the drafted slide copy | `04_Projects/Agency_Page_Launch/Launch_Captions.md` | 2026-09-28 | 3 Canva drafts linked here | Done (drafts) — `04_Projects/Agency_Page_Launch/Designs/`; waits on Fahed approval |
 | H-002 | Omar → Fahed | Review 90-day timeline | `04_Projects/90_Day_Timeline.md` | 2026-09-26 | Approved or changes noted | Open |
 | H-003 | Sara → Lina | Challenge the 12-lead starter list: are these the right targets? | `06_Outreach/Lead_List_Restaurants_Cafes.md` | 2026-09-28 | Keep/drop per lead + reason | Open |
 | H-004 | Adam → Fahed | Buy registered office address, then continue registration in Adam's chat | `02_Reference/UK_LTD_Setup_Guide.md` | 2026-09-26 | Address bought, form continued | Open |
 | H-005 | Yousef → Fahed | Review automation plan v1 | `01_Tools/Automation_Plan.md` | 2026-09-28 | Approve / modify | Open |
 | H-006 | Fahed → Sara | Logo: several options to choose from (A wordmark, B loop/lens symbol, C bilingual) + profile picture from the chosen one | Canva drafts | 2026-09-27 | Fahed picks one | Done — Option B approved 2026-09-26 (`03_Assets/brand/logo_05_recolour/`) |
+| H-007 | Sara → Kareem | Post 8 shoot wording: draft said Loop "يومين" / Engine "٤ أيام" but approved tiers are 2 and 4 **half-days**. Confirm the corrected lines in `Designs/README.md` and update `Launch_Captions.md` | `04_Projects/Phase2_Pricing/Retainer_Tiers.md` | 2026-09-28 | Captions file matches tiers | Open |

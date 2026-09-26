@@ -15,6 +15,8 @@ Every proposal waiting on Fahed, and every decision he makes. Omar maintains it.
 | 13 | 2026-09-25 | Review launch captions 3–9 (`Launch_Captions.md`) | Kareem | Pending |
 | 14 | 2026-09-25 | Review 3 SOPs (`05_Operations/SOPs/`) | Adam | Pending |
 | 15 | 2026-09-25 | Review automation plan v1 | Yousef | Pending |
+| 21 | 2026-09-26 | Launch designs: carousels posts 3/6/8, 4 highlight covers, profile picture (`04_Projects/Agency_Page_Launch/Designs/`) | Sara | Pending |
+| 22 | 2026-09-26 | Post 8 wording fix: shoot days → half-days to match approved tiers | Sara/Kareem | Pending |
 
 ## Decided
 | Date | Item | Decision |
@@ -55,3 +57,4 @@ Every proposal waiting on Fahed, and every decision he makes. Omar maintains it.
 | 2026-09-25 | Instagram handle | `@logicloop.jo` (confirm exact spelling vs `@logic_loop.jo`) |
 | 2026-09-25 | Delivery rule | Each agent delivers finished work on its own Slack channel |
 | 2026-09-26 | Logo | **Approved (for now): Option B — L + ل in 04 colours.** Cream ل + saffron→coral→magenta L foot on night #1A0F1F; wordmark Logic Loop / لوجيك لوب with coral dot on the i. Fahed: "option b is perfect for now approve". Files `03_Assets/brand/logo_05_recolour/`; Canva https://www.canva.com/d/68Xqiu7GnwTrSDR. Options 01–04 closed. |
+| 2026-09-26 | Sara next steps (fonts, profile export, highlights, carousels 3/6/8) | Approved — drafts |
