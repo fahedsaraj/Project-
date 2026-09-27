@@ -16,3 +16,4 @@
 ## 2026-09-27
 - Test task for prospect Success4Sure Academy (Khalda): brand audit (site + IG mirror), EST II Revision Week post 1080x1350, two variants + editable source + creative brief. Flagged: date/time, logo file, registration route, brand hex. Pending Fahed approval (#23).
 - Rev 2: date set to 27 SEPTEMBER (flagged: that is a Sunday); V2 modern direction built (post_v2.html). Awaiting Fahed's pick.
+- Rev 3: Fahed approved V1; added registration number; final exported.
