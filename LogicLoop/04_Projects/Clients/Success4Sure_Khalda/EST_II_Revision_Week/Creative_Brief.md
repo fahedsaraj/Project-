@@ -88,3 +88,11 @@ EST II is a bubble-sheet exam. The background is a faint answer sheet, with a fe
 - V1 left as it was at rev 2, for reference.
 - Final file: `FINAL_EST_II_Revision_Week_V2_27SEP_1080x1350.png`
 - Still open: 27 Sep 2026 falls on a Sunday; confirm with the client. The logo is a typeset stand-in until they send the official file.
+
+## Revision 4 (2026-09-27): V2 variations
+Same copy, date, and number as the V2 final; only colour and layout change. Source: `post_v2.html?t=ivory|red|split`.
+| File | Direction |
+|---|---|
+| `V2a_Ivory_…png` | Daylight academic: ivory field, near-black EST, red serif II and *Revision Week*, white date card, red CTA |
+| `V2b_BrandRed_…png` | Full Success4Sure red, lit from the top right; cream EST with a dark maroon II; dark glass date panel |
+| `V2c_Split_…png` | Dark headline block over a solid brand-red block holding a larger date (27 at 230 px) and the CTA |

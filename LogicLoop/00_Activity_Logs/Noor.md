@@ -18,3 +18,4 @@
 - Rev 2: date set to 27 SEPTEMBER (flagged: that is a Sunday); V2 modern direction built (post_v2.html). Awaiting Fahed's pick.
 - Rev 3: Fahed approved V1; added registration number; final exported.
 - Correction: Fahed meant V2. V1 restored; number added to V2; final re-exported.
+- Rev 4: three V2 variations (Ivory, Brand Red, Split) for Fahed to pick (#24).
