@@ -20,3 +20,4 @@ To add a memory: create a small file here named `<type>_<topic>.md` with a `type
 - [feedback_sara_propose_first.md](feedback_sara_propose_first.md) — feedback: Sara sends her suggestion first; Fahed reacts (no upfront interview).
 - [feedback_sara_art_director.md](feedback_sara_art_director.md) — feedback: Sara designs as senior art director; brief format first; reference never copied.
 - [feedback_sara_logo_taste.md](feedback_sara_logo_taste.md) — feedback: Fahed chose bilingual L+ل in sunset colours on night; approved "for now".
+- [feedback_noor_dispatch.md](feedback_noor_dispatch.md) — feedback: Noor dispatches, never does specialist work herself; design is Sara's.

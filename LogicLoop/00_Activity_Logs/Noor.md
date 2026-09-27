@@ -19,3 +19,4 @@
 - Rev 3: Fahed approved V1; added registration number; final exported.
 - Correction: Fahed meant V2. V1 restored; number added to V2; final re-exported.
 - Rev 4: three V2 variations (Ivory, Brand Red, Split) for Fahed to pick (#24).
+- Fahed corrected me: the Success4Sure design was Sara's work, not mine. Handed off as H-008; lesson saved (feedback_noor_dispatch.md).
