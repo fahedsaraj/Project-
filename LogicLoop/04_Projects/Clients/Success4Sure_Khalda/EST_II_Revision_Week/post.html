@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>EST II Revision Week — 1080x1350</title>
+<style>
+  @font-face { font-family: Karla; font-weight: 500; src: url(fonts/Karla-500.ttf); }
+  @font-face { font-family: Karla; font-weight: 700; src: url(fonts/Karla-700.ttf); }
+  @font-face { font-family: Karla; font-weight: 800; src: url(fonts/Karla-800.ttf); }
+  @font-face { font-family: Playfair; font-weight: 700; src: url(fonts/Playfair-700.ttf); }
+  @font-face { font-family: Playfair; font-weight: 900; src: url(fonts/Playfair-900.ttf); }
+  @font-face { font-family: Playfair; font-weight: 600; font-style: italic; src: url(fonts/Playfair-600i.ttf); }
+
+  :root {
+    --maroon: #8B0214;      /* Success4Sure brand red (from their site) */
+    --maroon-deep: #4A000B;
+    --maroon-ink: #240005;
+    --cream: #F4EBDD;       /* their cream/beige secondary */
+    --gold: #C9A45C;        /* muted gold accent, used sparingly */
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1080px; height: 1350px; background: var(--maroon-ink); }
+
+  .post {
+    position: relative; width: 1080px; height: 1350px; overflow: hidden;
+    background:
+      radial-gradient(ellipse 70% 45% at 50% 30%, rgba(196, 18, 42, .55), transparent 70%),
+      radial-gradient(ellipse 120% 90% at 50% 40%, var(--maroon) 0%, var(--maroon-deep) 55%, var(--maroon-ink) 100%);
+    color: var(--cream);
+    font-family: Karla, sans-serif;
+  }
+
+  /* Answer-sheet bubbles: the EST motif, fading into the dark */
+  .bubbles { position: absolute; inset: 0; opacity: .55;
+    -webkit-mask-image: radial-gradient(ellipse 75% 60% at 50% 36%, transparent 55%, rgba(0,0,0,.9) 100%); }
+  .vignette { position: absolute; inset: 0; background: radial-gradient(ellipse 85% 75% at 50% 42%, transparent 55%, rgba(20,0,4,.55) 100%); }
+
+  /* Film grain for a printed, non-digital finish */
+  .grain { position: absolute; inset: 0; opacity: .16; mix-blend-mode: overlay; }
+
+  /* Soft light sweep */
+  .sweep { position: absolute; inset: -200px; background:
+      linear-gradient(115deg, transparent 38%, rgba(255,235,210,.07) 48%, transparent 58%); }
+
+  /* Top bar */
+  .top { position: absolute; top: 64px; left: 72px; right: 72px;
+    display: flex; justify-content: space-between; align-items: center; }
+  .logo { display: flex; flex-direction: column; line-height: 1; }
+  .logo .w1 { font-family: Playfair; font-weight: 900; font-size: 40px; letter-spacing: .04em; }
+  .logo .w2 { font-weight: 800; font-size: 17px; letter-spacing: .52em; margin-top: 6px; color: var(--gold); }
+  .tag { font-weight: 700; font-size: 18px; letter-spacing: .28em; text-transform: uppercase;
+    padding: 12px 22px; border: 1.5px solid rgba(244,235,221,.35); border-radius: 100px; }
+
+  /* Focal point */
+  .hero { position: absolute; top: 236px; left: 0; right: 0; text-align: center; }
+  .est { font-family: Playfair; font-weight: 900; font-size: 300px; line-height: .9; letter-spacing: -.01em;
+    color: var(--cream);
+    text-shadow:
+      0 2px 0 #d9ccb7, 0 4px 0 #b9a88f, 0 6px 0 #8e7a60,
+      0 22px 40px rgba(20,0,4,.65), 0 60px 90px rgba(20,0,4,.55); }
+  .est .ii { font-style: italic; font-weight: 600; color: var(--gold); margin-left: 18px;
+    text-shadow: 0 3px 0 #8f7337, 0 22px 40px rgba(20,0,4,.6); }
+
+  .rw { margin-top: 26px; display: flex; align-items: center; justify-content: center; gap: 28px; }
+  .rw .rule { width: 90px; height: 2px; background: linear-gradient(90deg, transparent, var(--gold)); }
+  .rw .rule.r { transform: scaleX(-1); }
+  .rw h2 { font-weight: 800; font-size: 58px; letter-spacing: .3em; margin-right: -.3em; }
+
+  .rpp { margin-top: 26px; font-family: Playfair; font-style: italic; font-weight: 600;
+    font-size: 40px; color: rgba(244,235,221,.82); letter-spacing: .01em; }
+  .rpp b { color: var(--gold); font-weight: 600; }
+
+  /* Urgency card */
+  .card { position: absolute; left: 72px; right: 72px; top: 812px; height: 250px;
+    background: linear-gradient(180deg, #FBF5EC, var(--cream));
+    border-radius: 28px; color: var(--maroon);
+    box-shadow: 0 30px 60px rgba(20,0,4,.55), 0 2px 0 rgba(255,255,255,.6) inset;
+    display: flex; align-items: center; padding: 0 56px; gap: 44px; }
+  .cal { flex: none; width: 150px; height: 164px; border-radius: 18px; overflow: hidden;
+    background: #fff; box-shadow: 0 10px 24px rgba(74,0,11,.18); text-align: center; }
+  .cal .m { background: var(--maroon); color: var(--cream); font-weight: 800;
+    font-size: 20px; letter-spacing: .3em; padding: 14px 0 12px; }
+  .cal .d { font-family: Playfair; font-weight: 900; font-size: 74px; line-height: 104px; }
+  .when { display: flex; flex-direction: column; }
+  .when .k { font-weight: 800; font-size: 22px; letter-spacing: .34em; color: rgba(139,2,20,.7); }
+  .when .v { font-family: Playfair; font-weight: 900; font-size: 84px; line-height: 1; margin-top: 8px; letter-spacing: -.005em; }
+  .when .slot { margin-top: 14px; font-weight: 800; font-size: 24px; letter-spacing: .12em; color: var(--maroon-deep); }
+  .when .slot.placeholder { display: inline-block; padding: 6px 14px; border: 2px dashed rgba(139,2,20,.45);
+    border-radius: 10px; color: rgba(139,2,20,.6); align-self: flex-start; }
+
+  /* CTA */
+  .cta-row { position: absolute; left: 72px; right: 72px; bottom: 92px;
+    display: flex; justify-content: space-between; align-items: center; }
+  .cta { display: inline-flex; align-items: center; gap: 22px; background: linear-gradient(180deg, #B40A22, #8B0214);
+    color: var(--cream); font-weight: 800; font-size: 32px; letter-spacing: .16em;
+    padding: 30px 44px; border-radius: 100px; border: 2px solid rgba(201,164,92,.7);
+    box-shadow: 0 0 0 8px rgba(201,164,92,.12), 0 18px 40px rgba(20,0,4,.6), 0 1px 0 rgba(255,255,255,.3) inset; }
+  .cta .arrow { width: 46px; height: 46px; border-radius: 50%; background: var(--cream);
+    display: grid; place-items: center; }
+  .limited { text-align: right; font-weight: 700; font-size: 20px; letter-spacing: .24em;
+    color: rgba(244,235,221,.75); line-height: 1.6; text-transform: uppercase; }
+  .limited span { color: var(--gold); }
+</style>
+</head>
+<body>
+<div class="post">
+  <svg class="bubbles" width="1080" height="1350" aria-hidden="true">
+    <defs>
+      <pattern id="bub" width="60" height="60" patternUnits="userSpaceOnUse">
+        <circle cx="30" cy="30" r="15" fill="none" stroke="#F4EBDD" stroke-opacity=".13" stroke-width="1.6"/>
+      </pattern>
+    </defs>
+    <rect width="1080" height="1350" fill="url(#bub)"/>
+    <!-- a few answered bubbles -->
+    <g fill="#F4EBDD" fill-opacity=".18">
+      <circle cx="90" cy="630" r="15"/><circle cx="990" cy="570" r="15"/>
+      <circle cx="150" cy="750" r="15"/><circle cx="930" cy="750" r="15"/>
+      <circle cx="30" cy="210" r="15"/><circle cx="1050" cy="330" r="15"/>
+    </g>
+  </svg>
+  <svg class="grain" width="1080" height="1350" aria-hidden="true">
+    <filter id="n"><feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="3" stitchTiles="stitch"/></filter>
+    <rect width="100%" height="100%" filter="url(#n)"/>
+  </svg>
+  <div class="sweep"></div>
+  <div class="vignette"></div>
+
+  <div class="top">
+    <!-- STAND-IN: replace with the official Success4Sure logo file -->
+    <div class="logo"><span class="w1">SUCCESS</span><span class="w2">4 SURE</span></div>
+    <div class="tag">Khalda Branch</div>
+  </div>
+
+  <div class="hero">
+    <div class="est">EST<span class="ii">II</span></div>
+    <div class="rw"><span class="rule"></span><h2>REVISION WEEK</h2><span class="rule r"></span></div>
+    <div class="rpp">Review<b>.</b> Practice<b>.</b> Prepare<b>.</b></div>
+  </div>
+
+  <div class="card">
+    <div class="cal"><div class="m">SAT</div><div class="d" id="calday">01</div></div>
+    <div class="when">
+      <span class="k">STARTING</span>
+      <span class="v">This Saturday</span>
+      <span class="slot" id="slot"></span>
+    </div>
+  </div>
+
+  <div class="cta-row">
+    <div class="cta">REGISTER NOW
+      <span class="arrow"><svg width="22" height="22" viewBox="0 0 24 24"><path d="M4 12h15M13 5l7 7-7 7" fill="none" stroke="#8B0214" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+    </div>
+    <div class="limited">Your plan<br><span>before the exam</span></div>
+  </div>
+</div>
+<script>
+  // Variants via URL: ?date=3%20OCT&time=4:00%20PM  or  ?slot=placeholder
+  const p = new URLSearchParams(location.search);
+  const slot = document.getElementById('slot');
+  const cal = document.getElementById('calday');
+  if (p.get('date')) {
+    const [day, mon] = p.get('date').split(' ');
+    cal.textContent = day; document.querySelector('.cal .m').textContent = 'SAT · ' + (mon || '');
+    slot.textContent = [p.get('date'), p.get('time')].filter(Boolean).join('  ·  ');
+  } else if (p.get('slot') === 'placeholder') {
+    cal.textContent = '??'; slot.textContent = 'DATE  ·  TIME  —  TO CONFIRM'; slot.classList.add('placeholder');
+  } else {
+    // Clean version: no date shown; calendar shows a check mark instead of a number
+    cal.innerHTML = '<svg width="64" height="64" viewBox="0 0 24 24" style="margin-top:20px"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="#8B0214" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+  }
+</script>
+</body>
+</html>
