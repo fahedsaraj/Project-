@@ -83,7 +83,8 @@ EST II is a bubble-sheet exam. The background is a faint answer sheet, with a fe
 | 4 | Brand colour hex / fonts | Sampled from the website; confirm |
 
 ## Revision 3 (2026-09-27): FINAL
-- **Fahed approved V1** ("v1 is perfect").
-- Added the registration number from Fahed: **+962 79 055 5890** (given as 00962790555890; spaced for readability). It sits next to the CTA with the label "CALL TO REGISTER" and a phone icon, replacing the "Your plan before the exam" line.
-- Final file: `FINAL_EST_II_Revision_Week_27SEP_1080x1350.png`
+- **Fahed approved V2 (modern direction).** An earlier message said "v1"; he corrected it to V2.
+- Added the registration number from Fahed: **+962 79 055 5890** (given as 00962790555890; spaced for readability). It sits directly under the REGISTER NOW button with a small red "CALL" label. Nothing else changed.
+- V1 left as it was at rev 2, for reference.
+- Final file: `FINAL_EST_II_Revision_Week_V2_27SEP_1080x1350.png`
 - Still open: 27 Sep 2026 falls on a Sunday; confirm with the client. The logo is a typeset stand-in until they send the official file.
