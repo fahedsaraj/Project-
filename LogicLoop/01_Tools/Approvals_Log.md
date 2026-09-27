@@ -17,7 +17,7 @@ Every proposal waiting on Fahed, and every decision he makes. Omar maintains it.
 | 15 | 2026-09-25 | Review automation plan v1 | Yousef | Pending |
 | 21 | 2026-09-26 | Launch designs: carousels posts 3/6/8, 4 highlight covers, profile picture (`04_Projects/Agency_Page_Launch/Designs/`) | Sara | Pending |
 | 22 | 2026-09-26 | Post 8 wording fix: shoot days → half-days to match approved tiers | Sara/Kareem | Pending |
-| 23 | 2026-09-27 | Success4Sure Khalda test post: EST II Revision Week (`04_Projects/Clients/Success4Sure_Khalda/EST_II_Revision_Week/`). Needs start date/time, official logo, registration route | Sara/Kareem (Noor) | Pending |
+| 23 | 2026-09-27 | Success4Sure Khalda test post rev 2: V1 original + V2 modern, dated 27 SEPTEMBER (`04_Projects/Clients/Success4Sure_Khalda/EST_II_Revision_Week/`). Pick a version; confirm date (27 Sep 2026 is a Sunday), official logo, registration route | Sara/Kareem (Noor) | Pending |
 
 ## Decided
 | Date | Item | Decision |

@@ -1,8 +1,14 @@
 # Success4Sure Academy (Khalda): EST II Revision Week
+
+## Revision 2 (2026-09-27, Fahed's notes)
+- **Date:** "This Saturday" replaced with **27 SEPTEMBER** on both versions, as instructed. ⚠ 27 September 2026 is a **Sunday** (today). Confirm the date before publishing; it's a one-line change in either source file.
+- **V1: Original direction.** Same layout; the date card now reads SEP / 27 + "STARTS 27 SEPTEMBER".
+- **V2: Modern direction.** Near-black maroon field lit by one brand-red key light (top right) and a low fill (bottom left). Left-aligned editorial grid, 96 px margins. Hierarchy: **EST** (Inter Tight ExtraBold, cream) + **II** (Instrument Serif Roman numeral, lit brand red) → *Revision Week* (Instrument Serif Italic) → STARTS label → frosted date panel: **27** (Inter Tight Light, 196 px) | **SEPTEMBER** → Review. / Practice. / Prepare. (fading steps) + cream REGISTER NOW pill. No icons, pattern, or extra copy; only the core message, the logo stand-in, and "Khalda".
+
 **Test task, prospective client** · 2026-09-27 · Sara (design) + Kareem (copy), coordinated by Noor
 **Status:** Proposal. Needs Fahed's approval before it goes to the client.
 
-Files: `EST_II_Revision_Week_1080x1350.png` (clean) · `EST_II_Revision_Week_date-slot.png` (date/time slot shown) · `post.html` (editable source; `?date=3%20OCT&time=4:00%20PM` fills in the date)
+Files (rev 2): `V1_Original_EST_II_27SEP_1080x1350.png` (source `post.html`) · `V2_Modern_EST_II_27SEP_1080x1350.png` (source `post_v2.html`)
 
 ---
 
@@ -71,7 +77,7 @@ EST II is a bubble-sheet exam. The background is a faint answer sheet, with a fe
 ## Flags: do not publish until confirmed
 | # | Missing | Where it goes |
 |---|---|---|
-| 1 | **Exact start date and time** | Date line on the card (the template is ready) |
+| 1 | **Date check** (27 Sep = Sunday) and **start time** if wanted | Date card / panel |
 | 2 | **Official logo file** (SVG/PNG) | Top-left; the current mark is a typeset stand-in |
 | 3 | **Registration route** (WhatsApp / link / call) | Caption and optional line under the CTA. A number appeared in our research, but it is unverified, so we did not use it |
 | 4 | Brand colour hex / fonts | Sampled from the website; confirm |

@@ -19,6 +19,7 @@
     --gold: #C9A45C;        /* muted gold accent, used sparingly */
   }
   * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-variant-numeric: lining-nums; }
   html, body { width: 1080px; height: 1350px; background: var(--maroon-ink); }
 
   .post {
@@ -80,10 +81,10 @@
     background: #fff; box-shadow: 0 10px 24px rgba(74,0,11,.18); text-align: center; }
   .cal .m { background: var(--maroon); color: var(--cream); font-weight: 800;
     font-size: 20px; letter-spacing: .3em; padding: 14px 0 12px; }
-  .cal .d { font-family: Playfair; font-weight: 900; font-size: 74px; line-height: 104px; }
+  .cal .d { font-family: Playfair; font-weight: 900; font-size: 84px; line-height: 110px; }
   .when { display: flex; flex-direction: column; }
   .when .k { font-weight: 800; font-size: 22px; letter-spacing: .34em; color: rgba(139,2,20,.7); }
-  .when .v { font-family: Playfair; font-weight: 900; font-size: 84px; line-height: 1; margin-top: 8px; letter-spacing: -.005em; }
+  .when .v { font-family: Playfair; font-weight: 900; font-size: 78px; line-height: 1; margin-top: 8px; letter-spacing: -.005em; }
   .when .slot { margin-top: 14px; font-weight: 800; font-size: 24px; letter-spacing: .12em; color: var(--maroon-deep); }
   .when .slot.placeholder { display: inline-block; padding: 6px 14px; border: 2px dashed rgba(139,2,20,.45);
     border-radius: 10px; color: rgba(139,2,20,.6); align-self: flex-start; }
@@ -138,11 +139,10 @@
   </div>
 
   <div class="card">
-    <div class="cal"><div class="m">SAT</div><div class="d" id="calday">01</div></div>
+    <div class="cal"><div class="m">SEP</div><div class="d">27</div></div>
     <div class="when">
-      <span class="k">STARTING</span>
-      <span class="v">This Saturday</span>
-      <span class="slot" id="slot"></span>
+      <span class="k">STARTS</span>
+      <span class="v">27 SEPTEMBER</span>
     </div>
   </div>
 
@@ -153,21 +153,5 @@
     <div class="limited">Your plan<br><span>before the exam</span></div>
   </div>
 </div>
-<script>
-  // Variants via URL: ?date=3%20OCT&time=4:00%20PM  or  ?slot=placeholder
-  const p = new URLSearchParams(location.search);
-  const slot = document.getElementById('slot');
-  const cal = document.getElementById('calday');
-  if (p.get('date')) {
-    const [day, mon] = p.get('date').split(' ');
-    cal.textContent = day; document.querySelector('.cal .m').textContent = 'SAT · ' + (mon || '');
-    slot.textContent = [p.get('date'), p.get('time')].filter(Boolean).join('  ·  ');
-  } else if (p.get('slot') === 'placeholder') {
-    cal.textContent = '??'; slot.textContent = 'DATE  ·  TIME  —  TO CONFIRM'; slot.classList.add('placeholder');
-  } else {
-    // Clean version: no date shown; calendar shows a check mark instead of a number
-    cal.innerHTML = '<svg width="64" height="64" viewBox="0 0 24 24" style="margin-top:20px"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="#8B0214" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>';
-  }
-</script>
 </body>
 </html>
