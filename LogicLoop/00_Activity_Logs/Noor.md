@@ -20,3 +20,6 @@
 - Correction: Fahed meant V2. V1 restored; number added to V2; final re-exported.
 - Rev 4: three V2 variations (Ivory, Brand Red, Split) for Fahed to pick (#24).
 - Fahed corrected me: the Success4Sure design was Sara's work, not mine. Handed off as H-008; lesson saved (feedback_noor_dispatch.md).
+
+## 2026-09-28
+- Fahed asked for a 'hurry, register' Story for Success4Sure. Dispatched: H-009 Kareem (copy), H-010 Sara (design). H-008 still open. Flagged date: post says 27 Sep, already passed.
