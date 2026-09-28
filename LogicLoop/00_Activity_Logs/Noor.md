@@ -25,3 +25,4 @@
 - Fahed asked for a 'hurry, register' Story for Success4Sure. Dispatched: H-009 Kareem (copy), H-010 Sara (design). H-008 still open. Flagged date: post says 27 Sep, already passed.
 - Fahed chose Story angle C: started 27 Sep, joining still open. H-009/H-010 updated; client confirmation of late joining flagged.
 - Fahed: 'do it you for now' — Noor made the Success4Sure Story herself (H-009/H-010 closed, Sara/Kareem to review). Approval #25.
+- Story V2 'Quick Check' (checklist hook) made at Fahed's request; approval #26.

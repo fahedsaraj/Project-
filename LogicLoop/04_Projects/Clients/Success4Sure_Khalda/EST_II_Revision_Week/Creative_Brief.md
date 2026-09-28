@@ -110,3 +110,15 @@ Made by Noor at Fahed's request (Sara/Kareem hand-offs H-009/H-010 closed; they 
 - Top 250 px and bottom ~320 px kept clear for Instagram UI. Suggested: add a **WhatsApp or link sticker** in the lower empty area when posting.
 - Urgency comes only from the facts (already running, joining open). No scarcity claims.
 - Flags: client confirms late joining; logo stand-in.
+
+## Story V2 (2026-09-28): "Quick Check", marketing-led alternative
+Made by Noor at Fahed's request ("make another idea, make it as a marketing"). Source `story_v2.html` → `STORY_V2_EST_II_QuickCheck_1080x1920.png`. Ivory background, same type system as the post.
+| Element | Copy |
+|---|---|
+| Hook | Are you *ready* for EST II? |
+| Checklist (empty boxes) | Reviewed every topic? · Practiced enough questions? · Know your weak points? · Have a clear plan? |
+| Answer | Not yet? *That's what Revision Week is for.* |
+| Arabic (Jordanian) | لسّا مش جاهز؟ هاد الأسبوع إلك |
+| CTA | REGISTER NOW · Running now · Joining still open · +962 79 055 5890 |
+- The checklist lines come from Fahed's brief (review, practice, weak points, clear plan). No invented claims.
+- Posting tip: add an IG **poll sticker** ("Ready? Yes / Not yet") beside the checklist to drive replies.
