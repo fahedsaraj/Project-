@@ -60,3 +60,4 @@ Every proposal waiting on Fahed, and every decision he makes. Omar maintains it.
 | 2026-09-26 | Sara next steps (fonts, profile export, highlights, carousels 3/6/8) | Approved — drafts |
 | 2026-09-27 | Success4Sure Khalda test post (EST II Revision Week) | **Approved: V2 (modern)** (corrected from V1), dated 27 SEPTEMBER, registration number +962 79 055 5890 added under the CTA. Final: `04_Projects/Clients/Success4Sure_Khalda/EST_II_Revision_Week/FINAL_EST_II_Revision_Week_V2_27SEP_1080x1350.png`. Open: date is a Sunday; logo stand-in. |
 | 24 | 2026-09-27 | Success4Sure V2 variations: Ivory / Brand Red / Split (same copy + number) — pick one or keep V2 final | Sara (Noor) | Pending |
+| 2026-09-28 | Success4Sure Story angle | **Already started (27 Sep), joining still open.** Client to confirm late joining is accepted before the Story is sent. |
