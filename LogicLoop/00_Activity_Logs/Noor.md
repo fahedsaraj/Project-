@@ -28,3 +28,4 @@
 - Story V2 'Quick Check' (checklist hook) made at Fahed's request; approval #26.
 - Digital SAT Nov post (teachers Ms. Sara Abd El Raheem / Mr. Naseem Al Labadi), made at Fahed's request; Sara's photo background removed with rembg. Approval #27. Flags: 11/10 date reading, Naseem subject.
 - SAT post version 2 with an AI-generated library background (ElevenLabs, ~818 credits).
+- Caption (EN + Jordanian AR) for the Digital SAT post: Digital_SAT_Nov/Caption.md.
