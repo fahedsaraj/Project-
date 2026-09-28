@@ -27,3 +27,9 @@ A teacher-led launch post. People sign up for people, so the two teachers are th
 | 2 | **Mr. Naseem = MATH is an assumption** | Fahed named Ms. Sara for English only. The SAT has two sections (Reading & Writing, Math), and Mr. Naseem appears on their grid with math content, but this is not confirmed. |
 | 3 | Photo use | The client supplied the photos. Confirm both teachers are OK with them appearing in ads. |
 | 4 | Logo | Typeset stand-in until the official file arrives. |
+
+## Version 2: with background (2026-09-28)
+Fahed asked for "another version with background". Source `post_bg.html` → `DigitalSAT_Nov_Teachers_Background_1080x1350.png`.
+- **Background:** AI-generated photo plate (ElevenLabs, model `bytedance-seedream-5-pro`, ~818 credits ≈ USD 0.08): a soft-focus library/study hall, graded maroon. No people, no text, no real location. File `assets/bg_studyhall.jpg`. Flow: https://elevenlabs.io/app/flows/aCh6E5kitAn90qjytm2R
+- **Layout:** the teachers stand directly on the scene as large cut-outs (no cards), names at their feet, same headline, date chips and CTA as version 1.
+- Same flags as version 1 (11/10 reading, Mr. Naseem = Math, photo use, logo).
