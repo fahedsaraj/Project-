@@ -19,6 +19,7 @@ Every proposal waiting on Fahed, and every decision he makes. Omar maintains it.
 | 22 | 2026-09-26 | Post 8 wording fix: shoot days → half-days to match approved tiers | Sara/Kareem | Pending |
 | 25 | 2026-09-28 | Success4Sure Story 1080×1920 "Joining is still open" (`04_Projects/Clients/Success4Sure_Khalda/EST_II_Revision_Week/STORY_EST_II_JoiningOpen_1080x1920.png`). Client to confirm late joining is accepted | Noor (Fahed asked) | Pending |
 | 26 | 2026-09-28 | Success4Sure Story V2 "Quick Check" (marketing-led alternative) — pick Story 1, Story 2, or both | Noor (Fahed asked) | Pending |
+| 27 | 2026-09-28 | Success4Sure Digital SAT Nov post "Meet your teachers" (`04_Projects/Clients/Success4Sure_Khalda/Digital_SAT_Nov/`). Confirm: 11/10 = 11 Oct; Mr. Naseem = Math | Noor (Fahed asked) | Pending |
 | 23 | 2026-09-28 | 5 stories for highlights (`Designs/Stories/`); confirm hours to show (10–6 vs 12–20) | Sara | Pending |
 
 ## Decided

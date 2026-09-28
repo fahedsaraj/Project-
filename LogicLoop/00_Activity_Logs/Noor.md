@@ -26,3 +26,4 @@
 - Fahed chose Story angle C: started 27 Sep, joining still open. H-009/H-010 updated; client confirmation of late joining flagged.
 - Fahed: 'do it you for now' — Noor made the Success4Sure Story herself (H-009/H-010 closed, Sara/Kareem to review). Approval #25.
 - Story V2 'Quick Check' (checklist hook) made at Fahed's request; approval #26.
+- Digital SAT Nov post (teachers Ms. Sara Abd El Raheem / Mr. Naseem Al Labadi), made at Fahed's request; Sara's photo background removed with rembg. Approval #27. Flags: 11/10 date reading, Naseem subject.
