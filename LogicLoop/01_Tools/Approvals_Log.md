@@ -17,6 +17,7 @@ Every proposal waiting on Fahed, and every decision he makes. Omar maintains it.
 | 15 | 2026-09-25 | Review automation plan v1 | Yousef | Pending |
 | 21 | 2026-09-26 | Launch designs: carousels posts 3/6/8, 4 highlight covers, profile picture (`04_Projects/Agency_Page_Launch/Designs/`) | Sara | Pending |
 | 22 | 2026-09-26 | Post 8 wording fix: shoot days → half-days to match approved tiers | Sara/Kareem | Pending |
+| 23 | 2026-09-28 | 5 stories for highlights (`Designs/Stories/`); confirm hours to show (10–6 vs 12–20) | Sara | Pending |
 
 ## Decided
 | Date | Item | Decision |

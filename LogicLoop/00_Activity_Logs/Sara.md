@@ -28,3 +28,7 @@
 - Caught a copy error in post 8: "يومين/٤ أيام تصوير" vs approved 2/4 half-days. Designed with corrected wording, flagged to Kareem (new hand-off) and Fahed (#22).
 - Blocked: Canva font setting isn't possible through the connector, and file upload to Canva is blocked by the network (www.canva.com). PNG masters delivered instead.
 - Next: Fahed reviews designs. Carousels for posts 1/2/9 need Fahed's photos first.
+
+## 2026-09-28
+- Fahed: "where is the story?" Only the highlight covers existed, with no story content. Made 5 stories (intro, work template, how we work, packages, contact) in `04_Projects/Agency_Page_Launch/Designs/Stories/`.
+- Open question for Fahed: which hours to show (greeting says 10–6, availability is 12–20).
