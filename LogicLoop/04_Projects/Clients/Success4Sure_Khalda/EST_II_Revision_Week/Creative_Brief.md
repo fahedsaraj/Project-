@@ -96,3 +96,17 @@ Same copy, date, and number as the V2 final; only colour and layout change. Sour
 | `V2a_Ivory_…png` | Daylight academic: ivory field, near-black EST, red serif II and *Revision Week*, white date card, red CTA |
 | `V2b_BrandRed_…png` | Full Success4Sure red, lit from the top right; cream EST with a dark maroon II; dark glass date panel |
 | `V2c_Split_…png` | Dark headline block over a solid brand-red block holding a larger date (27 at 230 px) and the CTA |
+
+## Story (2026-09-28): "Joining is still open"
+Made by Noor at Fahed's request (Sara/Kareem hand-offs H-009/H-010 closed; they review when free). Source `story.html` → `STORY_EST_II_JoiningOpen_1080x1920.png`. Same system as the V2 final.
+| Element | Copy |
+|---|---|
+| Header | SUCCESS / 4 SURE · KHALDA |
+| Title | EST II · *Revision Week* |
+| Status pill (live dot) | NOW RUNNING · SINCE 27 SEP |
+| Focal message | Joining is / **still open.** |
+| Arabic (Jordanian) | بلّشنا… والتسجيل لسّا مفتوح |
+| CTA | REGISTER NOW → · CALL +962 79 055 5890 |
+- Top 250 px and bottom ~320 px kept clear for Instagram UI. Suggested: add a **WhatsApp or link sticker** in the lower empty area when posting.
+- Urgency comes only from the facts (already running, joining open). No scarcity claims.
+- Flags: client confirms late joining; logo stand-in.
