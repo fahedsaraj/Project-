@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="utf-8">
+<title>Ad B — Everything on our page — dark 1080x1350</title>
+<style>
+  @font-face { font-family: IT; font-weight: 500; src: url(fonts/InterTight-500.ttf); }
+  @font-face { font-family: IT; font-weight: 700; src: url(fonts/InterTight-700.ttf); }
+  @font-face { font-family: IT; font-weight: 800; src: url(fonts/InterTight-800.ttf); }
+  @font-face { font-family: Playfair; font-weight: 900; src: url(fonts/Playfair-900.ttf); }
+  @font-face { font-family: Cairo; font-weight: 700; src: url(fonts/Cairo-700.ttf); }
+  @font-face { font-family: Cairo; font-weight: 900; src: url(fonts/Cairo-900.ttf); }
+
+  :root { --brand: #8B0214; --lit: #C8102E; --ink: #1E0A0C; --paper: #F7F1E7; --cream: #FFFDF8;
+    --muted: rgba(30,10,12,.6); --hair: rgba(30,10,12,.14); --m: 88px; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1080px; height: 1350px; background: var(--paper); }
+  .c { position: relative; width: 1080px; height: 1350px; overflow: hidden; background: var(--paper); color: var(--ink); font-family: IT, sans-serif; }
+  .glow  { position: absolute; width: 1300px; height: 1300px; right: -640px; top: -660px; border-radius: 50%;
+           background: radial-gradient(circle, rgba(200,16,46,.20), rgba(200,16,46,.05) 45%, transparent 68%); }
+  .glow2 { position: absolute; width: 1200px; height: 1200px; left: -700px; bottom: -600px; border-radius: 50%;
+           background: radial-gradient(circle, rgba(139,2,20,.14), transparent 66%); }
+  .grain { position: absolute; inset: 0; opacity: .06; mix-blend-mode: multiply; }
+
+  .head { position: absolute; top: 64px; left: var(--m); right: var(--m); display: flex; justify-content: space-between; align-items: flex-end;
+    padding-bottom: 20px; border-bottom: 1px solid var(--hair); }
+  .logo { line-height: 1; color: var(--brand); }
+  .logo .w1 { font-family: Playfair; font-weight: 900; font-size: 32px; letter-spacing: .04em; display: block; }
+  .logo .w2 { font-weight: 700; font-size: 13px; letter-spacing: .6em; margin-top: 7px; display: block; color: var(--muted); }
+  .head .k { font-weight: 700; font-size: 15px; letter-spacing: .32em; color: var(--muted); }
+
+  /* Hook */
+  .hl { position: absolute; top: 160px; left: var(--m); right: var(--m); text-align: center; direction: rtl;
+    font-family: Cairo; font-weight: 900; font-size: 84px; line-height: 1.14; white-space: nowrap; }
+  .hl .dim { color: rgba(30,10,12,.42); }
+  .hl .mark { position: relative; display: inline-block; color: var(--cream); padding: 0 .2em; z-index: 0; }
+  .hl .mark::before { content: ''; position: absolute; inset: .14em 0 .04em; background: var(--brand); border-radius: .18em; transform: rotate(-1.5deg); z-index: -1;
+    box-shadow: 0 14px 30px rgba(139,2,20,.28); }
+  .en { position: absolute; top: 368px; left: var(--m); right: var(--m); text-align: center; font-weight: 700; font-size: 30px; color: var(--muted); }
+  .en b { color: var(--lit); }
+
+  /* Phone */
+  .phone { position: absolute; top: 440px; left: 50%; width: 560px; height: 760px; margin-left: -280px; border-radius: 64px;
+    background: #111; padding: 16px; box-shadow: 0 50px 90px rgba(74,0,11,.28), 0 0 0 2px #2b2b2b inset; transform: rotate(-3deg); }
+  .screen { position: relative; width: 100%; height: 100%; border-radius: 50px; overflow: hidden; background: #fff; }
+  .notch { position: absolute; top: 12px; left: 50%; width: 130px; height: 34px; margin-left: -65px; border-radius: 20px; background: #111; z-index: 3; }
+  .sbar { height: 58px; }
+  .prof { display: flex; align-items: center; gap: 22px; padding: 6px 26px 14px; }
+  .av { flex: none; width: 104px; height: 104px; border-radius: 50%; padding: 4px;
+    background: conic-gradient(from 200deg, #FEDA75, #FA7E1E, #D62976, #962FBF, #4F5BD5, #FEDA75); }
+  .av div { width: 100%; height: 100%; border-radius: 50%; background: var(--brand); border: 4px solid #fff; display: grid; place-items: center;
+    color: #fff; font-family: Playfair; font-weight: 900; font-size: 17px; letter-spacing: .04em; line-height: 1; text-align: center; }
+  .av div small { display: block; font-family: IT; font-weight: 700; font-size: 8px; letter-spacing: .4em; margin-top: 3px; }
+  .who .h { font-weight: 800; font-size: 25px; color: #111; }
+  .who .b { font-weight: 500; font-size: 19px; color: #555; margin-top: 4px; }
+  .btns { display: flex; gap: 10px; padding: 0 26px 16px; }
+  .btns div { flex: 1; height: 42px; border-radius: 10px; background: #EFEFEF; display: grid; place-items: center; font-weight: 700; font-size: 17px; color: #111; }
+  .btns div.p { background: #0095F6; color: #fff; }
+  .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 3px; }
+  .grid img { width: 100%; aspect-ratio: 4/5; object-fit: cover; display: block; }
+
+  /* Tap cue on the handle */
+  .tag { position: absolute; top: 418px; right: 52px; z-index: 6; transform: rotate(3deg); background: var(--ink); color: var(--cream);
+    font-weight: 800; font-size: 26px; padding: 16px 24px; border-radius: 18px; box-shadow: 0 18px 36px rgba(30,10,12,.3); }
+  .tag::after { content: ''; position: absolute; left: 30px; bottom: -12px; border: 12px solid transparent; border-top-color: var(--ink); border-bottom: 0; }
+  .tag span { color: #FF8A96; }
+
+  /* CTA */
+  .cta { position: absolute; left: var(--m); right: var(--m); bottom: 64px; height: 118px; border-radius: 100px;
+    display: flex; align-items: center; justify-content: space-between; padding: 0 22px 0 44px;
+    background: linear-gradient(180deg, #A0051B, var(--brand)); color: var(--cream); box-shadow: 0 24px 50px rgba(139,2,20,.35); z-index: 5; }
+  .cta .t { font-weight: 800; font-size: 30px; letter-spacing: .14em; }
+  .cta .a { direction: rtl; font-family: Cairo; font-weight: 900; font-size: 36px; background: var(--cream); color: var(--brand);
+    padding: 12px 30px 16px; border-radius: 100px; }
+  .fade { position: absolute; left: 0; right: 0; bottom: 0; height: 300px; background: linear-gradient(180deg, transparent, var(--paper) 62%); z-index: 4; }
+
+  .c { background: #120204; color: #F6EEE2; }
+  body, html { background: #120204; }
+  .glow  { background: radial-gradient(circle, rgba(200,16,46,.75), rgba(139,2,20,.3) 40%, transparent 66%); }
+  .glow2 { background: radial-gradient(circle, rgba(139,2,20,.45), transparent 66%); }
+  .grain { opacity: .12; mix-blend-mode: overlay; }
+  .logo { color: #F6EEE2; } .logo .w2, .head .k { color: rgba(246,238,226,.62); }
+  .head { border-bottom-color: rgba(246,238,226,.16); }
+  .hl .dim { color: rgba(246,238,226,.55); }
+  .hl .mark { color: #fff; } .hl .mark::before { background: #C8102E; box-shadow: 0 14px 34px rgba(200,16,46,.45); }
+  .en { color: rgba(246,238,226,.66); } .en b { color: #FF8A96; }
+  .phone { box-shadow: 0 50px 100px rgba(0,0,0,.6), 0 0 0 2px #3a3a3a inset, 0 0 80px rgba(200,16,46,.25); }
+  .tag { background: #F6EEE2; color: #1E0A0C; } .tag::after { border-top-color: #F6EEE2; } .tag span { color: #C8102E; }
+  .fade { background: linear-gradient(180deg, transparent, #120204 62%); }
+  .cta { background: #F6EEE2; color: #8B0214; box-shadow: 0 24px 50px rgba(0,0,0,.5); }
+  .cta .a { background: #8B0214; color: #F6EEE2; }
+
+</style>
+</head>
+<body>
+<div class="c">
+  <div class="glow"></div><div class="glow2"></div>
+  <svg class="grain" width="1080" height="1350" aria-hidden="true">
+    <filter id="n"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="3" stitchTiles="stitch"/></filter>
+    <rect width="100%" height="100%" filter="url(#n)"/>
+  </svg>
+
+  <div class="head">
+    <!-- STAND-IN: replace with the official Success4Sure logo file -->
+    <div class="logo"><span class="w1">SUCCESS</span><span class="w2">4 SURE</span></div>
+    <div class="k">EST II · SAT · AP</div>
+  </div>
+
+  <div class="hl"><div class="dim">كل اللي بدك تعرفه…</div><div>موجود على <span class="mark">صفحتنا</span></div></div>
+  <div class="en">Everything you need to know is <b>on our page.</b></div>
+
+  <div class="phone"><div class="screen">
+    <div class="notch"></div><div class="sbar"></div>
+    <div class="prof">
+      <div class="av"><div>S4S<small>KHALDA</small></div></div>
+      <div class="who"><div class="h">success4sure_khalda</div><div class="b">AP · EST II · SAT · Khalda</div></div>
+    </div>
+    <div class="btns"><div class="p">Follow</div><div>Message</div></div>
+    <div class="grid">
+      <img src="tiles/t3.jpg" alt=""><img src="tiles/t2.jpg" alt=""><img src="tiles/t1.jpg" alt="">
+      <img src="tiles/t6.jpg" alt=""><img src="tiles/t4.jpg" alt=""><img src="tiles/t5.jpg" alt="">
+    </div>
+  </div></div>
+
+  <div class="tag">@<span>success4sure</span>_khalda</div>
+  <div class="fade"></div>
+
+  <div class="cta"><span class="t">VISIT OUR PAGE</span><span class="a">زور صفحتنا ←</span></div>
+</div>
+</body>
+</html>

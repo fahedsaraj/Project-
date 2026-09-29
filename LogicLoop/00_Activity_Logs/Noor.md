@@ -36,3 +36,4 @@
 - Offer post + Story (Fahed's headline 'احكي معنا قبل 1/10 و احصل على خصمك'), light background, coupon visual (approval #30). Flag: no discount amount/terms; deadline is tomorrow.
 - Fahed: 'Prefect' on the offer designs; coupon now 3 lines: EST II Revision / AP (Advanced Placement) / Digital SAT.
 - Meta ad concept + design 'Don't take our word for it — see our page' (phone grid mock), ad copy, proposed setup + JOD 35 test budget (approval #31).
+- Ad versions: Story 9:16, Square 1:1, and dark Version B with a new hook for A/B testing (approval #32).

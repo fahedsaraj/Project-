@@ -30,3 +30,14 @@ The visual is a phone showing their Instagram grid (our Success4Sure designs). A
 1. **Run it only after the grid shows the new posts.** The ad promises "see our page"; if the real page looks different, the promise breaks. The phone grid uses our designs.
 2. The avatar "S4S KHALDA" and the logo are stand-ins; swap in the official logo.
 3. Budget, targeting, and running the ad are **proposals**: Fahed approves, and the client pays the ad spend.
+
+## More versions (2026-09-29)
+| File | Format / placement | Notes |
+|---|---|---|
+| `AD_SeeOurPage_1080x1350.png` | 4:5 Feed (IG + FB) | Version A, light (original) |
+| `AD_SeeOurPage_Story_1080x1920.png` | 9:16 Stories / Reels | Version A; top 250 px and bottom ~380 px kept clear for IG/FB UI |
+| `AD_SeeOurPage_Square_1080x1080.png` | 1:1 Feed / right column | Version A, compact |
+| `AD_B_EverythingOnOurPage_Dark_1080x1350.png` | 4:5 Feed | **Version B**, dark, new hook: **كل اللي بدك تعرفه… موجود على صفحتنا** / *Everything you need to know is on our page.* |
+
+**Suggested test:** run A (light) against B (dark) in the same ad set for 3–4 days. Keep the one with the lower cost per profile visit and pause the other.
+Sources: `ad.html`, `ad_story.html`, `ad_square.html`, `ad_dark_B.html`.
