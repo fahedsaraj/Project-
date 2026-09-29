@@ -11,7 +11,7 @@ Headline supplied by Fahed. Light background, as requested. Made by Noor at Fahe
 ## On the designs
 - Headline: **احكي معنا قبل 1/10** / **واحصل على [خصمك]** (1/10 in red; "خصمك" on a red marker)
 - EN line: Talk to us before **1 October** and get your discount.
-- Coupon (key visual): خصم على كورسات · **EST II Revision · AP · SAT** | stub: قبل **1/10** · 1 OCTOBER
+- Coupon (key visual): خصم على كورسات · **EST II Revision / AP (Advanced Placement) / Digital SAT** (one line each, per Fahed) | stub: قبل **1/10** · 1 OCTOBER
 - Green WhatsApp button: احكي معنا على واتساب · CALL +962 79 055 5890
 
 ## Story link sticker (Stickers → Link; sticker text "احكي معنا على واتساب")
