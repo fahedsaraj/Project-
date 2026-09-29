@@ -32,3 +32,4 @@
 
 ## 2026-09-29
 - Fahed: "for now that is perfect" (general OK on the SAT post + caption; specific picks still open). Made the Digital SAT registration Story with a WhatsApp link-sticker slot + wa.me links (approval #28).
+- Fahed wanted one Story for AP + SAT + EST: made All_Programs_Story (approval #29). AP has no details on file; flagged.
