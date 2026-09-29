@@ -23,6 +23,7 @@ Every proposal waiting on Fahed, and every decision he makes. Omar maintains it.
 | 28 | 2026-09-29 | Success4Sure Digital SAT registration Story with WhatsApp link sticker (`Digital_SAT_Nov/Story_Register_WhatsApp.md`) | Noor (Fahed asked) | Pending |
 | 29 | 2026-09-29 | Success4Sure all-programs Story (AP · SAT · EST II) + WhatsApp link (`All_Programs_Story/`). AP details missing | Noor (Fahed asked) | Pending |
 | 30 | 2026-09-29 | Success4Sure offer post + Story (Fahed: "Prefect"; coupon updated to AP (Advanced Placement) / Digital SAT) "احكي معنا قبل 1/10 و احصل على خصمك" (light bg) (`Offer_Before_1Oct/`). Discount amount/terms not given | Noor (Fahed asked) | Pending |
+| 31 | 2026-09-29 | Success4Sure Meta ad "لا تاخذ كلامنا… شوف صفحتنا بنفسك" (profile visits) + proposed setup, test budget JOD 35 (`Ad_Visit_Profile/`) | Noor (Fahed asked; setup = Rami) | Pending |
 | 23 | 2026-09-28 | 5 stories for highlights (`Designs/Stories/`); confirm hours to show (10–6 vs 12–20) | Sara | Pending |
 
 ## Decided

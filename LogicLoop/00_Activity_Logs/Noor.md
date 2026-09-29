@@ -35,3 +35,4 @@
 - Fahed wanted one Story for AP + SAT + EST: made All_Programs_Story (approval #29). AP has no details on file; flagged.
 - Offer post + Story (Fahed's headline 'احكي معنا قبل 1/10 و احصل على خصمك'), light background, coupon visual (approval #30). Flag: no discount amount/terms; deadline is tomorrow.
 - Fahed: 'Prefect' on the offer designs; coupon now 3 lines: EST II Revision / AP (Advanced Placement) / Digital SAT.
+- Meta ad concept + design 'Don't take our word for it — see our page' (phone grid mock), ad copy, proposed setup + JOD 35 test budget (approval #31).
