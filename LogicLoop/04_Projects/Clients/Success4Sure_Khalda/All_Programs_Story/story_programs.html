@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>AP · SAT · EST — Registration Story (WhatsApp) — 1080x1920</title>
+<style>
+  @font-face { font-family: IT; font-weight: 500; src: url(fonts/InterTight-500.ttf); }
+  @font-face { font-family: IT; font-weight: 700; src: url(fonts/InterTight-700.ttf); }
+  @font-face { font-family: IT; font-weight: 800; src: url(fonts/InterTight-800.ttf); }
+  @font-face { font-family: IS; font-style: italic; src: url(fonts/InstrumentSerif-i.ttf); }
+  @font-face { font-family: Playfair; font-weight: 900; src: url(fonts/Playfair-900.ttf); }
+  @font-face { font-family: PlexAr; font-weight: 600; src: url(fonts/PlexArabic-600.ttf); }
+
+  :root { --brand: #8B0214; --lit: #E23A4E; --night: #120204; --cream: #F6EEE2; --wa: #25D366;
+    --muted: rgba(246,238,226,.66); --hair: rgba(246,238,226,.16); --m: 96px; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1080px; height: 1920px; background: var(--night); }
+  .story { position: relative; width: 1080px; height: 1920px; overflow: hidden; background: var(--night);
+    color: var(--cream); font-family: IT, sans-serif; }
+
+  .bg { position: absolute; inset: 0; background: url(assets/bg_studyhall.jpg) center/cover no-repeat; }
+  .tint { position: absolute; inset: 0; background:
+      linear-gradient(180deg, rgba(18,2,4,.92) 0%, rgba(18,2,4,.55) 26%, rgba(18,2,4,.2) 40%, rgba(18,2,4,.6) 52%, rgba(18,2,4,.97) 61%),
+      linear-gradient(0deg, rgba(139,2,20,.3), rgba(139,2,20,.3)); }
+  .key { position: absolute; width: 1400px; height: 1400px; right: -700px; top: -620px; border-radius: 50%;
+    background: radial-gradient(circle, rgba(200,16,46,.7), rgba(139,2,20,.3) 35%, transparent 65%); }
+  .grain { position: absolute; inset: 0; opacity: .1; mix-blend-mode: overlay; }
+
+  /* Teachers band, faded out at the bottom */
+  .people { position: absolute; left: 0; top: 0; width: 1080px; height: 1230px;
+    -webkit-mask-image: linear-gradient(180deg, #000 76%, transparent 97%); }
+  .people img { position: absolute; filter: drop-shadow(0 30px 40px rgba(0,0,0,.5)); }
+  .people .sara   { width: 847px; left: -118px; top: 505px; }
+  .people .naseem { width: 600px; left: 502px;  top: 592px; }
+  .nm { position: absolute; top: 1070px; font-weight: 700; font-size: 26px; text-shadow: 0 2px 10px rgba(0,0,0,.7); }
+  .nm b { display: inline-block; font-weight: 800; font-size: 14px; letter-spacing: .3em; color: var(--night); background: var(--cream); padding: 6px 10px 5px; border-radius: 6px; margin-bottom: 10px; text-shadow: none; }
+  .nm.l { left: var(--m); } .nm.r { right: var(--m); text-align: right; }
+
+  /* Top: 250 px left clear for IG UI */
+  .head { position: absolute; top: 262px; left: var(--m); right: var(--m); display: flex; justify-content: space-between;
+    align-items: flex-end; padding-bottom: 24px; border-bottom: 1px solid var(--hair); }
+  .logo { line-height: 1; }
+  .logo .w1 { font-family: Playfair; font-weight: 900; font-size: 34px; letter-spacing: .04em; display: block; }
+  .logo .w2 { font-weight: 700; font-size: 14px; letter-spacing: .6em; margin-top: 7px; display: block; color: var(--muted); }
+  .open { display: inline-flex; align-items: center; gap: 14px; font-weight: 800; font-size: 19px; letter-spacing: .26em; }
+  .open .dot { width: 14px; height: 14px; border-radius: 50%; background: var(--wa);
+    box-shadow: 0 0 0 6px rgba(37,211,102,.22), 0 0 22px rgba(37,211,102,.9); }
+
+  .title { position: absolute; top: 370px; left: var(--m); }
+  .h1 { font-weight: 800; font-size: 156px; line-height: 1.02; letter-spacing: -.05em; margin-left: -8px; padding: 0 24px 6px 0;
+    display: inline-block; background: linear-gradient(180deg, #FFFaF2 10%, #E6D6C0 95%); -webkit-background-clip: text; color: transparent;
+    filter: drop-shadow(0 24px 40px rgba(0,0,0,.55)); }
+  .h1 span { padding-right: .08em; margin-right: -.08em; background: linear-gradient(180deg, #FF6A78, var(--lit) 35%, var(--brand));
+    -webkit-background-clip: text; color: transparent; }
+  .h2 { font-family: IS; font-style: italic; font-size: 66px; margin-top: -4px; text-shadow: 0 4px 20px rgba(0,0,0,.6); }
+  .h2 b { font-weight: 400; color: #FF8A96; }
+
+  /* Action */
+  .act { position: absolute; top: 1206px; left: var(--m); right: var(--m); }
+  .wa { display: flex; align-items: center; gap: 28px; }
+  .wa .ic { flex: none; width: 108px; height: 108px; border-radius: 30px; background: var(--wa); display: grid; place-items: center;
+    box-shadow: 0 16px 40px rgba(37,211,102,.35); }
+  .wa .t1 { font-weight: 800; font-size: 60px; line-height: 1; letter-spacing: -.03em; }
+  .wa .t2 { font-weight: 700; font-size: 26px; letter-spacing: .02em; color: var(--muted); margin-top: 10px; }
+  .ar { font-family: PlexAr; font-weight: 600; font-size: 42px; direction: rtl; text-align: right; margin-top: 26px; color: var(--cream); }
+
+  .tap { position: absolute; top: 1418px; left: 0; right: 0; text-align: center; font-weight: 800; font-size: 22px; letter-spacing: .34em; color: var(--wa); }
+  .tap svg { display: block; margin: 12px auto 0; }
+  /* Link-sticker slot (guide version only) */
+  .slot { position: absolute; top: 1500px; left: 50%; transform: translateX(-50%); width: 520px; height: 96px; border-radius: 24px;
+    border: 3px dashed rgba(37,211,102,.8); display: none; place-items: center; font-weight: 700; font-size: 22px; letter-spacing: .1em; color: rgba(37,211,102,.95); }
+  .guide .slot { display: grid; }
+
+  /* Hook */
+  .hook { position: absolute; top: 368px; left: var(--m); right: var(--m); }
+  .hook .a { font-weight: 800; font-size: 88px; line-height: 1; letter-spacing: -.04em; white-space: nowrap; }
+  .hook .b { font-family: IS; font-style: italic; font-size: 112px; line-height: 1; color: #FF8A96; margin-top: 0; }
+
+  /* Program cards */
+  .progs { position: absolute; top: 618px; left: var(--m); right: var(--m); display: flex; flex-direction: column; gap: 18px; }
+  .pc { position: relative; display: grid; grid-template-columns: 70px 1fr; align-items: center; column-gap: 26px;
+    height: 150px; padding: 0 40px 0 34px; border-radius: 28px;
+    background: linear-gradient(135deg, rgba(255,255,255,.10), rgba(255,255,255,.035));
+    border: 1px solid rgba(246,238,226,.16); box-shadow: 0 26px 50px rgba(0,0,0,.4), inset 0 1px 0 rgba(255,255,255,.12); }
+  .pc .i { font-family: IS; font-style: italic; font-size: 64px; color: #FF8A96; line-height: 1; }
+  .pc .n { font-weight: 800; font-size: 62px; letter-spacing: -.035em; line-height: 1; }
+  .pc .d { display: flex; align-items: center; gap: 12px; margin-top: 12px; font-weight: 700; font-size: 25px; color: var(--muted); }
+  .pc .d .dot { width: 12px; height: 12px; border-radius: 50%; background: var(--wa); box-shadow: 0 0 14px rgba(37,211,102,.9); }
+  @font-face { font-family: ISR; src: url(fonts/InstrumentSerif.ttf); }
+  .pc .n .rn { font-family: ISR; font-weight: 400; font-size: 70px; letter-spacing: 0; }
+  .pc.hi { background: var(--cream); color: var(--brand); border-color: transparent; }
+  .pc.hi .i { color: var(--lit); } .pc.hi .d { color: rgba(139,2,20,.75); }
+  .pc .tag { position: absolute; right: 34px; top: 50%; transform: translateY(-50%); font-weight: 800; font-size: 15px;
+    letter-spacing: .26em; padding: 9px 14px 8px; border-radius: 8px; background: var(--lit); color: #fff; }
+</style>
+</head>
+<body>
+<div class="story">
+  <div class="bg"></div><div class="tint"></div><div class="key"></div>
+  <svg class="grain" width="1080" height="1920" aria-hidden="true">
+    <filter id="n"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="3" stitchTiles="stitch"/></filter>
+    <rect width="100%" height="100%" filter="url(#n)"/>
+  </svg>
+
+  <div class="head">
+    <!-- STAND-IN: replace with the official Success4Sure logo file -->
+    <div class="logo"><span class="w1">SUCCESS</span><span class="w2">4 SURE</span></div>
+    <div class="open"><span class="dot"></span>REGISTRATION OPEN</div>
+  </div>
+
+  <div class="hook"><div class="a">Which exam are you</div><div class="b">preparing for?</div></div>
+
+  <div class="progs">
+    <div class="pc"><span class="i">01</span><div><div class="n">AP</div><div class="d"><span class="dot"></span>Registration open</div></div></div>
+    <div class="pc hi"><span class="i">02</span><div><div class="n">Digital SAT</div><div class="d">Starts 11 October · Test 7 November</div></div></div>
+    <div class="pc"><span class="i">03</span><div><div class="n">EST <span class="rn">II</span> Revision</div><div class="d"><span class="dot"></span>Running now · Joining still open</div></div></div>
+  </div>
+  <div class="act">
+    <div class="wa">
+      <div class="ic">
+        <svg width="64" height="64" viewBox="0 0 64 64" aria-hidden="true">
+          <path d="M32 6C17.6 6 6 17.2 6 31c0 4.9 1.5 9.5 4 13.3L7 58l14-3.6c3.4 1.7 7.2 2.6 11 2.6 14.4 0 26-11.2 26-25S46.4 6 32 6z" fill="none" stroke="#fff" stroke-width="4.5" stroke-linejoin="round"/>
+          <path d="M23.5 19.5c-1 0-2.4.4-3.3 1.6-1 1.3-2.7 3.9-1.2 8.3 1.6 4.6 5.4 9.4 10.3 12.4 4.3 2.6 7.6 3.4 9.7 3 2.2-.5 4.2-2.3 4.6-4 .2-.9 0-1.5-.7-1.9l-5-2.5c-.7-.3-1.4-.2-1.9.4l-1.8 2.2c-.4.5-1 .6-1.6.3-2.9-1.4-5.4-3.8-6.9-6.6-.3-.6-.2-1.2.2-1.6l1.6-1.8c.5-.6.6-1.3.3-2l-2.2-5.3c-.4-.9-1-1.3-2-1.3z" fill="#fff"/>
+        </svg>
+      </div>
+      <div>
+        <div class="t1">Chat with us on WhatsApp</div>
+        <div class="t2">or call +962 79 055 5890</div>
+      </div>
+    </div>
+    <div class="ar">سجّل هلّق واحكي معنا على واتساب</div>
+  </div>
+
+  <div class="tap">TAP THE LINK TO REGISTER
+    <svg width="40" height="40" viewBox="0 0 24 24"><path d="M12 4v15M5 12l7 7 7-7" fill="none" stroke="#25D366" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </div>
+  <div class="slot">WhatsApp link sticker here</div>
+</div>
+<script>if (new URLSearchParams(location.search).get('guide')) document.body.classList.add('guide');</script>
+</body>
+</html>

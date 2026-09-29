@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>EST II Revision Week — V2 — 1080x1350</title>
+<style>
+  @font-face { font-family: IT; font-weight: 300; src: url(fonts/InterTight-300.ttf); }
+  @font-face { font-family: IT; font-weight: 500; src: url(fonts/InterTight-500.ttf); }
+  @font-face { font-family: IT; font-weight: 700; src: url(fonts/InterTight-700.ttf); }
+  @font-face { font-family: IT; font-weight: 800; src: url(fonts/InterTight-800.ttf); }
+  @font-face { font-family: IS; font-style: italic; src: url(fonts/InstrumentSerif-i.ttf); }
+  @font-face { font-family: ISR; src: url(fonts/InstrumentSerif.ttf); }
+  @font-face { font-family: Playfair; font-weight: 900; src: url(fonts/Playfair-900.ttf); }
+
+  :root {
+    --brand: #8B0214;       /* Success4Sure red */
+    --lit: #E23A4E;         /* brand red under light */
+    --night: #120204;       /* near-black maroon */
+    --cream: #F6EEE2;
+    --muted: rgba(246,238,226,.62);
+    --hair: rgba(246,238,226,.16);
+    --m: 96px;              /* outer margin */
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1080px; height: 1350px; background: var(--night); }
+
+  .post { position: relative; width: 1080px; height: 1350px; overflow: hidden;
+    background: var(--night); color: var(--cream); font-family: IT, sans-serif; }
+
+  /* Lighting: one key light top-right in brand red, one low fill bottom-left */
+  .key  { position: absolute; width: 1300px; height: 1300px; right: -520px; top: -560px; border-radius: 50%;
+          background: radial-gradient(circle, rgba(200,16,46,.85) 0%, rgba(139,2,20,.55) 30%, rgba(139,2,20,0) 65%); }
+  .fill { position: absolute; width: 1100px; height: 900px; left: -520px; bottom: -520px; border-radius: 50%;
+          background: radial-gradient(circle, rgba(139,2,20,.45), rgba(139,2,20,0) 65%); }
+  .beam { position: absolute; inset: 0;
+          background: linear-gradient(128deg, transparent 30%, rgba(255,220,200,.06) 44%, transparent 56%); }
+  .grain { position: absolute; inset: 0; opacity: .12; mix-blend-mode: overlay; }
+
+  .wrap { position: absolute; inset: 0; padding: 0 var(--m); }
+
+  /* Header */
+  .head { position: absolute; top: 88px; left: var(--m); right: var(--m);
+    display: flex; justify-content: space-between; align-items: flex-end;
+    padding-bottom: 28px; border-bottom: 1px solid var(--hair); }
+  .logo { line-height: 1; }
+  .logo .w1 { font-family: Playfair; font-weight: 900; font-size: 34px; letter-spacing: .04em; display: block; }
+  .logo .w2 { font-weight: 700; font-size: 14px; letter-spacing: .6em; margin-top: 7px; display: block; color: var(--muted); }
+  .head .k { font-weight: 500; font-size: 17px; letter-spacing: .32em; color: var(--muted); }
+
+  /* Focal */
+  .title { position: absolute; top: 236px; left: var(--m); }
+  .est { font-weight: 800; font-size: 318px; line-height: .82; letter-spacing: -.055em; margin-left: -14px;
+    background: linear-gradient(180deg, #FFFaF2 10%, #E6D6C0 95%); -webkit-background-clip: text; color: transparent;
+    filter: drop-shadow(0 30px 50px rgba(0,0,0,.55)); }
+  .est .ii { background: linear-gradient(180deg, #FF6A78 0%, var(--lit) 35%, var(--brand) 100%);
+    -webkit-background-clip: text; color: transparent; font-family: ISR; font-weight: 400; font-size: 360px; letter-spacing: -.01em; margin-left: 34px; padding-right: 10px; }
+  .rw { font-family: IS; font-style: italic; font-size: 132px; line-height: 1; margin-top: 22px; letter-spacing: -.01em; }
+
+  /* Date */
+  .date { position: absolute; left: var(--m); right: var(--m); top: 770px; height: 250px;
+    display: grid; grid-template-columns: auto 1px 1fr; align-items: center; column-gap: 48px;
+    padding: 0 56px; border-radius: 28px;
+    background: linear-gradient(135deg, rgba(255,255,255,.075), rgba(255,255,255,.02));
+    border: 1px solid rgba(246,238,226,.14);
+    box-shadow: 0 40px 80px rgba(0,0,0,.45), inset 0 1px 0 rgba(255,255,255,.12); }
+  .date .day { font-weight: 300; font-size: 196px; line-height: 1; letter-spacing: -.05em; margin-top: -10px; }
+  .date .sep { width: 1px; height: 128px; background: var(--hair); }
+  .date .lab { font-weight: 700; font-size: 18px; letter-spacing: .4em; color: var(--lit); }
+  .date .mon { font-weight: 700; font-size: 68px; letter-spacing: .1em; line-height: 1; }
+  .lab-top { position: absolute; left: var(--m); top: 722px; font-weight: 700; font-size: 18px; letter-spacing: .42em; color: var(--lit);
+    display: flex; align-items: center; gap: 18px; }
+  .lab-top::before { content: ''; width: 36px; height: 2px; background: var(--lit); }
+
+  /* Footer */
+  .foot { position: absolute; left: var(--m); right: var(--m); bottom: 90px;
+    display: flex; justify-content: space-between; align-items: center; }
+  .rpp { font-family: IS; font-style: italic; font-size: 44px; line-height: 1.12; color: var(--cream); }
+  .rpp span { display: block; }
+  .rpp span:nth-child(2) { color: var(--muted); }
+  .rpp span:nth-child(3) { color: rgba(246,238,226,.38); }
+  .cta { display: inline-flex; align-items: center; gap: 26px; background: var(--cream); color: var(--brand);
+    font-weight: 800; font-size: 26px; letter-spacing: .18em; padding: 30px 40px 30px 46px; border-radius: 100px;
+    box-shadow: 0 24px 50px rgba(0,0,0,.5), 0 0 60px rgba(226,58,78,.25); }
+  .cta svg { display: block; }
+  .act { display: flex; flex-direction: column; align-items: stretch; gap: 22px; }
+  .act .cta { justify-content: center; }
+  .phone { display: flex; align-items: baseline; justify-content: center; gap: 16px; white-space: nowrap; }
+  .phone .pl { font-weight: 700; font-size: 17px; letter-spacing: .38em; color: var(--lit); }
+  .phone .pn { font-weight: 700; font-size: 38px; letter-spacing: .03em; color: var(--cream); font-variant-numeric: tabular-nums; }
+
+  /* ---------- Variations (?t=ivory | red | split) ---------- */
+  .band { display: none; }
+
+  /* A: Ivory — daylight academic */
+  .ivory .post { background: #F3EBDD; color: #1E0A0C; }
+  .ivory .key { background: radial-gradient(circle, rgba(226,58,78,.22) 0%, rgba(139,2,20,.08) 35%, transparent 65%); }
+  .ivory .fill { background: radial-gradient(circle, rgba(139,2,20,.10), transparent 65%); }
+  .ivory .beam { background: linear-gradient(128deg, transparent 30%, rgba(255,255,255,.5) 44%, transparent 56%); }
+  .ivory .grain { opacity: .08; mix-blend-mode: multiply; }
+  .ivory { --muted: rgba(30,10,12,.58); --hair: rgba(30,10,12,.16); --lit: #B3071F; }
+  .ivory .est { background: linear-gradient(180deg, #3A060C 10%, #1A0306 95%); -webkit-background-clip: text;
+    filter: drop-shadow(0 24px 30px rgba(74,0,11,.22)); }
+  .ivory .est .ii { background: linear-gradient(180deg, #D8243C 0%, #B3071F 40%, #8B0214 100%); -webkit-background-clip: text; }
+  .ivory .rw { color: #8B0214; }
+  .ivory .date { background: #FFFDF9; border: 1px solid rgba(139,2,20,.10);
+    box-shadow: 0 30px 60px rgba(74,0,11,.14), 0 2px 0 #fff inset; }
+  .ivory .rpp { color: #1E0A0C; }
+  .ivory .rpp span:nth-child(3) { color: rgba(30,10,12,.36); }
+  .ivory .cta { background: #8B0214; color: #F6EEE2; box-shadow: 0 20px 40px rgba(139,2,20,.3); }
+  .ivory .cta path { stroke: #F6EEE2; }
+  .ivory .phone .pn { color: #1E0A0C; }
+
+  /* B: Brand Red — full Success4Sure red */
+  .red .post { background: radial-gradient(ellipse 120% 90% at 70% 10%, #B50A22 0%, #8B0214 45%, #4E000C 100%); }
+  .red .key { background: radial-gradient(circle, rgba(255,90,110,.45) 0%, rgba(200,16,46,.25) 30%, transparent 65%); }
+  .red .fill { background: radial-gradient(circle, rgba(20,0,4,.6), transparent 65%); }
+  .red { --lit: #F6EEE2; --muted: rgba(246,238,226,.7); --hair: rgba(246,238,226,.25); }
+  .red .est { filter: drop-shadow(0 30px 40px rgba(40,0,6,.55)); }
+  .red .est .ii { background: linear-gradient(180deg, #3A0008 0%, #1E0004 100%); -webkit-background-clip: text; }
+  .red .lab-top, .red .phone .pl { color: rgba(246,238,226,.8); }
+  .red .lab-top::before { background: rgba(246,238,226,.8); }
+  .red .date { background: linear-gradient(135deg, rgba(20,0,4,.42), rgba(20,0,4,.25)); border-color: rgba(246,238,226,.18); }
+  .red .cta { box-shadow: 0 24px 50px rgba(40,0,6,.55); }
+
+  /* C: Split — dark headline over a solid red date block */
+  .split .band { display: block; position: absolute; left: 0; right: 0; top: 712px; bottom: 0;
+    background: linear-gradient(180deg, #A0051B 0%, #7A0012 100%);
+    box-shadow: 0 -30px 60px rgba(0,0,0,.45); }
+  .split .band::before { content: ''; position: absolute; inset: 0;
+    background: radial-gradient(ellipse 70% 60% at 80% 0%, rgba(255,120,130,.25), transparent 70%); }
+  .split .fill { display: none; }
+  .split .lab-top { top: 770px; color: rgba(246,238,226,.8); }
+  .split .lab-top::before { background: rgba(246,238,226,.8); }
+  .split .date { top: 800px; background: none; border: 0; box-shadow: none; padding: 0; column-gap: 44px; }
+  .split .date .day { font-size: 230px; font-weight: 300; }
+  .split .date .sep { background: rgba(246,238,226,.4); height: 150px; }
+  .split .date .mon { font-size: 76px; }
+  .split .phone .pl { color: rgba(246,238,226,.8); }
+  .split .rpp span:nth-child(2) { color: rgba(246,238,226,.75); }
+  .split .rpp span:nth-child(3) { color: rgba(246,238,226,.5); }
+  .split .cta { box-shadow: 0 24px 50px rgba(40,0,6,.5); }
+</style>
+</head>
+<body>
+<div class="post">
+  <div class="key"></div><div class="fill"></div><div class="beam"></div>
+  <svg class="grain" width="1080" height="1350" aria-hidden="true">
+    <filter id="n"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="3" stitchTiles="stitch"/></filter>
+    <rect width="100%" height="100%" filter="url(#n)"/>
+  </svg>
+  <div class="band"></div>
+
+  <div class="head">
+    <!-- STAND-IN: replace with the official Success4Sure logo file -->
+    <div class="logo"><span class="w1">SUCCESS</span><span class="w2">4 SURE</span></div>
+    <div class="k">KHALDA</div>
+  </div>
+
+  <div class="title">
+    <div class="est">EST<span class="ii">II</span></div>
+    <div class="rw">Revision Week</div>
+  </div>
+
+  <div class="lab-top">STARTS</div>
+  <div class="date">
+    <div class="day">27</div>
+    <div class="sep"></div>
+    <div class="mon">SEPTEMBER</div>
+  </div>
+
+  <div class="foot">
+    <div class="rpp"><span>Review.</span><span>Practice.</span><span>Prepare.</span></div>
+    <div class="act">
+    <div class="cta">REGISTER NOW
+        <svg width="30" height="20" viewBox="0 0 30 20"><path d="M1 10h26M19 2l8 8-8 8" fill="none" stroke="#8B0214" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <div class="phone"><span class="pl">CALL</span><span class="pn">+962 79 055 5890</span></div>
+    </div>
+  </div>
+</div>
+<script>const t=new URLSearchParams(location.search).get("t"); if(t) document.body.className=t;</script>
+</body>
+</html>

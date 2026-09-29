@@ -1,0 +1,2 @@
+type: feedback
+All agents work as one team (decision flow Noor → Adam → Lina → Omar → Sara → Kareem → Rami → Yousef → Fahed approves). 15 team rules in 00_Blueprint/Team_Operating_System.md: no generic advice, no invented credentials, separate facts from assumptions, challenge weak ideas, don't agree to be helpful, every plan has owner + deadline, every activity has a measurable objective, think commercially, always name the next action. References are inspiration only; their sites were blocked from the workspace, so their contents are not known.
