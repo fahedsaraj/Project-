@@ -37,3 +37,4 @@
 - Fahed: 'Prefect' on the offer designs; coupon now 3 lines: EST II Revision / AP (Advanced Placement) / Digital SAT.
 - Meta ad concept + design 'Don't take our word for it — see our page' (phone grid mock), ad copy, proposed setup + JOD 35 test budget (approval #31).
 - Ad versions: Story 9:16, Square 1:1, and dark Version B with a new hook for A/B testing (approval #32).
+- Replaced the stand-in avatar with Success4Sure's real IG profile picture in all 4 ad versions (fetched via remote browser sandbox; local network blocks IG).

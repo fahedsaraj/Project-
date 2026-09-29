@@ -28,7 +28,7 @@ The visual is a phone showing their Instagram grid (our Success4Sure designs). A
 
 ## Flags: before running
 1. **Run it only after the grid shows the new posts.** The ad promises "see our page"; if the real page looks different, the promise breaks. The phone grid uses our designs.
-2. The avatar "S4S KHALDA" and the logo are stand-ins; swap in the official logo.
+2. Phone avatar now uses their **real Instagram profile picture** (`avatar_s4s_khalda.jpg`, 150×150 from the public profile, 2026-09-29). The "SUCCESS 4 SURE" wordmark at the top of the ad is still a typeset stand-in: a high-res logo file is needed to replace it.
 3. Budget, targeting, and running the ad are **proposals**: Fahed approves, and the client pays the ad spend.
 
 ## More versions (2026-09-29)
