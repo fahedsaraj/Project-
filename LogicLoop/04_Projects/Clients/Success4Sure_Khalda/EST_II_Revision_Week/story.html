@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>EST II Revision Week — Story — 1080x1920</title>
+<style>
+  @font-face { font-family: IT; font-weight: 300; src: url(fonts/InterTight-300.ttf); }
+  @font-face { font-family: IT; font-weight: 500; src: url(fonts/InterTight-500.ttf); }
+  @font-face { font-family: IT; font-weight: 700; src: url(fonts/InterTight-700.ttf); }
+  @font-face { font-family: IT; font-weight: 800; src: url(fonts/InterTight-800.ttf); }
+  @font-face { font-family: IS; font-style: italic; src: url(fonts/InstrumentSerif-i.ttf); }
+  @font-face { font-family: ISR; src: url(fonts/InstrumentSerif.ttf); }
+  @font-face { font-family: Playfair; font-weight: 900; src: url(fonts/Playfair-900.ttf); }
+  @font-face { font-family: PlexAr; font-weight: 600; src: url(fonts/PlexArabic-600.ttf); }
+
+  /* Same system as the approved V2 post */
+  :root {
+    --brand: #8B0214; --lit: #E23A4E; --night: #120204; --cream: #F6EEE2;
+    --muted: rgba(246,238,226,.62); --hair: rgba(246,238,226,.16); --m: 96px;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1080px; height: 1920px; background: var(--night); }
+  .story { position: relative; width: 1080px; height: 1920px; overflow: hidden;
+    background: var(--night); color: var(--cream); font-family: IT, sans-serif; }
+
+  .key  { position: absolute; width: 1500px; height: 1500px; right: -640px; top: -520px; border-radius: 50%;
+          background: radial-gradient(circle, rgba(200,16,46,.85) 0%, rgba(139,2,20,.55) 30%, rgba(139,2,20,0) 65%); }
+  .fill { position: absolute; width: 1400px; height: 1200px; left: -620px; bottom: -560px; border-radius: 50%;
+          background: radial-gradient(circle, rgba(139,2,20,.55), rgba(139,2,20,0) 65%); }
+  .beam { position: absolute; inset: 0;
+          background: linear-gradient(128deg, transparent 30%, rgba(255,220,200,.06) 44%, transparent 56%); }
+  .grain { position: absolute; inset: 0; opacity: .12; mix-blend-mode: overlay; }
+
+  /* Top 250 px left clear for Instagram's progress bar + profile row */
+  .head { position: absolute; top: 262px; left: var(--m); right: var(--m);
+    display: flex; justify-content: space-between; align-items: flex-end;
+    padding-bottom: 26px; border-bottom: 1px solid var(--hair); }
+  .logo { line-height: 1; }
+  .logo .w1 { font-family: Playfair; font-weight: 900; font-size: 34px; letter-spacing: .04em; display: block; }
+  .logo .w2 { font-weight: 700; font-size: 14px; letter-spacing: .6em; margin-top: 7px; display: block; color: var(--muted); }
+  .head .k { font-weight: 500; font-size: 17px; letter-spacing: .32em; color: var(--muted); }
+
+  .title { position: absolute; top: 400px; left: var(--m); }
+  .est { font-weight: 800; font-size: 250px; line-height: .82; letter-spacing: -.055em; margin-left: -12px;
+    background: linear-gradient(180deg, #FFFaF2 10%, #E6D6C0 95%); -webkit-background-clip: text; color: transparent;
+    filter: drop-shadow(0 30px 50px rgba(0,0,0,.55)); }
+  .est .ii { background: linear-gradient(180deg, #FF6A78 0%, var(--lit) 35%, var(--brand) 100%);
+    -webkit-background-clip: text; color: transparent; font-family: ISR; font-weight: 400; font-size: 284px;
+    letter-spacing: -.01em; margin-left: 28px; padding-right: 10px; }
+  .rw { font-family: IS; font-style: italic; font-size: 108px; line-height: 1; margin-top: 18px; }
+
+  /* Status: already running */
+  .live { position: absolute; top: 850px; left: var(--m); display: inline-flex; align-items: center; gap: 18px;
+    padding: 16px 28px 16px 24px; border-radius: 100px; border: 1.5px solid rgba(226,58,78,.55);
+    background: rgba(226,58,78,.10); font-weight: 700; font-size: 22px; letter-spacing: .26em; }
+  .live .dot { width: 16px; height: 16px; border-radius: 50%; background: var(--lit);
+    box-shadow: 0 0 0 6px rgba(226,58,78,.25), 0 0 24px rgba(226,58,78,.9); }
+  .live b { color: var(--muted); font-weight: 700; }
+
+  /* Focal message */
+  .msg { position: absolute; top: 960px; left: var(--m); right: var(--m); }
+  .msg .l1 { font-weight: 800; font-size: 128px; line-height: .98; letter-spacing: -.04em; }
+  .msg .l2 { font-weight: 800; font-size: 128px; line-height: .98; letter-spacing: -.028em;
+    background: linear-gradient(180deg, #FF6A78, var(--lit) 45%, #B80A22); -webkit-background-clip: text; color: transparent; }
+  .msg .ar { font-family: PlexAr; font-weight: 600; font-size: 46px; direction: rtl; text-align: right;
+    margin-top: 30px; color: var(--muted); }
+
+  /* Action */
+  .act { position: absolute; left: var(--m); right: var(--m); top: 1388px; }
+  .cta { display: flex; align-items: center; justify-content: center; gap: 28px; background: var(--cream);
+    color: var(--brand); font-weight: 800; font-size: 34px; letter-spacing: .18em; height: 116px; border-radius: 100px;
+    box-shadow: 0 24px 50px rgba(0,0,0,.5), 0 0 70px rgba(226,58,78,.28); }
+  .phone { margin-top: 34px; display: flex; align-items: baseline; justify-content: center; gap: 20px; white-space: nowrap; }
+  .phone .pl { font-weight: 700; font-size: 20px; letter-spacing: .38em; color: var(--lit); }
+  .phone .pn { font-weight: 700; font-size: 54px; letter-spacing: .03em; font-variant-numeric: tabular-nums; }
+  /* Bottom 340 px (y 1580–1920) left clear for the reply bar + a link/WhatsApp sticker */
+</style>
+</head>
+<body>
+<div class="story">
+  <div class="key"></div><div class="fill"></div><div class="beam"></div>
+  <svg class="grain" width="1080" height="1920" aria-hidden="true">
+    <filter id="n"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="3" stitchTiles="stitch"/></filter>
+    <rect width="100%" height="100%" filter="url(#n)"/>
+  </svg>
+
+  <div class="head">
+    <!-- STAND-IN: replace with the official Success4Sure logo file -->
+    <div class="logo"><span class="w1">SUCCESS</span><span class="w2">4 SURE</span></div>
+    <div class="k">KHALDA</div>
+  </div>
+
+  <div class="title">
+    <div class="est">EST<span class="ii">II</span></div>
+    <div class="rw">Revision Week</div>
+  </div>
+
+  <div class="live"><span class="dot"></span>NOW RUNNING <b>· SINCE 27 SEP</b></div>
+
+  <div class="msg">
+    <div class="l1">Joining is</div>
+    <div class="l2">still open.</div>
+    <div class="ar">بلّشنا… والتسجيل لسّا مفتوح</div>
+  </div>
+
+  <div class="act">
+    <div class="cta">REGISTER NOW
+      <svg width="34" height="22" viewBox="0 0 30 20"><path d="M1 10h26M19 2l8 8-8 8" fill="none" stroke="#8B0214" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </div>
+    <div class="phone"><span class="pl">CALL</span><span class="pn">+962 79 055 5890</span></div>
+  </div>
+</div>
+</body>
+</html>

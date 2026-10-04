@@ -1,0 +1,6 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+<defs><clipPath id="ca"><polygon points="172,0 240,0 240,68 68,240 0,240 0,172"/></clipPath></defs>
+<g clip-path="url(#ca)" fill="none" stroke="#1F1D1B" stroke-width="26" stroke-linecap="butt">
+<path d="M52 40 V156 A32 32 0 0 0 84 188 H200"/>
+<path d="M188 200 V84 A32 32 0 0 0 156 52 H40"/>
+</g><circle cx="120" cy="120" r="19" fill="#C65A3A"/></svg>

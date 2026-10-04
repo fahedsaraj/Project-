@@ -1,0 +1,4 @@
+type: project
+As of 2026-09-24: agency name Logic Loop chosen (Companies House / trademark / domain checks pending). UK LTD to be registered directly on GOV.UK by Fahed. Decision: no Jordanian commercial registration. Accountant consultation recommended for tax questions (company residence, withholding on Jordanian client payments, personal tax). Registered office provider not yet chosen. Bank: check Jordan-resident director eligibility (Wise/Payoneer/Airwallex). First outreach sector: restaurants & cafés.
+2026-09-24 update: GOV.UK registration flags "Logic Loop" as the same as existing company LOGICLOOP UK LTD (needs their permission). Must register a different name. Also: first attempt selected CIC by mistake — company type must be Private company limited by shares.
+Resolved: registered name is Logic Loop Media Ltd (brand remains Logic Loop). Next: buy UK registered office + director service address with mail scanning.
