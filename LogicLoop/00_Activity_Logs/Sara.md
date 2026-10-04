@@ -32,3 +32,8 @@
 ## 2026-09-28
 - Fahed: "where is the story?" Only the highlight covers existed, with no story content. Made 5 stories (intro, work template, how we work, packages, contact) in `04_Projects/Agency_Page_Launch/Designs/Stories/`.
 - Open question for Fahed: which hours to show (greeting says 10–6, availability is 12–20).
+
+## 2026-10-04
+- Client brief from Fahed: Success4Sure Academy, Khalda branch, full rebrand (name TBD). Delivered brand direction: strategy + 3 visual directions (A Trajectory, recommended; B Modern Scholar; C Answer Sheet) with HEX/RGB/CMYK, type, logo direction, graphics, sample posts, and sections 9–16. File: `04_Projects/Clients/Success4Sure_Khalda/Brand_Direction.html`; page https://claude.ai/artifact/2KzwP6SpncXUzqnBVz51Us (private).
+- Current profile read via vidIQ (Instagram itself blocked). Posts/reels not reviewed.
+- Next: Fahed + academy choose a direction → name → 3 logo concepts.

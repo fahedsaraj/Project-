@@ -26,6 +26,7 @@ Every proposal waiting on Fahed, and every decision he makes. Omar maintains it.
 | 31 | 2026-09-29 | Success4Sure Meta ad "لا تاخذ كلامنا… شوف صفحتنا بنفسك" (profile visits) + proposed setup, test budget JOD 35 (`Ad_Visit_Profile/`) | Noor (Fahed asked; setup = Rami) | Pending |
 | 32 | 2026-09-29 | Ad versions: A in Story 9:16 + Square 1:1; Version B dark "كل اللي بدك تعرفه… موجود على صفحتنا" for A/B test | Noor (Fahed asked) | Pending |
 | 23 | 2026-09-28 | 5 stories for highlights (`Designs/Stories/`); confirm hours to show (10–6 vs 12–20) | Sara | Pending |
+| 24 | 2026-10-04 | Success4Sure Khalda: choose brand direction A / B / C (`04_Projects/Clients/Success4Sure_Khalda/Brand_Direction.html`) before sharing with the academy | Sara | Pending |
 
 ## Decided
 | Date | Item | Decision |

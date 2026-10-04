@@ -1,0 +1,507 @@
+<title>Khalda Academy Rebrand</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@500;600;700&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Sora:wght@400;600;700&family=DM+Sans:wght@400;500&family=Alexandria:wght@500;700&family=IBM+Plex+Sans+Arabic:wght@400;500&family=Fraunces:opsz,wght@9..144,500;9..144,700&family=El+Messiri:wght@500;700&family=Unbounded:wght@500;700&family=Plus+Jakarta+Sans:wght@400;600&family=Readex+Pro:wght@400;600&display=swap">
+<style>
+/* Layout: one reading column (~70ch) for strategy; full-width direction panels so each identity can show its own colour and type. */
+:root{
+  --bg:#F4F5F7; --surface:#FFFFFF; --fg:#16181D; --muted:#5D6270; --line:#DDE0E6; --accent:#3346D3; --chip:#ECEEF2;
+  --f-display:"Familjen Grotesk",system-ui,sans-serif; --f-body:"Instrument Sans",system-ui,sans-serif; --f-mono:"JetBrains Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#111318;--surface:#1A1D24;--fg:#EDEEF1;--muted:#A3A8B5;--line:#2C303A;--accent:#8C9BFF;--chip:#242833;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#111318;--surface:#1A1D24;--fg:#EDEEF1;--muted:#A3A8B5;--line:#2C303A;--accent:#8C9BFF;--chip:#242833;color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font:16px/1.6 var(--f-body);padding-inline:20px;padding-block:0 80px}
+.wrap{max-width:1080px;margin:0 auto}
+.read{max-width:72ch}
+h1,h2,h3,h4{font-family:var(--f-display);line-height:1.15;text-wrap:balance;margin:0}
+h1{font-size:clamp(2.2rem,5vw,3.6rem);letter-spacing:-.02em}
+h2{font-size:clamp(1.6rem,3vw,2.2rem);letter-spacing:-.01em}
+h3{font-size:1.25rem}
+h4{font-size:1rem}
+p{margin:0}
+.eyebrow{font:500 .75rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.stack{display:flex;flex-direction:column;gap:14px}
+.stack-lg{display:flex;flex-direction:column;gap:28px}
+section{padding-block:56px;border-top:1px solid var(--line)}
+header{padding-block:64px 40px}
+.lede{font-size:1.15rem;color:var(--muted);max-width:62ch}
+.meta{display:flex;flex-wrap:wrap;gap:8px}
+.tag{font:500 .78rem/1 var(--f-mono);padding:7px 10px;border-radius:6px;background:var(--chip);color:var(--fg)}
+.toc{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:4px 24px;margin:0;padding:0;list-style:none}
+.toc a{color:var(--fg);text-decoration:none;border-bottom:1px solid var(--line);display:block;padding:8px 0}
+.toc a:hover,.toc a:focus-visible{color:var(--accent)}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+.grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:20px;min-width:0}
+ul.clean{margin:0;padding-left:1.1em}
+ul.clean li{margin:4px 0}
+.k{font-weight:600}
+.audit{display:grid;grid-template-columns:120px 1fr;gap:20px;align-items:start}
+.audit img{width:120px;border-radius:10px;border:1px solid var(--line)}
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;min-width:640px;font-size:.92rem}
+th,td{text-align:left;padding:12px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font:600 .74rem/1.2 var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+tr:last-child td{border-bottom:0}
+.code{font:400 .8rem/1.5 var(--f-mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+.sw{width:44px;height:44px;border-radius:8px;border:1px solid rgba(0,0,0,.08)}
+/* direction panels carry their own literal brand colours: they are specimens, not page chrome */
+.dir{border-radius:20px;overflow:hidden;border:1px solid var(--line);background:var(--surface)}
+.dir-head{padding:36px 32px;display:grid;grid-template-columns:1fr auto;gap:24px;align-items:center}
+.dir-body{padding:28px 32px 36px;display:flex;flex-direction:column;gap:28px}
+.dir-head .mark{width:120px;height:120px}
+.spec{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
+.specimen{border-radius:12px;padding:22px;min-width:0}
+.post{aspect-ratio:4/5;max-width:100%;border-radius:14px;overflow:hidden;position:relative;display:flex;flex-direction:column;justify-content:flex-end;padding:22px}
+.photo{position:absolute;inset:0}
+.photo span{position:absolute;top:14px;left:14px;font:500 .68rem/1 var(--f-mono);letter-spacing:.08em;text-transform:uppercase;padding:6px 8px;border-radius:4px;background:rgba(0,0,0,.35);color:#fff}
+.post>*:not(.photo){position:relative}
+.rec{background:var(--surface);border:2px solid var(--accent);border-radius:16px;padding:28px}
+.dd{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+.do h4{color:#1F8A4C}.dont h4{color:#C2362B}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .do h4{color:#5BD08E}:root:not([data-theme="light"]) .dont h4{color:#FF7B70}}
+:root[data-theme="dark"] .do h4{color:#5BD08E}:root[data-theme="dark"] .dont h4{color:#FF7B70}
+@media (max-width:560px){.dir-head{grid-template-columns:1fr}.dir-head .mark{width:88px;height:88px}.dir-head,.dir-body{padding-inline:20px}.audit{grid-template-columns:1fr}}
+</style>
+
+<div class="wrap">
+
+<header class="stack-lg">
+  <div class="meta"><span class="tag">Client: Success4Sure Academy · Khalda</span><span class="tag">Draft for Fahed · 4 Oct 2026</span><span class="tag">No final name yet</span></div>
+  <h1>Brand direction for the Khalda academy rebrand</h1>
+  <p class="lede">A strategic and visual foundation that will work with whatever name and logo the academy chooses. It sets the personality, positioning and values, then offers three visual directions to choose from before the final identity is built. Wherever the name will go, this document writes <span class="k">[Name]</span>.</p>
+  <ul class="toc">
+    <li><a href="#start">Starting point</a></li>
+    <li><a href="#strategy">1–3 · Personality, positioning, values</a></li>
+    <li><a href="#directions">4–8 · Three visual directions</a></li>
+    <li><a href="#recommend">Recommendation</a></li>
+    <li><a href="#photo">9 · Photography</a></li>
+    <li><a href="#social">10–11 · Social, posts and reels</a></li>
+    <li><a href="#ads">12 · Advertising</a></li>
+    <li><a href="#print">13 · Print and stationery</a></li>
+    <li><a href="#signage">14 · Signage and the academy</a></li>
+    <li><a href="#dodont">15 · Do's and don'ts</a></li>
+    <li><a href="#examples">16 · Applications</a></li>
+    <li><a href="#next">Next steps</a></li>
+  </ul>
+</header>
+
+<section id="start" class="stack-lg">
+  <div class="read stack"><span class="eyebrow">Starting point</span><h2>What the current identity says today</h2></div>
+  <div class="audit">
+    <div class="card" style="padding:12px;display:flex;align-items:center;justify-content:center"><span class="eyebrow" style="text-align:center">@success4sure_khalda<br>4.5K followers · 79 posts</span></div>
+    <div class="read stack">
+      <p>The current mark is a maroon serif "SUCCESS" with a graduation cap on the S, "4SURE" in grey underneath and a faint world map behind it. The bio leans on emojis ("Your pathway to top score results! 📈").</p>
+      <ul class="clean">
+        <li><span class="k">Keep:</span> the promise of results, and the international-exam focus (EST, SAT, AP, IGCSE). Families already recognise the maroon.</li>
+        <li><span class="k">Leave behind:</span> the graduation cap, the world-map texture and the decorative serif. These are the most common tutoring-center signals in the region, so they make the academy look like everyone else.</li>
+        <li><span class="k">The gap:</span> parents need to see an institution they can trust with their child's university application. Students need something they would be happy to follow and share. Today the brand speaks to neither strongly.</li>
+      </ul>
+      <p style="color:var(--muted);font-size:.9rem">Read from the public Instagram profile only. Posts and reels were not reviewed in depth.</p>
+    </div>
+  </div>
+</section>
+
+<section id="strategy" class="stack-lg">
+  <div class="read stack"><span class="eyebrow">Sections 1–3</span><h2>Strategy shared by every direction</h2>
+  <p>These three parts stay the same whichever visual direction is chosen. They are the brief the name and logo must answer.</p></div>
+
+  <div class="grid2">
+    <div class="card stack">
+      <span class="eyebrow">1 · Brand personality</span>
+      <h3>The mentor who has been there</h3>
+      <p>Picture a young, sharp tutor who studied abroad, knows every section of the SAT and still remembers how stressful it felt. Calm, exact and encouraging. Never loud, never fussy.</p>
+      <ul class="clean">
+        <li><span class="k">Confident, not arrogant.</span> Results speak; no exaggerated claims.</li>
+        <li><span class="k">Precise, not cold.</span> Clear plans, real numbers, warm tone.</li>
+        <li><span class="k">Ambitious, not pressuring.</span> Targets are motivating, never frightening.</li>
+        <li><span class="k">Modern, not trendy.</span> Current enough for students, stable enough for parents.</li>
+      </ul>
+    </div>
+    <div class="card stack">
+      <span class="eyebrow">2 · Brand positioning</span>
+      <h3>The academic partner between school and a global university</h3>
+      <p><span class="k">Positioning statement.</span> For ambitious students in Amman preparing for AP, EST, SAT and international programmes, and for the parents investing in their future, [Name] is the academy that turns a target score into a clear, measured plan, taught to international standards by tutors who know the exams inside out.</p>
+      <p><span class="k">Against:</span> tutoring centers that sell hours, and private tutors with no system. [Name] sells a structured path with progress you can see.</p>
+      <p><span class="k">Proof points to build on:</span> diagnostic test → personal plan → mock exams → score report. Present these as the brand's method, not as extras.</p>
+    </div>
+  </div>
+
+  <div class="card stack">
+    <span class="eyebrow">3 · Core values</span>
+    <div class="grid3">
+      <div class="stack"><h4>Clarity</h4><p>Every student knows where they stand, what comes next and why. Plans and reports are simple to read, for students and parents.</p></div>
+      <div class="stack"><h4>Rigour</h4><p>International standards in content, materials and mock exams. No shortcuts presented as strategies.</p></div>
+      <div class="stack"><h4>Belief</h4><p>High expectations held with warmth. We push because we think the student can get there.</p></div>
+      <div class="stack"><h4>Progress</h4><p>Growth is measured and shown: practice scores, milestones, offers received.</p></div>
+      <div class="stack"><h4>Integrity</h4><p>Honest about timelines and realistic targets. Parents get the truth, early.</p></div>
+    </div>
+  </div>
+
+  <div class="card stack">
+    <span class="eyebrow">Voice in one line</span>
+    <p>Plain, specific, encouraging. English for exam and programme terms; clear Modern Standard Arabic for parents; natural Jordanian Arabic on student-facing social. Avoid hype words and stacks of emojis. Talk about plans, scores and next steps.</p>
+    <div class="grid2">
+      <p><span class="k">Instead of:</span> "Guaranteed top scores!!! 🚀🔥"</p>
+      <p><span class="k">Say:</span> "Your target: 1450. Your plan: 10 weeks, 4 full mocks, weekly score reports."</p>
+    </div>
+  </div>
+</section>
+
+<section id="directions" class="stack-lg">
+  <div class="read stack"><span class="eyebrow">Sections 4–8</span><h2>Three visual directions</h2>
+  <p>Each direction is a different answer to the same strategy. Each one has its own concept, palette (with HEX, RGB and CMYK), typography, logo direction and graphic elements, plus a sample post. Choose one, or take the structure of one and the colour of another.</p>
+  <p style="color:var(--muted);font-size:.9rem">CMYK values are starting conversions from screen colour. Confirm them against a printed proof and a Pantone match before the final guideline.</p></div>
+
+  <!-- DIRECTION A -->
+  <article class="dir" id="dir-a">
+    <div class="dir-head" style="background:#141B4D;color:#F6F4EF">
+      <div class="stack">
+        <span class="eyebrow" style="color:#AFC3FF">Direction A</span>
+        <h2 style="font-family:Sora,sans-serif;color:#F6F4EF">Trajectory</h2>
+        <p style="color:#D8DEF0;max-width:58ch">Every student is on a path from where they are to where they want to be: a baseline score rising to a target score, school rising to university. The identity is built on that line. It is calm, confident and forward-moving, with deep indigo for trust and a sunrise amber for the moment of success.</p>
+      </div>
+      <svg class="mark" viewBox="0 0 100 100" aria-label="Concept sketch: rising path symbol"><rect x="4" y="4" width="92" height="92" rx="22" fill="#2F6BFF"/><path d="M22 70 L42 52 L56 60 L78 32" fill="none" stroke="#F6F4EF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="78" cy="32" r="8" fill="#FFB020"/></svg>
+    </div>
+    <div class="dir-body">
+      <div class="stack">
+        <h3>5 · Colour palette</h3>
+        <div class="tablewrap"><table>
+          <thead><tr><th></th><th>Role</th><th>Name</th><th>HEX · RGB · CMYK</th><th>Why it fits</th></tr></thead>
+          <tbody>
+            <tr><td><div class="sw" style="background:#141B4D"></div></td><td>Primary</td><td>Midnight Indigo</td><td class="code">#141B4D<br>20 27 77<br>74 65 0 70</td><td>Deep, serious and international. Reads like a strong university brand and earns parents' trust without the cliché of traditional navy-and-gold.</td></tr>
+            <tr><td><div class="sw" style="background:#2F6BFF"></div></td><td>Primary</td><td>Clear Blue</td><td class="code">#2F6BFF<br>47 107 255<br>82 58 0 0</td><td>The modern, digital half of the brand. Bright enough for students on Instagram, clean enough for reports.</td></tr>
+            <tr><td><div class="sw" style="background:#F6F4EF"></div></td><td>Secondary</td><td>Paper</td><td class="code">#F6F4EF<br>246 244 239<br>0 1 3 4</td><td>A soft background that feels like good paper. Calmer than pure white for long documents.</td></tr>
+            <tr><td><div class="sw" style="background:#E8ECF5"></div></td><td>Secondary</td><td>Mist</td><td class="code">#E8ECF5<br>232 236 245<br>5 4 0 4</td><td>Panels, tables and form fields. Keeps layouts light.</td></tr>
+            <tr><td><div class="sw" style="background:#5B6275"></div></td><td>Secondary</td><td>Slate</td><td class="code">#5B6275<br>91 98 117<br>22 16 0 54</td><td>Body text on light backgrounds and supporting details.</td></tr>
+            <tr><td><div class="sw" style="background:#FFB020"></div></td><td>Accent</td><td>Sunrise Amber</td><td class="code">#FFB020<br>255 176 32<br>0 31 87 0</td><td>Used only for achievement: the target score, a result, the end of the line. Scarcity keeps it meaningful.</td></tr>
+          </tbody></table></div>
+      </div>
+      <div class="spec">
+        <div class="specimen" style="background:#F6F4EF;color:#141B4D">
+          <h3 style="font-family:var(--f-display);color:#141B4D;margin-bottom:12px">6 · Typography</h3>
+          <p style="font:700 2rem/1.1 Sora,sans-serif">From 1180 to 1450.</p>
+          <p style="font:400 1rem/1.6 'DM Sans',sans-serif;margin-top:8px;color:#5B6275">A ten-week SAT plan with four full mock exams and a score report every Thursday.</p>
+          <p dir="rtl" style="font:700 1.7rem/1.4 Alexandria,sans-serif;margin-top:14px">من درجتك اليوم إلى هدفك</p>
+          <p dir="rtl" style="font:400 1rem/1.8 'IBM Plex Sans Arabic',sans-serif;color:#5B6275">خطة واضحة، اختبارات تجريبية، وتقرير أسبوعي للأهل.</p>
+          <ul class="clean" style="margin-top:14px;font-size:.88rem;color:#5B6275">
+            <li><b>EN headings:</b> Sora (SemiBold/Bold)</li><li><b>EN body:</b> DM Sans</li>
+            <li><b>AR headings:</b> Alexandria (Bold)</li><li><b>AR body:</b> IBM Plex Sans Arabic</li>
+          </ul>
+        </div>
+        <div class="post" style="background:#141B4D;color:#F6F4EF">
+          <div class="photo" style="background:linear-gradient(160deg,#2a3577 0%,#141B4D 60%)"><span>Photo: student at desk, window light</span></div>
+          <svg viewBox="0 0 300 120" style="width:100%;height:auto"><path d="M0 110 L80 80 L130 92 L210 40 L290 14" fill="none" stroke="#2F6BFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="290" cy="14" r="9" fill="#FFB020"/></svg>
+          <p style="font:600 .8rem/1 'DM Sans',sans-serif;letter-spacing:.12em;text-transform:uppercase;color:#AFC3FF;margin-top:12px">SAT · Winter intake</p>
+          <p style="font:700 1.9rem/1.1 Sora,sans-serif;margin-top:6px">Your target score,<br>mapped week by week.</p>
+          <p style="font:500 .85rem/1 'DM Sans',sans-serif;margin-top:14px;color:#D8DEF0">[Name] · Khalda</p>
+        </div>
+      </div>
+      <div class="grid2">
+        <div class="stack"><h3>7 · Logo direction</h3>
+          <ul class="clean">
+            <li><span class="k">Type:</span> a symbol plus wordmark, with the symbol able to stand alone as the app icon and profile picture.</li>
+            <li><span class="k">Symbol:</span> one continuous rising line ending in a point, contained in a soft square. Abstract enough to suit any name; it can also form the name's initial.</li>
+            <li><span class="k">Wordmark:</span> geometric sans in Title Case, medium weight, slightly tight spacing. An Arabic version drawn to match, not typed in a default font.</li>
+            <li><span class="k">Feel:</span> calm, exact, upward. Works at 32 px on a phone and on a 3-metre sign.</li>
+          </ul></div>
+        <div class="stack"><h3>8 · Graphic elements</h3>
+          <ul class="clean">
+            <li><span class="k">The trajectory line:</span> a single stroke that rises left to right (right to left on Arabic-first layouts) and ends in an amber point. Used once per layout.</li>
+            <li><span class="k">Shapes:</span> soft squares with a 22% corner radius, echoing the symbol.</li>
+            <li><span class="k">Pattern:</span> a faint score-scale grid (200–800, 1–5) for backgrounds and covers.</li>
+            <li><span class="k">Icons:</span> 2 px line icons with rounded ends, filled only when active.</li>
+            <li><span class="k">Educational cues:</span> score bars, milestones and week counters instead of books and caps.</li>
+          </ul></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- DIRECTION B -->
+  <article class="dir" id="dir-b">
+    <div class="dir-head" style="background:#6E1230;color:#FAF8F4">
+      <div class="stack">
+        <span class="eyebrow" style="color:#E9C98A">Direction B</span>
+        <h2 style="font-family:Fraunces,serif;color:#FAF8F4">Modern Scholar</h2>
+        <p style="color:#F2E4E7;max-width:58ch">The look of a respected international school, rebuilt for today. It keeps the maroon families already know and turns it into a deep garnet, pairs a modern serif with clean sans text, and uses a simplified seal. This direction speaks most directly to parents and to academic credibility.</p>
+      </div>
+      <svg class="mark" viewBox="0 0 100 100" aria-label="Concept sketch: modern seal symbol"><path d="M50 8 L84 18 V48 C84 70 68 84 50 92 C32 84 16 70 16 48 V18 Z" fill="none" stroke="#C69A3E" stroke-width="5" stroke-linejoin="round"/><path d="M30 44 C40 40 46 40 50 44 C54 40 60 40 70 44 V66 C60 62 54 62 50 66 C46 62 40 62 30 66 Z" fill="none" stroke="#FAF8F4" stroke-width="4" stroke-linejoin="round"/><path d="M50 44 V66" stroke="#FAF8F4" stroke-width="4"/></svg>
+    </div>
+    <div class="dir-body">
+      <div class="stack">
+        <h3>5 · Colour palette</h3>
+        <div class="tablewrap"><table>
+          <thead><tr><th></th><th>Role</th><th>Name</th><th>HEX · RGB · CMYK</th><th>Why it fits</th></tr></thead>
+          <tbody>
+            <tr><td><div class="sw" style="background:#6E1230"></div></td><td>Primary</td><td>Garnet</td><td class="code">#6E1230<br>110 18 48<br>0 84 56 57</td><td>An evolution of the current maroon, so returning families still recognise the academy. Deeper and cooler, it reads as institutional rather than decorative.</td></tr>
+            <tr><td><div class="sw" style="background:#1F1E24"></div></td><td>Primary</td><td>Ink</td><td class="code">#1F1E24<br>31 30 36<br>14 17 0 86</td><td>Text and strong contrast. Keeps the garnet from feeling heavy.</td></tr>
+            <tr><td><div class="sw" style="background:#FAF8F4"></div></td><td>Secondary</td><td>Ivory</td><td class="code">#FAF8F4<br>250 248 244<br>0 1 2 2</td><td>Main background. Gives print and social a calm, academic page feel.</td></tr>
+            <tr><td><div class="sw" style="background:#F2E4E7"></div></td><td>Secondary</td><td>Blush</td><td class="code">#F2E4E7<br>242 228 231<br>0 6 5 5</td><td>A tint of garnet for panels and highlights, which softens the palette for students.</td></tr>
+            <tr><td><div class="sw" style="background:#7C7A85"></div></td><td>Secondary</td><td>Stone</td><td class="code">#7C7A85<br>124 122 133<br>7 8 0 48</td><td>Captions, dividers and supporting information.</td></tr>
+            <tr><td><div class="sw" style="background:#C69A3E"></div></td><td>Accent</td><td>Brass</td><td class="code">#C69A3E<br>198 154 62<br>0 22 69 22</td><td>Recognition and distinction: offers, top scores, certificates. A muted metal, not a shiny gold, to stay modern.</td></tr>
+          </tbody></table></div>
+      </div>
+      <div class="spec">
+        <div class="specimen" style="background:#FAF8F4;color:#1F1E24">
+          <h3 style="font-family:var(--f-display);color:#1F1E24;margin-bottom:12px">6 · Typography</h3>
+          <p style="font:700 2.1rem/1.1 Fraunces,serif;color:#6E1230">Prepared for the world's universities.</p>
+          <p style="font:400 1rem/1.6 'Instrument Sans',sans-serif;margin-top:8px;color:#7C7A85">AP, EST II and SAT programmes taught to international standards, in small groups.</p>
+          <p dir="rtl" style="font:700 1.8rem/1.4 'El Messiri',serif;margin-top:14px;color:#6E1230">طريقك إلى أفضل الجامعات</p>
+          <p dir="rtl" style="font:400 1rem/1.8 'IBM Plex Sans Arabic',sans-serif;color:#7C7A85">برامج AP و EST و SAT بمعايير دولية ومجموعات صغيرة.</p>
+          <ul class="clean" style="margin-top:14px;font-size:.88rem;color:#7C7A85">
+            <li><b>EN headings:</b> Fraunces (modern serif)</li><li><b>EN body:</b> Instrument Sans</li>
+            <li><b>AR headings:</b> El Messiri</li><li><b>AR body:</b> IBM Plex Sans Arabic</li>
+          </ul>
+        </div>
+        <div class="post" style="background:#FAF8F4;color:#1F1E24">
+          <div class="photo" style="background:linear-gradient(180deg,#d9cfc4 0%,#efe8df 55%,#FAF8F4 78%)"><span>Photo: tutor and student, library light</span></div>
+          <p style="font:600 .78rem/1 'Instrument Sans',sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#C69A3E">Class of 2027 · Results</p>
+          <p style="font:700 2rem/1.1 Fraunces,serif;margin-top:8px;color:#6E1230">[Student], 5 in AP Calculus BC.</p>
+          <div style="height:2px;width:56px;background:#C69A3E;margin-top:14px"></div>
+          <p style="font:500 .85rem/1 'Instrument Sans',sans-serif;margin-top:12px;color:#7C7A85">[Name] · Khalda</p>
+        </div>
+      </div>
+      <div class="grid2">
+        <div class="stack"><h3>7 · Logo direction</h3>
+          <ul class="clean">
+            <li><span class="k">Type:</span> a seal (emblem) plus wordmark, with a simplified version for small sizes.</li>
+            <li><span class="k">Symbol:</span> a monoline shield or circle seal holding one idea, for example an open book or the name's initial. Two strokes at most, so it does not look like an old school crest.</li>
+            <li><span class="k">Wordmark:</span> modern serif in Title Case, generous spacing. Arabic in a matching calligraphic-modern style.</li>
+            <li><span class="k">Feel:</span> established, trustworthy, quietly proud. Like a school with a 50-year history that redesigned last year.</li>
+          </ul></div>
+        <div class="stack"><h3>8 · Graphic elements</h3>
+          <ul class="clean">
+            <li><span class="k">Lines:</span> thin brass rules and frames, as on certificates and diplomas.</li>
+            <li><span class="k">Shapes:</span> arches and seal circles, used as photo frames.</li>
+            <li><span class="k">Pattern:</span> a fine engraved texture taken from the seal, at 5% opacity.</li>
+            <li><span class="k">Icons:</span> thin line icons in garnet or ink.</li>
+            <li><span class="k">Educational cues:</span> results tables, university crests (with permission), exam calendars.</li>
+          </ul></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- DIRECTION C -->
+  <article class="dir" id="dir-c">
+    <div class="dir-head" style="background:#2448F2;color:#FFFFFF">
+      <div class="stack">
+        <span class="eyebrow" style="color:#DDE3FF">Direction C</span>
+        <h2 style="font-family:Unbounded,sans-serif;color:#FFFFFF">Answer Sheet</h2>
+        <p style="color:#E6EAFF;max-width:58ch">Every student in this academy knows the bubble sheet. This direction turns it into the brand: a grid of circles where one is filled, meaning the right answer and the student who got there. It is bold, youthful and made for social media, while the clean grid keeps it disciplined enough for parents.</p>
+      </div>
+      <svg class="mark" viewBox="0 0 100 100" aria-label="Concept sketch: answer bubble symbol"><g fill="none" stroke="#FFFFFF" stroke-width="5"><circle cx="30" cy="30" r="14"/><circle cx="70" cy="30" r="14"/><circle cx="30" cy="70" r="14"/></g><circle cx="70" cy="70" r="16" fill="#C6F432"/></svg>
+    </div>
+    <div class="dir-body">
+      <div class="stack">
+        <h3>5 · Colour palette</h3>
+        <div class="tablewrap"><table>
+          <thead><tr><th></th><th>Role</th><th>Name</th><th>HEX · RGB · CMYK</th><th>Why it fits</th></tr></thead>
+          <tbody>
+            <tr><td><div class="sw" style="background:#2448F2"></div></td><td>Primary</td><td>Cobalt</td><td class="code">#2448F2<br>36 72 242<br>85 70 0 5</td><td>Confident and energetic. Stands out in a feed where most education brands use navy, maroon or green.</td></tr>
+            <tr><td><div class="sw" style="background:#0D0F1A"></div></td><td>Primary</td><td>Ink</td><td class="code">#0D0F1A<br>13 15 26<br>50 42 0 90</td><td>Text and dark backgrounds for reels and night-time stories.</td></tr>
+            <tr><td><div class="sw" style="background:#FFFFFF"></div></td><td>Secondary</td><td>White</td><td class="code">#FFFFFF<br>255 255 255<br>0 0 0 0</td><td>The answer sheet itself: clean and open.</td></tr>
+            <tr><td><div class="sw" style="background:#EEF0F6"></div></td><td>Secondary</td><td>Grid Grey</td><td class="code">#EEF0F6<br>238 240 246<br>3 2 0 4</td><td>Grid lines, panels and empty bubbles.</td></tr>
+            <tr><td><div class="sw" style="background:#B9B6FF"></div></td><td>Secondary</td><td>Lilac</td><td class="code">#B9B6FF<br>185 182 255<br>27 29 0 0</td><td>A soft partner to cobalt for student content, so the brand does not feel only "exam".</td></tr>
+            <tr><td><div class="sw" style="background:#C6F432"></div></td><td>Accent</td><td>Highlighter Lime</td><td class="code">#C6F432<br>198 244 50<br>19 0 80 4</td><td>The filled bubble: correct answers, scores and wins. Feels like a highlighter on study notes.</td></tr>
+          </tbody></table></div>
+      </div>
+      <div class="spec">
+        <div class="specimen" style="background:#FFFFFF;color:#0D0F1A;border:1px solid #EEF0F6">
+          <h3 style="font-family:var(--f-display);color:#0D0F1A;margin-bottom:12px">6 · Typography</h3>
+          <p style="font:700 1.9rem/1.1 Unbounded,sans-serif">Fill in the right one.</p>
+          <p style="font:400 1rem/1.6 'Plus Jakarta Sans',sans-serif;margin-top:8px;color:#4A4F63">EST II Math in 8 weeks: one topic a week, one full mock every Saturday.</p>
+          <p dir="rtl" style="font:600 1.7rem/1.4 'Readex Pro',sans-serif;margin-top:14px">اختار الجواب الصح</p>
+          <p dir="rtl" style="font:400 1rem/1.8 'Readex Pro',sans-serif;color:#4A4F63">كل أسبوع موضوع، وكل سبت امتحان تجريبي كامل.</p>
+          <ul class="clean" style="margin-top:14px;font-size:.88rem;color:#4A4F63">
+            <li><b>EN headings:</b> Unbounded (short headlines only)</li><li><b>EN body:</b> Plus Jakarta Sans</li>
+            <li><b>AR headings and body:</b> Readex Pro</li>
+          </ul>
+        </div>
+        <div class="post" style="background:#2448F2;color:#FFFFFF">
+          <div class="photo" style="background:radial-gradient(circle at 70% 30%,#4a68ff 0%,#2448F2 60%)"><span>Photo: student, cut-out, bright</span></div>
+          <div style="display:grid;grid-template-columns:repeat(4,28px);gap:10px;margin-bottom:16px">
+            <span style="width:28px;height:28px;border-radius:50%;border:3px solid #FFFFFF"></span><span style="width:28px;height:28px;border-radius:50%;border:3px solid #FFFFFF"></span><span style="width:28px;height:28px;border-radius:50%;background:#C6F432"></span><span style="width:28px;height:28px;border-radius:50%;border:3px solid #FFFFFF"></span>
+          </div>
+          <p style="font:700 1.75rem/1.1 Unbounded,sans-serif">SAT Math:<br>4 mistakes everyone makes</p>
+          <p style="font:600 .85rem/1 'Plus Jakarta Sans',sans-serif;margin-top:14px;color:#E6EAFF">Swipe → · [Name]</p>
+        </div>
+      </div>
+      <div class="grid2">
+        <div class="stack"><h3>7 · Logo direction</h3>
+          <ul class="clean">
+            <li><span class="k">Type:</span> a symbol plus lowercase or Title Case wordmark, with the symbol built from circles on a grid.</li>
+            <li><span class="k">Symbol:</span> a small set of answer bubbles with one filled. It can also spell the name's initial in dots.</li>
+            <li><span class="k">Wordmark:</span> wide geometric sans, bold, used large and short. Arabic in a rounded geometric style that matches the circles.</li>
+            <li><span class="k">Feel:</span> clever, energetic, student-first, with discipline from the grid.</li>
+          </ul></div>
+        <div class="stack"><h3>8 · Graphic elements</h3>
+          <ul class="clean">
+            <li><span class="k">Shapes:</span> circles (empty and filled) and a strict square grid.</li>
+            <li><span class="k">Pattern:</span> rows of answer bubbles across covers, notebooks and walls.</li>
+            <li><span class="k">Lines:</span> highlighter strokes in lime behind key words.</li>
+            <li><span class="k">Icons:</span> bold rounded icons that sit inside circles.</li>
+            <li><span class="k">Educational cues:</span> answer choices (A B C D), timers, score counters.</li>
+          </ul></div>
+      </div>
+    </div>
+  </article>
+</section>
+
+<section id="recommend" class="stack-lg">
+  <div class="rec stack">
+    <span class="eyebrow">Recommendation</span>
+    <h2>Lead with Direction A, Trajectory</h2>
+    <p class="read">It is the best balance for this audience. Parents see a serious, international institution; students see something modern they would follow. Its central idea, a measured path from baseline to target, is the academy's real method, so the brand and the service tell the same story. It also works with almost any future name, because the symbol is abstract.</p>
+    <div class="grid3">
+      <div class="stack"><h4>A · Trajectory</h4><p>Best overall balance. Strongest link to results and method. Risk: can feel corporate if photography is cold, so keep the photos warm and human.</p></div>
+      <div class="stack"><h4>B · Modern Scholar</h4><p>Strongest with parents and keeps the current maroon. Risk: drifts traditional if serif and seal are overused. Best if the new name sounds established.</p></div>
+      <div class="stack"><h4>C · Answer Sheet</h4><p>Strongest on Instagram and with 15–18 year olds. Risk: can feel young to parents paying for AP and university prep. Best if the new name is short and bold.</p></div>
+    </div>
+    <p class="read" style="color:var(--muted)">A workable mix: Direction A's structure and line, with a garnet accent from Direction B to carry the current brand's recognition through the change.</p>
+  </div>
+</section>
+
+<section id="photo" class="stack-lg">
+  <div class="read stack"><span class="eyebrow">Section 9</span><h2>Photography style</h2>
+  <p>Photography is where an academy proves it is real. Use our own photographs of real students and tutors, taken at the Khalda branch, not stock images of smiling strangers.</p></div>
+  <div class="grid2">
+    <div class="card stack"><h4>What to shoot</h4><ul class="clean">
+      <li>Focus: students mid-problem, tutors explaining at the board, a hand on a mock paper, a parent meeting.</li>
+      <li>Real milestones: score reports being opened, acceptance letters, results day.</li>
+      <li>Details: pencils on a bubble sheet, a timer, a marked practice test, a laptop with College Board open.</li>
+      <li>The space: clean classrooms, study corners, the entrance with the sign.</li>
+    </ul></div>
+    <div class="card stack"><h4>How it looks</h4><ul class="clean">
+      <li>Natural window light, soft shadows, warm skin tones. No harsh flash.</li>
+      <li>Shallow depth of field so the student is the hero and the background stays calm.</li>
+      <li>Colour grading leans slightly towards the chosen palette (cool indigo shadows for A, warm ivory for B, bright and clean for C).</li>
+      <li>Natural, modest styling that respects families. Always get written consent from parents before photographing any student under 18.</li>
+    </ul></div>
+  </div>
+</section>
+
+<section id="social" class="stack-lg">
+  <div class="read stack"><span class="eyebrow">Sections 10–11</span><h2>Social media, posts and reels</h2>
+  <p>Instagram is the academy's shop window, for students and for the parents who look over their shoulder. The grid should look like one consistent publication.</p></div>
+  <div class="grid2">
+    <div class="card stack"><h4>10 · Overall visual style</h4><ul class="clean">
+      <li><span class="k">Content mix:</span> 40% teaching value (tips, common mistakes, quick questions), 30% proof (results, testimonials, offers), 20% life at the academy, 10% announcements.</li>
+      <li><span class="k">Grid rhythm:</span> alternate photo-led and type-led posts so the grid breathes. One brand graphic element per post, never all of them.</li>
+      <li><span class="k">Templates:</span> 6 fixed formats (tip, mistake, result, quote, announcement, carousel), each with a set place for logo, title and programme tag (AP / EST / SAT).</li>
+      <li><span class="k">Bilingual:</span> Arabic and English versions as separate designs, each laid out natively (right to left for Arabic), never squeezed into one tile.</li>
+      <li><span class="k">Highlights:</span> Programmes · Results · Schedule · Tutors · Location, with covers in the brand palette and one icon each.</li>
+    </ul></div>
+    <div class="card stack"><h4>11 · Post and reel direction</h4><ul class="clean">
+      <li><span class="k">Feed posts (1080×1350):</span> one clear headline of up to 8 words, plenty of margin, the programme tag top left, logo small at the bottom.</li>
+      <li><span class="k">Carousels:</span> slide 1 is the hook; each following slide is one idea; the last slide is a clear next step (book a diagnostic test). Keep the graphic line or grid continuous across slides.</li>
+      <li><span class="k">Reels (1080×1920):</span> hook in the first 2 seconds (a question on screen, a real student reaction, a timer). Captions burned in, in the brand fonts, inside the safe zone. End card with the symbol.</li>
+      <li><span class="k">Formats that suit the brand:</span> "60-second question", tutor tips to camera, mock-exam day behind the scenes, student journey from baseline to final score.</li>
+      <li><span class="k">Motion:</span> elements move the way the concept moves: the line draws upward (A), the seal fades in (B), a bubble fills in (C).</li>
+    </ul></div>
+  </div>
+</section>
+
+<section id="ads" class="stack-lg">
+  <div class="read stack"><span class="eyebrow">Section 12</span><h2>Advertising design direction</h2></div>
+  <div class="grid2">
+    <div class="card stack"><h4>Principles</h4><ul class="clean">
+      <li>One message per ad: one programme, one intake, one action.</li>
+      <li>The hero is a real student or a real number ("Average SAT gain: +170", only when the academy can prove it).</li>
+      <li>Hierarchy: headline → proof → action. The logo is visible but never the biggest thing.</li>
+      <li>Parent-targeted ads lead with structure and results. Student-targeted ads lead with the goal and the feeling.</li>
+    </ul></div>
+    <div class="card stack"><h4>Formats</h4><ul class="clean">
+      <li>Meta feed 1080×1350, stories and reels 1080×1920, Google display sets.</li>
+      <li>Intake campaigns (summer, winter, before each exam date) built from one master design, then adapted.</li>
+      <li>Every claim (scores, rankings, university offers) is checked and documented before it runs.</li>
+    </ul></div>
+  </div>
+</section>
+
+<section id="print" class="stack-lg">
+  <div class="read stack"><span class="eyebrow">Section 13</span><h2>Print and stationery</h2></div>
+  <div class="grid3">
+    <div class="card stack"><h4>Business cards</h4><p>Symbol alone on the front in the primary colour; name, role, phone and QR code on a light back. Uncoated, heavy stock.</p></div>
+    <div class="card stack"><h4>Letterhead and reports</h4><p>Logo top left (top right in Arabic versions), thin rule, wide margins. The monthly progress report is a key brand piece: a clear score chart for parents on one page.</p></div>
+    <div class="card stack"><h4>Study materials</h4><p>Branded booklets and mock-exam covers with programme colour codes (for example AP, EST and SAT each get one shade from the secondary palette).</p></div>
+    <div class="card stack"><h4>Certificates</h4><p>The most formal application. Direction B's brass rule style can serve here even if A or C is chosen.</p></div>
+    <div class="card stack"><h4>Merchandise</h4><p>Notebooks, pencils and tote bags with the symbol only. Students should want to carry them.</p></div>
+    <div class="card stack"><h4>Brochure</h4><p>One per programme, A5, photo-led cover, with a clear path: diagnostic, plan, mocks, result.</p></div>
+  </div>
+</section>
+
+<section id="signage" class="stack-lg">
+  <div class="read stack"><span class="eyebrow">Section 14</span><h2>Signage and physical academy branding</h2>
+  <p>A family's first visit decides a lot. The branch should feel like a calm, organised place of study, not a shopfront.</p></div>
+  <div class="grid2">
+    <div class="card stack"><h4>Outside</h4><ul class="clean">
+      <li>Main sign: wordmark in Arabic and English with equal presence, lit at night, on a solid primary-colour panel.</li>
+      <li>Window graphics: frosted band with the graphic element (line, seal or bubbles) for privacy and identity.</li>
+      <li>Check municipality signage rules in Amman before production.</li>
+    </ul></div>
+    <div class="card stack"><h4>Inside</h4><ul class="clean">
+      <li>Reception wall: large symbol on the primary colour, with the positioning line in both languages.</li>
+      <li>Classrooms named or numbered with consistent door signs; programme schedules in branded frames.</li>
+      <li>A results wall that is updated every exam season (with consent).</li>
+      <li>Wayfinding in bilingual pictograms, same icon set as social media.</li>
+    </ul></div>
+  </div>
+</section>
+
+<section id="dodont" class="stack-lg">
+  <div class="read stack"><span class="eyebrow">Section 15</span><h2>Do's and don'ts</h2></div>
+  <div class="dd">
+    <div class="card stack do"><h4>Do</h4><ul class="clean">
+      <li>Use real students, tutors and results.</li>
+      <li>Keep one main message and lots of space on every design.</li>
+      <li>Use the accent colour only for achievement and action.</li>
+      <li>Design Arabic layouts natively, right to left.</li>
+      <li>Show the method: diagnostic, plan, mocks, report.</li>
+      <li>Check every number and claim before publishing.</li>
+      <li>Keep the logo's clear space and minimum size.</li>
+    </ul></div>
+    <div class="card stack dont"><h4>Don't</h4><ul class="clean">
+      <li>Use graduation caps, globes, rockets, light bulbs or stacks of books as decoration.</li>
+      <li>Use cartoon characters, bubble fonts or rainbow colours (too childish).</li>
+      <li>Use stock photos of people who are not at the academy.</li>
+      <li>Promise guaranteed scores or use exaggerated claims.</li>
+      <li>Fill posts with emojis, stickers or more than two fonts.</li>
+      <li>Stretch, recolour or add effects (shadows, glows, 3D) to the logo.</li>
+      <li>Mix the three directions' elements in one layout.</li>
+    </ul></div>
+  </div>
+</section>
+
+<section id="examples" class="stack-lg">
+  <div class="read stack"><span class="eyebrow">Section 16</span><h2>How the identity could be applied</h2>
+  <p>How the same touchpoints look in each direction. The final guideline will show the chosen direction as finished mock-ups.</p></div>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Touchpoint</th><th>A · Trajectory</th><th>B · Modern Scholar</th><th>C · Answer Sheet</th></tr></thead>
+    <tbody>
+      <tr><td class="k">Instagram profile picture</td><td>Rising-line symbol, blue square</td><td>Seal in brass on garnet</td><td>Bubble symbol, lime on cobalt</td></tr>
+      <tr><td class="k">Results post</td><td>Line from baseline to final score, amber point on the result</td><td>Student portrait, serif name and score, brass rule</td><td>Score inside a filled lime bubble</td></tr>
+      <tr><td class="k">Tip carousel</td><td>The line runs across all slides</td><td>Ivory pages with numbered serif headings</td><td>Each slide is a question with A–D bubbles</td></tr>
+      <tr><td class="k">Reel end card</td><td>The line draws upward into the symbol</td><td>Seal fades in on garnet</td><td>A bubble fills in, then the logo</td></tr>
+      <tr><td class="k">Parent progress report</td><td>Score chart with target line</td><td>Formal one-page report with seal</td><td>Bubble-grid progress tracker</td></tr>
+      <tr><td class="k">Mock-exam booklet</td><td>Indigo cover, score-scale grid</td><td>Ivory cover, garnet seal</td><td>Cobalt cover, bubble pattern</td></tr>
+      <tr><td class="k">Reception wall</td><td>Large symbol and line across the wall</td><td>Seal and positioning line in brass lettering</td><td>Full-wall bubble grid with one lit circle</td></tr>
+      <tr><td class="k">Outdoor sign</td><td>Indigo panel, white wordmark</td><td>Garnet panel, ivory wordmark</td><td>Cobalt panel, white wordmark, lime dot</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section id="next" class="stack-lg">
+  <div class="read stack"><span class="eyebrow">Next steps</span><h2>From direction to finished brand</h2>
+  <ol class="clean" style="padding-left:1.2em">
+    <li><span class="k">Choose a direction</span> (or a mix) with the academy.</li>
+    <li><span class="k">Name:</span> develop the new name. The chosen direction will guide which names fit.</li>
+    <li><span class="k">Logo:</span> 3 concepts in the chosen direction, in Arabic and English.</li>
+    <li><span class="k">Full guideline:</span> final palette (with Pantone), type licences, logo rules, templates and mock-ups.</li>
+    <li><span class="k">Rollout plan:</span> Instagram switch-over, signage, print, and how to tell current families about the change.</li>
+  </ol>
+  <p style="color:var(--muted)">Prepared by Sara, Brand &amp; Design, Logic Loop. Draft for internal review. Not yet shared with the client.</p>
+  </div>
+</section>
+
+</div>
