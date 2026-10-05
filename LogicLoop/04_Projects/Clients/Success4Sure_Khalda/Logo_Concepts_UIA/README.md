@@ -59,3 +59,11 @@ Sample line "Your gateway to the world's universities." is a tagline idea for Ka
 - **4 Pattern system:** the arch tiles into a pattern; logo sits on it like a stamp (brand world for walls, bags, posts)
 Suggested combo: Radiance or the line Gateway as the logo + Pattern system as the brand background.
 "Step through. Aim higher." on the sample post is a tagline idea, not approved copy.
+
+## Refined final candidate — "international system… more professional… basic in modern and fancy way" (2026-10-05)
+`Gateway_Refined_Final_Candidate.png`: every effect removed.
+- True two-centred arch (radius 60, span 80, apex ≈ 3.4), one stroke weight (11), square cut ends, one dot (ø 15). Construction grid shown.
+- Primary: indigo on amber. Reversed: paper arch + amber dot on indigo. Also on white.
+- Wordmark: "UNITED" in wide-tracked caps, hairline divider, "INTERNATIONAL ACADEMY" small caps, Arabic below. Type option 1 Modern (Sora), option 2 Classic (Fraunces).
+- Applications: night façade, business cards, app icon, profiles 110/56.
+Recommended: type option 1 (Modern) for an international system.

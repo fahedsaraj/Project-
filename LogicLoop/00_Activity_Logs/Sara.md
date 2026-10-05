@@ -52,3 +52,4 @@
 - Fahed: 'make another idea'. Concept 5 The Gateway: pointed arch = U + A, student inside = i. Full presentation board. Recommended.
 - Fahed asked for more Sunrise Amber / amber background. Delivered 3 Gateway amber versions (A amber ground, B amber arch, C light through the door, rec.). Flagged guideline colour-balance change if approved.
 - Fahed liked Amber A, wants more creative. Round 2: Solid Gate / Corridor / Radiance / Pattern system. Suggested logo + pattern combo.
+- Fahed: international system, professional, simple, modern and refined. Delivered refined Gateway final candidate with construction grid, two type options, lockups and applications.
