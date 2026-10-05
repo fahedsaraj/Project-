@@ -44,3 +44,4 @@
 - Removed invented academy facts from samples (test duration, report frequency, group size). The academy needs to confirm its real service details.
 - Next: Fahed review → share with academy → name → logo to chapter 02 requirements.
 - PDF version: `04_Projects/Clients/Success4Sure_Khalda/Trajectory_Brand_Guidelines_v0.1.pdf` (A4, 20 pages, brand fonts embedded).
+- Fahed: "Approve to share". Guidelines v0.1 relabelled "For client review" (page + PDF). Fahed sends it to the academy; collect their feedback for v0.2.
