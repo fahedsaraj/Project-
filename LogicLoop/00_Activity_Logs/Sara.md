@@ -45,3 +45,4 @@
 - Next: Fahed review → share with academy → name → logo to chapter 02 requirements.
 - PDF version: `04_Projects/Clients/Success4Sure_Khalda/Trajectory_Brand_Guidelines_v0.1.pdf` (A4, 20 pages, brand fonts embedded).
 - Fahed: "Approve to share". Guidelines v0.1 relabelled "For client review" (page + PDF). Fahed sends it to the academy; collect their feedback for v0.2.
+- Fahed: name may be "United International Academy". Made 3 logo concepts in Trajectory (1 Rising U, recommended · 2 dotted i · 3 many paths). `04_Projects/Clients/Success4Sure_Khalda/Logo_Concepts_UIA/`. Flagged name confusion with The International Academy – Amman (IAA) and the need for a legal/name check.

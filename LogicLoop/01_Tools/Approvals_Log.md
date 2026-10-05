@@ -25,6 +25,7 @@ Every proposal waiting on Fahed, and every decision he makes. Omar maintains it.
 | 31 | 2026-09-29 | Success4Sure Meta ad "لا تاخذ كلامنا… شوف صفحتنا بنفسك" (profile visits) + proposed setup, test budget JOD 35 (`Ad_Visit_Profile/`) | Noor (Fahed asked; setup = Rami) | Pending |
 | 32 | 2026-09-29 | Ad versions: A in Story 9:16 + Square 1:1; Version B dark "كل اللي بدك تعرفه… موجود على صفحتنا" for A/B test | Noor (Fahed asked) | Pending |
 | 23 | 2026-09-28 | 5 stories for highlights (`Designs/Stories/`); confirm hours to show (10–6 vs 12–20) | Sara | Pending |
+| 26 | 2026-10-05 | UIA logo concept: 1 Rising U / 2 dotted i / 3 many paths (`Clients/Success4Sure_Khalda/Logo_Concepts_UIA/`). Name needs legal check (close to The International Academy – Amman) | Sara / Fahed | Pending |
 
 ## Decided
 | Date | Item | Decision |
