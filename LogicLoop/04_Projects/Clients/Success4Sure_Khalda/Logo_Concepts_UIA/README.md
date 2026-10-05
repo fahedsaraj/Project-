@@ -50,3 +50,12 @@ Dropped: "Cut" (a line through the letters read as a crossed-out wrong answer).
 Rule kept: no white text on amber (1.7:1).
 If approved, guidelines v0.2 must change the colour balance (amber from 5% "achievement only" to a main brand colour) and update chapter 03.
 Sample line "Your gateway to the world's universities." is a tagline idea for Kareem/Fahed, not approved copy.
+
+## Amber A, round 2 — "a is good but we can make it in more creative way" (2026-10-05)
+`Concept5_Gateway_AmberA_Round2.png` (amber ground, indigo mark):
+- **1 Solid Gate:** solid indigo arch monument, doorway cut out in amber, student inside. Most iconic. Risk: solid dome shape closer to a mosque silhouette
+- **2 Corridor:** three nested gateways (school → exam → university). Busy at 44–56 px
+- **3 Radiance:** rings radiate from the student through the gateway
+- **4 Pattern system:** the arch tiles into a pattern; logo sits on it like a stamp (brand world for walls, bags, posts)
+Suggested combo: Radiance or the line Gateway as the logo + Pattern system as the brand background.
+"Step through. Aim higher." on the sample post is a tagline idea, not approved copy.
