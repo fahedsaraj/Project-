@@ -17,7 +17,7 @@ Every proposal waiting on Fahed, and every decision he makes. Omar maintains it.
 | 15 | 2026-09-25 | Review automation plan v1 | Yousef | Pending |
 | 21 | 2026-09-26 | Launch designs: carousels posts 3/6/8, 4 highlight covers, profile picture (`04_Projects/Agency_Page_Launch/Designs/`) | Sara | Pending |
 | 22 | 2026-09-26 | Post 8 wording fix: shoot days → half-days to match approved tiers | Sara/Kareem | Pending |
-| 26 | 2026-10-05 | UIA logo, concept 2 round 3: pick Flow / Beyond / Scholar / Steps (`Logo_Concepts_UIA/Concept2_Round3_Creative.png`). Name still needs legal check | Sara / Fahed | Pending |
+| 26 | 2026-10-05 | UIA logo round 4: pick Orbit / Monolith / Sunrise / Overlap (`Logo_Concepts_UIA/Concept2_Round4_Signature.png`). Name still needs legal check | Sara / Fahed | Pending |
 | 27 | 2026-09-28 | Success4Sure Digital SAT Nov post "Meet your teachers", 2 versions: cards / with background (`04_Projects/Clients/Success4Sure_Khalda/Digital_SAT_Nov/`). Confirm: 11/10 = 11 Oct; Mr. Naseem = Math | Noor (Fahed asked) | Pending |
 | 28 | 2026-09-29 | Success4Sure Digital SAT registration Story with WhatsApp link sticker (`Digital_SAT_Nov/Story_Register_WhatsApp.md`) | Noor (Fahed asked) | Pending |
 | 29 | 2026-09-29 | Success4Sure all-programs Story (AP · SAT · EST II) + WhatsApp link (`All_Programs_Story/`). AP details missing | Noor (Fahed asked) | Pending |
@@ -25,7 +25,7 @@ Every proposal waiting on Fahed, and every decision he makes. Omar maintains it.
 | 31 | 2026-09-29 | Success4Sure Meta ad "لا تاخذ كلامنا… شوف صفحتنا بنفسك" (profile visits) + proposed setup, test budget JOD 35 (`Ad_Visit_Profile/`) | Noor (Fahed asked; setup = Rami) | Pending |
 | 32 | 2026-09-29 | Ad versions: A in Story 9:16 + Square 1:1; Version B dark "كل اللي بدك تعرفه… موجود على صفحتنا" for A/B test | Noor (Fahed asked) | Pending |
 | 23 | 2026-09-28 | 5 stories for highlights (`Designs/Stories/`); confirm hours to show (10–6 vs 12–20) | Sara | Pending |
-| 26 | 2026-10-05 | UIA logo, concept 2 round 3: pick Flow / Beyond / Scholar / Steps (`Logo_Concepts_UIA/Concept2_Round3_Creative.png`). Name still needs legal check | Sara / Fahed | Pending |
+| 26 | 2026-10-05 | UIA logo round 4: pick Orbit / Monolith / Sunrise / Overlap (`Logo_Concepts_UIA/Concept2_Round4_Signature.png`). Name still needs legal check | Sara / Fahed | Pending |
 
 ## Decided
 | Date | Item | Decision |

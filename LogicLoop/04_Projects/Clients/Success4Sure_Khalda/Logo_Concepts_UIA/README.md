@@ -28,3 +28,10 @@ Four custom-drawn edits (`Concept2_Edits.png`):
 - **3 Scholar:** modern italic serif u and a around an upright sans i. Most elegant, strongest with parents
 - **4 Steps:** each letter one step higher on its own blue base (letters climb like a progress chart)
 Dropped: "Cut" (a line through the letters read as a crossed-out wrong answer).
+
+## Round 4 — "more professional, in a crazy design way" (2026-10-05)
+`Concept2_Round4_Signature.png`, each shown on a night façade sign, light lockup and profile sizes:
+- **1 Orbit:** amber dot rides a tilted orbit around the word (international, no globe cliché)
+- **2 Monolith:** the i is a tall blue column (the academy), amber dot shines above like a sun. **Recommended**
+- **3 Sunrise:** dot becomes a sun on the horizon, i as dark silhouette. Weakest: can read "u∩a"
+- **4 Overlap:** thick letters overlap and blend where they meet (united, literally)

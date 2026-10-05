@@ -48,3 +48,4 @@
 - Fahed: name may be "United International Academy". Made 3 logo concepts in Trajectory (1 Rising U, recommended · 2 dotted i · 3 many paths). `04_Projects/Clients/Success4Sure_Khalda/Logo_Concepts_UIA/`. Flagged name confusion with The International Academy – Amman (IAA) and the need for a legal/name check.
 - Fahed picked Concept 2 with edits. Delivered 4 custom-drawn edits (2·A custom, 2·B rising i, 2·C shared rising line, 2·D bold icon). Awaiting his pick.
 - Fahed: 'modern and fancy, professional, be creative'. Round 3: Flow / Beyond (rec.) / Scholar / Steps. Dropped 'Cut' (looked like a crossed-out answer).
+- Fahed: 'more professional in crazy design way'. Round 4: Orbit / Monolith (rec.) / Sunrise (weak) / Overlap, with façade-sign mockups.
