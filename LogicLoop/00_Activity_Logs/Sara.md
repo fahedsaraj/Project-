@@ -43,3 +43,4 @@
 - Finding: Clear Blue on Paper is 4.1:1 (large text only) and Amber on Paper is 1.7:1 (never text). Written into the rules.
 - Removed invented academy facts from samples (test duration, report frequency, group size). The academy needs to confirm its real service details.
 - Next: Fahed review → share with academy → name → logo to chapter 02 requirements.
+- PDF version: `04_Projects/Clients/Success4Sure_Khalda/Trajectory_Brand_Guidelines_v0.1.pdf` (A4, 20 pages, brand fonts embedded).
