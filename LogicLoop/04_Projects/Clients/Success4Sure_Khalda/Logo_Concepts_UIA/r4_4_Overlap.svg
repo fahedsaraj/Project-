@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 120" style="overflow:visible"><g style="mix-blend-mode:screen" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="20">
+<path d="M18 50 V68 A19 19 0 0 0 56 68 M56 50 V88" stroke="#2F6BFF" style="mix-blend-mode:screen"/>
+<path d="M76 54 V88" stroke="#F6F4EF" style="mix-blend-mode:screen"/>
+<circle cx="108" cy="69" r="19" stroke="#8FB0FF" style="mix-blend-mode:screen"/><path d="M127 50 V88" stroke="#8FB0FF" style="mix-blend-mode:screen"/></g>
+<circle cx="76" cy="26" r="11" fill="#FFB020"/></svg>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>EST II — Story V2 "Quick Check" — 1080x1920</title>
+<style>
+  @font-face { font-family: IT; font-weight: 500; src: url(fonts/InterTight-500.ttf); }
+  @font-face { font-family: IT; font-weight: 700; src: url(fonts/InterTight-700.ttf); }
+  @font-face { font-family: IT; font-weight: 800; src: url(fonts/InterTight-800.ttf); }
+  @font-face { font-family: IS; font-style: italic; src: url(fonts/InstrumentSerif-i.ttf); }
+  @font-face { font-family: ISR; src: url(fonts/InstrumentSerif.ttf); }
+  @font-face { font-family: Playfair; font-weight: 900; src: url(fonts/Playfair-900.ttf); }
+  @font-face { font-family: PlexAr; font-weight: 600; src: url(fonts/PlexArabic-600.ttf); }
+
+  :root { --brand: #8B0214; --lit: #C8102E; --ink: #1E0A0C; --paper: #F3EBDD;
+    --muted: rgba(30,10,12,.58); --hair: rgba(30,10,12,.14); --m: 96px; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1080px; height: 1920px; background: var(--paper); }
+  .story { position: relative; width: 1080px; height: 1920px; overflow: hidden;
+    background: var(--paper); color: var(--ink); font-family: IT, sans-serif; }
+
+  /* Soft daylight + brand-red glow, same family as the post */
+  .glow { position: absolute; width: 1400px; height: 1400px; right: -700px; top: -600px; border-radius: 50%;
+    background: radial-gradient(circle, rgba(200,16,46,.22), rgba(139,2,20,.06) 40%, transparent 68%); }
+  .glow2 { position: absolute; width: 1200px; height: 1000px; left: -600px; bottom: -520px; border-radius: 50%;
+    background: radial-gradient(circle, rgba(139,2,20,.14), transparent 65%); }
+  .grain { position: absolute; inset: 0; opacity: .07; mix-blend-mode: multiply; }
+
+  .head { position: absolute; top: 262px; left: var(--m); right: var(--m);
+    display: flex; justify-content: space-between; align-items: flex-end;
+    padding-bottom: 26px; border-bottom: 1px solid var(--hair); }
+  .logo { line-height: 1; }
+  .logo .w1 { font-family: Playfair; font-weight: 900; font-size: 34px; letter-spacing: .04em; display: block; }
+  .logo .w2 { font-weight: 700; font-size: 14px; letter-spacing: .6em; margin-top: 7px; display: block; color: var(--muted); }
+  .head .k { font-weight: 700; font-size: 17px; letter-spacing: .32em; color: var(--brand); }
+
+  /* Hook */
+  .hook { position: absolute; top: 392px; left: var(--m); right: var(--m); }
+  .hook .q { font-weight: 800; font-size: 118px; line-height: .96; letter-spacing: -.035em; }
+  .hook .q em { font-family: IS; font-style: italic; font-weight: 400; color: var(--lit); letter-spacing: -.01em; font-size: 132px; }
+
+  .hook .q .ii { font-family: ISR; font-weight: 400; font-size: 132px; letter-spacing: .01em; color: var(--brand); }
+
+  /* Checklist card */
+  .card { position: absolute; top: 700px; left: var(--m); right: var(--m); padding: 18px 52px;
+    background: #FFFDF9; border-radius: 30px; border: 1px solid rgba(139,2,20,.08);
+    box-shadow: 0 34px 70px rgba(74,0,11,.14), 0 2px 0 #fff inset; }
+  .row { display: flex; align-items: center; gap: 34px; padding: 30px 0; border-bottom: 1px solid var(--hair);
+    font-weight: 700; font-size: 44px; letter-spacing: -.01em; }
+  .row:last-child { border-bottom: 0; }
+  .box { flex: none; width: 50px; height: 50px; border-radius: 12px; border: 3.5px solid var(--lit); }
+
+  /* Answer */
+  .ans { position: absolute; top: 1240px; left: var(--m); right: var(--m); }
+  .ans .en { font-family: IS; font-style: italic; font-size: 72px; line-height: 1.02; }
+  .ans .en b { font-weight: 400; color: var(--lit); }
+  .ans .ar { font-family: PlexAr; font-weight: 600; font-size: 40px; direction: rtl; text-align: right;
+    color: var(--muted); margin-top: 16px; }
+
+  /* Action */
+  .act { position: absolute; top: 1492px; left: var(--m); right: var(--m); display: flex; flex-direction: column; gap: 22px; }
+  .cta { display: flex; align-items: center; justify-content: space-between; height: 112px; padding: 0 30px 0 52px;
+    background: linear-gradient(180deg, #A0051B, var(--brand)); color: #F6EEE2; border-radius: 100px;
+    box-shadow: 0 22px 44px rgba(139,2,20,.32); }
+  .cta .t { font-weight: 800; font-size: 32px; letter-spacing: .18em; }
+  .cta .s { font-weight: 700; font-size: 17px; letter-spacing: .22em; color: rgba(246,238,226,.72); margin-top: 6px; }
+  .cta .ph { font-weight: 700; font-size: 31px; letter-spacing: .02em; background: #F6EEE2; color: var(--brand);
+    padding: 16px 26px; border-radius: 100px; white-space: nowrap; }
+</style>
+</head>
+<body>
+<div class="story">
+  <div class="glow"></div><div class="glow2"></div>
+  <svg class="grain" width="1080" height="1920" aria-hidden="true">
+    <filter id="n"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="3" stitchTiles="stitch"/></filter>
+    <rect width="100%" height="100%" filter="url(#n)"/>
+  </svg>
+
+  <div class="head">
+    <!-- STAND-IN: replace with the official Success4Sure logo file -->
+    <div class="logo"><span class="w1">SUCCESS</span><span class="w2">4 SURE</span></div>
+    <div class="k">EST II · QUICK CHECK</div>
+  </div>
+
+  <div class="hook"><div class="q">Are you <em>ready</em><br>for EST <span class="ii">II</span>?</div></div>
+
+  <div class="card">
+    <div class="row"><span class="box"></span>Reviewed every topic?</div>
+    <div class="row"><span class="box"></span>Practiced enough questions?</div>
+    <div class="row"><span class="box"></span>Know your weak points?</div>
+    <div class="row"><span class="box"></span>Have a clear plan?</div>
+  </div>
+
+  <div class="ans">
+    <div class="en">Not yet? <b>That's what<br>Revision Week is for.</b></div>
+    <div class="ar">لسّا مش جاهز؟ هاد الأسبوع إلك</div>
+  </div>
+
+  <div class="act">
+    <div class="cta">
+      <div><div class="t">REGISTER NOW</div><div class="s">RUNNING NOW · JOINING STILL OPEN</div></div>
+      <div class="ph">+962 79 055 5890</div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

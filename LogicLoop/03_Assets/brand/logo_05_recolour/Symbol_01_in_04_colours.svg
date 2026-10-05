@@ -1,0 +1,7 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="gx" x1="40" y1="40" x2="200" y2="200" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#F2B138"/><stop offset=".5" stop-color="#FF5B3A"/><stop offset="1" stop-color="#E0307A"/></linearGradient><linearGradient id="dx" x1="101" y1="101" x2="139" y2="139" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#F2B138"/><stop offset=".5" stop-color="#FF5B3A"/><stop offset="1" stop-color="#E0307A"/></linearGradient>
+<clipPath id="cx"><polygon points="172,0 240,0 240,68 68,240 0,240 0,172"/></clipPath>
+<filter id="fx" x="-1" y="-1" width="3" height="3"><feGaussianBlur stdDeviation="6"/></filter></defs>
+<g clip-path="url(#cx)" fill="none" stroke="url(#gx)" stroke-width="26">
+<path d="M52 40 V156 A32 32 0 0 0 84 188 H200"/><path d="M188 200 V84 A32 32 0 0 0 156 52 H40"/></g>
+
+<circle cx="120" cy="120" r="19" fill="#FFF4E8"/></svg>

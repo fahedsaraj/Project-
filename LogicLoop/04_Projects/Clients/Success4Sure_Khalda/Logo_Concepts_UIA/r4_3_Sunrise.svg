@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 120" style="overflow:visible"><defs><radialGradient id="sgx3" cx=".5" cy=".95" r=".9"><stop offset="0" stop-color="#FFE3A3"/><stop offset=".55" stop-color="#FFB020"/><stop offset="1" stop-color="#FF8A1F"/></radialGradient>
+<clipPath id="scx3"><rect x="0" y="0" width="160" height="88"/></clipPath></defs>
+<circle cx="80" cy="88" r="27" fill="url(#sgx3)" clip-path="url(#scx3)"/><circle cx="80" cy="88" r="38" fill="#FFB020" opacity=".12" clip-path="url(#scx3)"/>
+<g fill="none" stroke="#F6F4EF" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"><path d="M16 52 V70 A15 15 0 0 0 46 70 M46 52 V86"/><circle cx="122" cy="69" r="16" fill="none"/><path d="M138 52 V86"/></g>
+<path d="M80 66 V88" stroke="#141B4D" stroke-width="11" stroke-linecap="round"/>
+<path d="M4 92 H156" stroke="#2F6BFF" stroke-width="4" stroke-linecap="round"/></svg>
