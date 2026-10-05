@@ -35,3 +35,9 @@ Dropped: "Cut" (a line through the letters read as a crossed-out wrong answer).
 - **2 Monolith:** the i is a tall blue column (the academy), amber dot shines above like a sun. **Recommended**
 - **3 Sunrise:** dot becomes a sun on the horizon, i as dark silhouette. Weakest: can read "u∩a"
 - **4 Overlap:** thick letters overlap and blend where they meet (united, literally)
+
+## Concept 5 — The Gateway (2026-10-05, "make another idea")
+`Concept5_Gateway.png`: a pointed arch (Arabic architecture + historic universities) with the student standing in the doorway.
+- One symbol holds the whole name: arch = upturned **U** (United), pointed top = **A** (Academy), student inside = **i** (International), amber dot = the student.
+- Shown as: hero, letter breakdown, night façade sign, horizontal and stacked lockups, one-colour on blue, app icon, profile 110/56, business cards.
+- Watch: keep the arch geometric and open so it never reads as a religious niche (mihrab). Test with a few parents before final.

@@ -49,3 +49,4 @@
 - Fahed picked Concept 2 with edits. Delivered 4 custom-drawn edits (2·A custom, 2·B rising i, 2·C shared rising line, 2·D bold icon). Awaiting his pick.
 - Fahed: 'modern and fancy, professional, be creative'. Round 3: Flow / Beyond (rec.) / Scholar / Steps. Dropped 'Cut' (looked like a crossed-out answer).
 - Fahed: 'more professional in crazy design way'. Round 4: Orbit / Monolith (rec.) / Sunrise (weak) / Overlap, with façade-sign mockups.
+- Fahed: 'make another idea'. Concept 5 The Gateway: pointed arch = U + A, student inside = i. Full presentation board. Recommended.
