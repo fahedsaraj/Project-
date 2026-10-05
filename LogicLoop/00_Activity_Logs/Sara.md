@@ -50,3 +50,4 @@
 - Fahed: 'modern and fancy, professional, be creative'. Round 3: Flow / Beyond (rec.) / Scholar / Steps. Dropped 'Cut' (looked like a crossed-out answer).
 - Fahed: 'more professional in crazy design way'. Round 4: Orbit / Monolith (rec.) / Sunrise (weak) / Overlap, with façade-sign mockups.
 - Fahed: 'make another idea'. Concept 5 The Gateway: pointed arch = U + A, student inside = i. Full presentation board. Recommended.
+- Fahed asked for more Sunrise Amber / amber background. Delivered 3 Gateway amber versions (A amber ground, B amber arch, C light through the door, rec.). Flagged guideline colour-balance change if approved.

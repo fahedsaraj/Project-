@@ -41,3 +41,12 @@ Dropped: "Cut" (a line through the letters read as a crossed-out wrong answer).
 - One symbol holds the whole name: arch = upturned **U** (United), pointed top = **A** (Academy), student inside = **i** (International), amber dot = the student.
 - Shown as: hero, letter breakdown, night façade sign, horizontal and stacked lockups, one-colour on blue, app icon, profile 110/56, business cards.
 - Watch: keep the arch geometric and open so it never reads as a religious niche (mihrab). Test with a few parents before final.
+
+## Gateway in more Sunrise Amber (2026-10-05, "make this color Sunrise Amber more in design or make it as a background")
+`Concept5_Gateway_Amber.png`:
+- **A Amber background:** amber is the main colour; symbol and name in indigo (8.9:1)
+- **B Amber gateway:** indigo background, arch glows in an amber gradient
+- **C Light through the door:** doorway filled with amber light, student as dark silhouette. Recommended
+Rule kept: no white text on amber (1.7:1).
+If approved, guidelines v0.2 must change the colour balance (amber from 5% "achievement only" to a main brand colour) and update chapter 03.
+Sample line "Your gateway to the world's universities." is a tagline idea for Kareem/Fahed, not approved copy.
