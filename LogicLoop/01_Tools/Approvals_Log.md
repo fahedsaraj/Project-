@@ -26,7 +26,7 @@ Every proposal waiting on Fahed, and every decision he makes. Omar maintains it.
 | 31 | 2026-09-29 | Success4Sure Meta ad "لا تاخذ كلامنا… شوف صفحتنا بنفسك" (profile visits) + proposed setup, test budget JOD 35 (`Ad_Visit_Profile/`) | Noor (Fahed asked; setup = Rami) | Pending |
 | 32 | 2026-09-29 | Ad versions: A in Story 9:16 + Square 1:1; Version B dark "كل اللي بدك تعرفه… موجود على صفحتنا" for A/B test | Noor (Fahed asked) | Pending |
 | 23 | 2026-09-28 | 5 stories for highlights (`Designs/Stories/`); confirm hours to show (10–6 vs 12–20) | Sara | Pending |
-| 24 | 2026-10-04 | Success4Sure Khalda: choose brand direction A / B / C (`04_Projects/Clients/Success4Sure_Khalda/Brand_Direction.html`) before sharing with the academy | Sara | Pending |
+| 25 | 2026-10-05 | Success4Sure Khalda: review brand guidelines v0.1 (Direction A, no name/logo) before sharing with the academy | Sara | Pending |
 
 ## Decided
 | Date | Item | Decision |
@@ -69,5 +69,5 @@ Every proposal waiting on Fahed, and every decision he makes. Omar maintains it.
 | 2026-09-26 | Logo | **Approved (for now): Option B — L + ل in 04 colours.** Cream ل + saffron→coral→magenta L foot on night #1A0F1F; wordmark Logic Loop / لوجيك لوب with coral dot on the i. Fahed: "option b is perfect for now approve". Files `03_Assets/brand/logo_05_recolour/`; Canva https://www.canva.com/d/68Xqiu7GnwTrSDR. Options 01–04 closed. |
 | 2026-09-26 | Sara next steps (fonts, profile export, highlights, carousels 3/6/8) | Approved — drafts |
 | 2026-09-27 | Success4Sure Khalda test post (EST II Revision Week) | **Approved: V2 (modern)** (corrected from V1), dated 27 SEPTEMBER, registration number +962 79 055 5890 added under the CTA. Final: `04_Projects/Clients/Success4Sure_Khalda/EST_II_Revision_Week/FINAL_EST_II_Revision_Week_V2_27SEP_1080x1350.png`. Open: date is a Sunday; logo stand-in. |
-| 24 | 2026-09-27 | Success4Sure V2 variations: Ivory / Brand Red / Split (same copy + number) — pick one or keep V2 final | Sara (Noor) | Pending |
 | 2026-09-28 | Success4Sure Story angle | **Already started (27 Sep), joining still open.** Client to confirm late joining is accepted before the Story is sent. |
+| 2026-10-05 | Success4Sure Khalda brand direction | **Direction A, Trajectory**. Full guidelines requested without name and logo |

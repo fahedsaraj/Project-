@@ -1,0 +1,552 @@
+<title>Trajectory Brand Guidelines</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Alexandria:wght@500;700&family=IBM+Plex+Sans+Arabic:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a brand book in its own identity — chapters open on Midnight Indigo bands, content sits on Paper in a 12-column frame. Single light theme by design. */
+:root{
+  --indigo:#141B4D; --blue:#2F6BFF; --paper:#F6F4EF; --mist:#E8ECF5; --slate:#5B6275; --amber:#FFB020; --white:#FFFFFF; --line:#DCDDE3;
+  --f-head:"Sora",system-ui,sans-serif; --f-body:"DM Sans",system-ui,sans-serif; --f-ar-head:"Alexandria","Tahoma",sans-serif; --f-ar-body:"IBM Plex Sans Arabic","Tahoma",sans-serif; --f-mono:"JetBrains Mono",ui-monospace,monospace;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--indigo);font:16px/1.65 var(--f-body);padding-inline:20px;padding-block:0 96px}
+.wrap{max-width:1120px;margin:0 auto}
+h1,h2,h3,h4{font-family:var(--f-head);margin:0;line-height:1.12;text-wrap:balance;color:var(--indigo)}
+h1{font-size:clamp(2.6rem,6vw,4.4rem);letter-spacing:-.025em}
+h2{font-size:clamp(1.8rem,3.4vw,2.6rem);letter-spacing:-.015em}
+h3{font-size:1.3rem}
+h4{font-size:1.02rem}
+p{margin:0}
+.ar{direction:rtl;font-family:var(--f-ar-body);line-height:1.85}
+.ar-h{direction:rtl;font-family:var(--f-ar-head);line-height:1.45}
+.label{font:500 .72rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--slate)}
+.read{max-width:70ch}
+.stack{display:flex;flex-direction:column;gap:14px}
+.stack-lg{display:flex;flex-direction:column;gap:32px}
+.g2{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px}
+.g3{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+.g4{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px}
+.card{background:var(--white);border:1px solid var(--line);border-radius:14px;padding:22px;min-width:0}
+ul.clean{margin:0;padding-left:1.1em}ul.clean li{margin:5px 0}
+.k{font-weight:700}
+.muted{color:var(--slate)}
+.code{font:400 .8rem/1.55 var(--f-mono);font-variant-numeric:tabular-nums}
+a{color:var(--blue)}a:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+/* cover + chapter bands */
+.cover{background:var(--indigo);color:var(--paper);border-radius:0 0 28px 28px;margin-inline:-20px;padding:72px 20px 170px;position:relative;overflow:hidden}
+.cover .wrap{position:relative}
+.cover h1{color:var(--paper)}
+.cover .line{position:absolute;right:24px;bottom:24px;width:min(620px,86%);height:auto}
+.chapter{margin-top:72px;background:var(--indigo);color:var(--paper);border-radius:22px;padding:34px 32px;display:grid;grid-template-columns:auto 1fr;gap:28px;align-items:end}
+.chapter .num{font:700 4.2rem/1 var(--f-head);color:var(--amber);font-variant-numeric:tabular-nums}
+.chapter h2{color:var(--paper)}
+.chapter p{color:#C9CFE6;max-width:62ch;margin-top:8px}
+.block{padding-top:36px}
+.toc{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:2px 28px}
+.toc a{display:flex;gap:12px;color:var(--paper);text-decoration:none;padding:9px 0;border-bottom:1px solid rgba(246,244,239,.18)}
+.toc a span{color:var(--amber);font-family:var(--f-mono);font-size:.85rem;padding-top:2px}
+.toc a:hover{color:var(--white)}
+/* placeholders for the future name and logo */
+.ph{border:2px dashed currentColor;border-radius:12px;display:flex;align-items:center;justify-content:center;font:500 .72rem/1 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;opacity:.75;text-align:center}
+/* colour */
+.swatch{border-radius:14px;overflow:hidden;border:1px solid var(--line);background:var(--white);min-width:0}
+.swatch .chip{height:132px;padding:16px;display:flex;flex-direction:column;justify-content:space-between}
+.swatch .chip b{font:700 1.05rem/1.2 var(--f-head)}
+.swatch .info{padding:14px 16px;display:flex;flex-direction:column;gap:8px}
+.tints{display:grid;grid-template-columns:repeat(5,1fr);height:28px}
+.ratio{display:flex;height:34px;border-radius:10px;overflow:hidden;border:1px solid var(--line)}
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:14px;background:var(--white)}
+table{border-collapse:collapse;width:100%;min-width:620px;font-size:.92rem}
+th,td{padding:12px 14px;border-bottom:1px solid var(--line);text-align:left;vertical-align:middle}
+th{font:500 .7rem/1.2 var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--slate)}
+tr:last-child td{border-bottom:0}
+.pair{display:inline-flex;align-items:center;justify-content:center;width:120px;height:40px;border-radius:8px;font-weight:700;border:1px solid var(--line)}
+.pass{color:#16794A;font-weight:700}.limit{color:#9A6100;font-weight:700}.fail{color:#B4261A;font-weight:700}
+/* type */
+.scale-row{display:grid;grid-template-columns:160px 1fr;gap:20px;align-items:baseline;padding:14px 0;border-bottom:1px solid var(--line)}
+.scale-row:last-child{border-bottom:0}
+/* mockups */
+.mock{border-radius:14px;overflow:hidden;position:relative;max-width:100%}
+.post{aspect-ratio:4/5;background:var(--indigo);color:var(--paper);padding:28px;display:flex;flex-direction:column;justify-content:space-between}
+.story{aspect-ratio:9/16;background:var(--paper);color:var(--indigo);padding:26px;display:flex;flex-direction:column;justify-content:space-between;border:1px solid var(--line)}
+.photo{background:linear-gradient(160deg,#3a4685 0%,#1d255e 55%,#141B4D 100%);position:relative}
+.photo::after{content:attr(data-label);position:absolute;left:12px;top:12px;font:500 .62rem/1 var(--f-mono);letter-spacing:.08em;text-transform:uppercase;padding:6px 8px;border-radius:4px;background:rgba(0,0,0,.35);color:#fff}
+.tag{display:inline-block;font:700 .72rem/1 var(--f-body);letter-spacing:.12em;text-transform:uppercase;padding:8px 10px;border-radius:7px;background:var(--blue);color:var(--white)}
+.btn{display:inline-block;font:700 .9rem/1 var(--f-body);padding:13px 18px;border-radius:10px;background:var(--amber);color:var(--indigo)}
+.do h4{color:#16794A}.dont h4{color:#B4261A}
+@media (max-width:620px){.chapter{grid-template-columns:1fr;padding:26px 20px}.chapter .num{font-size:3rem}.scale-row{grid-template-columns:1fr;gap:6px}}
+@media (prefers-reduced-motion:no-preference){.cover .line path{stroke-dasharray:1400;stroke-dashoffset:0}}
+</style>
+
+<div class="cover">
+  <div class="wrap stack-lg">
+    <div style="display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;align-items:center">
+      <div class="ph" style="width:150px;height:56px;color:#AFC3FF">Logo · to come</div>
+      <span class="label" style="color:#AFC3FF">Version 0.1 · October 2026 · Draft</span>
+    </div>
+    <div class="stack" style="max-width:760px">
+      <span class="label" style="color:#AFC3FF">Brand guidelines · Direction A</span>
+      <h1>Trajectory</h1>
+      <p style="font-size:1.2rem;color:#D8DEF0;max-width:58ch">The brand system for the rebranded Khalda academy (Success4Sure). Everything here works before the name and logo exist. Where they will go, this book shows a dashed placeholder and the rules any future logo must follow.</p>
+      <p class="ar-h" style="font-size:1.6rem;color:var(--paper);text-align:right;max-width:760px">من درجتك اليوم إلى هدفك</p>
+    </div>
+    <ul class="toc">
+      <li><a href="#c1"><span>01</span>Brand foundation</a></li>
+      <li><a href="#c2"><span>02</span>Name and logo space</a></li>
+      <li><a href="#c3"><span>03</span>Colour</a></li>
+      <li><a href="#c4"><span>04</span>Typography</a></li>
+      <li><a href="#c5"><span>05</span>Graphic language</a></li>
+      <li><a href="#c6"><span>06</span>Photography</a></li>
+      <li><a href="#c7"><span>07</span>Layout and grids</a></li>
+      <li><a href="#c8"><span>08</span>Social media</a></li>
+      <li><a href="#c9"><span>09</span>Advertising</a></li>
+      <li><a href="#c10"><span>10</span>Print and stationery</a></li>
+      <li><a href="#c11"><span>11</span>Signage and spaces</a></li>
+      <li><a href="#c12"><span>12</span>Do's and don'ts</a></li>
+      <li><a href="#c13"><span>13</span>Applications</a></li>
+    </ul>
+  </div>
+  <svg class="line" viewBox="0 0 720 260" aria-hidden="true"><path d="M0 250 L180 190 L300 214 L470 120 L700 30" fill="none" stroke="#2F6BFF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="700" cy="30" r="13" fill="#FFB020"/></svg>
+</div>
+
+<div class="wrap">
+
+<!-- 01 FOUNDATION -->
+<div class="chapter" id="c1"><div class="num">01</div><div><h2>Brand foundation</h2><p>Who we are, what we stand for and how we sound. Every design decision in this book comes from this page.</p></div></div>
+<div class="block stack-lg">
+  <div class="g2">
+    <div class="card stack"><span class="label">Purpose</span><h3>Turn ambition into a measured plan</h3><p>We help students in Amman reach the scores and universities they are aiming for, with a clear path they and their parents can follow week by week.</p></div>
+    <div class="card stack"><span class="label">Positioning</span><h3>The academic partner between school and a global university</h3><p>For ambitious students preparing for AP, EST, SAT and international programmes, and for the parents investing in them, [Name] turns a target score into a measured plan, taught to international standards.</p></div>
+  </div>
+  <div class="card stack"><span class="label">The idea behind Trajectory</span>
+    <p class="read">Every student starts from a baseline and is heading to a target. The brand is built on the line between the two: it always rises, it can have milestones along the way, and it always ends in one amber point, the result. The line expresses our method: diagnostic test → personal plan → mock exams → score report.</p></div>
+  <div class="g3">
+    <div class="card stack"><span class="label">Personality</span><ul class="clean">
+      <li><span class="k">Confident</span>, never arrogant</li><li><span class="k">Precise</span>, never cold</li><li><span class="k">Ambitious</span>, never pressuring</li><li><span class="k">Modern</span>, never trendy</li></ul></div>
+    <div class="card stack"><span class="label">Values</span><ul class="clean">
+      <li><span class="k">Clarity.</span> Everyone knows where they stand.</li><li><span class="k">Rigour.</span> International standards, no shortcuts.</li><li><span class="k">Belief.</span> High expectations, held with warmth.</li><li><span class="k">Progress.</span> Growth is measured and shown.</li><li><span class="k">Integrity.</span> Honest targets, honest timelines.</li></ul></div>
+    <div class="card stack"><span class="label">Audiences</span><ul class="clean">
+      <li><span class="k">Students, 14–18:</span> want a clear goal, smart help and something they are proud to follow.</li>
+      <li><span class="k">Parents:</span> want structure, proof and regular, honest updates.</li></ul></div>
+  </div>
+  <div class="card stack"><span class="label">Tone of voice</span>
+    <div class="g3">
+      <div class="stack"><h4>English</h4><p>Short, specific, encouraging. Lead with the plan or the number. Use exam names exactly (AP Calculus BC, EST II Math, SAT).</p></div>
+      <div class="stack"><h4>Arabic for parents</h4><p>Clear Modern Standard Arabic. Calm and respectful. Explain the plan and how progress is reported.</p></div>
+      <div class="stack"><h4>Arabic for students</h4><p>Natural Jordanian Arabic on social media. Friendly, direct, never slang-heavy.</p></div>
+    </div>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Instead of</th><th>Write</th></tr></thead>
+      <tbody>
+        <tr><td>"Guaranteed top scores!!! 🚀🔥"</td><td>"Your target: 1450. Your plan: 10 weeks, 4 full mocks, a score report every Thursday."</td></tr>
+        <tr><td>"The best academy in Jordan"</td><td>"Small groups, international materials, and a progress report parents can read in two minutes."</td></tr>
+        <tr><td class="ar">!!أقوى أكاديمية بالأردن</td><td class="ar">خطة أسبوعية واضحة، امتحانات تجريبية، وتقرير دوري للأهل.</td></tr>
+      </tbody></table></div>
+  </div>
+</div>
+
+<!-- 02 NAME & LOGO SPACE -->
+<div class="chapter" id="c2"><div class="num">02</div><div><h2>Name and logo space</h2><p>The name and logo are not decided yet. These rules reserve their place so every layout made today will accept them without redesign.</p></div></div>
+<div class="block stack-lg">
+  <div class="g2">
+    <div class="card stack">
+      <span class="label">Logo zone</span>
+      <div style="background:var(--mist);border-radius:12px;padding:28px;display:flex;align-items:center;justify-content:center">
+        <div style="position:relative;padding:34px;border:1px dashed var(--slate);border-radius:6px">
+          <div class="ph" style="width:200px;height:70px;color:var(--indigo)">Logo</div>
+          <span class="code" style="position:absolute;top:8px;left:50%;transform:translateX(-50%);color:var(--slate)">x</span>
+          <span class="code" style="position:absolute;bottom:8px;left:50%;transform:translateX(-50%);color:var(--slate)">x</span>
+          <span class="code" style="position:absolute;left:10px;top:50%;transform:translateY(-50%);color:var(--slate)">x</span>
+          <span class="code" style="position:absolute;right:10px;top:50%;transform:translateY(-50%);color:var(--slate)">x</span>
+        </div>
+      </div>
+      <ul class="clean">
+        <li><span class="k">Clear space:</span> on every side, at least <b>x</b> = the height of the logo's symbol (or of the capital letters if the logo is a wordmark only).</li>
+        <li><span class="k">Placement:</span> bottom-left on English layouts, bottom-right on Arabic layouts, top-left on documents and letterhead.</li>
+        <li><span class="k">The logo is never the largest element</span> on social posts and ads. The message is.</li>
+      </ul>
+    </div>
+    <div class="card stack">
+      <span class="label">Requirements for the future logo</span>
+      <ul class="clean">
+        <li><span class="k">Lockups:</span> horizontal, stacked, and symbol-only (for the profile picture and app icon).</li>
+        <li><span class="k">Bilingual:</span> an Arabic version drawn to match, with equal presence on signage.</li>
+        <li><span class="k">Minimum size:</span> symbol 24 px / 8 mm; full lockup 96 px / 25 mm wide.</li>
+        <li><span class="k">Colour versions:</span> full colour on Paper, reversed (Paper) on Indigo, one-colour Indigo, one-colour black for stamps and forms.</li>
+        <li><span class="k">Fits the system:</span> geometric construction, rounded ends matching the trajectory line, no gradients, no graduation caps or globes.</li>
+        <li><span class="k">Name in running text:</span> written in full in the body font, never in the logo font, never in capitals unless the name itself is an acronym.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="g4">
+    <div class="mock" style="background:var(--paper);border:1px solid var(--line);height:130px;display:flex;align-items:center;justify-content:center"><div class="ph" style="width:130px;height:46px;color:var(--indigo)">Logo · full colour</div></div>
+    <div class="mock" style="background:var(--indigo);height:130px;display:flex;align-items:center;justify-content:center"><div class="ph" style="width:130px;height:46px;color:var(--paper)">Logo · reversed</div></div>
+    <div class="mock" style="background:var(--blue);height:130px;display:flex;align-items:center;justify-content:center"><div class="ph" style="width:130px;height:46px;color:var(--white)">Logo · white on blue</div></div>
+    <div class="mock photo" data-label="Photo + 60% indigo" style="height:130px;display:flex;align-items:center;justify-content:center"><div class="ph" style="width:130px;height:46px;color:var(--paper)">Logo · on photo</div></div>
+  </div>
+  <p class="muted" style="font-size:.9rem">The logo never sits on Amber, on Mist with low contrast, or directly on a busy photo without the indigo overlay.</p>
+</div>
+
+<!-- 03 COLOUR -->
+<div class="chapter" id="c3"><div class="num">03</div><div><h2>Colour</h2><p>Indigo carries trust, Clear Blue carries energy, Paper gives space, and Amber appears only when something is achieved.</p></div></div>
+<div class="block stack-lg">
+  <div class="g3">
+    <div class="swatch"><div class="chip" style="background:#141B4D;color:#F6F4EF"><span class="label" style="color:#AFC3FF">Primary</span><b>Midnight Indigo</b></div>
+      <div class="info"><div class="code">HEX #141B4D<br>RGB 20 27 77<br>CMYK 74 65 0 70</div><div class="tints"><span style="background:#141B4D"></span><span style="background:#434971"></span><span style="background:#727694"></span><span style="background:#A1A4B8"></span><span style="background:#D0D1DB"></span></div>
+      <p style="font-size:.9rem">Headlines, backgrounds of key moments, text. The colour of trust and seriousness.</p></div></div>
+    <div class="swatch"><div class="chip" style="background:#2F6BFF;color:#FFFFFF"><span class="label" style="color:#E4ECFF">Primary</span><b>Clear Blue</b></div>
+      <div class="info"><div class="code">HEX #2F6BFF<br>RGB 47 107 255<br>CMYK 82 58 0 0</div><div class="tints"><span style="background:#2F6BFF"></span><span style="background:#5989FF"></span><span style="background:#82A6FF"></span><span style="background:#ACC4FF"></span><span style="background:#D5E1FF"></span></div>
+      <p style="font-size:.9rem">The trajectory line, programme tags, links, large headlines. The modern, digital energy.</p></div></div>
+    <div class="swatch"><div class="chip" style="background:#FFB020;color:#141B4D"><span class="label" style="color:#141B4D">Accent</span><b>Sunrise Amber</b></div>
+      <div class="info"><div class="code">HEX #FFB020<br>RGB 255 176 32<br>CMYK 0 31 87 0</div><div class="tints"><span style="background:#FFB020"></span><span style="background:#FFC04D"></span><span style="background:#FFD079"></span><span style="background:#FFDFA6"></span><span style="background:#FFEFD2"></span></div>
+      <p style="font-size:.9rem">Results, targets, the end point of the line, the main call to action. Never decoration.</p></div></div>
+    <div class="swatch"><div class="chip" style="background:#F6F4EF;color:#141B4D"><span class="label">Secondary</span><b>Paper</b></div>
+      <div class="info"><div class="code">HEX #F6F4EF<br>RGB 246 244 239<br>CMYK 0 1 3 4</div><p style="font-size:.9rem">Main background for documents, posts and reports.</p></div></div>
+    <div class="swatch"><div class="chip" style="background:#E8ECF5;color:#141B4D"><span class="label">Secondary</span><b>Mist</b></div>
+      <div class="info"><div class="code">HEX #E8ECF5<br>RGB 232 236 245<br>CMYK 5 4 0 4</div><p style="font-size:.9rem">Panels, tables, form fields, quiet backgrounds.</p></div></div>
+    <div class="swatch"><div class="chip" style="background:#5B6275;color:#FFFFFF"><span class="label" style="color:#E3E6EE">Secondary</span><b>Slate</b></div>
+      <div class="info"><div class="code">HEX #5B6275<br>RGB 91 98 117<br>CMYK 22 16 0 54</div><p style="font-size:.9rem">Body text, captions, secondary information.</p></div></div>
+  </div>
+  <div class="card stack">
+    <span class="label">Colour balance on every layout</span>
+    <div class="ratio"><span style="flex:60;background:#F6F4EF"></span><span style="flex:25;background:#141B4D"></span><span style="flex:10;background:#2F6BFF"></span><span style="flex:5;background:#FFB020"></span></div>
+    <p class="code muted">60% Paper or Mist · 25% Indigo · 10% Clear Blue · 5% Amber. On dark layouts swap Paper and Indigo; Amber stays at 5% or less.</p>
+  </div>
+  <div class="stack">
+    <h3>Accessible combinations</h3>
+    <p class="muted read">Contrast measured with the WCAG 2.1 formula. AA needs 4.5:1 for body text and 3:1 for large text (24 px+, or 19 px+ bold).</p>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Sample</th><th>Text on background</th><th>Ratio</th><th>Use</th></tr></thead>
+      <tbody>
+        <tr><td><span class="pair" style="background:#F6F4EF;color:#141B4D">Aa</span></td><td>Indigo on Paper</td><td class="code">14.8 : 1</td><td class="pass">Any text</td></tr>
+        <tr><td><span class="pair" style="background:#141B4D;color:#F6F4EF">Aa</span></td><td>Paper on Indigo</td><td class="code">14.8 : 1</td><td class="pass">Any text</td></tr>
+        <tr><td><span class="pair" style="background:#FFB020;color:#141B4D">Aa</span></td><td>Indigo on Amber</td><td class="code">8.9 : 1</td><td class="pass">Any text (buttons, result badges)</td></tr>
+        <tr><td><span class="pair" style="background:#F6F4EF;color:#5B6275">Aa</span></td><td>Slate on Paper</td><td class="code">5.5 : 1</td><td class="pass">Body text and captions</td></tr>
+        <tr><td><span class="pair" style="background:#2F6BFF;color:#FFFFFF">Aa</span></td><td>White on Clear Blue</td><td class="code">4.5 : 1</td><td class="pass">Body text (just passes); prefer bold</td></tr>
+        <tr><td><span class="pair" style="background:#F6F4EF;color:#2F6BFF">Aa</span></td><td>Clear Blue on Paper</td><td class="code">4.1 : 1</td><td class="limit">Large text and links only</td></tr>
+        <tr><td><span class="pair" style="background:#141B4D;color:#2F6BFF">Aa</span></td><td>Clear Blue on Indigo</td><td class="code">3.6 : 1</td><td class="limit">Large text and graphics only</td></tr>
+        <tr><td><span class="pair" style="background:#F6F4EF;color:#FFB020">Aa</span></td><td>Amber on Paper</td><td class="code">1.7 : 1</td><td class="fail">Never for text</td></tr>
+      </tbody></table></div>
+    <p class="muted" style="font-size:.9rem">CMYK values are converted from screen colour. Before printing, match each colour to a Pantone reference and approve a printed proof.</p>
+  </div>
+</div>
+
+<!-- 04 TYPOGRAPHY -->
+<div class="chapter" id="c4"><div class="num">04</div><div><h2>Typography</h2><p>Two families per language: a geometric face for headlines and a calm, readable face for text. All four are free Google Fonts (Open Font License), so there is no licence cost.</p></div></div>
+<div class="block stack-lg">
+  <div class="g2">
+    <div class="card stack"><span class="label">English · Headlines</span><p style="font:700 3rem/1.05 var(--f-head);letter-spacing:-.02em">Sora</p><p class="muted">SemiBold 600 and Bold 700. Geometric, open and modern. Use for headlines, numbers and scores.</p><p style="font:600 1.3rem/1.3 var(--f-head)">ABCDEFGHIJKLM 1234567890</p></div>
+    <div class="card stack"><span class="label">English · Body</span><p style="font:500 3rem/1.05 var(--f-body)">DM Sans</p><p class="muted">Regular 400, Medium 500, Bold 700. Clear at small sizes, friendly without being casual.</p><p style="font:400 1.1rem/1.5 var(--f-body)">The quick plan: a diagnostic test, a ten-week schedule and four full mocks.</p></div>
+    <div class="card stack"><span class="label">Arabic · Headlines</span><p class="ar-h" style="font-size:2.6rem;font-weight:700">ألكسندريا</p><p class="muted">Alexandria Medium 500 and Bold 700. Geometric Arabic that matches Sora's shapes.</p><p class="ar-h" style="font-size:1.4rem;font-weight:700">من درجتك اليوم إلى هدفك ١٢٣٤٥</p></div>
+    <div class="card stack"><span class="label">Arabic · Body</span><p class="ar" style="font-size:2.4rem;font-weight:500">IBM Plex Sans Arabic</p><p class="muted">Regular 400 and Medium 500. Very readable for parents' letters and reports.</p><p class="ar" style="font-size:1.1rem">خطة أسبوعية واضحة، امتحانات تجريبية كاملة، وتقرير دوري يصل للأهل.</p></div>
+  </div>
+  <div class="card">
+    <span class="label">Type scale (digital px / print pt)</span>
+    <div class="scale-row"><span class="code">Display · 64 / 40<br>Sora 700 · -2%</span><p style="font:700 clamp(2.2rem,5vw,4rem)/1.05 var(--f-head);letter-spacing:-.02em">From 1180 to 1450</p></div>
+    <div class="scale-row"><span class="code">H1 · 44 / 28<br>Sora 700 · -1.5%</span><p style="font:700 clamp(1.8rem,3.5vw,2.75rem)/1.1 var(--f-head);letter-spacing:-.015em">Your target, mapped week by week</p></div>
+    <div class="scale-row"><span class="code">H2 · 32 / 20<br>Sora 600</span><p style="font:600 2rem/1.15 var(--f-head)">EST II Math programme</p></div>
+    <div class="scale-row"><span class="code">H3 · 24 / 15<br>Sora 600</span><p style="font:600 1.5rem/1.2 var(--f-head)">Week 4: Functions and graphs</p></div>
+    <div class="scale-row"><span class="code">Body L · 18 / 11<br>DM Sans 400 · 1.6</span><p style="font:400 1.125rem/1.6 var(--f-body)">Each student starts with a full diagnostic test so the plan begins from real scores.</p></div>
+    <div class="scale-row"><span class="code">Body · 16 / 10<br>DM Sans 400 · 1.65</span><p style="font:400 1rem/1.65 var(--f-body)" class="muted">Classes run in small groups, with full mock exams built into every programme.</p></div>
+    <div class="scale-row"><span class="code">Label · 12 / 8<br>DM Sans 700 · +12% caps</span><p style="font:700 .75rem/1 var(--f-body);letter-spacing:.12em;text-transform:uppercase">SAT · Winter intake</p></div>
+  </div>
+  <div class="g2">
+    <div class="card stack"><span class="label">Bilingual rules</span><ul class="clean">
+      <li>Arabic headlines at about 90% of the English size, with line height 1.4–1.5 (Arabic needs more vertical room).</li>
+      <li>Arabic body at line height 1.8.</li>
+      <li>Arabic layouts are mirrored: text, logo zone and the trajectory line all run right to left.</li>
+      <li>Exam names stay in Latin script inside Arabic text: SAT, EST II, AP.</li>
+      <li>Use Arabic-Indic digits (١٢٣) in Arabic-only designs and Western digits (123) for scores in bilingual designs, so numbers match the official score reports.</li>
+    </ul></div>
+    <div class="card stack"><span class="label">Fallbacks and don'ts</span><ul class="clean">
+      <li>In Word, PowerPoint and email, where brand fonts may be missing: <b>Arial</b> for English and <b>Tahoma</b> for Arabic.</li>
+      <li>No more than two weights per layout per language.</li>
+      <li>No italics in Arabic, no outline or shadow effects on any text.</li>
+      <li>Never set long paragraphs in Sora or Alexandria; they are for headlines.</li>
+      <li>Never centre body text longer than three lines.</li>
+    </ul></div>
+  </div>
+</div>
+
+<!-- 05 GRAPHIC LANGUAGE -->
+<div class="chapter" id="c5"><div class="num">05</div><div><h2>Graphic language</h2><p>A small set of elements, used with discipline. The trajectory line is the signature; everything else supports it.</p></div></div>
+<div class="block stack-lg">
+  <div class="card stack">
+    <span class="label">The trajectory line</span>
+    <div style="background:var(--mist);border-radius:12px;padding:20px;overflow-x:auto">
+      <svg viewBox="0 0 900 220" style="width:100%;min-width:560px;height:auto" aria-label="Trajectory line construction">
+        <g stroke="#C9CEDD" stroke-width="1">
+          <line x1="40" y1="200" x2="880" y2="200"/><line x1="40" y1="20" x2="40" y2="200"/>
+        </g>
+        <path d="M60 190 L250 140 L360 160 L560 90 L820 40" fill="none" stroke="#2F6BFF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="250" cy="140" r="9" fill="#F6F4EF" stroke="#2F6BFF" stroke-width="4"/>
+        <circle cx="560" cy="90" r="9" fill="#F6F4EF" stroke="#2F6BFF" stroke-width="4"/>
+        <circle cx="820" cy="40" r="16" fill="#FFB020"/>
+        <g font-family="JetBrains Mono, monospace" font-size="13" fill="#5B6275">
+          <text x="60" y="214">Baseline</text><text x="225" y="122">Milestone</text><text x="535" y="72">Milestone</text><text x="760" y="22">Result · Amber point</text>
+        </g>
+      </svg>
+    </div>
+    <div class="g3">
+      <ul class="clean"><li><span class="k">Direction:</span> always rises, left to right in English and right to left in Arabic. It never descends overall.</li><li><span class="k">Angle:</span> overall rise between 15° and 35°.</li></ul>
+      <ul class="clean"><li><span class="k">Weight:</span> stroke = 0.6–0.8% of the layout width (7–8 px on a 1080 px post). Round ends and joins.</li><li><span class="k">End point:</span> one Amber circle, diameter 3× the stroke.</li></ul>
+      <ul class="clean"><li><span class="k">Milestones:</span> up to 3 hollow circles at bends, for weeks, mocks or stages.</li><li><span class="k">Frequency:</span> one line per layout. It may cross slides in a carousel as one continuous line.</li></ul>
+    </div>
+  </div>
+  <div class="g3">
+    <div class="card stack"><span class="label">Soft square</span>
+      <div style="display:flex;gap:12px;align-items:flex-end"><div style="width:88px;height:88px;border-radius:22%;background:var(--indigo)"></div><div style="width:60px;height:60px;border-radius:22%;background:var(--blue)"></div><div style="width:36px;height:36px;border-radius:22%;background:var(--amber)"></div></div>
+      <p>Corner radius = 22% of the side. Used for photo frames, number tiles, buttons and the future app icon.</p></div>
+    <div class="card stack"><span class="label">Score-scale pattern</span>
+      <svg viewBox="0 0 300 90" style="width:100%;height:auto" aria-label="Score scale pattern"><g stroke="#141B4D" stroke-opacity=".25" stroke-width="1.5">
+        <line x1="10" y1="60" x2="290" y2="60"/>
+        <line x1="10" y1="48" x2="10" y2="60"/><line x1="66" y1="52" x2="66" y2="60"/><line x1="122" y1="48" x2="122" y2="60"/><line x1="178" y1="52" x2="178" y2="60"/><line x1="234" y1="48" x2="234" y2="60"/><line x1="290" y1="52" x2="290" y2="60"/></g>
+        <g font-family="JetBrains Mono, monospace" font-size="10" fill="#5B6275"><text x="2" y="78">400</text><text x="114" y="78">800</text><text x="224" y="78">1200</text><text x="270" y="78">1600</text></g></svg>
+      <p>Thin tick marks taken from real score scales (SAT 400–1600, AP 1–5, EST). Background texture at 15–25% opacity, never behind body text.</p></div>
+    <div class="card stack"><span class="label">Icons</span>
+      <svg viewBox="0 0 240 48" style="width:100%;max-width:280px;height:auto" aria-label="Icon examples"><g fill="none" stroke="#141B4D" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="6" y="8" width="28" height="32" rx="6"/><path d="M13 18h14M13 25h14M13 32h8"/>
+        <circle cx="76" cy="24" r="16"/><path d="M76 14v10l7 5"/>
+        <path d="M118 38 L128 26 L136 31 L150 12"/><circle cx="150" cy="12" r="3" fill="#FFB020" stroke="#FFB020"/>
+        <rect x="178" y="10" width="34" height="28" rx="6"/><path d="M186 10V6M204 10V6M178 20h34"/></g></svg>
+      <p>24 px grid, 2 px stroke, round ends, Indigo. Filled with Clear Blue only when active or selected. No 3D or emoji icons.</p></div>
+  </div>
+  <div class="card stack"><span class="label">Charts and progress</span>
+    <div class="g2">
+      <svg viewBox="0 0 420 180" style="width:100%;height:auto" aria-label="Example progress chart: practice scores rising from 1180 to 1420 against a 1450 target">
+        <g stroke="#DCDDE3" stroke-width="1"><line x1="50" y1="30" x2="400" y2="30"/><line x1="50" y1="75" x2="400" y2="75"/><line x1="50" y1="120" x2="400" y2="120"/><line x1="50" y1="160" x2="400" y2="160"/></g>
+        <g font-family="JetBrains Mono, monospace" font-size="10" fill="#5B6275"><text x="8" y="34">1500</text><text x="8" y="79">1400</text><text x="8" y="124">1300</text><text x="8" y="164">1200</text></g>
+        <line x1="50" y1="52" x2="400" y2="52" stroke="#FFB020" stroke-width="2" stroke-dasharray="6 5"/><text x="340" y="46" font-family="JetBrains Mono, monospace" font-size="10" fill="#141B4D">Target 1450</text>
+        <path d="M70 169 L150 147 L230 120 L310 93 L380 61" fill="none" stroke="#2F6BFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <g fill="#2F6BFF"><circle cx="70" cy="169" r="4"/><circle cx="150" cy="147" r="4"/><circle cx="230" cy="120" r="4"/><circle cx="310" cy="93" r="4"/></g><circle cx="380" cy="61" r="6" fill="#FFB020"/>
+        <g font-family="JetBrains Mono, monospace" font-size="10" fill="#5B6275"><text x="58" y="178">Diag.</text><text x="138" y="178">Mock 1</text><text x="218" y="178">Mock 2</text><text x="298" y="178">Mock 3</text><text x="364" y="178">Mock 4</text></g>
+      </svg>
+      <ul class="clean"><li>Scores in Clear Blue; the target as a dashed Amber line; the latest result as an Amber point.</li><li>Light grid, labels in Slate, no 3D or shadows.</li><li>Every chart shows its scale and dates, so parents read it without explanation.</li><li><i>Example values only.</i></li></ul>
+    </div>
+  </div>
+</div>
+
+<!-- 06 PHOTOGRAPHY -->
+<div class="chapter" id="c6"><div class="num">06</div><div><h2>Photography</h2><p>Real people, real study, real light. Photography shows the warmth that the colour palette alone cannot.</p></div></div>
+<div class="block stack-lg">
+  <div class="g3">
+    <div class="card stack"><span class="label">Subjects</span><ul class="clean"><li>Students concentrating, mid-problem</li><li>Tutors explaining at the board or beside a student</li><li>Hands on a mock paper, a timer, a marked test</li><li>Results moments: opening a score report, an offer letter</li><li>The branch: clean rooms, study corners, the entrance</li></ul></div>
+    <div class="card stack"><span class="label">Look</span><ul class="clean"><li>Soft natural window light from one side</li><li>Shallow depth of field; one clear subject</li><li>Warm skin tones, slightly cool indigo shadows</li><li>Space left on one side for headline and the line</li><li>Eye level or slightly below, which makes students look capable</li></ul></div>
+    <div class="card stack"><span class="label">Rules</span><ul class="clean"><li>Our own photos of the Khalda branch. No stock people.</li><li>Written parental consent for every student under 18, stored with the file.</li><li>Modest, natural styling that respects families.</li><li>On dark layouts, photos sit under a 60% Indigo overlay.</li><li>Never: flash, heavy filters, fake classrooms, posed thumbs-up.</li></ul></div>
+  </div>
+</div>
+
+<!-- 07 LAYOUT -->
+<div class="chapter" id="c7"><div class="num">07</div><div><h2>Layout and grids</h2><p>Generous margins and one clear hierarchy: message, proof, action. The logo zone and programme tag always sit in the same places.</p></div></div>
+<div class="block stack-lg">
+  <div class="g3">
+    <div class="card stack"><span class="label">Feed post · 1080×1350</span>
+      <div style="aspect-ratio:4/5;background:var(--mist);border-radius:8px;position:relative;max-width:220px">
+        <div style="position:absolute;inset:6.7%;border:1px dashed var(--blue);border-radius:4px"></div>
+        <div style="position:absolute;left:6.7%;top:6.7%;width:28%;height:5%;background:var(--blue);border-radius:3px"></div>
+        <div style="position:absolute;left:6.7%;bottom:6.7%;width:24%;height:6%;border:1.5px dashed var(--indigo);border-radius:3px"></div>
+        <div style="position:absolute;left:6.7%;right:6.7%;top:45%;height:22%;background:rgba(20,27,77,.12);border-radius:3px"></div>
+      </div>
+      <p class="code muted">Margins 72 px · 6 columns · 24 px gutter<br>Tag top-left · Headline in the middle third<br>Logo zone bottom-left (bottom-right in Arabic)</p></div>
+    <div class="card stack"><span class="label">Story / Reel · 1080×1920</span>
+      <div style="aspect-ratio:9/16;background:var(--mist);border-radius:8px;position:relative;max-width:150px">
+        <div style="position:absolute;left:0;right:0;top:0;height:13%;background:rgba(180,38,26,.12)"></div>
+        <div style="position:absolute;left:0;right:0;bottom:0;height:17.7%;background:rgba(180,38,26,.12)"></div>
+        <div style="position:absolute;left:6.7%;right:6.7%;top:13%;bottom:17.7%;border:1px dashed var(--blue);border-radius:4px"></div>
+      </div>
+      <p class="code muted">Keep text out of the top 250 px and bottom 340 px (Instagram interface)<br>Captions inside the safe area</p></div>
+    <div class="card stack"><span class="label">A4 document</span>
+      <div style="aspect-ratio:210/297;background:var(--white);border:1px solid var(--line);border-radius:6px;position:relative;max-width:160px">
+        <div style="position:absolute;left:9.5%;top:6.7%;width:30%;height:5%;border:1.5px dashed var(--indigo);border-radius:3px"></div>
+        <div style="position:absolute;left:9.5%;right:9.5%;top:15%;height:1px;background:var(--blue)"></div>
+        <div style="position:absolute;left:9.5%;right:9.5%;top:20%;bottom:10%;background:repeating-linear-gradient(180deg,rgba(20,27,77,.1) 0 6px,transparent 6px 14px)"></div>
+      </div>
+      <p class="code muted">Margins 20 mm · 12 columns · 5 mm gutter<br>Logo zone top-left · Thin blue rule under the header</p></div>
+  </div>
+</div>
+
+<!-- 08 SOCIAL -->
+<div class="chapter" id="c8"><div class="num">08</div><div><h2>Social media</h2><p>The grid should look like one publication: calm, consistent and useful. Six templates cover almost everything.</p></div></div>
+<div class="block stack-lg">
+  <div class="g3">
+    <div class="mock post"><div><span class="tag">SAT · Tip</span></div>
+      <div class="stack"><p style="font:700 1.7rem/1.1 var(--f-head)">Answer the questions you know first.</p><p style="color:#C9CFE6;font-size:.95rem">Then come back. Every question is worth the same point.</p></div>
+      <div class="ph" style="width:96px;height:34px;color:var(--paper)">Logo</div></div>
+    <div class="mock post photo" data-label="Photo: student, window light" style="background:linear-gradient(180deg,rgba(20,27,77,.2) 0%,rgba(20,27,77,.95) 70%),linear-gradient(160deg,#4b578f,#1d255e)"><div><span class="tag" style="background:var(--amber);color:var(--indigo)">Results</span></div>
+      <div class="stack"><svg viewBox="0 0 300 70" style="width:100%;height:auto"><path d="M4 62 L110 42 L170 50 L294 10" fill="none" stroke="#2F6BFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="294" cy="10" r="8" fill="#FFB020"/></svg>
+      <p style="font:700 1.6rem/1.1 var(--f-head)">[Student]: 1180 → 1430</p><p style="color:#C9CFE6;font-size:.9rem">SAT, 10-week programme · sample layout</p></div>
+      <div class="ph" style="width:96px;height:34px;color:var(--paper)">Logo</div></div>
+    <div class="mock post" style="background:var(--paper);color:var(--indigo);border:1px solid var(--line)"><div style="text-align:right"><span class="tag">EST II</span></div>
+      <div class="stack"><p class="ar-h" style="font-size:1.7rem;font-weight:700;text-align:right">٣ أخطاء بتضيّع علامات بالـ EST</p><p class="ar" style="color:var(--slate);text-align:right">اسحب وشوف كيف تتجنبها ←</p></div>
+      <div style="display:flex;justify-content:flex-end"><div class="ph" style="width:96px;height:34px;color:var(--indigo)">الشعار</div></div></div>
+  </div>
+  <div class="g2">
+    <div class="card stack"><span class="label">The six templates</span>
+      <ol class="clean" style="padding-left:1.2em">
+        <li><span class="k">Tip</span> · Indigo, one sentence, programme tag</li>
+        <li><span class="k">Mistake carousel</span> · Paper, numbered slides, line runs across</li>
+        <li><span class="k">Result</span> · photo with Indigo overlay, line ends at the score (only with consent and proof)</li>
+        <li><span class="k">Quote</span> · student or parent words, Paper background, Slate attribution</li>
+        <li><span class="k">Announcement</span> · intake dates, Clear Blue panel, Amber button</li>
+        <li><span class="k">Life at the academy</span> · full photo, small tag, no headline</li>
+      </ol></div>
+    <div class="card stack"><span class="label">Reels, stories, highlights</span><ul class="clean">
+      <li><span class="k">Reels:</span> hook in 2 seconds, captions burned in with DM Sans Bold on an Indigo bar, end card with the line drawing upward into the logo zone.</li>
+      <li><span class="k">Stories:</span> Paper or Indigo backgrounds, one message, polls and quizzes styled with brand colours.</li>
+      <li><span class="k">Highlights:</span> Programmes · Results · Schedule · Tutors · Location. Indigo covers with one line icon each.</li>
+      <li><span class="k">Grid rhythm:</span> alternate photo, Indigo and Paper posts so no colour repeats three times in a row.</li>
+      <li><span class="k">Captions:</span> first line states the value, emojis at most one per post, Arabic and English as separate paragraphs.</li>
+    </ul></div>
+  </div>
+</div>
+
+<!-- 09 ADVERTISING -->
+<div class="chapter" id="c9"><div class="num">09</div><div><h2>Advertising</h2><p>One message, one programme, one action. Ads talk to parents and students differently but always look like the same brand.</p></div></div>
+<div class="block stack-lg">
+  <div class="g2">
+    <div class="mock" style="background:var(--indigo);color:var(--paper);padding:28px;display:grid;grid-template-columns:1fr;gap:18px">
+      <span class="label" style="color:#AFC3FF">Parent-facing · Meta feed</span>
+      <p style="font:700 1.8rem/1.12 var(--f-head)">A clear plan for your child's SAT, with progress reports you can read in two minutes.</p>
+      <p style="color:#C9CFE6">Diagnostic test, small groups, four full mocks. Winter intake starts [date].</p>
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap"><span class="btn">Book a placement test</span><div class="ph" style="width:96px;height:34px;color:var(--paper)">Logo</div></div>
+    </div>
+    <div class="mock" style="background:var(--blue);color:var(--white);padding:28px;display:grid;grid-template-columns:1fr;gap:18px">
+      <span class="label" style="color:#E4ECFF">Student-facing · Story</span>
+      <p class="ar-h" style="font-size:1.9rem;font-weight:700;text-align:right">هدفك ١٤٥٠؟ خلّينا نرسم الطريق.</p>
+      <svg viewBox="0 0 300 60" style="width:100%;height:auto;transform:scaleX(-1)"><path d="M4 54 L120 34 L180 42 L294 8" fill="none" stroke="#F6F4EF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="294" cy="8" r="8" fill="#FFB020"/></svg>
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;direction:rtl"><span class="btn" style="font-family:var(--f-ar-head)">احجز اختبار تحديد المستوى</span><div class="ph" style="width:96px;height:34px;color:var(--white)">الشعار</div></div>
+    </div>
+  </div>
+  <div class="card stack"><ul class="clean">
+    <li><span class="k">Hierarchy:</span> headline → proof → action. The logo is always visible, never dominant.</li>
+    <li><span class="k">Proof:</span> any number in an ad (scores, averages, offers) must be documented before the ad runs.</li>
+    <li><span class="k">Campaigns:</span> one master design per intake (summer, winter, before each exam date), adapted to feed, story, reel and Google display.</li>
+    <li><span class="k">Call to action:</span> always Amber, always one action: book a placement test, call, or message on WhatsApp.</li>
+  </ul></div>
+</div>
+
+<!-- 10 PRINT -->
+<div class="chapter" id="c10"><div class="num">10</div><div><h2>Print and stationery</h2><p>Print is where parents meet the brand at home. It should feel as considered as a university letter.</p></div></div>
+<div class="block stack-lg">
+  <div class="g3">
+    <div class="stack">
+      <div class="mock" style="aspect-ratio:85/55;background:var(--indigo);display:flex;align-items:center;justify-content:center;position:relative">
+        <div class="ph" style="width:44%;height:30%;color:var(--paper)">Symbol</div>
+        <svg viewBox="0 0 200 40" style="position:absolute;left:8%;right:8%;bottom:10%;width:84%"><path d="M2 36 L80 24 L110 29 L196 6" fill="none" stroke="#2F6BFF" stroke-width="3" stroke-linecap="round"/><circle cx="196" cy="6" r="4" fill="#FFB020"/></svg>
+      </div>
+      <div class="mock" style="aspect-ratio:85/55;background:var(--paper);border:1px solid var(--line);padding:6% 7%;display:flex;flex-direction:column;justify-content:space-between">
+        <div class="ph" style="width:40%;height:22%;color:var(--indigo)">Logo</div>
+        <div><p style="font:600 .95rem/1.2 var(--f-head)">[Full name]</p><p class="muted" style="font-size:.75rem">[Role] · SAT &amp; EST II Math</p><p class="code" style="font-size:.7rem;margin-top:6px">[Phone] · [Email] · Khalda, Amman</p></div>
+      </div>
+      <p class="code muted">Business card · 85×55 mm · 400 gsm uncoated</p>
+    </div>
+    <div class="stack">
+      <div class="mock" style="aspect-ratio:210/297;background:var(--white);border:1px solid var(--line);padding:7% 9%;display:flex;flex-direction:column;gap:6%">
+        <div style="display:flex;justify-content:space-between;align-items:center"><div class="ph" style="width:38%;height:28px;color:var(--indigo)">Logo</div><span class="code" style="font-size:.6rem">Khalda, Amman</span></div>
+        <div style="height:2px;background:var(--blue)"></div>
+        <div style="display:flex;flex-direction:column;gap:7px"><span style="height:6px;width:40%;background:var(--indigo);opacity:.8;border-radius:2px"></span><span style="height:5px;background:#DCDDE3;border-radius:2px"></span><span style="height:5px;background:#DCDDE3;border-radius:2px"></span><span style="height:5px;width:85%;background:#DCDDE3;border-radius:2px"></span><span style="height:5px;background:#DCDDE3;border-radius:2px"></span><span style="height:5px;width:70%;background:#DCDDE3;border-radius:2px"></span></div>
+        <svg viewBox="0 0 200 30" style="margin-top:auto;width:100%"><path d="M2 28 L80 18 L110 22 L196 4" fill="none" stroke="#2F6BFF" stroke-width="2" stroke-linecap="round"/><circle cx="196" cy="4" r="3" fill="#FFB020"/></svg>
+      </div>
+      <p class="code muted">Letterhead · A4 · 120 gsm · Arabic version mirrored</p>
+    </div>
+    <div class="stack">
+      <div class="mock" style="aspect-ratio:210/297;background:var(--paper);border:1px solid var(--line);padding:7% 8%;display:flex;flex-direction:column;gap:5%">
+        <div style="display:flex;justify-content:space-between;align-items:center"><div class="ph" style="width:34%;height:24px;color:var(--indigo)">Logo</div><span class="tag" style="font-size:.55rem;padding:5px 7px">Progress report</span></div>
+        <p style="font:700 .95rem/1.15 var(--f-head)">[Student] · SAT · Week 6 of 10</p>
+        <svg viewBox="0 0 200 90" style="width:100%"><g stroke="#DCDDE3"><line x1="0" y1="20" x2="200" y2="20"/><line x1="0" y1="50" x2="200" y2="50"/><line x1="0" y1="80" x2="200" y2="80"/></g><line x1="0" y1="14" x2="200" y2="14" stroke="#FFB020" stroke-dasharray="4 3" stroke-width="1.5"/><path d="M10 82 L60 66 L110 48 L160 30" fill="none" stroke="#2F6BFF" stroke-width="3" stroke-linecap="round"/><circle cx="160" cy="30" r="4.5" fill="#FFB020"/></svg>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px"><span style="background:var(--white);border-radius:6px;padding:6px;font-size:.6rem"><b style="font-family:var(--f-head);font-size:.85rem">1340</b><br>Latest mock</span><span style="background:var(--white);border-radius:6px;padding:6px;font-size:.6rem"><b style="font-family:var(--f-head);font-size:.85rem">1450</b><br>Target</span></div>
+      </div>
+      <p class="code muted">Parent progress report · A4 · one page · example values</p>
+    </div>
+  </div>
+  <div class="g3">
+    <div class="card stack"><h4>Mock-exam booklets</h4><p>Indigo cover with the score-scale pattern; the programme name in Sora; colour band per programme (SAT Clear Blue, EST Indigo tint 60%, AP Slate).</p></div>
+    <div class="card stack"><h4>Certificates</h4><p>Paper stock, Indigo text, a single Amber point at the end of a long line across the bottom: the student's completed path.</p></div>
+    <div class="card stack"><h4>Merchandise</h4><p>Notebooks, pencils, tote bags: the future symbol alone, or the trajectory line, one colour. Things students actually use.</p></div>
+  </div>
+</div>
+
+<!-- 11 SIGNAGE -->
+<div class="chapter" id="c11"><div class="num">11</div><div><h2>Signage and spaces</h2><p>The branch should feel like a calm, organised place of study from the street to the classroom door.</p></div></div>
+<div class="block stack-lg">
+  <div class="mock" style="background:linear-gradient(180deg,#D9DCE4 0%,#C7CBD6 100%);padding:28px;border:1px solid var(--line)">
+    <div style="background:var(--indigo);border-radius:10px;padding:22px 26px;display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap;position:relative;overflow:hidden">
+      <div class="ph" style="width:200px;height:56px;color:var(--paper)">Logo (English)</div>
+      <div class="ph" style="width:200px;height:56px;color:var(--paper)">الشعار (عربي)</div>
+      <svg viewBox="0 0 600 40" preserveAspectRatio="none" style="position:absolute;left:0;right:0;bottom:6px;width:100%;height:24px"><path d="M0 36 L240 24 L330 30 L600 6" fill="none" stroke="#2F6BFF" stroke-width="3"/></svg>
+    </div>
+    <p class="code" style="margin-top:12px;color:var(--indigo)">Exterior fascia: Indigo panel, Arabic and English at equal size, back-lit letters only</p>
+  </div>
+  <div class="g3">
+    <div class="card stack"><h4>Exterior</h4><ul class="clean"><li>Indigo fascia, Paper lettering, lit at night</li><li>Window band in frosted vinyl with the trajectory line, for privacy</li><li>Check Greater Amman Municipality signage rules before production</li></ul></div>
+    <div class="card stack"><h4>Reception</h4><ul class="clean"><li>Indigo feature wall with the line running across it and the logo zone at its end</li><li>The positioning line in both languages</li><li>A results wall updated every exam season, with consent</li></ul></div>
+    <div class="card stack"><h4>Wayfinding</h4><ul class="clean"><li>Door signs: soft-square plates, room number in Sora, Arabic and English</li><li>Same icon set as social media</li><li>Weekly schedules in branded frames by each classroom</li></ul></div>
+  </div>
+</div>
+
+<!-- 12 DO / DON'T -->
+<div class="chapter" id="c12"><div class="num">12</div><div><h2>Do's and don'ts</h2><p>The quickest check before anything is published or printed.</p></div></div>
+<div class="block">
+  <div class="g2">
+    <div class="card stack do"><h4>Do</h4><ul class="clean">
+      <li>Keep one message and lots of space per layout</li>
+      <li>Use the trajectory line once, always rising, ending in Amber</li>
+      <li>Keep Amber for results and the main action</li>
+      <li>Use real photos of the Khalda branch with consent</li>
+      <li>Design Arabic layouts natively, right to left</li>
+      <li>Check every number before it is published</li>
+      <li>Leave the logo zone empty until the logo exists</li>
+    </ul></div>
+    <div class="card stack dont"><h4>Don't</h4><ul class="clean">
+      <li>Use graduation caps, globes, rockets, light bulbs or book stacks</li>
+      <li>Make the line go down, zig-zag sharply, or end in an arrow</li>
+      <li>Use Amber for text on light backgrounds (1.7:1 contrast)</li>
+      <li>Use Clear Blue for small body text on Paper</li>
+      <li>Add gradients, glows, shadows or 3D to text or the line</li>
+      <li>Use stock photos, cartoons or more than one emoji per post</li>
+      <li>Promise guaranteed scores or exaggerate results</li>
+    </ul></div>
+  </div>
+</div>
+
+<!-- 13 APPLICATIONS -->
+<div class="chapter" id="c13"><div class="num">13</div><div><h2>Applications</h2><p>How the system comes together across touchpoints. Every example keeps the name and logo as placeholders.</p></div></div>
+<div class="block stack-lg">
+  <div class="g4">
+    <div class="mock story"><div style="display:flex;justify-content:space-between;align-items:center"><span class="tag">AP</span><span class="code" style="font-size:.6rem">Story</span></div>
+      <div class="stack"><p style="font:700 1.4rem/1.1 var(--f-head)">AP exams start in 6 weeks.</p><p class="muted" style="font-size:.85rem">Calculus BC · Physics 1 · Biology</p><span class="btn" style="align-self:flex-start;font-size:.8rem">Join the revision group</span></div>
+      <div class="ph" style="width:80px;height:28px;color:var(--indigo)">Logo</div></div>
+    <div class="mock story" style="background:var(--indigo);color:var(--paper);border:0"><div style="text-align:right"><span class="code" style="font-size:.6rem;color:#AFC3FF">Highlight cover</span></div>
+      <div style="display:flex;flex-direction:column;align-items:center;gap:14px">
+        <div style="width:110px;height:110px;border-radius:50%;background:#1E2766;display:flex;align-items:center;justify-content:center"><svg viewBox="0 0 48 48" width="48" height="48"><path d="M8 38 L20 26 L28 31 L40 12" fill="none" stroke="#F6F4EF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="40" cy="12" r="4" fill="#FFB020"/></svg></div>
+        <span style="font:600 .9rem/1 var(--f-body)">Results</span></div><div></div></div>
+    <div class="mock" style="aspect-ratio:1/1;background:var(--blue);border-radius:22%;display:flex;align-items:center;justify-content:center;max-width:220px;justify-self:center;width:100%"><div class="ph" style="width:56%;height:56%;color:var(--white)">Symbol · app icon / profile</div></div>
+    <div class="mock story" style="background:var(--paper)"><div><span class="code" style="font-size:.6rem">WhatsApp reply card</span></div>
+      <div class="stack"><p class="ar-h" style="font-size:1.15rem;font-weight:700;text-align:right">أهلاً فيك! خلّينا نرتبلك موعد لاختبار تحديد المستوى.</p><p class="ar muted" style="font-size:.8rem;text-align:right">احكيلنا أي برنامج بيهمك: SAT أو EST أو AP</p></div>
+      <div style="display:flex;justify-content:flex-end"><div class="ph" style="width:80px;height:28px;color:var(--indigo)">الشعار</div></div></div>
+  </div>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Touchpoint</th><th>How Trajectory applies</th></tr></thead>
+    <tbody>
+      <tr><td class="k">Instagram profile picture</td><td>Future symbol in a soft square, Clear Blue background</td></tr>
+      <tr><td class="k">Results posts</td><td>Photo with Indigo overlay; line from baseline score to final score, Amber point on the result</td></tr>
+      <tr><td class="k">Carousels</td><td>One continuous line across all slides, a milestone on each slide</td></tr>
+      <tr><td class="k">Reel end card</td><td>Line draws upward in 1 second and stops at the logo zone</td></tr>
+      <tr><td class="k">Parent progress report</td><td>One-page chart: scores in Blue, target as dashed Amber, latest result as the Amber point</td></tr>
+      <tr><td class="k">Website and booking page</td><td>Paper background, Indigo headers, Amber "Book a placement test" button</td></tr>
+      <tr><td class="k">Classroom</td><td>Whiteboard wall with the score-scale pattern along the top edge</td></tr>
+      <tr><td class="k">Uniform for staff</td><td>Indigo polo or lanyard, symbol on the chest, no slogans</td></tr>
+    </tbody></table></div>
+  <div class="card stack">
+    <span class="label">What happens when the name and logo arrive</span>
+    <ol class="clean" style="padding-left:1.2em">
+      <li>The logo is designed to the requirements in chapter 02, using the trajectory line's construction where it fits the name.</li>
+      <li>Every dashed placeholder in this book and in the templates is replaced; layouts do not change.</li>
+      <li>Colours are matched to Pantone and proofed in print.</li>
+      <li>Version 1.0 of these guidelines is issued with final mock-ups and editable templates.</li>
+    </ol>
+    <p class="muted" style="font-size:.9rem">Prepared by Logic Loop (Sara, Brand &amp; Design) for the Khalda academy. Version 0.1, draft for internal review. Sample scores, names and dates in this book are illustrations, not real results.</p>
+  </div>
+</div>
+
+</div>

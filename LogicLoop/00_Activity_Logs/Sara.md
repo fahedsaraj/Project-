@@ -37,3 +37,9 @@
 - Client brief from Fahed: Success4Sure Academy, Khalda branch, full rebrand (name TBD). Delivered brand direction: strategy + 3 visual directions (A Trajectory, recommended; B Modern Scholar; C Answer Sheet) with HEX/RGB/CMYK, type, logo direction, graphics, sample posts, and sections 9–16. File: `04_Projects/Clients/Success4Sure_Khalda/Brand_Direction.html`; page https://claude.ai/artifact/2KzwP6SpncXUzqnBVz51Us (private).
 - Current profile read via vidIQ (Instagram itself blocked). Posts/reels not reviewed.
 - Next: Fahed + academy choose a direction → name → 3 logo concepts.
+
+## 2026-10-05
+- Fahed chose Direction A (Trajectory) for Success4Sure Khalda and asked for full guidelines without name and logo. Delivered v0.1 (13 chapters: foundation, name/logo space and future-logo requirements, colour with tints and WCAG contrast, typography and scale, graphic language and line rules, photography, grids, social, ads, print, signage, do/don't, applications). File: `04_Projects/Clients/Success4Sure_Khalda/Brand_Guidelines_Trajectory.html`; page https://claude.ai/artifact/VzNXGadfDdajAFTb8nLRt3 (private).
+- Finding: Clear Blue on Paper is 4.1:1 (large text only) and Amber on Paper is 1.7:1 (never text). Written into the rules.
+- Removed invented academy facts from samples (test duration, report frequency, group size). The academy needs to confirm its real service details.
+- Next: Fahed review → share with academy → name → logo to chapter 02 requirements.
