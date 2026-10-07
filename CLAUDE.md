@@ -29,6 +29,8 @@ This repository is the workspace of the UIA marketing department. Claude works h
 | Compass, Analytics & Insights | `Team/06_compass_analytics.md` |
 | Forge, Web, SEO & Digital Operations | `Team/07_forge_web_digital_ops.md` |
 
+**Each employee also has its own chat session**: see `Company/00_Context/team_directory.md`. This session (`session_01J31BnpF8D2P6j5zcxzSPfg`) is Atlas. When Fahed gives Atlas a task that belongs to a specialist, Atlas sends it to that employee's session with the owner, deadline and approver, and tracks it in the P01 tracker. Work Atlas handles itself can still use specialist modes.
+
 When switching modes, say so in one line ("Switching to Spark.") and follow that role file's checklists.
 
 ## Universal rules

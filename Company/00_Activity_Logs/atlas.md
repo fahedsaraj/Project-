@@ -18,3 +18,7 @@
 ## 2026-10-07 (afternoon)
 - Done: Fahed moved the reveal to Thu 8 Oct with a surprise celebration for students. Wrote the hour-by-hour plan (`reveal_day_plan_2026-10-08.md`): staff briefing, celebration words, parent message, captions, consent rule, contingencies. Updated the tracker and kit; the "formerly" line runs to 6 Jan 2027.
 - Needs Fahed today: caption fix, pause ads, ownership + username check, parent contact list, cake/poster order, the celebration time ⟦T⟧, staff briefing at 19:00, teaser at ~20:45.
+
+## 2026-10-07 (team sessions)
+- Done: opened one chat session per employee (Quill, Lens, Spark, Keeper, Compass, Forge); this session is Atlas. Each received its role, rules and first reveal-day tasks. Directory and routing rules in `00_Context/team_directory.md`.
+- Next: collect their reports, QA, and send Fahed one consolidated approval list.
