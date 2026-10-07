@@ -10,14 +10,14 @@
 | 0 | **Interim academy Gmail** (new, 7 Oct) | — (new) | ⟦chosen address⟧@gmail.com | Academy (recovery: management + academy SIM) | ☐ | ☐ | In progress | 7 Oct / Fahed | Guide: `interim_gmail_setup.md`. Becomes backup/forwarding once D-04 lands |
 | 1 | Domain registrar | — (new) | admin@⟦domain⟧ | Academy (legal name) | — | ☐ | Blocked: D-04 | | Auto-renew + transfer lock |
 | 2 | Google Workspace | — (new) | admin@⟦domain⟧ | Academy | — | ☐ | Blocked: D-04 | | Super admin + 2 admins |
-| 3 | Meta Business portfolio (2726542811076338) | ⟦audit⟧ | admin@⟦domain⟧ (business email) | Academy (verified business) | ☐ | ☐ | Audit | | Ownership check first (D-07) |
+| 3 | Meta Business portfolio (2726542811076338) | ⟦audit⟧ | Interim Gmail now → admin@⟦domain⟧ later (business email) | Academy (verified business) | ☐ | ☐ | Planned 7 Oct | | Business email only; admins = Fahed + management's own profiles (no Gmail admin) |
 | 4 | Facebook Page (1240732079125060) | ⟦audit⟧ | info@⟦domain⟧ (public contact) | Portfolio | ☐ | ☐ | Audit | | Renamed at the reveal 8 Oct |
 | 5 | Instagram @success4sure_khalda → new handle | ⟦audit⟧ | marketing@⟦domain⟧ (login) · info@ (contact button) | Portfolio | ☐ | ☐ | Audit | | Don't change the login email on reveal day |
 | 6 | Meta ad account (act_2067581237184445) | ⟦audit⟧ | accounts@⟦domain⟧ (billing) | Portfolio | ☐ | ☐ | Audit | | Paused (D-08) |
 | 7 | WhatsApp Business (+962 79 055 5890) | ⟦audit⟧ | info@⟦domain⟧ (profile email) | Academy (SIM owner) | ☐ | ☐ (2-step PIN) | Audit | | The number never changes |
-| 8 | Google Business Profile | — (to create/claim) | admin@⟦domain⟧ (owner) | Academy | ☐ | ☐ | Blocked: D-04 | | |
-| 9 | Metricool (brand 7035734) | sarajfahed@gmail.com | marketing@⟦domain⟧ | Academy | ☐ | ☐ | Planned | | Personal → academy |
-| 10 | Canva | ⟦audit⟧ | marketing@⟦domain⟧ (Teams owner admin@) | Academy | ☐ | ☐ | Audit | | |
+| 8 | Google Business Profile | — (to create/claim) | Interim Gmail now → admin@⟦domain⟧ later (owner) | Academy | ☐ | ☐ | Planned 8 Oct (after parent message) | | 7 Oct: search Maps for an existing listing only; don't create before the reveal |
+| 9 | Metricool (brand 7035734) | sarajfahed@gmail.com | Interim Gmail now → marketing@⟦domain⟧ later | Academy | ☐ | ☐ | Planned 7 Oct | | Personal → academy; check the Metricool connector still works after |
+| 10 | Canva | ⟦audit⟧ | Interim Gmail now (free account) → marketing@⟦domain⟧ later | Academy | ☐ | ☐ | Planned 7 Oct | | Brand Kit / Teams plan = Tier 2 cost |
 | 11 | Website / hosting | — (none yet) | admin@⟦domain⟧ | Academy | — | ☐ | Blocked: D-04 | | |
 | 12 | Google Drive (academy files) | sarajfahed@gmail.com (mixed with personal) | Academy Shared Drive | Academy | ☐ | ☐ | Audit | | Copy, don't move |
 | 13 | Google Calendar (academy events) | none found | "UIA – Academy" calendar | Academy | — | — | Audit | | |
