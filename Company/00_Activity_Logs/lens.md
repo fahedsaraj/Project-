@@ -29,3 +29,7 @@
 - Done: roll-up banner 830 × 2000 mm from Fahed's text: 3 press PDFs (arrow up/left/right; 5 mm bleed, crop marks, fonts embedded), previews, mockup, printer spec (`P01/rollup_banner/`); generator `rollup_banner.js`; static Archivo cuts for print; memory: academy is on floor 4.
 - Blocked / needs approval: Fahed approves the design; printing cost (Tier 2); colour strip before production.
 - Next: Arabic version if Fahed wants it (needs D-06).
+
+## 2026-10-07 (late, 3)
+- Done: A4 print colour & production spec for printers (`03_Assets/Brand/Print/UIA_Print_Colour_Spec_A4.pdf`, generator `print_spec.js`): CMYK + Pantone + HEX + RGB from guidelines p.13, per-job material/finish notes. Corrected the sign and banner READMEs (they wrongly said CMYK/Pantone weren't defined) and added the values to the brand summary.
+- Blocked / needs approval: printed colour proof before production (guidelines require it).

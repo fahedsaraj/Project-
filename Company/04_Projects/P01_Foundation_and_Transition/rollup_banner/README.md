@@ -11,7 +11,7 @@ Replaces the old Success 4Sure roll-up in the lobby. Text is Fahed's brief. Rebu
 
 ## Spec for the printer
 - **Trim** 830 × 2000 mm · **bleed** 5 mm all round · crop marks + info line outside the bleed. Page = 880 × 2050 mm.
-- Vector artwork; fonts embedded (TrueType). RGB colours: Midnight #0B1626 · Academy Blue #29566C · Academy Gold #E2A02D · Platinum #D8DADF · White. **Approve a printed colour strip first** (Pantone/CMYK not yet defined in the guidelines).
+- Vector artwork; fonts embedded (TrueType); built in RGB. **Set the guideline CMYK values** (full sheet: `03_Assets/Brand/Print/UIA_Print_Colour_Spec_A4.pdf`): Midnight C100 M80 Y40 K70 · Academy Blue C85 M50 Y30 K25 · Academy Gold C5 M40 Y90 K0 · Platinum C14 M9 Y8 K0 · White. **Approve a printed colour strip first** (the guidelines say to confirm the values on proofs).
 - Material: 440–510 g matt PVC banner or 200 µm polyester film (no curl, no shine), print ≥ 720 dpi.
 - **Hardware:** fits standard 85 × 200 cm roll-up stands (visible width 83 cm). The bottom ~150 mm goes into the cassette and the top ~30 mm into the rail. Nothing important sits there.
 - Reuse the old stand if its visible width is 83 cm; only the print is replaced (estimate: cheaper than a new stand, *unverified* quotes).

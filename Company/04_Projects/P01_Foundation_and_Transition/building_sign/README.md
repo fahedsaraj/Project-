@@ -15,7 +15,7 @@ Replaces the old panel on the lobby directory wall (the old Success 4Sure panel'
 - **Logo:** official file only, 480 × 108 mm, centred above the base line. White **#FFFFFF**; gold **Academy Gold #E2A02D**. Best finish: raised 3 mm acrylic letters (white + gold), or UV print on the panel.
 - **Base line:** gold #E2A02D, full width, 8 mm high, along the bottom edge.
 - **Clear space:** ≥ 34 mm around the logo (the height of the UNITED letters). The layout keeps 60 mm at the sides and 67 mm above and below.
-- **Colour:** hex values are from the guidelines. Pantone/CMYK are not defined yet, so **approve a physical colour sample before production** (Midnight must not turn black or blue, and the gold must not turn yellow or orange).
+- **Colour:** CMYK + Pantone from the guidelines (p. 13), full sheet in `03_Assets/Brand/Print/UIA_Print_Colour_Spec_A4.pdf`: Midnight C100 M80 Y40 K70 / Pantone 5395 C · Gold C5 M40 Y90 K0 / Pantone 7409 C · White. The guidelines say to confirm them on a printed proof, so **approve a physical colour sample before production**.
 - Don't stretch the logo, don't recolour it, and don't add effects (no mirror-chrome gold, no glow).
 
 ## Alternative (not drawn)
