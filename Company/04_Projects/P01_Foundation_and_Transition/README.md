@@ -27,6 +27,7 @@
 | 2.1 | Buy the domain in the academy's name | Fahed/Mgmt (Forge guide) | Tier 2 | 16 Oct | D-04 | Blocked |
 | 2.2 | Google Workspace + `admin@`, users, groups, 2FA | Forge guide → Fahed | Tier 2 | 18 Oct | 2.1 | Blocked |
 | 2.3 | DNS: MX, SPF, DKIM, DMARC | Forge | Fahed | 19 Oct | 2.2 | Blocked |
+| 2.3b | **Email migration** (9-phase plan, tracker, audit): `05_Operations/email_migration/` | Forge + Keeper + Quill | Fahed (+ Mgmt Tier 2) | Phase 1 audit 8–11 Oct; verification ~5–8 Nov | E-01, E-03, D-04 | Planned |
 | 2.4 | Email signatures installed | Forge | Fahed | 20 Oct | 2.2 | Blocked |
 | 2.5 | Move platform logins/ownership to academy identities (Meta business email, Metricool, IG login) | Forge + Fahed | Tier 2 | 22 Oct | 1.2, 2.2 | Blocked |
 | 2.6 | WhatsApp Business profile, labels, quick replies, greeting/away (prepare; switch name at the reveal) | Forge + Keeper | Fahed | 24 Oct | D-01, D-06 | Not started |

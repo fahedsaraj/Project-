@@ -16,3 +16,6 @@ Atlas keeps this list current. Each decision has an owner and a "blocks" column 
 | D-10 | Working hours, update format, cadence times (`working_preferences.md` ⟦confirm⟧ items) | Fahed | Scheduled routines | Accept defaults or adjust | Open |
 | D-11 | Fahed's personal non-negotiables, reporting line, budget authority, human team size | Fahed | about_me.md | Answer in the next session | Open |
 | D-12 | Fix the live 4 Oct reel caption with placeholders `[رقم الهاتف / الرابط]`, `#[AcademyName]` | Fahed (2-minute edit in Instagram) | Brand credibility | Replace with: «للتسجيل والاستفسار (اتصال أو واتساب): +962 79 055 5890», and remove the hashtag | **Urgent** |
+| E-01 | Which Gmail account(s) are used for academy business today? Only sarajfahed@gmail.com, or also an old Success 4Sure / admissions Gmail? | Fahed | Email migration Phase 1 | List them all | Open |
+| E-02 | Approve the email naming structure: info@, admissions@, marketing@, management@, accounts@ (groups) + admin@ + firstname@ | Fahed | Workspace setup | Approve | Open |
+| E-03 | Audit access: connect Gmail read-only to this workspace, or Fahed runs the search pack himself | Fahed | Phase 1 speed | Connect read-only, or run the searches | Open |
