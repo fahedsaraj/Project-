@@ -4,7 +4,8 @@ Replaces the old panel on the lobby directory wall (floor-3 row). Follows the gu
 
 | File | Use |
 |---|---|
-| `uia-building-sign-600x250mm.pdf` | **Send to the sign maker.** 100% vector (no images, no fonts), trim size |
+| `uia-building-sign-600x250mm-PRINT.pdf` | **Send to the printer.** Press-ready: 3 mm bleed, crop marks, info line with size and colours. Vector, RGB |
+| `uia-building-sign-600x250mm.pdf` | For cutting/routing (CNC, laser): 100% vector (no images, no fonts), trim size |
 | `uia-building-sign-600x250mm-bleed3mm.pdf` | Same, with 3 mm bleed, if they print rather than cut the panel |
 | `uia-building-sign-preview.png` | Preview (2400 × 1000) for WhatsApp |
 | `uia-building-sign-mockup.jpg` | Concept: the sign in place of the old panel (for approval only, not to scale) |

@@ -23,3 +23,4 @@
 - Done: building directory sign 600 × 250 mm (Midnight panel, reversed horizontal logo, gold base line): vector PDF (trim + 3 mm bleed), preview, mockup on the lobby photo, spec for the sign maker (`P01/building_sign/`); generator `building_sign.js`.
 - Blocked / needs approval: Fahed approves the design; production cost (Tier 2); building management OK; a physical colour sample before production.
 - Next: adjust after Fahed's feedback; hand the PDF to the sign maker once approved.
+- Done (later): press-ready print PDF with 3 mm bleed + crop marks (`uia-building-sign-600x250mm-PRINT.pdf`).
