@@ -38,3 +38,7 @@
 - Done: edited Fahed's 7.5 s speaker clip into a 10 s branded reel, two versions (`P01/speaker_reel/`): A pre-reveal (no new logo, teaser end card, OK to post today) and B post-reveal (logo strip + official end card); synthesised SFX, voice clean-up, ≈ −15 LUFS; generator `speaker_reel.js`.
 - Blocked / needs approval: Fahed approves and posts. Subtitles need the spoken words (offline speech-to-text is blocked by the network; an online service needs approval).
 - Next: add subtitles once the words are sent.
+
+## 2026-10-07 (evening, print fix)
+- Done: the printer (CorelDRAW) lacked the brand fonts → made "PRINT-CMYK-curves" PDFs for the 3 roll-ups and the building sign: text as curves (0 fonts), exact brand CMYK values (guidelines p.13), Trim/Bleed boxes. Tools: `corel_export.sh`, `outline_pdf.js`, `rgb_to_cmyk_pdf.py`.
+- Next: the printer's colour proof → Fahed approves.

@@ -4,6 +4,7 @@ Replaces the old panel on the lobby directory wall (the old Success 4Sure panel'
 
 | File | Use |
 |---|---|
+| `uia-building-sign-600x250mm-PRINT-CMYK-curves.pdf` | **For CorelDRAW / the printer.** Text-free already, colours set to the brand CMYK values, Trim/Bleed boxes set |
 | `uia-building-sign-600x250mm-PRINT.pdf` | **Send to the printer.** Press-ready: 3 mm bleed, crop marks, info line with size and colours. Vector, RGB |
 | `uia-building-sign-600x250mm.pdf` | For cutting/routing (CNC, laser): 100% vector (no images, no fonts), trim size |
 | `uia-building-sign-600x250mm-bleed3mm.pdf` | Same, with 3 mm bleed, if they print rather than cut the panel |

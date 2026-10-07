@@ -4,6 +4,7 @@ Replaces the old Success 4Sure roll-up in the lobby. Text is Fahed's brief. Rebu
 
 | File | Use |
 |---|---|
+| `uia-rollup-830x2000mm-arrow-*-PRINT-CMYK-curves.pdf` | **For CorelDRAW / the printer.** All text converted to curves (no fonts needed), colours set to the brand CMYK values, Trim/Bleed boxes set. Import (Ctrl+I) or open the PDF in CorelDRAW |
 | `uia-rollup-830x2000mm-arrow-up-PRINT.pdf` | **Default.** Arrow up = "go up to floor 4". Works wherever the banner stands |
 | `uia-rollup-830x2000mm-arrow-left-PRINT.pdf` / `-right-` | Print instead if the lift/stairs are to the left/right of where the banner stands |
 | `uia-rollup-preview-arrow-*.png` | Previews for WhatsApp |
