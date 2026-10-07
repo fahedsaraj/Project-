@@ -65,6 +65,6 @@
 > #UnitedInternationalAcademy #ShapingGlobalMinds #Amman #Khalda
 
 ## Notes
-- **Design fix needed before the "Same team" post** (Lens): `reveal_pack/pre-reveal/03-same-team-post.png` still carries the pre-reveal kicker "SOMETHING NEW IS COMING · قريباً" and no logo. After the reveal it needs a new kicker (e.g. "UNITED INTERNATIONAL ACADEMY") and the symbol bottom-left.
+- Design: `03-same-team-post.png` updated by Lens (7f3708f): kicker "New name · اسم جديد" and the symbol added.
 - Options 2B/2C say "schedule stays the same": Keeper/admissions to confirm no timetable changes are planned for current students.
 - Music for the recap reel: calm, confident, added in Instagram (as with the reveal reel).
