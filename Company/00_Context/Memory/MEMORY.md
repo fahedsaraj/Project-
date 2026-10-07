@@ -11,4 +11,4 @@
 - [reference] reference_metricool.md: Metricool brand 7035734 covers FB page, IG and the Meta ads account (read analytics, can schedule).
 - [reference] reference_agents.md: The 7 agents are registered as project subagents in .claude/agents/ (atlas, quill, lens, spark, keeper, compass, forge).
 - [reference] team_directory: each employee has its own chat session; IDs and routing rules are in Company/00_Context/team_directory.md.
-- [project_location_floor.md](project_location_floor.md): academy is on floor 4 (wayfinding).
+- [project] project_location_floor.md: the academy is on floor 4 (wayfinding).
