@@ -51,6 +51,18 @@
 | `escalated_to_fahed` | Passed to Fahed? | `Yes` · `No` |
 | `notes` | Anything useful | Short. **No** sensitive details (health, family issues, payments) |
 
+**Columns added for the email migration (v1.1, 7 Oct).** They sit at the end, so a Sheet built from v1 just adds 7 columns on the right. Filled during the contact triage (`05_Operations/email_migration/contact_triage_procedure.md`), not needed for 8 Oct:
+
+| Column | What to write | Allowed values / format |
+|---|---|---|
+| `email` | Email address, if known | lowercase |
+| `contact_origin` | Where the row came from | `WhatsApp` · `Registration` · `Google Contacts` · `Other contacts` · `Walk-in` · `Ads` |
+| `triage_decision` | Result of the triage | `Keep` · `Archive` (`Leave` rows never reach this Sheet) |
+| `triage_date` | When triaged | `YYYY-MM-DD` |
+| `triaged_by` | Who decided | Staff name |
+| `duplicate_of` | If this person already had a row: the `record_id` it was merged into | Number, or empty |
+| `imported_on` | Date the row entered the master list | `YYYY-MM-DD` |
+
 ## 4. Quick quality check before 18:00 (5 minutes)
 - [ ] Every **Current** family has at least one parent row with a phone number.
 - [ ] Phones are in `+962 7X XXX XXXX` format; no duplicates (Data → Data cleanup → Remove duplicates on the `phone` column, after checking).
