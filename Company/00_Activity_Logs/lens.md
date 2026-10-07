@@ -33,3 +33,8 @@
 ## 2026-10-07 (late, 3)
 - Done: A4 print colour & production spec for printers (`03_Assets/Brand/Print/UIA_Print_Colour_Spec_A4.pdf`, generator `print_spec.js`): CMYK + Pantone + HEX + RGB from guidelines p.13, per-job material/finish notes. Corrected the sign and banner READMEs (they wrongly said CMYK/Pantone weren't defined) and added the values to the brand summary.
 - Blocked / needs approval: printed colour proof before production (guidelines require it).
+
+## 2026-10-07 (evening, reel)
+- Done: edited Fahed's 7.5 s speaker clip into a 10 s branded reel, two versions (`P01/speaker_reel/`): A pre-reveal (no new logo, teaser end card, OK to post today) and B post-reveal (logo strip + official end card); synthesised SFX, voice clean-up, ≈ −15 LUFS; generator `speaker_reel.js`.
+- Blocked / needs approval: Fahed approves and posts. Subtitles need the spoken words (offline speech-to-text is blocked by the network; an online service needs approval).
+- Next: add subtitles once the words are sent.

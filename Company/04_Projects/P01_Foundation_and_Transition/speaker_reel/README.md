@@ -11,7 +11,7 @@ Source: 7.5 s vertical talking-head clip filmed at the academy (adult speaker, s
 ## What the edit does
 - 1080 × 1920, 30 fps, H.264 + AAC, 10.1 s: speaker 7.5 s plus a 3 s end card (0.4 s slide transition).
 - Slow push-in, then a punch-in cut at the midpoint for energy. Mild grade (+4% contrast, +6% saturation), no filters.
-- Voice: noise reduction, low-cut, loudness normalised to −14 LUFS (the social-media standard), with a peak limiter.
+- Voice: noise reduction, low-cut, loudness ≈ −15 LUFS (social-media level), peaks limited to −2.4 dB.
 - Sound effects, synthesised (no licensing issues): swish on the logo strip and the cut, whoosh into the end card, low impact on the card, soft shimmer on the logo (B).
 - Logo: only the official files, always on a Midnight ground (never directly on the busy footage).
 
