@@ -7,6 +7,7 @@
 
 | # | Platform | Old email (login / contact) | New email | Owner (L1 academy identity) | Access updated | 2FA | Status | Changed on / by | Notes |
 |---|---|---|---|---|---|---|---|---|---|
+| 0 | **Interim academy Gmail** (new, 7 Oct) | — (new) | ⟦chosen address⟧@gmail.com | Academy (recovery: management + academy SIM) | ☐ | ☐ | In progress | 7 Oct / Fahed | Guide: `interim_gmail_setup.md`. Becomes backup/forwarding once D-04 lands |
 | 1 | Domain registrar | — (new) | admin@⟦domain⟧ | Academy (legal name) | — | ☐ | Blocked: D-04 | | Auto-renew + transfer lock |
 | 2 | Google Workspace | — (new) | admin@⟦domain⟧ | Academy | — | ☐ | Blocked: D-04 | | Super admin + 2 admins |
 | 3 | Meta Business portfolio (2726542811076338) | ⟦audit⟧ | admin@⟦domain⟧ (business email) | Academy (verified business) | ☐ | ☐ | Audit | | Ownership check first (D-07) |

@@ -32,3 +32,7 @@
 - Done: collected the first reports from all 6 team chats (13 commits). Quality check passed: no banned claims, no off-standard phone formats in new copy, no customer data in the repo. Compiled `approval_list_2026-10-07.md` (9 items today, 9 tonight, 6 this week).
 - Blocked / needs approval: everything on the approval list; D-08 pause; ⟦T⟧ time.
 - Next: watch tonight's teaser; on reveal day, coordinate the team chats from the plan.
+
+## 2026-10-07 (interim Gmail)
+- Done: Fahed chose to start with a new academy Gmail and connect everything to it. Wrote `05_Operations/email_migration/interim_gmail_setup.md` (create → secure → connect: hidden changes today, visible changes tomorrow after the parent message, logins next week). Tracker row 0 and decision E-04 added.
+- Next: Forge to walk Fahed through it live and log each change.

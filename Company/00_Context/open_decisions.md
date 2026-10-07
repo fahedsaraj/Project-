@@ -19,3 +19,4 @@ Atlas keeps this list current. Each decision has an owner and a "blocks" column 
 | E-01 | Which Gmail account(s) are used for academy business today? Only sarajfahed@gmail.com, or also an old Success 4Sure / admissions Gmail? | Fahed | Email migration Phase 1 | List them all | Open |
 | E-02 | Approve the email naming structure: info@, admissions@, marketing@, management@, accounts@ (groups) + admin@ + firstname@ | Fahed | Workspace setup | Approve | Open |
 | E-03 | Audit access: connect Gmail read-only to this workspace, or Fahed runs the search pack himself | Fahed | Phase 1 speed | Connect read-only, or run the searches | Open |
+| E-04 | Interim academy Gmail address (first free option from `interim_gmail_setup.md`) | Fahed | Connecting all platforms today | Create now, as the academy owner identity until D-04 | **In progress 7 Oct** |
