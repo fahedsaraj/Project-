@@ -13,3 +13,8 @@
 ## 2026-10-07 (afternoon)
 - Done: 12 s logo-reveal video in MP4 (reel 1080×1920 + screen 1920×1080, with covers); teaser and contest-thanks designs now say "tomorrow"; celebration print files (A3 poster PDF, cake print 2400 px).
 - Next: the celebration recap reel from tomorrow's footage (only consented or non-identifiable student shots).
+
+## 2026-10-07 (night)
+- Done: celebration shot list (`P01/celebration_shot_list.md`, 14 shots with publish/consent marks); recap reel plan (`P01/celebration_recap_reel_plan.md`, 25 s, AR+EN text, end card) + 4 ready-made text overlays (`reveal_pack/recap-reel/`, generator `recap_overlays.js`); QA of all reveal-pack PNGs + MP4s: fixed same-team post label/symbol, story-6 symbol safe zone, programmes highlight, MP4 closing frame now has the symbol (re-rendered).
+- Blocked / needs approval: Fahed approves the shot list, the reel plan and the fixes; a second camera person must be named tonight (Fahed is speaking); IBM Plex Sans Arabic still pending.
+- Next: edit the recap reel from the ✅ footage once it's on the academy drive (Sat 10 Oct).
