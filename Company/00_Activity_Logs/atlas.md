@@ -10,3 +10,7 @@
 - Done: D-01 resolved (Fahed: legally cleared to say "Formerly Success 4Sure – Khalda") and applied across all docs; 7 agents registered by name in `.claude/agents/` (atlas, quill, lens, spark, keeper, compass, forge); brand change kit written; P01 moved to fast track (reveal proposed Sun 18 Oct).
 - Blocked / needs approval: the fast-track dates and the kit texts; ownership check (D-07) and master contact list by 10 Oct; D-08, D-09.
 - Next: chase the preconditions; Lens starts the reveal templates once the dates are approved.
+
+## 2026-10-07 (late)
+- Done: Fahed approved the fast-track dates (private notice 11–13 Oct, teaser 13 Oct, teachers reel 15 Oct, reveal Sun 18 Oct); recorded in the kit and tracker.
+- Next: preconditions by 10 Oct (ownership check, master contact list); approval of the kit texts and the reveal pack.

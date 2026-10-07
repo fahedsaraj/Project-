@@ -37,7 +37,7 @@
 | 2.11 | CRM sheet v1 + WhatsApp scripts | Keeper | Fahed | 22 Oct | 1.10 | Not started |
 | 2.12 | Photo & video consent form (parent signature) + consent log | Keeper + Lens | Mgmt ⚖️ | 18 Oct | — | Not started |
 
-## Phase 3: Transition campaign (FAST TRACK, proposed 7 Oct: 11 Oct – 25 Oct; kit in `brand_change_kit.md`)
+## Phase 3: Transition campaign (FAST TRACK, **dates approved by Fahed 7 Oct 2026**: 11–25 Oct; kit in `brand_change_kit.md`; designs in `reveal_pack/`)
 | ID | Task | Owner | Approver | Due | Depends | Status |
 |---|---|---|---|---|---|---|
 | 3.1 | Final transition messages + FAQ (AR/EN) | Quill | Fahed | 10 Oct | — | **Ready for approval** (`brand_change_kit.md`) |

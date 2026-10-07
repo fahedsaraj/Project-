@@ -4,7 +4,7 @@
 > Everything public here is **Tier 1: Fahed approves before it goes live**. Renaming accounts is **Tier 2** (Fahed + management).
 > Text lengths are checked against platform limits.
 
-## 1. Fast-track schedule (proposed, replaces the November reveal)
+## 1. Fast-track schedule: APPROVED by Fahed, 7 Oct 2026
 | When | Phase | What happens | Owner |
 |---|---|---|---|
 | **8–10 Oct** | Prep | Ownership check (can we rename IG/FB/WhatsApp?); master contact list; approve this kit | Fahed, Keeper, Forge |
