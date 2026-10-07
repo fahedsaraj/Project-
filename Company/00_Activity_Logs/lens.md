@@ -18,3 +18,8 @@
 - Done: celebration shot list (`P01/celebration_shot_list.md`, 14 shots with publish/consent marks); recap reel plan (`P01/celebration_recap_reel_plan.md`, 25 s, AR+EN text, end card) + 4 ready-made text overlays (`reveal_pack/recap-reel/`, generator `recap_overlays.js`); QA of all reveal-pack PNGs + MP4s: fixed same-team post label/symbol, story-6 symbol safe zone, programmes highlight, MP4 closing frame now has the symbol (re-rendered).
 - Blocked / needs approval: Fahed approves the shot list, the reel plan and the fixes; a second camera person must be named tonight (Fahed is speaking); IBM Plex Sans Arabic still pending.
 - Next: edit the recap reel from the ✅ footage once it's on the academy drive (Sat 10 Oct).
+
+## 2026-10-07 (late)
+- Done: building directory sign 600 × 250 mm (Midnight panel, reversed horizontal logo, gold base line): vector PDF (trim + 3 mm bleed), preview, mockup on the lobby photo, spec for the sign maker (`P01/building_sign/`); generator `building_sign.js`.
+- Blocked / needs approval: Fahed approves the design; production cost (Tier 2); building management OK; a physical colour sample before production.
+- Next: adjust after Fahed's feedback; hand the PDF to the sign maker once approved.
