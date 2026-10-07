@@ -1,6 +1,6 @@
 # Building directory sign: 600 × 250 mm (Lens, 7 Oct 2026, for Fahed's approval)
 
-Replaces the old panel on the lobby directory wall (floor-3 row). Follows the guidelines' signage rule: **horizontal logo, reversed on Midnight, gold base line**. Rebuild with `01_Tools/brand_assets/building_sign.js`.
+Replaces the old panel on the lobby directory wall (the old Success 4Sure panel's spot). Follows the guidelines' signage rule: **horizontal logo, reversed on Midnight, gold base line**. Rebuild with `01_Tools/brand_assets/building_sign.js`.
 
 | File | Use |
 |---|---|

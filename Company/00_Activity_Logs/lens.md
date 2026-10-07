@@ -24,3 +24,8 @@
 - Blocked / needs approval: Fahed approves the design; production cost (Tier 2); building management OK; a physical colour sample before production.
 - Next: adjust after Fahed's feedback; hand the PDF to the sign maker once approved.
 - Done (later): press-ready print PDF with 3 mm bleed + crop marks (`uia-building-sign-600x250mm-PRINT.pdf`).
+
+## 2026-10-07 (late, 2)
+- Done: roll-up banner 830 × 2000 mm from Fahed's text: 3 press PDFs (arrow up/left/right; 5 mm bleed, crop marks, fonts embedded), previews, mockup, printer spec (`P01/rollup_banner/`); generator `rollup_banner.js`; static Archivo cuts for print; memory: academy is on floor 4.
+- Blocked / needs approval: Fahed approves the design; printing cost (Tier 2); colour strip before production.
+- Next: Arabic version if Fahed wants it (needs D-06).
