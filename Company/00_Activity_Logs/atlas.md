@@ -14,3 +14,7 @@
 ## 2026-10-07 (late)
 - Done: Fahed approved the fast-track dates (private notice 11–13 Oct, teaser 13 Oct, teachers reel 15 Oct, reveal Sun 18 Oct); recorded in the kit and tracker.
 - Next: preconditions by 10 Oct (ownership check, master contact list); approval of the kit texts and the reveal pack.
+
+## 2026-10-07 (afternoon)
+- Done: Fahed moved the reveal to Thu 8 Oct with a surprise celebration for students. Wrote the hour-by-hour plan (`reveal_day_plan_2026-10-08.md`): staff briefing, celebration words, parent message, captions, consent rule, contingencies. Updated the tracker and kit; the "formerly" line runs to 6 Jan 2027.
+- Needs Fahed today: caption fix, pause ads, ownership + username check, parent contact list, cake/poster order, the celebration time ⟦T⟧, staff briefing at 19:00, teaser at ~20:45.

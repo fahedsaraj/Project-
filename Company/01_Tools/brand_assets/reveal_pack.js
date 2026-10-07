@@ -38,9 +38,9 @@ const STORY = [1080, 1920], POST = [1080, 1350];
 const assets = {
   // Pre-reveal (no new logo yet)
   'pre-reveal/01-teaser-story.png': [...STORY, `<div class="pad" style="justify-content:center;gap:56px">
-    <div class="label">Coming soon · قريباً</div>
-    <div class="serif" style="font-size:132px">Something new<br>is coming.</div>
-    <div class="ar" style="font-size:84px;font-weight:600">شي جديد قادم…</div>
+    <div class="label">Tomorrow · بكرا</div>
+    <div class="serif" style="font-size:132px">Something new<br>arrives tomorrow.</div>
+    <div class="ar" style="font-size:84px;font-weight:600">بكرا… شي جديد.</div>
     <div class="rule"></div>
     <div style="font-size:46px;color:var(--platinum)">Same people behind it.</div>
     <div class="ar" style="font-size:46px;color:var(--platinum)">ونفس الناس وراه.</div></div>`],
@@ -49,8 +49,8 @@ const assets = {
     <div class="serif" style="font-size:112px">You suggested.<br>We listened.</div>
     <div class="ar" style="font-size:66px;font-weight:600">اقترحتوا… وسمعناكم.</div>
     <div class="rule"></div>
-    <div style="font-size:38px;color:var(--platinum)">Our new name is chosen. The reveal is coming soon.<br>The winning suggestion gets a free course.</div>
-    <div class="ar" style="font-size:38px;color:var(--platinum)">اخترنا الاسم الجديد والكشف قريباً. وصاحب أفضل اقتراح ربح دورة مجانية.</div></div>`],
+    <div style="font-size:38px;color:var(--platinum)">Our new name is chosen. The reveal is tomorrow.<br>The winning suggestion gets a free course.</div>
+    <div class="ar" style="font-size:38px;color:var(--platinum)">اخترنا الاسم الجديد والكشف بكرا. وصاحب أفضل اقتراح ربح دورة مجانية.</div></div>`],
   'pre-reveal/03-same-team-post.png': [...POST, `<div class="pad" style="justify-content:center;gap:34px">
     <div class="label">Something new is coming · قريباً</div>
     <div class="serif" style="font-size:96px">Same team.<br>Same teachers.<br>Same place.<br>Same number.</div>
@@ -137,6 +137,26 @@ function faq(qEn, aEn, qAr, aAr, extra = '') {
     fs.mkdirSync(path.dirname(out), { recursive: true });
     await p.screenshot({ path: out });
   }
+  // Celebration print files
+  const LOGO_FC = fs.readFileSync(path.join(BRAND, 'Logo/SVG/uia-logo-stacked-full-colour.svg'), 'utf8').replace(/<title>.*?<\/title>/, '');
+  const poster = `<div class="pad" style="justify-content:center;align-items:center;text-align:center;gap:16mm">
+    <div class="logo" style="width:150mm">${STACKED}</div>
+    <div class="serif gold" style="font-size:30pt;font-style:italic">Shaping Global Minds.</div>
+    <div class="ar" style="font-size:34pt;margin-top:10mm">نفس الفريق. اسم جديد.</div>
+    <div class="serif" style="font-size:30pt;color:var(--platinum)">Same team. New name.</div>
+    <div style="font-size:12pt;color:var(--platinum);margin-top:8mm">Formerly Success 4Sure – Khalda</div></div>`;
+  const posterHtml = path.join(tmp, 'poster.html');
+  fs.writeFileSync(posterHtml, page(1123, 1587, poster, '@page{size:297mm 420mm;margin:0}html{background:#0B1626}body{width:297mm;height:420mm;--m:25mm}'));
+  await p.goto('file://' + posterHtml); await p.evaluate(() => document.fonts.ready);
+  fs.mkdirSync(path.join(OUT, 'celebration'), { recursive: true });
+  await p.pdf({ path: path.join(OUT, 'celebration/poster-A3-print.pdf'), width: '297mm', height: '420mm', printBackground: true, pageRanges: '1' });
+  const cakeHtml = path.join(tmp, 'cake.html');
+  fs.writeFileSync(cakeHtml, page(2400, 2400, `<div style="position:absolute;inset:0;background:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:90px">
+    <div class="logo" style="width:1500px">${LOGO_FC}</div>
+    <div class="serif" style="font-size:120px;font-style:italic;color:#29566C">Shaping Global Minds.</div></div>`));
+  await p.setViewportSize({ width: 2400, height: 2400 });
+  await p.goto('file://' + cakeHtml); await p.evaluate(() => document.fonts.ready);
+  await p.screenshot({ path: path.join(OUT, 'celebration/cake-print-2400px.png') });
   await browser.close();
   console.log(`rendered ${Object.keys(assets).length} assets to ${OUT}`);
 })();

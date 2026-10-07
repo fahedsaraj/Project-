@@ -4,7 +4,8 @@
 > Everything public here is **Tier 1: Fahed approves before it goes live**. Renaming accounts is **Tier 2** (Fahed + management).
 > Text lengths are checked against platform limits.
 
-## 1. Fast-track schedule: APPROVED by Fahed, 7 Oct 2026
+## 1. Schedule: SUPERSEDED. The reveal is Thu 8 Oct 2026; see `reveal_day_plan_2026-10-08.md`
+*(Original fast-track table kept below for reference.)*
 | When | Phase | What happens | Owner |
 |---|---|---|---|
 | **8–10 Oct** | Prep | Ownership check (can we rename IG/FB/WhatsApp?); master contact list; approve this kit | Fahed, Keeper, Forge |
@@ -14,7 +15,7 @@
 | **Sun 18 Oct** | **3. Reveal** | Reveal-day checklist (§3): rename, avatar, bio, reveal reel, pinned posts | Forge + Lens + Quill |
 | 19–25 Oct | 4. Story | The meaning of U·A·I, values, one academy for many systems | Quill + Lens |
 | As email/website go live | 5. Migration | "Where to find us" post + highlight; email announcement | Forge + Quill |
-| 18 Oct → **16 Jan 2027** | 6. Reinforcement | "Formerly" line stays for 90 days, then is removed | Atlas |
+| 8 Oct → **6 Jan 2027** | 6. Reinforcement | "Formerly" line stays for 90 days, then is removed | Atlas |
 
 **Two hard preconditions for the reveal:**
 1. The private notice has reached current families.
@@ -38,7 +39,7 @@
 
 *Wording note:* the bios say "academy", not "school" or "Grades 10–12", until D-02 is answered.
 
-## 3. Reveal-day checklist (Sun 18 Oct, in this order)
+## 3. Reveal-day checklist (Thu 8 Oct, after the celebration and the parent message, in this order)
 1. ☐ Fahed confirms the private notice went out and the ownership check passed.
 2. ☐ **Instagram:**
    - profile picture
