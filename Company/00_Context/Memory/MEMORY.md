@@ -9,3 +9,4 @@
 - [project] project_asset_ownership.md: The academy owns every digital asset; staff and freelancers get least-privilege access.
 - [reference] reference_brand_guidelines.md: Guidelines v1.0 PDF is the brand source of truth; logo library in 03_Assets.
 - [reference] reference_metricool.md: Metricool brand 7035734 covers FB page, IG and the Meta ads account (read analytics, can schedule).
+- [reference] reference_agents.md: The 7 agents are registered as project subagents in .claude/agents/ (atlas, quill, lens, spark, keeper, compass, forge).

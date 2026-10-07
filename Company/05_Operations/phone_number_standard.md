@@ -16,7 +16,7 @@
 **Second number +962 79 070 4656:** don't use in marketing until D-05 is decided.
 
 ## 2. Integration plan by surface
-| Surface | What to set | Transition line (if D-01 allows) | Owner | Phase |
+| Surface | What to set | Transition line (cleared, D-01) | Owner | Phase |
 |---|---|---|---|---|
 | **WhatsApp Business** | Display name "United International Academy"; profile photo = avatar; category Education; description (below); address; hours; website/IG links; catalog with one item per programme | Description mentions "Same number, same team" | Forge sets up, Fahed approves | Reveal week |
 | **Instagram** | Contact button (call + WhatsApp), the number in the bio, the WhatsApp link in the link-in-bio | Bio line "Formerly Success 4Sure – Khalda" for 90 days | Forge/Quill | Reveal week |
@@ -31,7 +31,7 @@
 ## 3. WhatsApp Business configuration (draft for approval)
 - **About:** «United International Academy | Shaping Global Minds.»
 - **Description (AR/EN):** «أكاديمية دولية لطلاب الأنظمة الدولية (AP، SAT، EST II، IGCSE، IB). نفس الفريق ونفس الرقم، بهوية جديدة.» / "International academy for international-curriculum students (AP, SAT, EST II, IGCSE, IB). Same team, same number, new identity."
-- **Greeting message:** «أهلاً بك في United International Academy 👋 (سابقاً Success 4Sure – خلدا). كيف نقدر نساعدك؟ اكتب اسم البرنامج (AP / SAT / EST II / IGCSE / IB) وصف الطالب.» Remove the bracketed old-name part if D-01 = no.
+- **Greeting message:** «أهلاً بك في United International Academy 👋 (سابقاً Success 4Sure – خلدا). كيف نقدر نساعدك؟ اكتب اسم البرنامج (AP / SAT / EST II / IGCSE / IB) وصف الطالب.»
 - **Away message:** «شكراً لتواصلك مع United International Academy. سنرد عليك أول ما نفتح (من الأحد إلى الخميس، ⟦الساعات⟧).»
 - **Labels:** New lead · Parent · Student · AP · SAT · EST II · IGCSE · IB · Trial booked · Enrolled · Existing family · Follow-up.
 - **Quick replies:** `/programmes`, `/location`, `/trial`, `/schedule`, `/thanks`. Text from Keeper's script library.

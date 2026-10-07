@@ -1,6 +1,6 @@
 # Transition Messages: DRAFT v1 (for Fahed's review)
 
-> Status: **draft, not approved.** Lines marked **【D-01】** mention the old name: keep them only if legal clears it, otherwise use the alternative shown. ⟦…⟧ marks facts to confirm. Nothing here may be sent until every ⟦…⟧ is resolved.
+> Status: **draft, not approved.** Using the old name is legally cleared (D-01, 7 Oct 2026). ⟦…⟧ marks facts to confirm. Nothing here may be sent until every ⟦…⟧ is resolved.
 
 ## A. Private notice to current families (WhatsApp, from the academy number), Phase 0
 **Arabic**
@@ -37,7 +37,7 @@
 > طلاب من أنظمة دولية مختلفة (AP، SAT، EST II، IGCSE، IB)، بأكاديمية وحدة، ونفس الأساتذة اللي بتعرفوهم.
 > 📍 نفس المكان: ⟦مجمع مرقة – خلدا، الطابق الرابع⟧
 > 📞 نفس الرقم: +962 79 055 5890
-> **【D-01】** (سابقاً Success 4Sure – خلدا)
+> (سابقاً Success 4Sure – خلدا)
 > Shaping Global Minds.
 
 **English**
@@ -46,10 +46,9 @@
 > Students from many international systems (AP, SAT, EST II, IGCSE, IB), united in one academy, with the same teachers you know.
 > 📍 Same place: ⟦Marka Complex – Khalda, 4th floor⟧
 > 📞 Same number: +962 79 055 5890
-> **【D-01】** (Formerly Success 4Sure – Khalda)
+> (Formerly Success 4Sure – Khalda)
 > Shaping Global Minds.
 
-*If D-01 = no:* drop the 【D-01】 line. The "same place / same number / same teachers" lines carry the continuity.
 
 ## D. FAQ (story highlight + website + quick reply `/faq`)
 | Q (EN) | A (EN) | س (AR) | ج (AR) |

@@ -68,7 +68,7 @@ Ads lead with one or two exam products, timed to their exam windows. Support pro
 - The academic kit as a physical brand touchpoint
 
 ## 7. Risks to the rebrand
-- Families not realising it's the same team. Mitigation: personal outreach first, same number, "formerly" line if D-01 allows.
+- Families not realising it's the same team. Mitigation: personal outreach first, same number, the "formerly" line (cleared, D-01).
 - Scaling ads before tracking and fast follow-up. Mitigation: the build order.
 - Inconsistent application of the new identity. Mitigation: templates, QA gate, touchpoint audit.
 - Over-promising. Mitigation: banned-claims list; the Integrity value.

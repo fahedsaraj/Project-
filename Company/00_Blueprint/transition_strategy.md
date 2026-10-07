@@ -41,8 +41,8 @@ Full bilingual draft: `04_Projects/P01_Foundation_and_Transition/transition_mess
 
 ## 3. Connecting old and new without weakening the new brand
 - The new name always leads; the old name only confirms continuity.
-- **"Formerly Success 4Sure – Khalda"** appears as a small secondary line on bios, the WhatsApp description, email signatures and reveal content, for **90 days** from the reveal. Then it's removed. *Conditional on D-01.*
-- If D-01 = no, rely on **same team, same number, same place, same faces**. That's enough for existing families, who will recognise the people and the number.
+- **"Formerly Success 4Sure – Khalda"** appears as a small secondary line on bios, the WhatsApp description, email signatures and reveal content, for **90 days** from the reveal. Then it's removed. *Legally cleared by Fahed on 7 Oct 2026 (D-01).*
+- Pair it with **same team, same number, same place, same faces**, so it isn't the only continuity signal.
 - Never use old-brand colours or logos next to the UIA logo.
 
 ## 4. Campaign phases
@@ -59,5 +59,5 @@ Full bilingual draft: `04_Projects/P01_Foundation_and_Transition/transition_mess
 ## 5. Rules for the transition
 1. No public post before the private notice has reached current families.
 2. No ads with old-brand creative after the reveal; no new ads until tracking is live.
-3. Every transition asset passes Atlas QA and Fahed approval. Legal-sensitive wording also passes D-01.
+3. Every transition asset passes Atlas QA and Fahed approval.
 4. Respond to any public question about "what happened" with the approved FAQ line only, and move the conversation to WhatsApp.

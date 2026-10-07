@@ -34,7 +34,7 @@ Source: Brand Guidelines v1.0, §13 Tone of voice, plus lessons from the 7 Oct 2
 ## Hard rules
 1. **Programme names** always in capitals, exactly: IELTS, TOEFL, SAT, ACT, EST II, IGCSE, AP, IB. Check full names with the academic team before publishing.
 2. **Name:** "United International Academy" in full on first mention. "UIA" after that is fine internally and in hashtags. Never retype the wordmark as text in a design; use the logo file.
-3. **Old name:** "Formerly Success 4Sure – Khalda" only as a small secondary line, only during the transition window, and only if legally cleared (decision D-01). Never write it larger than or before the UIA name.
+3. **Old name:** "Formerly Success 4Sure – Khalda" is **legally cleared** (D-01, 7 Oct 2026). Use it only as a small secondary line, in Arabic «سابقاً Success 4Sure – خلدا», for 90 days after the reveal. Never write it larger than or before the UIA name.
 4. **Phone:** one number, standard formats only (see `05_Operations/phone_number_standard.md`). Never the second number in marketing unless D-05 says so.
 5. **Banned words and claims:**
    - "guaranteed results" / «نتائج مضمونة»

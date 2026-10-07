@@ -25,4 +25,4 @@ We build the infrastructure properly first, then scale.
 - Team designed (7 AI roles + human roles): **done, pending Fahed's approval**
 - Logo asset library rebuilt from the guidelines: **done** (`03_Assets/Brand/Logo/`)
 - Ownership & access model: **designed**; the audit of current owners needs Fahed (see `05_Operations/`)
-- Email, phone, social, website: **planned** in P01, blocked on decisions D-01 to D-08
+- Email, phone, social, website: **planned** in P01, blocked on decisions D-02 to D-08 (D-01 resolved: "Formerly Success 4Sure – Khalda" is cleared)

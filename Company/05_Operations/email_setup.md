@@ -65,5 +65,5 @@ Groups don't cost a seat, and mail goes to the right people even when staff chan
   5. website
   6. address
   7. "Shaping Global Minds." (Newsreader-style italic → Georgia fallback)
-  8. transition line (90 days, if D-01 allows)
+  8. transition line "Formerly Success 4Sure – Khalda" (90 days; cleared, D-01)
 - **No:** quotes, banners, social icon walls, or more than one gold element.

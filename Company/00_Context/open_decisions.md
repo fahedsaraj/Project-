@@ -4,7 +4,7 @@ Atlas keeps this list current. Each decision has an owner and a "blocks" column 
 
 | ID | Decision | Owner | Blocks | Recommendation | Status |
 |---|---|---|---|---|---|
-| D-01 | **Legal:** after the separation, may we say "Formerly Success 4Sure – Khalda" publicly? | Management + legal | Transition copy, bios, signatures | Get a written yes/no. If no: "Same team, same place, same number. New name." without naming the old brand | Open |
+| D-01 | **Legal:** may we say "Formerly Success 4Sure – Khalda" publicly? | Fahed | — | — | **Resolved 7 Oct 2026: YES**, confirmed by Fahed. Use it as a secondary line for 90 days after the reveal |
 | D-02 | Is UIA licensed as a **school** or as an **educational centre**? Is the audience strictly grades 10–12? | Management | Bios, website, "admissions"/"apply" wording | Use "academy", not "school", until confirmed | Open |
 | D-03 | Are **IELTS, TOEFL, ACT** offered from launch? | Management + academic team | Programme pages, ads | Don't market them until confirmed | Open |
 | D-04 | **Domain** to buy and email provider | Fahed + management (Tier 2) | Email, website, Google Business Profile | Short .com the academy owns; Google Workspace | Open |
