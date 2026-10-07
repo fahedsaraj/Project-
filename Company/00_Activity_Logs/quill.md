@@ -12,3 +12,8 @@
 - Needs approval (Fahed): the corrected captions, the reply library, one option per weekend post. Decide contest winner (D-09) and exact address wording for DMs.
 - Issues for Lens: `03-same-team-post.png` still says "Something new is coming" and has no logo; it now runs after the reveal.
 - Next: monitor reveal-day comments with the library once approved; hand leads to Keeper.
+
+## 2026-10-07 (email migration copy, for Atlas)
+- Done: polished `05_Operations/email_migration/email_migration_plan.md` §A (customer email) and §B (old-inbox auto-reply), AR + EN: clean MSA Arabic, "New Brand. Same Team. Bigger Vision." added, aligned with the reveal messages, short subject-line alternatives in each language. Only placeholder left: ⟦info@domain⟧.
+- Needs approval (Fahed): §A and §B wording, and which subject line to use. Nothing can be sent until D-04 (domain) fills ⟦info@domain⟧.
+- Next: final pass with the real address once D-04 is decided.

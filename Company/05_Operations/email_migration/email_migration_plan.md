@@ -164,30 +164,47 @@ Only after this table is all ✔, and Fahed signs off, can anything old be deact
 ---
 
 ## A. Customer announcement (draft, needs Fahed's approval)
-**Subject:** New Brand. Same Team. Bigger Vision. | United International Academy
+**Subject (bilingual, recommended):** New Brand. Same Team. Bigger Vision. | هوية جديدة. نفس الفريق. رؤية أكبر.
+**Short alternatives:**
+- AR: اسم جديد ونفس الفريق: United International Academy
+- EN: Same team, new name: United International Academy
+
+*Send Arabic first (parent-facing). Arabic is in clean MSA, as voice.md asks for email.*
 
 **Arabic**
-> أهلاً بكم،
-> يسعدنا نعلن إن أكاديميتنا تكمل مسيرتها بهويتها الجديدة: **United International Academy** (سابقاً Success 4Sure – خلدا).
-> نفس الفريق، نفس الأساتذة، ونفس التزامنا مع طلابنا وعائلاتهم. وتقدروا تتواصلوا معنا دائماً على نفس الرقم: +962 79 055 5890.
-> بريدنا الرسمي الجديد: ⟦info@domain⟧. نرجو تحديثه عندكم.
-> شكراً لثقتكم.
+> الأهالي الكرام،
+> هوية جديدة. نفس الفريق. رؤية أكبر.
+> يسعدنا أن نشارككم أن أكاديميتنا أصبحت اليوم **United International Academy** (سابقاً Success 4Sure – خلدا).
+> نفس الفريق، ونفس الأساتذة، ونفس المكان، ونفس التزامنا مع طلابنا وعائلاتهم. وجميع الدورات مستمرة دون أي تغيير.
+> بريدنا الإلكتروني الرسمي الجديد: ⟦info@domain⟧. نرجو حفظه لديكم، وسنتواصل معكم منه من الآن فصاعداً.
+> ورقمنا كما هو للاتصال والواتساب: +962 79 055 5890
+> شكراً لثقتكم الدائمة.
 > فريق United International Academy
 
 **English**
 > Dear families,
-> We're pleased to share that our academy continues its journey under its new identity: **United International Academy** (formerly Success 4Sure – Khalda).
-> Same team, same teachers, and the same commitment to our students and families. You can always reach us on the same number: +962 79 055 5890.
-> Our new official email is ⟦info@domain⟧. Please update your records.
-> Thank you for your trust.
+> New Brand. Same Team. Bigger Vision.
+> We're pleased to share that our academy is now **United International Academy** (formerly Success 4Sure – Khalda).
+> Same team, same teachers, same place, and the same commitment to our students and their families. All courses continue unchanged.
+> Our new official email is ⟦info@domain⟧. Please save it; we'll write to you from this address from now on.
+> Our number stays the same for calls and WhatsApp: +962 79 055 5890
+> Thank you for your continued trust.
 > The United International Academy team
+> Shaping Global Minds.
 
 ## B. Old-inbox auto-reply (draft, needs Fahed's approval)
-> شكراً لتواصلك. أكاديميتنا أصبحت **United International Academy**، ونفس الفريق مستمر بخدمتكم. بريدنا الرسمي الجديد: ⟦info@domain⟧. وللتواصل السريع: +962 79 055 5890 (اتصال أو واتساب).
+**Subject (if the tool asks for one):** United International Academy: our new email | بريدنا الجديد
+
+> شكراً لرسالتك. أكاديميتنا أصبحت **United International Academy** (سابقاً Success 4Sure – خلدا)، بنفس الفريق ورؤية أكبر.
+> بريدنا الرسمي الجديد: ⟦info@domain⟧، نرجو استخدامه من الآن. وسنرد على رسالتك من العنوان الجديد.
+> للتواصل السريع (اتصال أو واتساب): +962 79 055 5890
 >
-> Thank you for your message. We are pleased to continue our journey as **United International Academy**. Our team remains the same, and our commitment to our students and families continues. Please update your records with our new official email: ⟦info@domain⟧. For a quick reply, call or WhatsApp +962 79 055 5890.
+> Thank you for your message. Our academy is now **United International Academy** (formerly Success 4Sure – Khalda): the same team, with a bigger vision.
+> Our new official email is ⟦info@domain⟧; please use it from now on. We'll reply to your message from the new address.
+> For a quick reply, call or WhatsApp +962 79 055 5890.
 
 *(⟦info@domain⟧ is filled in once D-04 is decided. Nothing goes out with that placeholder.)*
+*Quill polish, 7 Oct 2026: Arabic moved to clean MSA for email; added the line "New Brand. Same Team. Bigger Vision." (AR «هوية جديدة. نفس الفريق. رؤية أكبر.»); added "same place" and "all courses continue" to match the reveal messages; English auto-reply simplified and aligned with the Arabic; short subject lines in each language. The auto-reply promises "we'll reply from the new address", which matches Phase 7 (admissions replies from the new address). §A says "is now": if the email goes out weeks after 8 Oct, that still reads correctly.*
 
 ## Decisions needed
 | ID | Decision | Owner |
