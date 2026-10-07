@@ -10,6 +10,7 @@ const path = require('path');
 const BRAND = path.resolve(__dirname, '../../03_Assets/Brand');
 const OUT = path.resolve(__dirname, '../../04_Projects/P01_Foundation_and_Transition/reveal_pack/video');
 const STACKED = fs.readFileSync(path.join(BRAND, 'Logo/SVG/uia-logo-stacked-reversed.svg'), 'utf8').replace(/<title>.*?<\/title>/, '');
+const SYMBOL = fs.readFileSync(path.join(BRAND, 'Logo/SVG/uia-logo-symbol-reversed.svg'), 'utf8').replace(/<title>.*?<\/title>/, '');
 const FPS = 30, SECONDS = 12;
 
 const html = (w, h) => `<!doctype html><html><head><meta charset="utf-8"><style>
@@ -18,7 +19,7 @@ const html = (w, h) => `<!doctype html><html><head><meta charset="utf-8"><style>
 body{width:${w}px;height:${h}px;background:#0B1626;color:#fff;overflow:hidden;font-family:'Archivo',sans-serif}
 .c{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
 #logo{width:${w > h ? 30 : 64}%}
-#logo svg{width:100%;height:auto;display:block;overflow:visible}
+#logo svg,#endsym svg{width:100%;height:auto;display:block;overflow:visible}
 .serif{font-family:'Newsreader',serif}
 .ar{font-family:'IBM Plex Sans Arabic',sans-serif;direction:rtl;font-weight:600}
 .line{height:4px;background:#E2A02D}
@@ -30,15 +31,16 @@ body{width:${w}px;height:${h}px;background:#0B1626;color:#fff;overflow:hidden;fo
   <div id="tag" class="serif" style="font-style:italic;font-size:${w > h ? 52 : 70}px;color:#E2A02D">Shaping Global Minds.</div>
 </div>
 <div class="c" id="end" style="gap:${w > h ? 26 : 40}px">
+  <div id="endsym" style="width:${w > h ? 9 : 20}%;margin-bottom:${w > h ? 20 : 40}px">${SYMBOL}</div>
   <div class="ar" style="font-size:${w > h ? 74 : 92}px">نفس الفريق. اسم جديد.</div>
   <div class="serif" style="font-size:${w > h ? 64 : 80}px;color:#D8DADF">Same team. New name.</div>
   <div class="line" id="rule" style="width:0"></div>
-  <div style="font-size:${w > h ? 34 : 40}px;color:#D8DADF">Formerly Success 4Sure – Khalda · <span style="direction:ltr;unicode-bidi:isolate">+962 79 055 5890</span></div>
+  <div style="font-size:${w > h ? 42 : 44}px;color:#D8DADF">Formerly Success 4Sure – Khalda${w > h ? ' · ' : '<br>'}<span style="direction:ltr;unicode-bidi:isolate">+962 79 055 5890</span></div>
 </div>
 <script>
 const ease = x => x < 0 ? 0 : x > 1 ? 1 : 1 - Math.pow(1 - x, 3);
 const win = (t, a, b) => ease((t - a) / (b - a));
-const svg = document.querySelector('#logo svg');
+const svg = document.querySelector('#logo svg'); // the end-card symbol is a separate copy, so it stays static
 // Wrap each path in a <g> so animation transforms don't override the path's own transform attribute.
 const groups = [...svg.querySelectorAll('path')].map(p => {
   const g = document.createElementNS('http://www.w3.org/2000/svg', 'g');

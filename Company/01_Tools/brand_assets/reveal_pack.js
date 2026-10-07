@@ -36,7 +36,7 @@ body{--w:${w}px;--h:${h}px;--m:${Math.round(w * 0.085)}px;--label:${Math.round(w
 const STORY = [1080, 1920], POST = [1080, 1350];
 
 const assets = {
-  // Pre-reveal (no new logo yet)
+  // Pre-reveal (no new logo yet). 03 is posted Sat/Sun AFTER the reveal, so it carries the symbol.
   'pre-reveal/01-teaser-story.png': [...STORY, `<div class="pad" style="justify-content:center;gap:56px">
     <div class="label">Tomorrow · بكرا</div>
     <div class="serif" style="font-size:132px">Something new<br>arrives tomorrow.</div>
@@ -52,10 +52,10 @@ const assets = {
     <div style="font-size:38px;color:var(--platinum)">Our new name is chosen. The reveal is tomorrow.<br>The winning suggestion gets a free course.</div>
     <div class="ar" style="font-size:38px;color:var(--platinum)">اخترنا الاسم الجديد والكشف بكرا. وصاحب أفضل اقتراح ربح دورة مجانية.</div></div>`],
   'pre-reveal/03-same-team-post.png': [...POST, `<div class="pad" style="justify-content:center;gap:34px">
-    <div class="label">Something new is coming · قريباً</div>
+    <div class="label">New name · اسم جديد</div>
     <div class="serif" style="font-size:96px">Same team.<br>Same teachers.<br>Same place.<br>Same number.</div>
     <div class="ar" style="font-size:52px;font-weight:600">نفس الفريق. نفس الأساتذة. نفس المكان. نفس الرقم.</div>
-    <div class="num gold" style="font-size:60px">${PHONE}</div></div>`],
+    <div class="num gold" style="font-size:60px">${PHONE}</div></div><div class="sym">${SYMBOL}</div>`],
 
   // Reveal-day stories
   'reveal-day/story-1.png': [...STORY, `<div class="pad" style="justify-content:center;align-items:center;text-align:center;gap:40px">
@@ -82,7 +82,7 @@ const assets = {
     <div class="serif" style="font-size:84px;color:var(--platinum)">Message us on WhatsApp.</div>
     <div class="num gold" style="font-size:72px">${PHONE}</div>
     <div style="margin-top:60px;height:360px"></div><!-- empty space reserved for the Instagram link sticker --></div>
-    <div class="sym">${SYMBOL}</div>`],
+    <div class="sym" style="bottom:340px">${SYMBOL}</div><!-- above the Instagram reply bar -->`],
 
   // FAQ carousel (pin after reveal)
   'faq-carousel/1-cover.png': [...POST, `<div class="pad" style="justify-content:center;gap:40px">
@@ -108,7 +108,7 @@ const assets = {
     <div style="font-size:34px;color:var(--platinum)">Formerly Success 4Sure – Khalda</div></div>`],
 };
 for (const [file, inner] of [['new-name', `<div style="width:62%">${SYMBOL}</div>`], ['faq', '<div class="label" style="font-size:150px;color:#fff;letter-spacing:.08em">FAQ</div>'],
-  ['programmes', '<div class="label" style="font-size:96px;color:#fff;letter-spacing:.06em">AP·IB</div>'], ['results', '<div class="label" style="font-size:78px;color:#fff;letter-spacing:.06em">RESULTS</div>'],
+  ['programmes', '<div class="label" style="font-size:60px;color:#fff;letter-spacing:.06em">PROGRAMMES</div>'], ['results', '<div class="label" style="font-size:78px;color:#fff;letter-spacing:.06em">RESULTS</div>'],
   ['contact', '<div class="label" style="font-size:78px;color:#fff;letter-spacing:.06em">CONTACT</div>']]) {
   assets[`covers/highlight-${file}.png`] = [1080, 1920, `<div style="position:absolute;left:50%;top:50%;width:760px;height:760px;transform:translate(-50%,-50%);border-radius:50%;border:8px solid var(--gold);display:flex;align-items:center;justify-content:center" class="blue">${inner}</div>`];
 }
