@@ -90,6 +90,8 @@
 - "Is this the official account?" → AR: نعم، هذا الحساب الرسمي لـ United International Academy (سابقاً Success 4Sure – خلدا)، ونفس الرقم: +962 79 055 5890 / EN: Yes, this is the official United International Academy account (formerly Success 4Sure – Khalda), same number: +962 79 055 5890.
 - An account impersonating us or using the old name/username → screenshot, **escalate to Fahed + Forge**.
 
+> **R14–R16 APPROVED by Fahed, 8 Oct 2026.**
+
 ## R14. "Why does the account still say Success4Sure?"
 **Comment (AR):** سؤال حلو! اسم الحساب رح يتحدّث قريباً لـ United International Academy. نفس الحساب، ونفس الفريق، ونفس الرقم: +962 79 055 5890
 **Comment (EN):** Good question! The account name will update to United International Academy soon. Same account, same team, same number: +962 79 055 5890

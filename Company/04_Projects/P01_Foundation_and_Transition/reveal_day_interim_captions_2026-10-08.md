@@ -1,6 +1,6 @@
 # Interim Captions: while the accounts still show the old name (8 Oct 2026)
 
-> **Status: DRAFT by Quill, 8 Oct 2026. Tier 1: Fahed approves, then pastes.** For the pinned FAQ carousel and today's stories, until the Instagram/Facebook name and username are changed.
+> **Status: APPROVED by Fahed, 8 Oct 2026 (UIA-name-first order). Ready to paste.** For the pinned FAQ carousel and today's stories, until the Instagram/Facebook name and username are changed.
 > **Voice rule kept (voice.md hard rule 3):** the UIA name always comes first; "formerly Success 4Sure – Khalda" is the secondary line, never before it. That's why the order differs from the brief ("Formerly …, now …").
 
 ## 1. FAQ carousel caption (pinned)

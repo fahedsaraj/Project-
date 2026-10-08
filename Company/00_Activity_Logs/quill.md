@@ -23,3 +23,4 @@
 - Done: reply library R14–R16 ("why still Success4Sure?", "is this a new academy?", "which account is real?").
 - Needs approval (Fahed): interim captions + R14–R16. Remove the "name will update soon" lines after the rename.
 - Next: monitor comments tonight with the library; hand leads to Keeper.
+- Approved (Fahed, 8 Oct): interim captions (UIA name first) + reply library R14–R16. Marked in both files. Fahed pastes; Quill does not publish.
