@@ -17,3 +17,9 @@
 - Done: polished `05_Operations/email_migration/email_migration_plan.md` §A (customer email) and §B (old-inbox auto-reply), AR + EN: clean MSA Arabic, "New Brand. Same Team. Bigger Vision." added, aligned with the reveal messages, short subject-line alternatives in each language. Only placeholder left: ⟦info@domain⟧.
 - Needs approval (Fahed): §A and §B wording, and which subject line to use. Nothing can be sent until D-04 (domain) fills ⟦info@domain⟧.
 - Next: final pass with the real address once D-04 is decided.
+
+## 2026-10-08
+- Done: `reveal_day_interim_captions_2026-10-08.md`: FAQ-carousel caption, story overlay and one-liner (AR/EN) for while the accounts still show the old name. UIA name kept first per voice.md rule 3 (the brief had "Formerly …" first).
+- Done: reply library R14–R16 ("why still Success4Sure?", "is this a new academy?", "which account is real?").
+- Needs approval (Fahed): interim captions + R14–R16. Remove the "name will update soon" lines after the rename.
+- Next: monitor comments tonight with the library; hand leads to Keeper.
