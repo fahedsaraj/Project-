@@ -37,6 +37,13 @@ const STORY = [1080, 1920], POST = [1080, 1350];
 
 const assets = {
   // Pre-reveal (no new logo yet). 03 is posted Sat/Sun AFTER the reveal, so it carries the symbol.
+  'pre-reveal/00-teaser-today-story.png': [...STORY, `<div class="pad" style="justify-content:center;gap:56px">
+    <div class="label">Today · اليوم</div>
+    <div class="serif" style="font-size:132px">Something new<br>arrives today.</div>
+    <div class="ar" style="font-size:84px;font-weight:600">اليوم… شي جديد.</div>
+    <div class="rule"></div>
+    <div style="font-size:46px;color:var(--platinum)">Same people behind it.</div>
+    <div class="ar" style="font-size:46px;color:var(--platinum)">ونفس الناس وراه.</div></div>`],
   'pre-reveal/01-teaser-story.png': [...STORY, `<div class="pad" style="justify-content:center;gap:56px">
     <div class="label">Tomorrow · بكرا</div>
     <div class="serif" style="font-size:132px">Something new<br>arrives tomorrow.</div>
