@@ -11,3 +11,9 @@
 - Flags: Metricool IG data lags 1–2 days (first 48 h must be read in the IG app); 5 and 6 Oct views duplicated (7,359); page-promotion ad still spending into the reveal window.
 - Blocked / needs approval: KPI sheet v1 needs Atlas validation + Fahed approval; Fahed to set working hours for the response-time KPI; admissions to start a daily WhatsApp enquiry tally on 8 Oct.
 - Next: 8 Oct check-ins per checklist; day-1 flash 22:00; reveal read-out Sat 10 Oct 21:00.
+
+## 2026-10-09 (reveal 24h, provisional)
+- Done: reveal 24h report → `08_Reviews/reveal_24h_report_2026-10-09.md` (provisional). Metricool hasn't synced the 8 Oct reveal reel, 8 Oct followers or story reach yet. 7 Oct teaser reel: 2,484 reach, 59 shares, best reel in 28 days. IG 4,537 followers on 7 Oct (+14/−8). FB 500 (−3 since 6 Oct).
+- Flags: IG account reach identical on 7 and 8 Oct (1,412), a sync artifact; FB "followers lost" shows 0 while the count fell.
+- Blocked: reveal reel numbers, comment sentiment, parent replies and WhatsApp counts need the IG app screenshot, Quill and Keeper.
+- Next: re-check 18:00 Amman today; reveal read-out Sat 10 Oct 21:00.
