@@ -45,3 +45,4 @@
 | Date | Platform | Change | By | Tested (login / recovery) |
 |---|---|---|---|---|
 | | | | | |
+| 9 Oct 2026 | Google account "Success 4sure" (old business Gmail, row 20; address to confirm) | Display name "Success 4sure" → **United International Academy**. Legal name left as "Success 4sure" on purpose: waits for management to confirm the exact registered legal name | Fahed (guided by Forge) | Name shown on the account page ✔; login unchanged; "Send mail as" name + profile photo still to check |
