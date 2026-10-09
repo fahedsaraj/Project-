@@ -103,7 +103,7 @@ RULES APPLIED
 
 BEFORE PUBLISHING (see Campaign_Overview/AP_Campaign_Overview.md)
 - Confirm the open points listed there with the academic team.
-- Teacher photos: none were available to us. Send the original photos to add them to the designs.
+- Teacher photos: the originals you supplied, cut out and placed on the brand panel (no retouching). Confirm each teacher is happy with their photo.
 """, encoding='utf-8')
 zp = HERE / 'United_International_Academy_AP_Campaign.zip'
 with zipfile.ZipFile(zp, 'w', zipfile.ZIP_DEFLATED) as z:

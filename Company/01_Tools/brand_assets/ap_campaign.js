@@ -1,7 +1,7 @@
 // AP teacher campaign: one 1080x1350 post per teacher (all their AP subjects combined) + a campaign intro post.
 // Source of truth: the academy's own Instagram AP posts (19 Sep and 6 Oct 2026, read via Metricool) and the
 // 9 Oct AP schedule. No dates, times, prices or result claims by design.
-// Optional real photos: put <teacher-id>.jpg in 03_Assets/Posts/2026-10_AP_campaign/photos/ and re-run.
+// Teacher photos: originals in photos/originals → photos/make_cutouts.py → photos/cutouts/<teacher-id>.png.
 // Usage: NODE_PATH=$(npm root -g) node ap_campaign.js
 const { chromium } = require('playwright');
 const fs = require('fs');
@@ -10,7 +10,7 @@ const path = require('path');
 
 const BRAND = path.resolve(__dirname, '../../03_Assets/Brand');
 const OUT = path.resolve(__dirname, '../../03_Assets/Posts/2026-10_AP_campaign');
-const PHOTOS = path.join(OUT, 'photos');
+const PHOTOS = path.join(OUT, 'photos', 'cutouts'); // made by photos/make_cutouts.py
 const svg = (f) => fs.readFileSync(path.join(BRAND, 'Logo/SVG', f), 'utf8').replace(/<title>.*?<\/title>/, '');
 const LOGO_H = svg('uia-logo-horizontal-reversed.svg');
 
@@ -111,6 +111,41 @@ const teacherPage = (t, photo) => {
   ${modes}${foot}</div>`;
 };
 
+
+// Photo layout: name + subjects on the left, the teacher on an Academy Blue panel on the right.
+const PHOTO_CSS = `
+.panel{position:absolute;left:560px;right:0;top:0;height:1110px;background:radial-gradient(120% 80% at 60% 55%,#326a85 0%,#29566C 55%,#1f4559 100%);overflow:hidden}
+.panel .pbg{position:absolute;right:-60px;top:70px;width:420px;height:420px;color:#fff;opacity:.08}
+.panel .pbg svg{width:100%;height:100%}
+.person{position:absolute;left:560px;right:0;top:220px;height:890px;overflow:hidden} /* same framing for every teacher: fill the panel, head at the same height */
+.person img{width:100%;height:100%;object-fit:cover;object-position:top center;display:block}
+.lcol{position:absolute;left:84px;width:440px;top:84px;height:1026px;display:flex;flex-direction:column}
+.lcol .name{font-size:58px;line-height:1.06;margin-top:18px;text-wrap:balance}
+.lcol .hair{margin:34px 0 4px}
+.lcol .subj{gap:20px;padding:18px 0}
+.lcol .tile{width:76px;height:76px;border-radius:16px}.lcol .tile svg{width:44px;height:44px}
+.lcol .en{font-size:29px;line-height:1.15}
+.lcol .arsub{font-size:23px;margin-top:4px}
+.lcol .modes{margin-top:auto;gap:8px}
+.lcol .chip{font-size:15px;padding:7px 12px}
+.lcol .chip .ar{margin-left:5px}
+.pfoot{position:absolute;left:84px;right:84px;bottom:70px;display:flex;justify-content:space-between;align-items:flex-end}
+`;
+const photoPage = (t, photo) => `<style>${PHOTO_CSS}</style>
+  <div class="panel"><div class="pbg">${icon(t.subjects[0])}</div></div>
+  <div class="person"><img src="file://${photo}"></div>
+  <div class="lcol">
+    <div class="label">AP teacher · <span class="ar">${t.ar}</span></div>
+    <div style="flex:1;display:flex;flex-direction:column;justify-content:center">
+      <div class="name">${t.name}</div>
+      <div class="hair"></div>
+      ${t.subjects.map((k) => `<div class="subj"><div class="tile">${icon(k)}</div><div><div class="en">${SUBJECT[k][0]}</div><div class="arsub">${SUBJECT[k][1]}</div></div></div>`).join('')}
+    </div>
+    ${modes}
+  </div>
+  <div class="pfoot"><div class="logo">${LOGO_H}</div>
+    <div class="contact"><div class="l">Call or WhatsApp</div><div class="n">+962 79 055 5890</div><div class="loc">Floor 4 · Khalda, Amman</div></div></div>`;
+
 const introPage = () => {
   const all = TEACHERS.flatMap((t) => t.subjects);
   return `<div class="pad">
@@ -132,12 +167,12 @@ const introPage = () => {
   const b = await chromium.launch();
   const p = await b.newPage({ viewport: { width: 1080, height: 1350 } });
   const jobs = [['00_AP-campaign-intro', introPage()],
-    ...TEACHERS.map((t) => { const ph = path.join(PHOTOS, t.id + '.jpg'); return [t.id, teacherPage(t, fs.existsSync(ph) ? ph : null)]; })];
+    ...TEACHERS.map((t) => { const ph = path.join(PHOTOS, t.id + '.png'); return [t.id, fs.existsSync(ph) ? photoPage(t, ph) : teacherPage(t, null)]; })];
   for (const [id, body] of jobs) {
     fs.writeFileSync(path.join(tmp, 'p.html'), `<!doctype html><html><head><meta charset="utf-8"><style>${CSS}</style></head><body>${body}</body></html>`);
     await p.goto('file://' + path.join(tmp, 'p.html'));
     await p.evaluate(() => document.fonts.ready);
-    const over = await p.evaluate(() => { const e = document.querySelector('.pad'); return e.scrollHeight - e.clientHeight; });
+    const over = await p.evaluate(() => { const e = document.querySelector('.pad') || document.querySelector('.lcol'); return e.scrollHeight - e.clientHeight; });
     if (over > 0) console.warn(`${id}: overflows by ${over}px`);
     await p.screenshot({ path: path.join(outDir, `UIA_AP_${id}_1080x1350.png`) });
   }
