@@ -46,3 +46,4 @@
 ## 2026-10-09
 - Done: Facebook page kit (`P01/facebook_kit/`): cover v2 1640×624 (programmes, Floor 4, phone; mobile-safe), profile picture (official avatar), bio EN 100/101 + AR 95/101, page settings sheet. Found: the page phone shows the wrong grouping "+962 7 9055 5890"; the email is still the old-name Gmail.
 - Blocked / needs approval: Fahed approves and applies; the address street, hours and email decision are Fahed's.
+- Done (9 Oct, later): Instagram profile kit (`P01/instagram_kit/`): name 28/30 (UIA doesn't fit the 30-char name → in username/bio), bio EN 139/150 + AR 145/150, tagged WhatsApp link.
