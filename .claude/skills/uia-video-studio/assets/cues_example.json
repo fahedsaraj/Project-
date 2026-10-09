@@ -1,0 +1,21 @@
+{
+  "duration": 8,
+  "bpm": 120,
+  "music": true,
+  "music_end": 7.0,
+  "drops": [[4.6, 5.05]],
+  "hits": [
+    {"type": "glitch", "at": 0.05},
+    {"type": "impact", "at": 0.05, "gain": 0.6},
+    {"type": "whoosh", "at": 2.2, "gain": 0.9},
+    {"type": "impact", "at": 2.75, "gain": 0.85},
+    {"type": "impact", "at": 3.25, "gain": 0.85},
+    {"type": "impact", "at": 3.75, "gain": 0.85},
+    {"type": "riser", "at": 4.05, "dur": 1.0},
+    {"type": "whoosh", "at": 4.6, "gain": 0.9},
+    {"type": "impact", "at": 5.05, "gain": 1.0},
+    {"type": "shimmer", "at": 5.1},
+    {"type": "pop", "at": 5.9},
+    {"type": "pop", "at": 6.4}
+  ]
+}
