@@ -55,3 +55,4 @@
 - Done (9 Oct, later): 'Digital SAT, decoded' post + story + caption (`03_Assets/Posts/2026-10_SAT_decoded/`), generator `sat_post.js`.
 - Done (9 Oct, later): 'SAT Hint' series 01–03 (light Paper template, `03_Assets/Posts/2026-10_SAT_hints/`, generator `sat_hints.js`) + captions. Fixed Latin-in-Arabic font fallback in sat/AP generators; AP zip rebuilt.
 - Done (9 Oct, later): illustrated student character added to SAT Hint 01–03 (brand-colour flat drawing, per-hint props) + 6 s animated MP4 versions. New illustration style: needs Fahed's OK (guidelines only cover photography).
+- Done (9 Oct, later): registration reel AP·SAT·EST II (27 s, 1080x1920): kinetic animation + gold line wipes, Arabic VO (ElevenLabs 'Mohammad', 1 take; other 3 takes failed — ElevenLabs account flagged 'free tier disabled'), synthesised music bed + SFX, −15 LUFS. `03_Assets/Posts/2026-10_Registration_reel/`.
