@@ -24,3 +24,8 @@
 - Needs approval (Fahed): interim captions + R14–R16. Remove the "name will update soon" lines after the rename.
 - Next: monitor comments tonight with the library; hand leads to Keeper.
 - Approved (Fahed, 8 Oct): interim captions (UIA name first) + reply library R14–R16. Marked in both files. Fahed pastes; Quill does not publish.
+
+## 2026-10-09
+- Done: comments/DMs input for the reveal 24h report, sent to Compass (cc Atlas). Metricool shows comment counts only (no text, no DMs). The 8 Oct reveal reel wasn't synced yet; only the 7 Oct reels (IG teaser 14 comments, reach 2,484; IG "stay tuned" 14 comments, reach 702). No sentiment split possible.
+- Blocked: comment text and DMs are only readable by Fahed in the app; 3 questions drafted for him (via Compass).
+- Waiting approval: reply library R1–R13, weekend captions (option pick).
