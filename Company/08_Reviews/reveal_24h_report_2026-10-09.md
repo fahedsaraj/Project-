@@ -49,8 +49,10 @@
 |---|---|---|
 | Reveal reel reach/views/shares, IG + FB | **Unknown until sync.** Fastest source: IG app → reel → View insights | Fahed (screenshot) → Compass |
 | Comment sentiment on reveal reel + FAQ | Unknown | Quill: count positive / neutral / negative / "same place?" confusion |
-| Parent replies to the reveal message | Unknown | Keeper: sent / delivered / replied / concerns |
-| New WhatsApp enquiries 8–9 Oct | Unknown (tally started?) | Admissions → Keeper |
+| Families on the list (segment = Current in master Sheet) | **Pending admissions report** | Admissions → Keeper |
+| Parents who received the message (notified_8_oct = Yes; broadcast / individual / call; failed counted separately) | **Pending admissions report** | Admissions → Keeper |
+| Parents who replied (reply_received = Yes) | **Pending admissions report** | Admissions → Keeper |
+| New enquiries since the reveal (new rows, stage New, first_contact_date ≥ 8 Oct; existing families excluded) | **Pending admissions report** | Admissions → Keeper |
 | DMs | Unknown | Quill / Keeper |
 | Metricool still connected after rename | **Yes**: data for 8 Oct is arriving (posts and stories counted), just not complete | Compass ✅ |
 
