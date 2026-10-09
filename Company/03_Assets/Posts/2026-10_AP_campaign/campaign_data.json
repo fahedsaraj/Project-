@@ -1,0 +1,139 @@
+{
+  "TEACHERS": [
+    {
+      "id": "01_noor-al-lozi",
+      "name": "Ms. Noor Al Lozi",
+      "ar": "الأستاذة",
+      "subjects": [
+        "bio",
+        "envsci"
+      ]
+    },
+    {
+      "id": "02_natheer-ali",
+      "name": "Mr. Natheer Ali",
+      "ar": "الأستاذ",
+      "subjects": [
+        "chem"
+      ]
+    },
+    {
+      "id": "03_moath-al-abbadi",
+      "name": "Mr. Moath Al Abbadi",
+      "ar": "الأستاذ",
+      "subjects": [
+        "physics1"
+      ]
+    },
+    {
+      "id": "04_mohammed-al-bakheet",
+      "name": "Mr. Mohammed Al Bakheet",
+      "ar": "الأستاذ",
+      "subjects": [
+        "calc"
+      ]
+    },
+    {
+      "id": "05_naseem-al-labadi",
+      "name": "Mr. Naseem Al Labadi",
+      "ar": "الأستاذ",
+      "subjects": [
+        "precalc"
+      ]
+    },
+    {
+      "id": "06_alaa-barrieh",
+      "name": "Mr. Ala’a Barrieh",
+      "ar": "الأستاذ",
+      "subjects": [
+        "cs"
+      ]
+    },
+    {
+      "id": "07_sara-abd-el-raheem",
+      "name": "Ms. Sara Abd El Raheem",
+      "ar": "الأستاذة",
+      "subjects": [
+        "englang",
+        "englit",
+        "worldhist"
+      ]
+    },
+    {
+      "id": "08_mina-nasiri",
+      "name": "Ms. Mina Nasiri",
+      "ar": "الأستاذة",
+      "subjects": [
+        "psych",
+        "humgeo"
+      ]
+    },
+    {
+      "id": "09_hosam-al-khalil",
+      "name": "Mr. Hosam Al Khalil",
+      "ar": "الأستاذ",
+      "subjects": [
+        "micro",
+        "bpf"
+      ]
+    }
+  ],
+  "SUBJECT": {
+    "bio": [
+      "AP Biology",
+      "الأحياء"
+    ],
+    "envsci": [
+      "AP Environmental Science",
+      "العلوم البيئية"
+    ],
+    "chem": [
+      "AP Chemistry",
+      "الكيمياء"
+    ],
+    "physics1": [
+      "AP Physics 1",
+      "الفيزياء 1"
+    ],
+    "calc": [
+      "AP Calculus",
+      "التفاضل والتكامل"
+    ],
+    "precalc": [
+      "AP Precalculus",
+      "ما قبل التفاضل والتكامل"
+    ],
+    "cs": [
+      "AP Computer Science Principles",
+      "مبادئ علوم الحاسوب"
+    ],
+    "englang": [
+      "AP English Language and Composition",
+      "اللغة الإنجليزية والكتابة"
+    ],
+    "englit": [
+      "AP English Literature and Composition",
+      "الأدب الإنجليزي والكتابة"
+    ],
+    "worldhist": [
+      "AP World History",
+      "تاريخ العالم"
+    ],
+    "humgeo": [
+      "AP Human Geography",
+      "الجغرافيا البشرية"
+    ],
+    "psych": [
+      "AP Psychology",
+      "علم النفس"
+    ],
+    "micro": [
+      "AP Microeconomics",
+      "الاقتصاد الجزئي"
+    ],
+    "bpf": [
+      "AP Business with Personal Finance",
+      "الأعمال والتمويل الشخصي"
+    ]
+  }
+}
