@@ -69,8 +69,8 @@ const CSS = `
 @font-face{font-family:'AW';font-weight:600;src:url('file://${BRAND}/Fonts/static/Archivo-SemiBoldExpanded.ttf')}
 @font-face{font-family:'N';font-style:normal;src:url('file://${BRAND}/Fonts/Newsreader-normal-400-latin.woff2')}
 @font-face{font-family:'N';font-style:italic;src:url('file://${BRAND}/Fonts/Newsreader-italic-400-latin.woff2')}
-@font-face{font-family:'AR';font-weight:400;src:url('file://${BRAND}/Fonts/IBMPlexSansArabic-normal-400-arabic.woff2')}
-@font-face{font-family:'AR';font-weight:600;src:url('file://${BRAND}/Fonts/IBMPlexSansArabic-normal-600-arabic.woff2')}
+@font-face{font-family:'AR','A';font-weight:400;src:url('file://${BRAND}/Fonts/IBMPlexSansArabic-normal-400-arabic.woff2')}
+@font-face{font-family:'AR','A';font-weight:600;src:url('file://${BRAND}/Fonts/IBMPlexSansArabic-normal-600-arabic.woff2')}
 *{margin:0;padding:0;box-sizing:border-box}
 body{width:1080px;height:1350px;background:#0B1626;color:#fff;font-family:'A',sans-serif;overflow:hidden;position:relative}
 .bg{position:absolute;right:-170px;bottom:200px;width:560px;height:560px;color:#29566C;opacity:.3}
@@ -78,7 +78,7 @@ body{width:1080px;height:1350px;background:#0B1626;color:#fff;font-family:'A',sa
 .bg svg{width:100%;height:100%}
 .pad{position:absolute;inset:84px;display:flex;flex-direction:column}
 .label{font-family:'AW';font-weight:600;letter-spacing:.18em;text-transform:uppercase;font-size:20px;color:#D8DADF}
-.label .ar{font-family:'AR';letter-spacing:0;text-transform:none;font-size:22px}
+.label .ar{font-family:'AR','A';letter-spacing:0;text-transform:none;font-size:22px}
 .name{font-family:'N',serif;font-size:96px;line-height:1.02;color:#E2A02D;margin-top:22px;max-width:860px}
 .photo{width:250px;height:250px;border-radius:50%;object-fit:cover;border:3px solid #29566C;margin-top:30px}
 .hair{height:1.5px;background:rgba(216,218,223,.22);margin:44px 0 6px}
@@ -87,10 +87,10 @@ body{width:1080px;height:1350px;background:#0B1626;color:#fff;font-family:'A',sa
 .tile{flex:none;width:120px;height:120px;border-radius:24px;background:#29566C;color:#fff;display:flex;align-items:center;justify-content:center}
 .tile svg{width:68px;height:68px}
 .en{font-weight:600;font-size:46px;line-height:1.1}
-.arsub{font-family:'AR';font-weight:400;font-size:31px;color:#D8DADF;direction:rtl;text-align:left;margin-top:6px}
+.arsub{font-family:'AR','A';font-weight:400;font-size:31px;color:#D8DADF;direction:rtl;text-align:left;margin-top:6px}
 .modes{display:flex;gap:12px;align-items:center}
 .chip{border:1.5px solid rgba(216,218,223,.4);border-radius:999px;padding:9px 20px;font-size:21px;color:#D8DADF}
-.chip .ar{font-family:'AR';margin-left:8px}
+.chip .ar{font-family:'AR','A';margin-left:8px}
 .foot{display:flex;justify-content:space-between;align-items:flex-end;margin-top:40px;padding-top:30px;border-top:1.5px solid rgba(216,218,223,.22)}
 .logo{width:330px}.logo svg{width:100%;height:auto;display:block}
 .contact{text-align:right}
@@ -153,7 +153,7 @@ const introPage = () => {
   return `<div class="pad">
   <div class="label">AP courses · <span class="ar">دورات AP</span></div>
   <div class="mid"><div class="name" style="color:#fff;font-size:84px;margin-top:0">Advanced Placement<br><span style="font-style:italic;color:#E2A02D">with our AP teachers.</span></div>
-  <div style="font-family:'AR';font-weight:600;font-size:36px;direction:rtl;text-align:left;margin-top:18px">دورات AP مع نفس الأساتذة، باسمنا الجديد</div>
+  <div style="font-family:'AR','A';font-weight:600;font-size:36px;direction:rtl;text-align:left;margin-top:18px">دورات AP مع نفس الأساتذة، باسمنا الجديد</div>
   <div class="hair" style="margin:34px 0 22px"></div>
   <div style="display:grid;grid-template-columns:1fr 1fr;gap:18px 30px">
   ${all.map((k) => `<div style="display:flex;align-items:center;gap:16px"><div class="tile" style="width:60px;height:60px;border-radius:14px"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round" style="width:34px;height:34px">${ICON[k]}</svg></div><div style="font-weight:600;font-size:26px;line-height:1.15">${SUBJECT[k][0].replace(' and Composition', '')}</div></div>`).join('')}

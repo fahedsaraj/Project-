@@ -26,20 +26,20 @@ const css = (story) => `
 @font-face{font-family:'AW';font-weight:600;src:url('file://${BRAND}/Fonts/static/Archivo-SemiBoldExpanded.ttf')}
 @font-face{font-family:'N';font-style:normal;src:url('file://${BRAND}/Fonts/Newsreader-normal-400-latin.woff2')}
 @font-face{font-family:'N';font-style:italic;src:url('file://${BRAND}/Fonts/Newsreader-italic-400-latin.woff2')}
-@font-face{font-family:'AR';font-weight:400;src:url('file://${BRAND}/Fonts/IBMPlexSansArabic-normal-400-arabic.woff2')}
-@font-face{font-family:'AR';font-weight:600;src:url('file://${BRAND}/Fonts/IBMPlexSansArabic-normal-600-arabic.woff2')}
+@font-face{font-family:'AR','A';font-weight:400;src:url('file://${BRAND}/Fonts/IBMPlexSansArabic-normal-400-arabic.woff2')}
+@font-face{font-family:'AR','A';font-weight:600;src:url('file://${BRAND}/Fonts/IBMPlexSansArabic-normal-600-arabic.woff2')}
 *{margin:0;padding:0;box-sizing:border-box}
 body{width:1080px;height:${story ? 1920 : 1350}px;background:#0B1626;color:#fff;font-family:'A',sans-serif;overflow:hidden;position:relative}
 .pad{position:absolute;left:84px;right:84px;top:${story ? 230 : 76}px;bottom:${story ? 300 : 70}px;display:flex;flex-direction:column}
 .label{font-family:'AW';font-weight:600;letter-spacing:.18em;text-transform:uppercase;font-size:20px;color:#D8DADF}
-.label .ar{font-family:'AR';letter-spacing:0;font-size:22px}
+.label .ar{font-family:'AR','A';letter-spacing:0;font-size:22px}
 h1{font-family:'N',serif;font-weight:400;font-size:70px;line-height:1.06;margin-top:16px}
 h1 em{color:#E2A02D}
-.sub{font-family:'AR';font-weight:600;font-size:${story ? 34 : 30}px;direction:rtl;text-align:left;margin-top:12px;color:#D8DADF}
+.sub{font-family:'AR','A';font-weight:600;font-size:${story ? 34 : 30}px;direction:rtl;text-align:left;margin-top:12px;color:#D8DADF}
 .sect{margin-top:${story ? 40 : 28}px;display:grid;grid-template-columns:1fr;gap:${story ? 22 : 16}px}
 .row{display:grid;grid-template-columns:286px 190px 1fr;align-items:center;gap:0;border-top:1.5px solid rgba(216,218,223,.18);padding-top:${story ? 20 : 14}px}
 .sname{font-weight:600;font-size:28px;line-height:1.15}
-.sname .ar{display:block;font-family:'AR';font-weight:400;font-size:22px;color:#D8DADF;margin-top:4px}
+.sname .ar{display:block;font-family:'AR','A';font-weight:400;font-size:22px;color:#D8DADF;margin-top:4px}
 .sname .q{display:block;font-size:16px;color:#8fa6b3;margin-top:8px;font-weight:400}
 .m1{height:104px;border-radius:16px;background:#29566C;display:flex;flex-direction:column;align-items:center;justify-content:center}
 .m .t{font-family:'AW';font-weight:600;font-size:14px;letter-spacing:.16em;color:#D8DADF}
@@ -77,7 +77,7 @@ const body = (story) => `<div class="pad">
     <div class="m m1"><div class="t">MODULE 1</div><div class="v">Everyone</div></div>
     <div class="branch">${branchSvg}<div class="m m2 hi"><span class="t">MODULE 2</span><span class="v">Harder</span></div><div class="m m2 lo"><span class="t">MODULE 2</span><span class="v">Easier</span></div></div>
   </div>`).join('')}</div>
-  <div style="font-size:18px;color:#8fa6b3;margin-top:14px">How you do in Module 1 decides which Module 2 you get.</div><div dir="rtl" style="font-family:'AR';font-size:19px;color:#8fa6b3;margin-top:4px;text-align:right">أداءك بالجزء الأول بيحدّد مستوى الجزء الثاني.</div>
+  <div style="font-size:18px;color:#8fa6b3;margin-top:14px">How you do in Module 1 decides which Module 2 you get.</div><div dir="rtl" style="font-family:'AR','A';font-size:19px;color:#8fa6b3;margin-top:4px;text-align:right">أداءك بالجزء الأول بيحدّد مستوى الجزء الثاني.</div>
   <div class="facts">
     <div class="fact"><div class="k">400–1600</div><div class="d">Total score<br>(200–800 per section)</div></div>
     <div class="fact"><div class="k">2 h 14 min</div><div class="d">Testing time,<br>plus a short break</div></div>

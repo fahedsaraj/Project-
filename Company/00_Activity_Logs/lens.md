@@ -53,3 +53,4 @@
 - Done (9 Oct, later): teacher photos added to the AP campaign (9 originals → local rembg cut-outs, edge clean-up, same framing on a brand panel; Bakheet scan lightly enhanced; Mina/Sara cropped to upper body). New zip delivered.
 - Done (9 Oct, later): added Mr. Emad Dweik (عماد دويك; AP Calculus + AP Precalculus; English spelling to confirm) → 11 posts; portrait-model cut-out to remove the chair; zip rebuilt.
 - Done (9 Oct, later): 'Digital SAT, decoded' post + story + caption (`03_Assets/Posts/2026-10_SAT_decoded/`), generator `sat_post.js`.
+- Done (9 Oct, later): 'SAT Hint' series 01–03 (light Paper template, `03_Assets/Posts/2026-10_SAT_hints/`, generator `sat_hints.js`) + captions. Fixed Latin-in-Arabic font fallback in sat/AP generators; AP zip rebuilt.
