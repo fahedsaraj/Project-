@@ -52,3 +52,4 @@
 - Done (9 Oct, later): AP teacher campaign (`03_Assets/Posts/2026-10_AP_campaign/`): researched 45 IG posts via Metricool → 9 teachers / 14 AP subjects; 10 posts (intro + 1 per teacher, multi-subject teachers combined), captions AR+EN, overview, QC notes, zip. Typographic (no teacher photos reachable). 7 open points for the academic team (Micro vs Macro, Physics 1, CSP, Calc AB/BC, which subjects run this term…).
 - Done (9 Oct, later): teacher photos added to the AP campaign (9 originals → local rembg cut-outs, edge clean-up, same framing on a brand panel; Bakheet scan lightly enhanced; Mina/Sara cropped to upper body). New zip delivered.
 - Done (9 Oct, later): added Mr. Emad Dweik (عماد دويك; AP Calculus + AP Precalculus; English spelling to confirm) → 11 posts; portrait-model cut-out to remove the chair; zip rebuilt.
+- Done (9 Oct, later): 'Digital SAT, decoded' post + story + caption (`03_Assets/Posts/2026-10_SAT_decoded/`), generator `sat_post.js`.
