@@ -90,6 +90,24 @@
 - "Is this the official account?" → AR: نعم، هذا الحساب الرسمي لـ United International Academy (سابقاً Success 4Sure – خلدا)، ونفس الرقم: +962 79 055 5890 / EN: Yes, this is the official United International Academy account (formerly Success 4Sure – Khalda), same number: +962 79 055 5890.
 - An account impersonating us or using the old name/username → screenshot, **escalate to Fahed + Forge**.
 
+> **R14–R16 APPROVED by Fahed, 8 Oct 2026.**
+
+## R14. "Why does the account still say Success4Sure?"
+**Comment (AR):** سؤال حلو! اسم الحساب رح يتحدّث قريباً لـ United International Academy. نفس الحساب، ونفس الفريق، ونفس الرقم: +962 79 055 5890
+**Comment (EN):** Good question! The account name will update to United International Academy soon. Same account, same team, same number: +962 79 055 5890
+→ Don't give a date or a reason for the delay. If pressed: "We're updating all our channels step by step." / «عم نحدّث كل قنواتنا خطوة خطوة.»
+
+## R15. "Is this a new academy?" / «هاي أكاديمية جديدة؟»
+**Comment (AR):** لا، نفس الأكاديمية بخلدا، بنفس الفريق والأساتذة. اللي تغيّر هو الاسم والهوية: صرنا United International Academy (سابقاً Success 4Sure – خلدا).
+**Comment (EN):** No, it's the same academy in Khalda, with the same team and teachers. What's new is the name and identity: we're now United International Academy (formerly Success 4Sure – Khalda).
+
+## R16. "So is this a different account / which account is the real one?"
+**Comment (AR):** هذا هو الحساب الرسمي لـ United International Academy (سابقاً Success 4Sure – خلدا). الاسم رح يتحدّث قريباً، والرقم ما تغيّر: +962 79 055 5890
+**Comment (EN):** This is the official United International Academy account (formerly Success 4Sure – Khalda). The name will update soon, and the number hasn't changed: +962 79 055 5890
+→ If they mention another account using our old or new name: screenshot, **escalate to Fahed + Forge** (see R13).
+
+*R14 and R16 lose their "will update soon" line once the rename is done.*
+
 ---
 
 ## Open items before first use

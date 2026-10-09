@@ -17,3 +17,15 @@
 - Done: polished `05_Operations/email_migration/email_migration_plan.md` §A (customer email) and §B (old-inbox auto-reply), AR + EN: clean MSA Arabic, "New Brand. Same Team. Bigger Vision." added, aligned with the reveal messages, short subject-line alternatives in each language. Only placeholder left: ⟦info@domain⟧.
 - Needs approval (Fahed): §A and §B wording, and which subject line to use. Nothing can be sent until D-04 (domain) fills ⟦info@domain⟧.
 - Next: final pass with the real address once D-04 is decided.
+
+## 2026-10-08
+- Done: `reveal_day_interim_captions_2026-10-08.md`: FAQ-carousel caption, story overlay and one-liner (AR/EN) for while the accounts still show the old name. UIA name kept first per voice.md rule 3 (the brief had "Formerly …" first).
+- Done: reply library R14–R16 ("why still Success4Sure?", "is this a new academy?", "which account is real?").
+- Needs approval (Fahed): interim captions + R14–R16. Remove the "name will update soon" lines after the rename.
+- Next: monitor comments tonight with the library; hand leads to Keeper.
+- Approved (Fahed, 8 Oct): interim captions (UIA name first) + reply library R14–R16. Marked in both files. Fahed pastes; Quill does not publish.
+
+## 2026-10-09
+- Done: comments/DMs input for the reveal 24h report, sent to Compass (cc Atlas). Metricool shows comment counts only (no text, no DMs). The 8 Oct reveal reel wasn't synced yet; only the 7 Oct reels (IG teaser 14 comments, reach 2,484; IG "stay tuned" 14 comments, reach 702). No sentiment split possible.
+- Blocked: comment text and DMs are only readable by Fahed in the app; 3 questions drafted for him (via Compass).
+- Waiting approval: reply library R1–R13, weekend captions (option pick).

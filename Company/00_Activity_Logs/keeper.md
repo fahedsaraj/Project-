@@ -17,3 +17,9 @@
 - Done: `UIA/Keep` labelling routine + weekly old-inbox count routine (`05_Operations/email_migration/gmail_keep_label_and_weekly_count.md`): search pack + 2 extra queries, labelling rules, Gmail filters to `UIA/Incoming`, Sunday count tab, trend actions.
 - Blocked / needs approval: E-01 (which Gmail accounts) before anyone runs these; Fahed to confirm the "≤ 2 business emails/week for 4 weeks" threshold.
 - Next: triage and labelling 8–11 Oct (Fahed/admissions); first baseline count Sun 11 Oct.
+
+## 2026-10-09
+- Done: answered Atlas's request for the 8 Oct parent-message numbers (reveal 24h report). Admissions hasn't reported yet, so I sent no counts. Told Compass to mark the 4 metrics "pending admissions report" and sent it the definitions (on list / received / replied / new enquiries since 8 Oct).
+- Done: drafted a 3-line AR/EN WhatsApp for Fahed to send admissions to collect the counts (sent to Atlas).
+- Blocked: 8 Oct send counts (admissions → Fahed).
+- Next: when the counts arrive, log them here (numbers only) and forward to Compass.
