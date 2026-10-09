@@ -48,3 +48,4 @@
 - Blocked / needs approval: Fahed approves and applies; the address street, hours and email decision are Fahed's.
 - Done (9 Oct, later): Instagram profile kit (`P01/instagram_kit/`): name 28/30 (UIA doesn't fit the 30-char name → in username/bio), bio EN 139/150 + AR 145/150, tagged WhatsApp link.
 - Done (9 Oct, later): one-zip social kit for Fahed (profile/cover, FAQ carousel + same-team post, 6 stories, 5 highlight covers, 2 reels, recap overlays, READ_ME_FIRST.txt with all captions/bios; 37 files, 6.6 MB). Pre-reveal teaser/contest posts excluded (expired). Same-team post caption is a new draft.
+- Done (9 Oct, later): AP weekly schedule post + story (`03_Assets/Posts/2026-10_AP_schedule/`), generator `ap_schedule.js`. Open: AP Calculus AB/BC, start date.
