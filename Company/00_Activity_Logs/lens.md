@@ -54,3 +54,4 @@
 - Done (9 Oct, later): added Mr. Emad Dweik (عماد دويك; AP Calculus + AP Precalculus; English spelling to confirm) → 11 posts; portrait-model cut-out to remove the chair; zip rebuilt.
 - Done (9 Oct, later): 'Digital SAT, decoded' post + story + caption (`03_Assets/Posts/2026-10_SAT_decoded/`), generator `sat_post.js`.
 - Done (9 Oct, later): 'SAT Hint' series 01–03 (light Paper template, `03_Assets/Posts/2026-10_SAT_hints/`, generator `sat_hints.js`) + captions. Fixed Latin-in-Arabic font fallback in sat/AP generators; AP zip rebuilt.
+- Done (9 Oct, later): illustrated student character added to SAT Hint 01–03 (brand-colour flat drawing, per-hint props) + 6 s animated MP4 versions. New illustration style: needs Fahed's OK (guidelines only cover photography).
