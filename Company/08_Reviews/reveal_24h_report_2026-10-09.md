@@ -48,7 +48,7 @@
 | Signal | Status | Owner |
 |---|---|---|
 | Reveal reel reach/views/shares, IG + FB | **Unknown until sync.** Fastest source: IG app → reel → View insights | Fahed (screenshot) → Compass |
-| Comment sentiment on reveal reel + FAQ | Unknown | Quill: count positive / neutral / negative / "same place?" confusion |
+| Comment sentiment on reveal reel + FAQ | **Not available**: Metricool gives counts, not text (confirmed by Quill, 9 Oct). Teaser comments: 14 (IG); "stay tuned": 14 (IG); FB reels: no comment metric | Fahed reads in-app; Quill's 3 questions are with Fahed via Atlas (positive / questions / negative counts; DMs and enquiries; any escalation) |
 | Families on the list (segment = Current in master Sheet) | **Pending admissions report** | Admissions → Keeper |
 | Parents who received the message (notified_8_oct = Yes; broadcast / individual / call; failed counted separately) | **Pending admissions report** | Admissions → Keeper |
 | Parents who replied (reply_received = Yes) | **Pending admissions report** | Admissions → Keeper |
