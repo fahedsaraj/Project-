@@ -76,6 +76,15 @@
         "micro",
         "bpf"
       ]
+    },
+    {
+      "id": "10_emad-dweik",
+      "name": "Mr. Emad Dweik",
+      "ar": "الأستاذ",
+      "subjects": [
+        "calc",
+        "precalc"
+      ]
     }
   ],
   "SUBJECT": {

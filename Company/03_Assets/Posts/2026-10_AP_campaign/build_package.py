@@ -23,7 +23,7 @@ FOCUS = {
  'micro': ('strong economic concepts and sharp exam skills', 'مفاهيم اقتصادية قوية ومهارات حل أسئلة الامتحان'),
  'bpf': ('key business concepts and practical personal-finance skills', 'المفاهيم الأساسية في الأعمال ومهارات التمويل الشخصي العملية'),
 }
-AR_NAME = {'09_hosam-al-khalil': 'حسام الخليل'}
+AR_NAME = {'09_hosam-al-khalil': 'حسام الخليل', '10_emad-dweik': 'عماد دويك'}
 TAG = {'bio':'#APBiology','envsci':'#APEnvironmentalScience','chem':'#APChemistry','physics1':'#APPhysics1','calc':'#APCalculus',
  'precalc':'#APPrecalculus','cs':'#APComputerScience','englang':'#APEnglishLanguage','englit':'#APEnglishLiterature',
  'worldhist':'#APWorldHistory','psych':'#APPsychology','humgeo':'#APHumanGeography','micro':'#APMicroeconomics','bpf':'#APBusiness'}
@@ -44,7 +44,7 @@ def caption(t):
     return '\n'.join(ar + ['', '—', ''] + en + ['', '(سابقاً Success 4Sure – خلدا · Formerly Success 4Sure – Khalda)', 'Shaping Global Minds.', tags]) + '\n'
 
 INTRO = f"""دورات AP مع نفس الأساتذة، باسمنا الجديد 🎓
-في United International Academy نقدّم {sum(len(t['subjects']) for t in T)} مادة AP مع {len(T)} أساتذة، في العلوم والرياضيات وعلوم الحاسوب واللغة الإنجليزية والعلوم الإنسانية والاقتصاد والأعمال.
+في United International Academy نقدّم {len({k for t in T for k in t['subjects']})} مادة AP مع {len(T)} أساتذة، في العلوم والرياضيات وعلوم الحاسوب واللغة الإنجليزية والعلوم الإنسانية والاقتصاد والأعمال.
 تابعوا منشوراتنا القادمة لتتعرّفوا على كل أستاذ وموادّه.
 
 حضوري في عمّان · أونلاين · حصص مسجّلة.
@@ -54,7 +54,7 @@ INTRO = f"""دورات AP مع نفس الأساتذة، باسمنا الجدي
 —
 
 Advanced Placement at United International Academy: the same AP teachers, under our new name.
-We offer {sum(len(t['subjects']) for t in T)} AP subjects with {len(T)} teachers, across the sciences, mathematics, computer science, English, the humanities, economics and business.
+We offer {len({k for t in T for k in t['subjects']})} AP subjects with {len(T)} teachers, across the sciences, mathematics, computer science, English, the humanities, economics and business.
 Follow along: over the coming posts, you'll meet each teacher and their subjects.
 
 In-person in Amman, online, or recorded.

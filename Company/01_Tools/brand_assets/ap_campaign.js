@@ -58,6 +58,8 @@ const TEACHERS = [
   { id: '07_sara-abd-el-raheem', name: 'Ms. Sara Abd El Raheem', ar: 'الأستاذة', subjects: ['englang', 'englit', 'worldhist'] },
   { id: '08_mina-nasiri', name: 'Ms. Mina Nasiri', ar: 'الأستاذة', subjects: ['psych', 'humgeo'] },
   { id: '09_hosam-al-khalil', name: 'Mr. Hosam Al Khalil', ar: 'الأستاذ', subjects: ['micro', 'bpf'] },
+  // Added 9 Oct by Fahed (Arabic name عماد دويك; English spelling to confirm).
+  { id: '10_emad-dweik', name: 'Mr. Emad Dweik', ar: 'الأستاذ', subjects: ['calc', 'precalc'] },
 ];
 const icon = (k, cls = '') => `<svg class="${cls}" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">${ICON[k]}</svg>`;
 
@@ -147,7 +149,7 @@ const photoPage = (t, photo) => `<style>${PHOTO_CSS}</style>
     <div class="contact"><div class="l">Call or WhatsApp</div><div class="n">+962 79 055 5890</div><div class="loc">Floor 4 · Khalda, Amman</div></div></div>`;
 
 const introPage = () => {
-  const all = TEACHERS.flatMap((t) => t.subjects);
+  const all = [...new Set(TEACHERS.flatMap((t) => t.subjects))];
   return `<div class="pad">
   <div class="label">AP courses · <span class="ar">دورات AP</span></div>
   <div class="mid"><div class="name" style="color:#fff;font-size:84px;margin-top:0">Advanced Placement<br><span style="font-style:italic;color:#E2A02D">with our AP teachers.</span></div>
