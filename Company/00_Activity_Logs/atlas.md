@@ -36,3 +36,8 @@
 ## 2026-10-07 (interim Gmail)
 - Done: Fahed chose to start with a new academy Gmail and connect everything to it. Wrote `05_Operations/email_migration/interim_gmail_setup.md` (create → secure → connect: hidden changes today, visible changes tomorrow after the parent message, logins next week). Tracker row 0 and decision E-04 added.
 - Next: Forge to walk Fahed through it live and log each change.
+
+## 2026-10-09: Post-reveal page audit
+- Audited IG + FB via Metricool (25 Sep–9 Oct): `02_Reference/page_audit_post_reveal_2026-10-09.md`.
+- Found: the 4 Oct placeholder caption is still live on both IG and FB; "still here at our branch" reel and expired 1 Oct offer still in the grid; contest not closed.
+- 8 Oct reveal post data not synced yet. Profile header not checkable from here (Fahed checklist §4).
