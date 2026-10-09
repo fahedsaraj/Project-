@@ -17,3 +17,4 @@
 - Flags: IG account reach identical on 7 and 8 Oct (1,412), a sync artifact; FB "followers lost" shows 0 while the count fell.
 - Blocked: reveal reel numbers, comment sentiment, parent replies and WhatsApp counts need the IG app screenshot, Quill and Keeper.
 - Next: re-check 18:00 Amman today; reveal read-out Sat 10 Oct 21:00.
+- 18:00 re-check: still not synced (reveal reel, 8 Oct followers). Only the first 8 Oct story has synced (reach 422). Report stays provisional; flagged a possible reel-sync issue for Forge if still missing on Sat.

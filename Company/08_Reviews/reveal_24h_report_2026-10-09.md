@@ -61,6 +61,11 @@
 2. FB followers dropped 503 → 500 but "followers lost" = 0. Use the follower count.
 3. 8 Oct stories show reach 0 and 8 Oct follower counts are empty, so 8 Oct isn't finalised in Metricool yet.
 
+## 5b. Re-check 9 Oct 18:00 Amman: still not synced
+- Reveal reel (IG + FB) is **still absent** from Metricool. 8 Oct IG followers/unfollows are still empty, as are FB 8 Oct gains/losses (count 500).
+- Only new number: the first 8 Oct story (12:54) has synced with **reach 422** (≈ 4× baseline 110). The other five 8 Oct stories still show 0.
+- **Possible issue (unverified):** 8 Oct stories are syncing but the reveal reel isn't, more than 24 h after posting. If it's still missing at the Sat read-out, Forge should check that Metricool sees reels on the renamed account. Until then the reel numbers come only from the IG/FB app insights screenshot.
+
 ## 6. Next
 - **18:00 Amman today:** re-pull Metricool; fill in the reveal reel (IG + FB), 8 Oct followers and unfollows, story reach. Update this file and drop "provisional" if complete.
 - **Ask (Atlas → Fahed, Quill, Keeper):** reveal reel insights screenshot (IG + FB); Quill's comment count by sentiment; Keeper's parent-reply counts; WhatsApp enquiry count for 8 and 9 Oct.
