@@ -52,19 +52,20 @@ const ticket = (h, s) => `<div class="ticket" style="height:${h}px">
     <div class="k" style="font-size:${18 * s}px;color:#0B1626;margin-top:${10 * s}px">OFF</div>
   </div></div>`;
 const body = (st) => {
-  const s = st ? 1.22 : 1.1;
+  const s = st ? 1.16 : 1;
   return `<div class="glow"></div><div class="grid"></div>
   <div class="stripe" style="left:${st ? 930 : 940}px;top:-300px;height:${st ? 520 : 420}px;bottom:auto"></div>
   <div class="stripe" style="left:${st ? 1000 : 1010}px;width:18px;top:-300px;height:${st ? 560 : 460}px;bottom:auto"></div>
   <div class="wrap" style="padding:${st ? '270px 70px 330px' : '70px 84px 64px'}">
-    <div class="ar" style="font-weight:600;font-size:${30 * s}px;color:#D8DADF">طلابنا وأهالينا الأعزاء</div>
+    <div class="ar" style="font-weight:600;font-size:${28 * s}px;color:#D8DADF">طلابنا وأهالينا الأعزاء</div>
     <div class="open" style="margin-top:${26 * s}px"><i></i><span class="lbl" style="font-size:${22 * s}px;color:#fff">REGISTRATION OPEN</span></div>
-    <div class="ar" style="font-weight:700;font-size:${92 * s}px;line-height:1.25;margin-top:${24 * s}px">باب التسجيل مفتوح</div>
-    <div style="display:flex;align-items:center;gap:${24 * s}px;margin-top:${12 * s}px">
-      <span class="ar" style="font-weight:700;font-size:${54 * s}px;color:#D8DADF">لمواد</span>
-      <span class="pill" style="font-size:${64 * s}px;padding:${4 * s}px ${36 * s}px;color:#fff">EST II</span></div>
-    <div style="width:100%;margin-top:${st ? 50 : 64}px">${ticket(st ? 430 : 400, s)}</div>
-    <div class="ar" style="font-weight:700;font-size:${38 * s}px;margin-top:${st ? 50 : 52}px">سجّل قبل يوم السبت واحصل على <span style="color:#E2A02D">خصم <span dir="ltr" style="unicode-bidi:isolate;font-family:'A'">30%</span></span></div>
+    <div class="ar" style="font-weight:700;font-size:${84 * s}px;line-height:1.2;margin-top:${22 * s}px">باب التسجيل مفتوح</div>
+    <div class="ar" style="font-weight:700;font-size:${50 * s}px;color:#D8DADF;margin-top:${6 * s}px">لامتحانات شهر <span dir="ltr" style="unicode-bidi:isolate;font-family:'A';color:#fff">12</span> <span style="font-family:'N';font-style:italic;font-weight:400;font-size:.62em;color:#D8DADF">· December exams</span></div>
+    <div dir="rtl" style="display:flex;align-items:center;gap:${26 * s}px;margin-top:${22 * s}px">
+      <span class="ar" style="font-weight:700;font-size:${60 * s}px">لمواد</span>
+      <span class="pill" dir="ltr" style="font-size:${104 * s}px;line-height:1.05;padding:${10 * s}px ${48 * s}px;color:#fff;border:${5 * s}px solid #fff;box-shadow:0 ${14 * s}px ${40 * s}px rgba(0,0,0,.35)">EST II</span></div>
+    <div style="width:100%;margin-top:${st ? 50 : 44}px">${ticket(st ? 400 : 340, s)}</div>
+    <div class="ar" style="font-weight:700;font-size:${38 * s}px;margin-top:${st ? 44 : 36}px">سجّل قبل يوم السبت واحصل على <span style="color:#E2A02D">خصم <span dir="ltr" style="unicode-bidi:isolate;font-family:'A'">30%</span></span></div>
     <div style="font-family:'N';font-style:italic;font-size:${30 * s}px;color:#D8DADF;margin-top:${8 * s}px">Register before Saturday 17 October and save 30%.</div>
     <div style="flex:1"></div>
     ${st ? `<div style="height:76px;margin-top:50px">${LOGO}</div><div class="lbl" style="font-size:22px;margin-top:34px">CALL OR WHATSAPP</div><div class="ph" style="font-size:56px;margin-top:6px">+962 79 055 5890</div>`
