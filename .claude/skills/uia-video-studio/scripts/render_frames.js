@@ -5,6 +5,7 @@
 //   {{LOGO_H}}        inline official horizontal reversed logo SVG
 //   {{SYMBOL}}        inline official symbol (reversed) SVG
 // Usage: NODE_PATH=$(npm root -g) node render_frames.js scene.html out.mp4 [--dur 27] [--fps 30] [--w 1080] [--h 1920] [--brand <dir>] [--still t:out.png ...]
+// --alpha: transparent overlay (page background must be transparent) → write out.mov (PNG codec) and overlay it on footage with ffmpeg.
 const { chromium } = require('playwright');
 const { execFileSync } = require('child_process');
 const fs = require('fs');
@@ -15,6 +16,7 @@ const args = process.argv.slice(2);
 const [src, out] = args;
 const opt = (k, d) => { const i = args.indexOf('--' + k); return i > -1 ? args[i + 1] : d; };
 const DUR = +opt('dur', 20), FPS = +opt('fps', 30), W = +opt('w', 1080), H = +opt('h', 1920);
+const ALPHA = args.includes('--alpha');
 const stills = args.flatMap((a, i) => (a === '--still' ? [args[i + 1]] : []));
 
 function findBrand() {
@@ -47,12 +49,15 @@ const svg = (f) => fs.readFileSync(path.join(BRAND, 'Logo/SVG', f), 'utf8').repl
   const n = Math.round(DUR * FPS);
   for (let f = 0; f < n; f++) {
     await p.evaluate((t) => window.setT(t), f / FPS);
-    await p.screenshot({ path: path.join(tmp, `f${String(f).padStart(5, '0')}.jpg`), type: 'jpeg', quality: 92 });
+    if (ALPHA) await p.screenshot({ path: path.join(tmp, `f${String(f).padStart(5, '0')}.png`), omitBackground: true });
+    else await p.screenshot({ path: path.join(tmp, `f${String(f).padStart(5, '0')}.jpg`), type: 'jpeg', quality: 92 });
     if (f % 150 === 0) process.stdout.write(`frame ${f}/${n}\n`);
   }
   await b.close();
-  execFileSync('ffmpeg', ['-v', 'error', '-y', '-framerate', String(FPS), '-i', path.join(tmp, 'f%05d.jpg'),
-    '-c:v', 'libx264', '-pix_fmt', 'yuv420p', '-crf', '17', '-preset', 'slow', '-movflags', '+faststart', out]);
+  execFileSync('ffmpeg', ALPHA
+    ? ['-v', 'error', '-y', '-framerate', String(FPS), '-i', path.join(tmp, 'f%05d.png'), '-c:v', 'png', out]
+    : ['-v', 'error', '-y', '-framerate', String(FPS), '-i', path.join(tmp, 'f%05d.jpg'),
+      '-c:v', 'libx264', '-pix_fmt', 'yuv420p', '-crf', '17', '-preset', 'slow', '-movflags', '+faststart', out]);
   fs.rmSync(tmp, { recursive: true, force: true });
   console.log('video:', out);
 })();
