@@ -9,7 +9,8 @@ cues.json:
   "music_end": 24.6,            # stop drums here (let the CTA breathe); default = duration - 2
   "drops": [[18.9, 19.45]],     # music dips (tension) before big hits
   "vo": "vo.mp3", "vo_offset": 0.0,   # optional voice-over (music is ducked under it)
-  "hits": [ {"type": "whoosh", "at": 3.1}, {"type": "impact", "at": 3.4, "gain": 0.85}, ... ]
+  "hits": [ {"type": "whoosh", "at": 3.1}, {"type": "impact", "at": 3.4, "gain": 0.85}, ... ],
+  "music_gain": 0.3, "fx_gain": 0.45   # optional; defaults are deliberately low (Fahed: music/SFX must sit well under the voice)
 }
 Hit types: whoosh, impact, riser (use "dur"), glitch, tick, pop, shimmer.
 Target: about -14 LUFS, peaks below -1.5 dBFS."""
@@ -93,13 +94,15 @@ wavwrite(base + '_music.wav', norm(music, .8)); wavwrite(base + '_sfx.wav', norm
 vo = cfg.get('vo')
 if vo:
     off = int(float(cfg.get('vo_offset', 0)) * 1000)
+    mg = float(cfg.get('music_gain', 0.3)); fg = float(cfg.get('fx_gain', 0.45))
     fc = (f'[0:a]aresample=48000,adelay={off}:all=1,highpass=f=70,acompressor=threshold=-18dB:ratio=3:attack=5:release=80,'
-          f'volume=1.6,apad=whole_dur={DUR},asplit=2[vo][key];[1:a]volume=0.55[mu];'
-          '[mu][key]sidechaincompress=threshold=0.04:ratio=6:attack=15:release=300[duck];[2:a]volume=0.75[fx];'
+          f'volume=1.6,apad=whole_dur={DUR},asplit=2[vo][key];[1:a]volume={mg}[mu];'
+          f'[mu][key]sidechaincompress=threshold=0.03:ratio=8:attack=10:release=350[duck];[2:a]volume={fg}[fx];'
           '[vo][duck][fx]amix=inputs=3:normalize=0:duration=longest,')
     ins = ['-i', vo, '-i', base + '_music.wav', '-i', base + '_sfx.wav']
 else:
-    fc = '[0:a]volume=0.7[mu];[1:a]volume=0.85[fx];[mu][fx]amix=inputs=2:normalize=0:duration=longest,'
+    fc = f"[0:a]volume={cfg.get('music_gain', 0.7)}[mu];[1:a]volume={cfg.get('fx_gain', 0.85)}[fx];"
+    fc += '[mu][fx]amix=inputs=2:normalize=0:duration=longest,'
     ins = ['-i', base + '_music.wav', '-i', base + '_sfx.wav']
 fc += f'loudnorm=I=-14:TP=-1.5:LRA=9,alimiter=limit=0.84:level=false,atrim=0:{DUR}[a]'
 subprocess.run(['ffmpeg', '-v', 'error', '-y', *ins, '-filter_complex', fc, '-map', '[a]', '-ar', '48000', '-ac', '2', out], check=True)

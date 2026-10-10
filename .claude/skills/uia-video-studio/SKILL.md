@@ -53,7 +53,7 @@ NODE_PATH=$(npm root -g) node scripts/render_frames.js scene.html out_silent.mp4
 ```
 The template already has: brand tokens + fonts, an animated grid background, a gold diagonal "line wipe" transition on every cut, `pop` (overshoot slam), `rise`, counters, marquee chips, camera push + impact shake, white flash on big hits, and a logo-reveal scene using the official SVG. Keep motion purposeful: slams on key words, wipes on scene changes, one gold emphasis per scene.
 
-**B. Edit uploaded footage.** Probe it (`ffprobe`), look at a contact sheet, then grade lightly (no heavy filters), push-in/punch-in, add a branded end card, lower-third logo strip (logo only on a Midnight plate, never on busy footage). The repo tool `Company/01_Tools/brand_assets/speaker_reel.js` is a worked example (talking head → branded reel with SFX). For people cut-outs use `scripts/cutout.py` (local rembg; `--portrait` model removes chairs/props).
+**B. Edit uploaded footage.** Probe it (`ffprobe`), look at a contact sheet. **Don't colour-grade** unless asked: Fahed grades footage himself and sends the graded file (an auto-grade was rejected in Oct 2026). Add punch-ins cut on the speech pauses, push-in/punch-in, add a branded end card, lower-third logo strip (logo only on a Midnight plate, never on busy footage). The repo tool `Company/01_Tools/brand_assets/speaker_reel.js` is a worked example (talking head → branded reel with SFX). Render motion graphics as a transparent overlay (`render_frames.js overlay.html overlay.mov --alpha`) and composite it with ffmpeg `overlay`; worked example: `Company/01_Tools/brand_assets/est_econ_reel.sh` + `est_econ_reel_overlay.html` (word-by-word captions, badge, strike-through, end card). For people cut-outs use `scripts/cutout.py` (local rembg; `--portrait` model removes chairs/props).
 
 Text inside Arabic that contains Latin words must use `font-family:'AR','A'` (Arabic font has no Latin glyphs) and RTL runs inside English lines need `dir="rtl" style="unicode-bidi:isolate"`; otherwise word order flips or Times appears.
 
@@ -63,7 +63,7 @@ Generate the music bed and SFX locally (no licences needed) and mix under the VO
 ```
 python3 scripts/sound.py cues.json out_audio.wav
 ```
-`cues.json` lists duration, BPM, an optional VO file, music drop-outs (tension before the logo) and hits: `whoosh` (each wipe, ~0.4 s before the cut), `impact` (slams, logo, CTA), `riser` (1 s into the logo), `glitch`, `tick` (counters), `pop` (cards), `shimmer` (logo). The script ducks music under the voice (sidechain) and normalises to about −14/−15 LUFS with safe peaks. Example: `assets/cues_example.json`.
+`cues.json` lists duration, BPM, an optional VO file, music drop-outs (tension before the logo) and hits: `whoosh` (each wipe, ~0.4 s before the cut), `impact` (slams, logo, CTA), `riser` (1 s into the logo), `glitch`, `tick` (counters), `pop` (cards), `shimmer` (logo). Keep music and SFX **well under the voice** (`music_gain` ≈ 0.2, `fx_gain` ≈ 0.3 in cues.json for talking heads; Fahed asked for lower levels). The script ducks music under the voice (sidechain) and normalises to about −14/−15 LUFS with safe peaks. Example: `assets/cues_example.json`.
 
 Then mux: `ffmpeg -i out_silent.mp4 -i out_audio.wav -map 0:v -map 1:a -c:v copy -c:a aac -b:a 192k -shortest -movflags +faststart final.mp4`.
 

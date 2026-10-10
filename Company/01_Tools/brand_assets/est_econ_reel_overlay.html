@@ -84,7 +84,7 @@ window.setT=(t)=>{
   // gold wipes + flash
   let wk=-1;for(const c of WIPES){const d=t-(c-.22);if(d>=0&&d<.45)wk=d/.45;}
   const X=wk<0?-900:-700+wk*2500;$('w').style.left=X+'px';$('l1').style.left=(X-120)+'px';$('l2').style.left=(X+380)+'px';
-  let f=0;for(const s of FLASH){const d=t-s;if(d>=0&&d<.25)f=Math.max(f,(1-d/.25)*.6);}$('fl').style.opacity=f;
+  let f=0;for(const s of FLASH){const d=t-s;if(d>=0&&d<.25)f=Math.max(f,(1-d/.25)*.25);}$('fl').style.opacity=f;
   // end card
   $('end').style.opacity=t>=11.3?1:0;
   pop($('e1'),t,11.4,.5,.6);pop($('e2'),t,12.0,.3,1.8);pop($('e3'),t,12.4,.3,1.9);pop($('e4'),t,12.9,.35,1.3);
