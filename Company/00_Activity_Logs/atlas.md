@@ -41,3 +41,6 @@
 - Audited IG + FB via Metricool (25 Sep–9 Oct): `02_Reference/page_audit_post_reveal_2026-10-09.md`.
 - Found: the 4 Oct placeholder caption is still live on both IG and FB; "still here at our branch" reel and expired 1 Oct offer still in the grid; contest not closed.
 - 8 Oct reveal post data not synced yet. Profile header not checkable from here (Fahed checklist §4).
+
+## 2026-10-10: Reveal +48h check
+- Metricool brand 7035734 lost all network connections; data unavailable. Flagged to Compass and Fahed; report updated.

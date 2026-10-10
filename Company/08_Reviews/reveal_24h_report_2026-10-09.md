@@ -70,3 +70,8 @@
 - **18:00 Amman today:** re-pull Metricool; fill in the reveal reel (IG + FB), 8 Oct followers and unfollows, story reach. Update this file and drop "provisional" if complete.
 - **Ask (Atlas → Fahed, Quill, Keeper):** reveal reel insights screenshot (IG + FB); Quill's comment count by sentiment; Keeper's parent-reply counts; WhatsApp enquiry count for 8 and 9 Oct.
 - **Sat 10 Oct 21:00:** full reveal read-out (`08_Reviews/reveal_readout_2026-10-10.md`) with the 48 h green test (reel ≥ 2,100).
+
+## Update 10 Oct 12:00 Amman (Atlas)
+- **Metricool is disconnected:** brand 7035734 reports no social networks connected. Every IG/FB query returns empty, including history from before the reveal. Reveal reel numbers still unknown.
+- Likely cause (*unverified*): the account rename or a Meta permission/token change.
+- Action: Fahed reconnects Instagram, Facebook and Meta Ads at `app.metricool.com/brands/connections?blogId=7035734` (log it in `05_Operations/ownership_and_access.md`). Until then, reveal reel numbers come only from in-app Insights screenshots.
