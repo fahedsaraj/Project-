@@ -23,3 +23,4 @@
 - Confirmed: Metricool brand 7035734 has no networks connected (all IG/FB queries empty, history included). Likely the rename or a Meta token revocation (unverified). Fahed to reconnect (Atlas asked).
 - Blocked: Sat 21:00 reveal read-out on hold until reconnected; reveal reel numbers only from Fahed's in-app screenshots.
 - Next: connection check 20:30 Amman. Once reconnected: verify pre-rename history loads, then run the read-out.
+- 20:30 check: Metricool brand 7035734 still has no networks connected. Read-out stays on hold; no further check scheduled. Waiting for Fahed to reconnect, then Atlas or Fahed pings Compass.
