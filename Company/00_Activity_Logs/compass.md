@@ -18,3 +18,8 @@
 - Blocked: reveal reel numbers, comment sentiment, parent replies and WhatsApp counts need the IG app screenshot, Quill and Keeper.
 - Next: re-check 18:00 Amman today; reveal read-out Sat 10 Oct 21:00.
 - 18:00 re-check: still not synced (reveal reel, 8 Oct followers). Only the first 8 Oct story has synced (reach 422). Report stays provisional; flagged a possible reel-sync issue for Forge if still missing on Sat.
+
+## 2026-10-10
+- Confirmed: Metricool brand 7035734 has no networks connected (all IG/FB queries empty, history included). Likely the rename or a Meta token revocation (unverified). Fahed to reconnect (Atlas asked).
+- Blocked: Sat 21:00 reveal read-out on hold until reconnected; reveal reel numbers only from Fahed's in-app screenshots.
+- Next: connection check 20:30 Amman. Once reconnected: verify pre-rename history loads, then run the read-out.

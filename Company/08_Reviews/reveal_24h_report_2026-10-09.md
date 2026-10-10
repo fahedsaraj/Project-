@@ -66,6 +66,12 @@
 - Only new number: the first 8 Oct story (12:54) has synced with **reach 422** (≈ 4× baseline 110). The other five 8 Oct stories still show 0.
 - **Possible issue (unverified):** 8 Oct stories are syncing but the reveal reel isn't, more than 24 h after posting. If it's still missing at the Sat read-out, Forge should check that Metricool sees reels on the renamed account. Until then the reel numbers come only from the IG/FB app insights screenshot.
 
+## 5c. 10 Oct 12:00 Amman: Metricool disconnected
+- Confirmed by Compass: brand 7035734 has **no social network connected** ("This brand doesn't have any social network connected yet"). IG queries return zeros/empty, including history.
+- Likely cause (*unverified*): the IG/FB rename or a revoked Meta token. Fahed reconnects at app.metricool.com/brands/connections?blogId=7035734 (Atlas has asked).
+- The pre-rename numbers are kept in `02_Reference/baseline_pre_reveal_2026-10-07.md` and this report. After reconnecting, Compass checks whether the history from before the rename loads again.
+- Sat 21:00 read-out is **on hold** until reconnected. Reveal reel numbers: Fahed's in-app screenshots only.
+
 ## 6. Next
 - **18:00 Amman today:** re-pull Metricool; fill in the reveal reel (IG + FB), 8 Oct followers and unfollows, story reach. Update this file and drop "provisional" if complete.
 - **Ask (Atlas → Fahed, Quill, Keeper):** reveal reel insights screenshot (IG + FB); Quill's comment count by sentiment; Keeper's parent-reply counts; WhatsApp enquiry count for 8 and 9 Oct.
