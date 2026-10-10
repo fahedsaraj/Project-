@@ -1,0 +1,5 @@
+{"duration":14,"bpm":120,"music":true,"music_end":12.6,"drops":[[10.5,11.05]],
+ "hits":[{"type":"whoosh","at":0.0,"gain":0.6},{"type":"pop","at":0.1},{"type":"impact","at":0.35,"gain":0.6},{"type":"impact","at":1.15,"gain":0.9},{"type":"shimmer","at":1.2,"gain":0.6},
+ {"type":"whoosh","at":3.2,"gain":0.9},{"type":"tick","at":4.35},{"type":"tick","at":4.7},{"type":"tick","at":5.05},{"type":"impact","at":5.3,"gain":0.6},{"type":"impact","at":5.75,"gain":0.8},
+ {"type":"whoosh","at":7.0,"gain":0.9},{"type":"impact","at":7.55,"gain":0.85},{"type":"impact","at":9.0,"gain":0.9},{"type":"pop","at":9.05},{"type":"pop","at":9.2},
+ {"type":"riser","at":9.95,"dur":1.0},{"type":"whoosh","at":10.5,"gain":0.9},{"type":"impact","at":11.05,"gain":1.0},{"type":"shimmer","at":11.1}]}

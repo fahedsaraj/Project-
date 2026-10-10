@@ -1,0 +1,36 @@
+EST ECONOMICS · TEACHER AD REEL · 14.8 s · 1080x1920
+Source: teacher's own recording (2 shots: logo wall, books set). Voice is the teacher's original audio (cleaned, levelled).
+Generator: Company/01_Tools/brand_assets/est_econ_reel_overlay.html + est_econ_reel.sh + est_econ_reel_cues.json
+
+EDIT
+0.0–1.9   punch-in · caption «متغلّب بالـ EST Economics» · EST / ECONOMICS badge slam · glitch + impact
+1.9–3.9   wide · «مادة سهلة … بس مش عارف من وين تبلّش؟» · EST · ECONOMICS tag slides in (stays)
+3.9–5.5   «United International Academy» name card with the official symbol · shimmer
+5.5–6.9   punch-in · «بعطيك الحل بأسهل طريقة» (الحل in a gold box)
+6.9       gold line wipe + flash into shot 2
+7.0–8.3   «هاد مش مجرد امتحان» · gold strike-through on «امتحان»
+8.3–9.7   punch-in · «هاد استثمار بنفسك» (استثمار boxed, بنفسك gold)
+9.7–11.3  «سجّل معنا عشان نقدر نوصلك»
+11.3–14.8 end card: logo · EST ECONOMICS · سجّل الآن · +962 79 055 5890
+Colour: natural per-shot correction (est_econ_grade.sh): shot 1 cooled + cleaned + brightened to match shot 2; shot 2 light contrast. No stylised look. Gold progress bar on top.
+Sound: teacher's voice up front; low beat (ducked) + subtle SFX. −15.9 LUFS.
+
+CAPTION (AR)
+متغلّب بالـ EST Economics؟ 🤔
+المادة سهلة… بس السر إنك تعرف من وين تبلّش.
+في United International Academy منعطيك الحل بأسهل طريقة، خطوة بخطوة 📈
+هاد مش مجرد امتحان… هاد استثمار بنفسك 💡
+📞 سجّل الآن، اتصل أو راسلنا على واتساب: +962 79 055 5890
+📍 الطابق الرابع، خلدا، عمّان
+
+CAPTION (EN)
+Struggling with EST Economics? 🤔
+It's an easy subject once you know where to start.
+At United International Academy, we give you the solution the easiest way, step by step 📈
+This isn't just an exam. It's an investment in yourself 💡
+📞 Register now: call or WhatsApp +962 79 055 5890
+📍 Floor 4, Khalda, Amman
+
+United International Academy
+سابقاً Success 4Sure – خلدا · Formerly Success 4Sure – Khalda
+#UnitedInternationalAcademy #UIA #EST #ESTEconomics #Economics #Amman #Jordan

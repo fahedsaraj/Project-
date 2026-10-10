@@ -1,0 +1,102 @@
+<!doctype html>
+<!-- EST II exam-day Story (1080x1920, 14 s). Render: node .claude/skills/uia-video-studio/scripts/render_frames.js est_story.html out.mp4 --dur 14 -->
+<html><head><meta charset="utf-8"><style>
+@font-face{font-family:'A';font-weight:400;src:url('file://{{BRAND}}/Fonts/static/Archivo-Regular.ttf')}
+@font-face{font-family:'A';font-weight:600;src:url('file://{{BRAND}}/Fonts/static/Archivo-SemiBold.ttf')}
+@font-face{font-family:'AW';font-weight:600;src:url('file://{{BRAND}}/Fonts/static/Archivo-SemiBoldExpanded.ttf')}
+@font-face{font-family:'N';font-style:italic;src:url('file://{{BRAND}}/Fonts/Newsreader-italic-400-latin.woff2')}
+@font-face{font-family:'AR';font-weight:600;src:url('file://{{BRAND}}/Fonts/IBMPlexSansArabic-normal-600-arabic.woff2')}
+@font-face{font-family:'AR';font-weight:700;src:url('file://{{BRAND}}/Fonts/IBMPlexSansArabic-normal-700-arabic.woff2')}
+:root{--midnight:#0B1626;--blue:#29566C;--gold:#E2A02D;--platinum:#D8DADF;--paper:#F5F4F0}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--midnight);color:#fff;font-family:'A',sans-serif}
+#cam{position:absolute;inset:0}
+.bg{position:absolute;inset:-200px;background:radial-gradient(60% 40% at 50% 45%,#1c3b52 0%,var(--midnight) 70%)}
+.grid{position:absolute;inset:-100px 0;background-image:linear-gradient(rgba(216,218,223,.05) 2px,transparent 2px),linear-gradient(90deg,rgba(216,218,223,.05) 2px,transparent 2px);background-size:90px 90px}
+.sc{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;opacity:0;padding:250px 110px 340px}
+.ar{font-family:'AR','A';direction:rtl}
+.en{font-family:'N',serif;font-style:italic;color:var(--platinum)}
+.lbl{font-family:'AW';font-weight:600;letter-spacing:.2em;font-size:30px;color:var(--platinum)}
+.pill{display:inline-block;background:var(--gold);color:var(--midnight);font-family:'AW';font-weight:600;font-size:120px;letter-spacing:.06em;border-radius:40px;padding:18px 60px}
+.wipe{position:absolute;top:-400px;bottom:-400px;width:260px;background:var(--gold);transform:skewX(-14deg);left:-900px}
+.line{position:absolute;top:-400px;bottom:-400px;width:10px;background:var(--gold);transform:skewX(-14deg);left:-900px}
+.flash{position:absolute;inset:0;background:#fff;opacity:0}
+.cf{position:absolute;width:18px;height:30px;border-radius:4px;opacity:0}
+</style></head><body><div id="cam"><div class="bg"></div><div class="grid" id="grid"></div><div id="conf"></div>
+
+<!-- S0: today, EST II -->
+<div class="sc" id="s0">
+  <div class="lbl" id="a0">EXAM DAY · <span dir="rtl" style="unicode-bidi:isolate;font-family:'AR','A'">يوم الامتحان</span></div>
+  <div class="ar" id="a1" style="font-weight:700;font-size:118px;line-height:1.25;margin-top:40px">طلابنا قدّموا اليوم</div>
+  <div class="ar" id="a2" style="font-weight:700;font-size:80px;margin-top:10px">امتحان</div>
+  <div id="a3" style="margin-top:30px"><span class="pill">EST II</span></div>
+  <div class="en" id="a4" style="font-size:46px;margin-top:60px">Today, our students sat the EST II exam.</div>
+</div>
+<!-- S1: good luck + exam paper -->
+<div class="sc" id="s1">
+  <svg id="paper" width="360" height="440" viewBox="0 0 360 440">
+    <rect x="10" y="10" width="340" height="420" rx="28" fill="#F5F4F0"/>
+    <rect x="50" y="56" width="160" height="22" rx="11" fill="#29566C"/>
+    <g fill="#D8DADF"><rect x="110" y="130" width="200" height="16" rx="8"/><rect x="110" y="220" width="200" height="16" rx="8"/><rect x="110" y="310" width="200" height="16" rx="8"/></g>
+    <g fill="none" stroke="#E2A02D" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">
+      <path class="ck" d="M52 138 l18 18 l30 -34"/><path class="ck" d="M52 228 l18 18 l30 -34"/><path class="ck" d="M52 318 l18 18 l30 -34"/></g>
+  </svg>
+  <div class="ar" id="b1" style="font-weight:700;font-size:110px;line-height:1.25;margin-top:70px">بنتمنّالكم</div>
+  <div class="ar" id="b2" style="font-weight:700;font-size:110px;color:var(--gold);line-height:1.25">كل التوفيق</div>
+  <div class="en" id="b3" style="font-size:50px;margin-top:50px">Wishing you every success.</div>
+</div>
+<!-- S2: confident + proud -->
+<div class="sc" id="s2">
+  <div class="ar" id="c1" style="font-weight:700;font-size:126px;line-height:1.3">واثقين فيكم</div>
+  <div style="width:0;height:8px;background:var(--gold);margin:30px 0;border-radius:4px" id="c2"></div>
+  <div class="ar" id="c3" style="font-weight:700;font-size:126px;line-height:1.3;color:var(--gold)">وفخورين فيكم</div>
+  <div class="en" id="c4" style="font-size:50px;margin-top:60px">We believe in you, and we’re proud of you.</div>
+</div>
+<!-- S3: logo -->
+<div class="sc" id="s3">
+  <div id="logo" style="width:600px">{{LOGO_STACKED}}</div>
+  <div class="en" id="d1" style="font-size:54px;margin-top:70px">Shaping Global Minds.</div>
+</div>
+</div>
+<div class="line" id="l1"></div><div class="wipe" id="w"></div><div class="line" id="l2"></div><div class="flash" id="fl"></div>
+<script>
+const CUTS=[0,3.6,7.4,10.9];
+const HITS=[1.15,7.55,9.0,11.05];
+const FLASH=[11.05];
+const $=id=>document.getElementById(id);
+const cl=x=>Math.max(0,Math.min(1,x));
+const eo=x=>1-Math.pow(1-cl(x),3);
+const bk=x=>{x=cl(x);const c=1.9;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+const pop=(el,t,a,dur=.35,from=1.6)=>{const k=cl((t-a)/dur);el.style.opacity=k>0?1:0;el.style.transform='scale('+(from+(1-from)*bk(k))+')';};
+const rise=(el,t,a,dur=.4,dy=60)=>{const k=eo((t-a)/dur);el.style.opacity=k;el.style.transform='translateY('+((1-k)*dy)+'px)';};
+// confetti (deterministic): bursts at 9.0 (proud) and 11.05 (logo)
+let seed=11;const rnd=()=>(seed=(seed*16807)%2147483647)/2147483647;
+const COLS=['#E2A02D','#F5F4F0','#29566C','#D8DADF'];const P=[];
+for(const [t0,n] of [[9.0,70],[11.05,90]]) for(let i=0;i<n;i++){const d=document.createElement('div');d.className='cf';d.style.background=COLS[i%4];$('conf').appendChild(d);
+  const a=rnd()*Math.PI*2,v=600+rnd()*1100;P.push({d,t0,vx:Math.cos(a)*v,vy:Math.sin(a)*v-700,r:rnd()*720,s:.6+rnd()*.8});}
+window.setT=(t)=>{
+  let si=0;for(let i=0;i<CUTS.length;i++) if(t>=CUTS[i]) si=i;
+  document.querySelectorAll('.sc').forEach((s,i)=>s.style.opacity=i===si?1:0);
+  let wk=-1;for(let i=1;i<CUTS.length;i++){const d=t-(CUTS[i]-.22);if(d>=0&&d<.45)wk=d/.45;}
+  const X=wk<0?-900:-700+wk*2500;$('w').style.left=X+'px';$('l1').style.left=(X-120)+'px';$('l2').style.left=(X+380)+'px';
+  let shake=0;for(const s of HITS){const d=t-s;if(d>=0&&d<.25)shake=Math.max(shake,(1-d/.25)*12);}
+  $('cam').style.transform='scale('+(1+(t-CUTS[si])*.012)+') translate('+(Math.sin(t*90)*shake)+'px,'+(Math.cos(t*77)*shake)+'px)';
+  $('grid').style.transform='translateY('+(-(t*40)%90)+'px)';
+  let f=0;for(const s of FLASH){const d=t-s;if(d>=0&&d<.3)f=Math.max(f,(1-d/.3)*.5);}$('fl').style.opacity=f;
+  // S0
+  rise($('a0'),t,.1,.4);pop($('a1'),t,.35,.3,1.7);rise($('a2'),t,.8,.35);pop($('a3'),t,1.15,.35,2.4);rise($('a4'),t,1.8,.5);
+  // S1
+  rise($('paper'),t,3.7,.5,120);$('paper').style.transform+=' rotate('+(-4+Math.sin(t*1.5)*2)+'deg)';
+  document.querySelectorAll('.ck').forEach((p,i)=>{const L=80;p.style.strokeDasharray=L;p.style.strokeDashoffset=L*(1-eo((t-4.3-i*.35)/.3));});
+  pop($('b1'),t,5.3,.3,1.7);pop($('b2'),t,5.75,.3,1.9);rise($('b3'),t,6.3,.5);
+  // S2
+  pop($('c1'),t,7.55,.3,1.8);$('c2').style.width=(420*eo((t-8.4)/.5))+'px';pop($('c3'),t,9.0,.3,1.9);rise($('c4'),t,9.6,.5);
+  // S3
+  pop($('logo'),t,11.05,.55,.6);rise($('d1'),t,11.9,.6);
+  // confetti
+  for(const p of P){const d=t-p.t0;if(d<0||d>3.2){p.d.style.opacity=0;continue;}
+    const x=540+p.vx*d*.55,y=900+p.vy*d*.55+900*d*d;p.d.style.opacity=cl(2.6-d);
+    p.d.style.transform='translate('+x+'px,'+y+'px) rotate('+(p.r+d*500)+'deg) scale('+p.s+')';}
+};
+setT(0);
+</script></body></html>

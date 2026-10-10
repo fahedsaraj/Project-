@@ -1,0 +1,15 @@
+# Memory index (load at session start; open a file only when relevant)
+- [user] user_fahed.md: Fahed is Marketing Dept Manager at UIA, a creative/visual specialist; owns strategy and creative direction and hands off execution.
+- [feedback] feedback_infrastructure_first.md: Build the foundation in Fahed's order before scaling content or ads.
+- [feedback] feedback_proactive_team.md: Act like a proactive agency: own problems, set deadlines, execute approved work, report.
+- [feedback] feedback_keep_answers_exact.md: Keep Fahed's own words exact in context files; mark assumptions clearly.
+- [feedback] feedback_no_separation_talk.md: Never discuss the separation or conflict publicly; frame it as an evolution.
+- [project] project_transition.md: Success 4Sure – Khalda → United International Academy; "Same team. New identity. Bigger vision. New chapter."
+- [project] project_phone_number.md: +962 79 055 5890 stays forever and is the main continuity asset.
+- [project] project_asset_ownership.md: The academy owns every digital asset; staff and freelancers get least-privilege access.
+- [reference] reference_brand_guidelines.md: Guidelines v1.0 PDF is the brand source of truth; logo library in 03_Assets.
+- [reference] reference_metricool.md: Metricool brand 7035734 covers FB page, IG and the Meta ads account (read analytics, can schedule).
+- [reference] reference_agents.md: The 7 agents are registered as project subagents in .claude/agents/ (atlas, quill, lens, spark, keeper, compass, forge).
+- [reference] team_directory: each employee has its own chat session; IDs and routing rules are in Company/00_Context/team_directory.md.
+- [project] project_location_floor.md: the academy is on floor 4 (wayfinding).
+- [feedback_video_edits.md](feedback_video_edits.md): footage edits: natural measured per-shot colour (no stylised grade), music/SFX low under voice, professional over flashy.
